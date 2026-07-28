@@ -70,15 +70,31 @@ class GoalStats:
     avg_scored_overall: float
     avg_conceded_overall: float
     sample_size: int
+    home_sample_size: int
+    away_sample_size: int
+
+
+def _is_friendly(event: dict) -> bool:
+    """Amistosos (pretemporada, exhibición) meten goleadas contra rivales muy débiles
+    que no representan el nivel real del equipo, así que se descartan de la muestra."""
+    tournament = event.get("tournament") or {}
+    name = (tournament.get("name") or "").lower()
+    category = ((tournament.get("category") or {}).get("name") or "").lower()
+    return "friendly" in name or "friendlies" in category
 
 
 def get_team_goal_stats(team_id: int) -> GoalStats | None:
-    """Calcula promedios de goles a favor/en contra de los últimos partidos finalizados."""
+    """Calcula promedios de goles a favor/en contra de los últimos partidos finalizados
+    (excluyendo amistosos, ver `_is_friendly`)."""
     data = get_json(f"{config.SOFASCORE_BASE_URL}/team/{team_id}/events/last/0")
     if not data:
         return None
 
-    events = [e for e in (data.get("events") or []) if (e.get("status") or {}).get("type") == "finished"]
+    events = [
+        e
+        for e in (data.get("events") or [])
+        if (e.get("status") or {}).get("type") == "finished" and not _is_friendly(e)
+    ]
     events = events[: config.FORM_MATCHES]
     if not events:
         return None
@@ -123,4 +139,6 @@ def get_team_goal_stats(team_id: int) -> GoalStats | None:
         avg_scored_overall=overall_scored_avg,
         avg_conceded_overall=overall_conceded_avg,
         sample_size=len(all_scored),
+        home_sample_size=len(home_scored),
+        away_sample_size=len(away_scored),
     )

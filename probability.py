@@ -7,15 +7,32 @@ MAX_GOALS = 8
 MIN_XG = 0.15
 MAX_XG = 5.0
 
+# Promedio de goles "típico" de un equipo por partido, usado como ancla para
+# suavizar (shrinkage) promedios calculados con pocos partidos. Sin esto, una
+# racha corta contra rivales flojos (ej. goleadas en liga chica) infla el
+# promedio del equipo muy por encima de lo que sostiene en un cruce parejo.
+LEAGUE_AVG_GOALS = 1.35
+SHRINKAGE_K = 6  # "partidos fantasma" con los que se pondera el promedio general
+
+
+def _shrink(avg_value: float, sample_size: int) -> float:
+    return (avg_value * sample_size + LEAGUE_AVG_GOALS * SHRINKAGE_K) / (sample_size + SHRINKAGE_K)
+
 
 def _poisson_pmf(k: int, lam: float) -> float:
     return math.exp(-lam) * lam ** k / math.factorial(k)
 
 
 def expected_goals(home_stats: GoalStats, away_stats: GoalStats) -> tuple[float, float]:
-    """Combina el ataque de un equipo con la defensa del rival (estilo Dixon-Coles simplificado)."""
-    home_xg = (home_stats.avg_scored_home + away_stats.avg_conceded_away) / 2
-    away_xg = (away_stats.avg_scored_away + home_stats.avg_conceded_home) / 2
+    """Combina el ataque de un equipo con la defensa del rival (estilo Dixon-Coles simplificado),
+    suavizando cada promedio hacia la media general según cuántos partidos lo respaldan."""
+    home_scored = _shrink(home_stats.avg_scored_home, home_stats.home_sample_size)
+    away_conceded_away = _shrink(away_stats.avg_conceded_away, away_stats.away_sample_size)
+    away_scored = _shrink(away_stats.avg_scored_away, away_stats.away_sample_size)
+    home_conceded = _shrink(home_stats.avg_conceded_home, home_stats.home_sample_size)
+
+    home_xg = (home_scored + away_conceded_away) / 2
+    away_xg = (away_scored + home_conceded) / 2
     home_xg = min(max(home_xg, MIN_XG), MAX_XG)
     away_xg = min(max(away_xg, MIN_XG), MAX_XG)
     return home_xg, away_xg

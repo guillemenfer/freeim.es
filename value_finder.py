@@ -67,6 +67,13 @@ def _analyze_match(m: CodereMatch) -> list[ValueBet]:
         if odd is None or model_p is None or implied_p is None:
             continue
         edge = model_p - implied_p
+        if edge > config.MAX_TRUSTED_EDGE:
+            logger.info(
+                "Edge descartado por sospechoso (+%.1f pts) en %s vs %s (%s): "
+                "probablemente error de modelo, no cuota real mal puesta",
+                edge * 100, m.home, m.away, OUTCOME_LABEL[outcome],
+            )
+            continue
         if edge >= config.EDGE_THRESHOLD:
             value_bets.append(
                 ValueBet(

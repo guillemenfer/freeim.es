@@ -4,7 +4,18 @@ Compara las cuotas 1X2 de fútbol publicadas en la portada de Codere con una
 probabilidad estimada a partir del historial de goles reciente de cada
 equipo (datos de Sofascore), usando un modelo de Poisson. Cuando la cuota de
 Codere implica una probabilidad bastante menor que la del modelo, lo marca
-como "cuota con valor" y avisa por email.
+como "cuota con valor".
+
+## Cómo se usa hoy
+
+Corre solo cada 30 minutos en **GitHub Actions** (`.github/workflows/detect.yml`)
+y publica los resultados como `docs/data.json`, servido por **GitHub Pages** en:
+
+**https://guillemenfer.github.io/codere-value-bets/**
+
+Esa página web es "la app": no hace falta instalar nada ni dejar la PC
+prendida, se actualiza sola. El modo por email (`notifier.py`) sigue
+disponible en el código para uso local manual, pero no se dispara solo.
 
 ## Aviso importante
 
@@ -82,6 +93,9 @@ usar `--loop`.
 
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
+- `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente
+  (casi siempre son error de modelo en cruces de nivel muy distinto, no una
+  cuota real mal puesta).
 - `FORM_MATCHES`: más partidos = promedio más estable pero menos sensible a
   la forma reciente.
 - `CODERE_HIGHLIGHTS_COUNT`: cuántos partidos destacados pedir a Codere.
