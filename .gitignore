@@ -1,0 +1,6 @@
+.env
+run_log.txt
+run_detector.bat
+__pycache__/
+*.pyc
+.claude/

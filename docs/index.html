@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuotas con valor · Codere vs Sofascore</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f5f6f8;
+    --card-bg: #ffffff;
+    --text: #1a1d23;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --accent: #16a34a;
+    --accent-bg: #dcfce7;
+    --warn-bg: #fef3c7;
+    --warn-text: #92400e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --card-bg: #1a1d23;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #2a2e37;
+      --accent: #4ade80;
+      --accent-bg: #14532d;
+      --warn-bg: #451a03;
+      --warn-text: #fcd34d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 1.5rem 1rem 3rem;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; margin: 0 0 0.15rem; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; }
+  .meta {
+    display: flex; justify-content: space-between; align-items: baseline;
+    flex-wrap: wrap; gap: 0.5rem;
+    font-size: 0.85rem; color: var(--muted);
+    margin-bottom: 1.25rem;
+  }
+  #status { font-weight: 600; }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  .card-top {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    gap: 0.75rem; margin-bottom: 0.5rem;
+  }
+  .match { font-weight: 600; font-size: 1rem; }
+  .league { color: var(--muted); font-size: 0.8rem; margin-top: 0.15rem; }
+  .edge-badge {
+    background: var(--accent-bg); color: var(--accent);
+    font-weight: 700; font-size: 0.85rem;
+    padding: 0.2rem 0.55rem; border-radius: 999px;
+    white-space: nowrap;
+  }
+  .details {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.4rem 1rem;
+    font-size: 0.85rem; color: var(--muted);
+    margin-top: 0.6rem; padding-top: 0.6rem;
+    border-top: 1px dashed var(--border);
+  }
+  .details b { color: var(--text); }
+  .empty {
+    text-align: center; color: var(--muted);
+    padding: 2.5rem 1rem; font-size: 0.95rem;
+  }
+  .disclaimer {
+    margin-top: 2rem; padding: 0.9rem 1rem;
+    background: var(--warn-bg); color: var(--warn-text);
+    border-radius: 10px; font-size: 0.78rem; line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Cuotas con valor — Codere</h1>
+    <div class="subtitle">Comparadas contra un modelo estadístico basado en Sofascore</div>
+    <div class="meta">
+      <span id="status">Cargando...</span>
+      <span id="updated"></span>
+    </div>
+    <div id="list"></div>
+    <div class="disclaimer">
+      Esto es una estimación estadística simple (modelo de Poisson sobre goles recientes), no
+      asesoramiento de apuestas ni garantía de ganancias. Las APIs usadas son internas y no
+      oficiales, pueden fallar. Apostar implica riesgo económico y de ludopatía.
+    </div>
+  </div>
+
+<script>
+async function load() {
+  const statusEl = document.getElementById("status");
+  const updatedEl = document.getElementById("updated");
+  const listEl = document.getElementById("list");
+  try {
+    const res = await fetch("data.json?_=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    const bets = data.value_bets || [];
+
+    const generated = new Date(data.generated_at);
+    updatedEl.textContent = "Última actualización: " + generated.toLocaleString("es-AR");
+    statusEl.textContent = bets.length
+      ? bets.length + " cuota(s) con valor detectada(s)"
+      : "Sin cuotas con valor en esta pasada";
+
+    listEl.innerHTML = "";
+    if (!bets.length) {
+      listEl.innerHTML = '<div class="empty">No se encontraron cuotas con valor en la última revisión.</div>';
+      return;
+    }
+
+    bets.sort((a, b) => b.edge - a.edge);
+    for (const b of bets) {
+      const start = b.start_date ? new Date(b.start_date).toLocaleString("es-AR", {dateStyle:"short", timeStyle:"short"}) : "sin fecha";
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerHTML = `
+        <div class="card-top">
+          <div>
+            <div class="match">${b.home} vs ${b.away}</div>
+            <div class="league">${b.league} · ${start}</div>
+          </div>
+          <div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>
+        </div>
+        <div class="details">
+          <div>Resultado: <b>${b.outcome_label}</b></div>
+          <div>Cuota: <b>${b.odd.toFixed(2)}</b></div>
+          <div>Modelo: <b>${(b.model_prob * 100).toFixed(1)}%</b></div>
+          <div>Implícita: <b>${(b.implied_prob * 100).toFixed(1)}%</b></div>
+          <div>xG: <b>${b.home_xg.toFixed(2)} - ${b.away_xg.toFixed(2)}</b></div>
+        </div>
+      `;
+      listEl.appendChild(card);
+    }
+  } catch (err) {
+    statusEl.textContent = "No se pudo cargar data.json todavía";
+    listEl.innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
+  }
+}
+load();
+</script>
+</body>
+</html>
