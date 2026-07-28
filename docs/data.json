@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T21:14:30.373929+00:00",
+  "generated_at": "2026-07-28T21:45:53.525161+00:00",
   "value_bets": [
     {
       "home": "Argentinos Juniors",
@@ -366,8 +366,8 @@
       "selection_label": "Visitante",
       "odd": 2.8,
       "model_prob": 0.4045,
-      "implied_prob": 0.3246,
-      "edge": 0.0799,
+      "implied_prob": 0.325,
+      "edge": 0.0795,
       "context": {
         "home_xg": 0.93,
         "away_xg": 1.14
@@ -485,22 +485,6 @@
       "context": {
         "home_xg": 1.43,
         "away_xg": 1.03
-      }
-    },
-    {
-      "home": "Defensa y Justicia",
-      "away": "Deportivo Riestra",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-29T20:00:00",
-      "market": "1x2",
-      "selection_label": "Visitante",
-      "odd": 3.6,
-      "model_prob": 0.3232,
-      "implied_prob": 0.2554,
-      "edge": 0.0679,
-      "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.98
       }
     },
     {
@@ -687,6 +671,22 @@
       }
     },
     {
+      "home": "Defensa y Justicia",
+      "away": "Deportivo Riestra",
+      "league": "Liga Profesional",
+      "start_date": "2026-07-29T20:00:00",
+      "market": "1x2",
+      "selection_label": "Visitante",
+      "odd": 3.4,
+      "model_prob": 0.3232,
+      "implied_prob": 0.2664,
+      "edge": 0.0568,
+      "context": {
+        "home_xg": 1.08,
+        "away_xg": 0.98
+      }
+    },
+    {
       "home": "Rosario Central",
       "away": "Racing Club",
       "league": "Liga Profesional",
@@ -732,6 +732,22 @@
       "context": {
         "home_xg": 0.94,
         "away_xg": 0.85
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Barracas Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-02T17:30:00",
+      "market": "1x2",
+      "selection_label": "Visitante",
+      "odd": 3.4,
+      "model_prob": 0.3181,
+      "implied_prob": 0.266,
+      "edge": 0.0521,
+      "context": {
+        "home_xg": 1.03,
+        "away_xg": 0.93
       }
     },
     {
