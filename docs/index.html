@@ -76,6 +76,18 @@
     margin-bottom: 0.3rem;
   }
   .selection { font-weight: 600; font-size: 0.95rem; margin-top: 0.1rem; }
+  .prob-badge {
+    background: var(--border); color: var(--text);
+    font-weight: 700; font-size: 0.85rem;
+    padding: 0.2rem 0.55rem; border-radius: 999px;
+    white-space: nowrap;
+  }
+  .section-title {
+    font-size: 1.05rem; font-weight: 700;
+    margin: 1.75rem 0 0.4rem;
+  }
+  .section-title:first-of-type { margin-top: 0.5rem; }
+  .section-sub { color: var(--muted); font-size: 0.82rem; margin-bottom: 0.75rem; }
   .details {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 0.4rem 1rem;
@@ -103,7 +115,15 @@
       <span id="status">Cargando...</span>
       <span id="updated"></span>
     </div>
-    <div id="list"></div>
+
+    <div class="section-title">Cuotas con valor</div>
+    <div class="section-sub">La cuota de Codere implica menos probabilidad de la que estima el modelo.</div>
+    <div id="valueList"></div>
+
+    <div class="section-title">Eventos probables</div>
+    <div class="section-sub">El modelo les da alta probabilidad de ocurrir, tengan o no valor frente a la cuota.</div>
+    <div id="likelyList"></div>
+
     <div class="disclaimer">
       Esto es una estimación estadística simple (modelo de Poisson sobre goles recientes), no
       asesoramiento de apuestas ni garantía de ganancias. Las APIs usadas son internas y no
@@ -112,61 +132,69 @@
   </div>
 
 <script>
+const marketNames = {"1x2": "1X2", "goals": "Goles", "btts": "Ambos marcan", "corners": "Córners"};
+
+function renderCard(b, showEdge) {
+  const start = b.start_date ? new Date(b.start_date).toLocaleString("es-AR", {dateStyle:"short", timeStyle:"short"}) : "sin fecha";
+  const ctx = b.context || {};
+  const extra = ctx.total_corners_xg !== undefined
+    ? `Córners esperados: <b>${ctx.total_corners_xg}</b>`
+    : `xG: <b>${ctx.home_xg} - ${ctx.away_xg}</b>`;
+  const badge = showEdge
+    ? `<div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>`
+    : `<div class="prob-badge">${(b.model_prob * 100).toFixed(0)}%</div>`;
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="card-top">
+      <div>
+        <span class="market-badge">${marketNames[b.market] || b.market}</span>
+        <div class="match">${b.home} vs ${b.away}</div>
+        <div class="selection">${b.selection_label}</div>
+        <div class="league">${b.league} · ${start}</div>
+      </div>
+      ${badge}
+    </div>
+    <div class="details">
+      <div>Cuota: <b>${b.odd.toFixed(2)}</b></div>
+      <div>Modelo: <b>${(b.model_prob * 100).toFixed(1)}%</b></div>
+      <div>Implícita: <b>${(b.implied_prob * 100).toFixed(1)}%</b></div>
+      <div>${extra}</div>
+    </div>
+  `;
+  return card;
+}
+
+function renderList(containerId, bets, showEdge, sortKey, emptyMsg) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = "";
+  if (!bets.length) {
+    el.innerHTML = `<div class="empty">${emptyMsg}</div>`;
+    return;
+  }
+  bets.sort((a, b) => b[sortKey] - a[sortKey]);
+  for (const b of bets) el.appendChild(renderCard(b, showEdge));
+}
+
 async function load() {
   const statusEl = document.getElementById("status");
   const updatedEl = document.getElementById("updated");
-  const listEl = document.getElementById("list");
   try {
     const res = await fetch("data.json?_=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
-    const bets = data.value_bets || [];
+    const valueBets = data.value_bets || [];
+    const likelyEvents = data.likely_events || [];
 
     const generated = new Date(data.generated_at);
     updatedEl.textContent = "Última actualización: " + generated.toLocaleString("es-AR");
-    statusEl.textContent = bets.length
-      ? bets.length + " cuota(s) con valor detectada(s)"
-      : "Sin cuotas con valor en esta pasada";
+    statusEl.textContent = `${valueBets.length} cuota(s) con valor · ${likelyEvents.length} evento(s) probable(s)`;
 
-    listEl.innerHTML = "";
-    if (!bets.length) {
-      listEl.innerHTML = '<div class="empty">No se encontraron cuotas con valor en la última revisión.</div>';
-      return;
-    }
-
-    const marketNames = {"1x2": "1X2", "goals": "Goles", "btts": "Ambos marcan", "corners": "Córners"};
-
-    bets.sort((a, b) => b.edge - a.edge);
-    for (const b of bets) {
-      const start = b.start_date ? new Date(b.start_date).toLocaleString("es-AR", {dateStyle:"short", timeStyle:"short"}) : "sin fecha";
-      const ctx = b.context || {};
-      const extra = ctx.total_corners_xg !== undefined
-        ? `Córners esperados: <b>${ctx.total_corners_xg}</b>`
-        : `xG: <b>${ctx.home_xg} - ${ctx.away_xg}</b>`;
-      const card = document.createElement("div");
-      card.className = "card";
-      card.innerHTML = `
-        <div class="card-top">
-          <div>
-            <span class="market-badge">${marketNames[b.market] || b.market}</span>
-            <div class="match">${b.home} vs ${b.away}</div>
-            <div class="selection">${b.selection_label}</div>
-            <div class="league">${b.league} · ${start}</div>
-          </div>
-          <div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>
-        </div>
-        <div class="details">
-          <div>Cuota: <b>${b.odd.toFixed(2)}</b></div>
-          <div>Modelo: <b>${(b.model_prob * 100).toFixed(1)}%</b></div>
-          <div>Implícita: <b>${(b.implied_prob * 100).toFixed(1)}%</b></div>
-          <div>${extra}</div>
-        </div>
-      `;
-      listEl.appendChild(card);
-    }
+    renderList("valueList", valueBets, true, "edge", "No se encontraron cuotas con valor en la última revisión.");
+    renderList("likelyList", likelyEvents, false, "model_prob", "No se encontraron eventos con alta probabilidad en la última revisión.");
   } catch (err) {
     statusEl.textContent = "No se pudo cargar data.json todavía";
-    listEl.innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
+    document.getElementById("valueList").innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
   }
 }
 load();
