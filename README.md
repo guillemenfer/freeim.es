@@ -3,7 +3,7 @@
 Compara las cuotas de fútbol de la Liga Profesional Argentina publicadas por
 Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de Córners) con
 una probabilidad estimada a partir del historial reciente de cada equipo
-(datos de Sofascore), usando un modelo de Poisson. Produce dos listas:
+(datos de ESPN), usando un modelo de Poisson. Produce dos listas:
 
 - **Cuotas con valor**: la cuota de Codere implica menos probabilidad de la
   que estima el modelo (posible cuota mal puesta).
@@ -24,12 +24,14 @@ disponible en el código para uso local manual, pero no se dispara solo.
 
 ## Aviso importante
 
-- Este programa usa las **APIs internas no oficiales** de Codere y Sofascore
-  (las mismas que usan sus propias webs). No son APIs públicas documentadas:
-  pueden cambiar o dejar de funcionar sin aviso, y su uso automatizado puede
-  no estar contemplado en los términos de uso de esos sitios. Es un proyecto
-  para uso personal/educativo; usalo bajo tu propio criterio y
-  responsabilidad.
+- Este programa usa la **API interna no oficial** de Codere (la misma que usa
+  su web) y la **API pública no documentada** de ESPN. Ninguna es una API
+  oficial con contrato estable: pueden cambiar o dejar de funcionar sin
+  aviso. Es un proyecto para uso personal/educativo; usalo bajo tu propio
+  criterio y responsabilidad.
+  - (Nota: originalmente se usaba Sofascore para las estadísticas, pero
+    empezó a bloquear con 403 las peticiones hechas desde las IPs de
+    datacenter de GitHub Actions. Se migró a ESPN, que no tuvo ese problema.)
 - El modelo estadístico es deliberadamente simple (Poisson con promedio de
   goles de los últimos partidos). **No es asesoramiento de apuestas ni
   garantiza ganancias.** Una "cuota con valor" es solo una discrepancia
@@ -83,7 +85,7 @@ usar `--loop`.
 1. `codere_client.py` trae el fixture completo de las ligas configuradas en
    `CODERE_LEAGUE_NODE_IDS` (Liga Profesional Argentina por defecto) con 4
    mercados: 1X2, Total de Goles, Ambos Marcan y Total de Córners.
-2. `sofascore_client.py` busca cada equipo por nombre en Sofascore y calcula
+2. `espn_client.py` busca cada equipo por nombre en ESPN y calcula
    el promedio de goles y córners a favor/en contra como local y como
    visitante en sus últimos partidos (`FORM_MATCHES`), excluyendo amistosos.
 3. `probability.py` combina esos promedios (suavizados hacia un promedio
@@ -101,11 +103,15 @@ usar `--loop`.
 
 ## Ajustes útiles en `.env`
 
-- `CODERE_LEAGUE_NODE_IDS`: ligas a seguir (`nodeId:Nombre`, separadas por
-  coma). Por defecto solo Liga Profesional Argentina. Para agregar otra liga,
-  hay que ubicar su NodeId: en la web de Codere, entrar a Fútbol → el país →
-  la liga, y mirar en las herramientas de desarrollador la llamada a
-  `NavigationService/Event/GetEvents?parentId=<NodeId>`.
+- `CODERE_LEAGUE_NODE_IDS`: ligas de Codere a seguir (`nodeId:Nombre`,
+  separadas por coma). Por defecto solo Liga Profesional Argentina. Para
+  agregar otra liga, hay que ubicar su NodeId: en la web de Codere, entrar a
+  Fútbol → el país → la liga, y mirar en las herramientas de desarrollador
+  la llamada a `NavigationService/Event/GetEvents?parentId=<NodeId>`.
+- `ESPN_LEAGUE_SLUG`: liga de ESPN de la que se traen las estadísticas
+  (`arg.1` = Liga Profesional Argentina). **Si cambiás `CODERE_LEAGUE_NODE_IDS`
+  a otra liga, hay que actualizar también este valor** al slug equivalente
+  en ESPN (se puede ubicar navegando espn.com/soccer/ y mirando la URL).
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
 - `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente
@@ -116,11 +122,11 @@ usar `--loop`.
 
 ## Limitaciones conocidas
 
-- El emparejamiento de equipos entre Codere y Sofascore es por similitud de
+- El emparejamiento de equipos entre Codere y ESPN es por similitud de
   nombre; en casos raros puede fallar (se descarta el partido si la
   similitud es baja, ver `NAME_MATCH_THRESHOLD`).
 - El mercado de córners necesita las estadísticas de cada partido reciente
-  (una petición extra por partido a Sofascore); si Sofascore no tiene esos
+  (una petición extra por partido a ESPN); si ESPN no tiene esos
   datos cargados para algún equipo, ese mercado se omite para ese partido.
 - No usa lesiones, alineaciones, clima ni otros factores: solo estadísticas
   históricas de goles/córners.

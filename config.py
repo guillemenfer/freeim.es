@@ -21,8 +21,9 @@ CODERE_LEAGUE_NODE_IDS = {
     if pair.strip()
 }
 
-# --- Sofascore ---
-SOFASCORE_BASE_URL = "https://api.sofascore.com/api/v1"
+# --- ESPN (fuente de estadísticas) ---
+# Slug de liga de ESPN (soccer). Liga Profesional Argentina = "arg.1".
+ESPN_LEAGUE_SLUG = os.getenv("ESPN_LEAGUE_SLUG", "arg.1")
 FORM_MATCHES = int(os.getenv("FORM_MATCHES", "8"))  # partidos recientes usados para el modelo
 LEAGUE_AVG_CORNERS = float(os.getenv("LEAGUE_AVG_CORNERS", "5.0"))  # córners promedio de un equipo por partido
 

@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 def _build_body(value_bets: list[ValueBet]) -> str:
     lines = [
         "Se detectaron las siguientes cuotas de Codere con valor respecto",
-        "al modelo estadístico basado en datos de Sofascore:",
+        "al modelo estadístico basado en datos de ESPN:",
         "",
     ]
     for vb in value_bets:

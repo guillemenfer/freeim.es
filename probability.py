@@ -2,7 +2,7 @@
 córners y utilidades de cuotas."""
 import math
 
-from sofascore_client import CornerStats, GoalStats
+from espn_client import CornerStats, GoalStats
 
 MAX_GOALS = 8
 MAX_CORNERS = 25

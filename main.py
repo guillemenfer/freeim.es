@@ -1,5 +1,5 @@
 """Detector de cuotas con valor y eventos probables en Codere, comparando contra
-estadísticas de Sofascore.
+estadísticas de ESPN.
 
 Uso:
     python main.py                # corre una vez y envía email si encuentra valor
@@ -68,7 +68,7 @@ def run_once(dry_run: bool, publish_json_path: str | None) -> None:
 
     if stats.looks_blocked:
         print(
-            f"Sofascore pareció bloquear esta corrida ({stats.teams_resolved}/{stats.teams_attempted} "
+            f"ESPN pareció bloquear esta corrida ({stats.teams_resolved}/{stats.teams_attempted} "
             "equipos resueltos). No se publican ni envían resultados esta vez."
         )
         return

@@ -1,4 +1,4 @@
-"""Orquesta la búsqueda de cuotas con valor: Codere (cuotas) vs Sofascore (forma real).
+"""Orquesta la búsqueda de cuotas con valor: Codere (cuotas) vs ESPN (forma real).
 
 Evalúa 4 mercados por partido: 1X2, Total de Goles, Ambos Marcan y Total de Córners.
 """
@@ -8,7 +8,7 @@ from datetime import datetime
 
 import config
 import probability
-import sofascore_client
+import espn_client
 from codere_client import CodereMatch, fetch_featured_soccer_matches
 from probability import (
     btts_probabilities,
@@ -144,8 +144,8 @@ def _analyze_corners(
 ) -> None:
     if not m.odds_corners:
         return
-    home_corner_stats = sofascore_client.compute_corner_stats(home_id, home_events)
-    away_corner_stats = sofascore_client.compute_corner_stats(away_id, away_events)
+    home_corner_stats = espn_client.compute_corner_stats(home_id, home_events)
+    away_corner_stats = espn_client.compute_corner_stats(away_id, away_events)
     if not home_corner_stats or not away_corner_stats:
         logger.info("Sin historial de córners suficiente para %s vs %s, se omite ese mercado", m.home, m.away)
         return
@@ -173,8 +173,8 @@ class RunStats:
 
     @property
     def looks_blocked(self) -> bool:
-        """Si casi ningún equipo se pudo resolver en Sofascore, probablemente no es que
-        realmente no existan (nombres raros aislados sí pasan) sino que Sofascore está
+        """Si casi ningún equipo se pudo resolver en ESPN, probablemente no es que
+        realmente no existan (nombres raros aislados sí pasan) sino que ESPN está
         bloqueando las peticiones (ej. IP de datacenter en GitHub Actions)."""
         if self.teams_attempted < 4:
             return False
@@ -189,11 +189,11 @@ def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[int, dict], int
     for m in matches:
         for name in (m.home, m.away):
             attempted_names.add(name)
-            team_id = sofascore_client.find_team_id(name)
+            team_id = espn_client.find_team_id(name)
             if not team_id or team_id in team_data:
                 continue
-            events = sofascore_client.get_recent_finished_events(team_id)
-            goal_stats = sofascore_client.compute_goal_stats(team_id, events)
+            events = espn_client.get_recent_finished_events(team_id)
+            goal_stats = espn_client.compute_goal_stats(team_id, events)
             team_data[team_id] = {"events": events, "goal_stats": goal_stats}
     return team_data, len(attempted_names)
 
@@ -246,7 +246,7 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], list[V
     stats = RunStats(total_matches=len(matches), teams_attempted=teams_attempted, teams_resolved=len(team_data))
     if stats.looks_blocked:
         logger.warning(
-            "Solo se resolvieron %d/%d equipos en Sofascore: probablemente bloqueado "
+            "Solo se resolvieron %d/%d equipos en ESPN: probablemente bloqueado "
             "(no se publican resultados esta pasada para no pisar el último dato bueno)",
             stats.teams_resolved, stats.teams_attempted,
         )
@@ -257,8 +257,8 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], list[V
     all_value_bets: list[ValueBet] = []
     all_likely_events: list[ValueBet] = []
     for m in matches:
-        home_id = sofascore_client.find_team_id(m.home)
-        away_id = sofascore_client.find_team_id(m.away)
+        home_id = espn_client.find_team_id(m.home)
+        away_id = espn_client.find_team_id(m.away)
         if not home_id or not away_id or home_id not in team_data or away_id not in team_data:
             continue
         try:
