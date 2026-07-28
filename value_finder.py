@@ -34,6 +34,7 @@ class ValueBet:
     model_prob: float
     implied_prob: float
     edge: float
+    tags: list[str] = field(default_factory=list)  # "value" y/o "likely"
     context: dict = field(default_factory=dict)
 
 
@@ -50,6 +51,7 @@ def value_bet_to_dict(vb: "ValueBet") -> dict:
         "model_prob": round(vb.model_prob, 4),
         "implied_prob": round(vb.implied_prob, 4),
         "edge": round(vb.edge, 4),
+        "tags": vb.tags,
         "context": {k: round(v, 2) if isinstance(v, float) else v for k, v in vb.context.items()},
     }
 
@@ -62,23 +64,11 @@ def _consider(
     model_p: float | None,
     implied_p: float | None,
     context: dict,
-    value_out: list["ValueBet"],
-    likely_out: list["ValueBet"],
+    out: list["ValueBet"],
 ) -> None:
     if odd is None or model_p is None or implied_p is None:
         return
     edge = model_p - implied_p
-
-    bet = ValueBet(
-        match=match,
-        market=market,
-        selection_label=selection_label,
-        codere_odd=odd,
-        model_prob=model_p,
-        implied_prob=implied_p,
-        edge=edge,
-        context=context,
-    )
 
     if edge > config.MAX_TRUSTED_EDGE:
         logger.info(
@@ -86,14 +76,32 @@ def _consider(
             "probablemente error de modelo, no cuota real mal puesta",
             edge * 100, match.home, match.away, market, selection_label,
         )
-    elif edge >= config.EDGE_THRESHOLD:
-        value_out.append(bet)
+        has_value = False
+    else:
+        has_value = edge >= config.EDGE_THRESHOLD
 
-    if model_p >= config.HIGH_PROB_THRESHOLD:
-        likely_out.append(bet)
+    is_likely = model_p >= config.HIGH_PROB_THRESHOLD
+    if not (has_value and is_likely):
+        return
+
+    tags = ["value", "likely"]
+
+    out.append(
+        ValueBet(
+            match=match,
+            market=market,
+            selection_label=selection_label,
+            codere_odd=odd,
+            model_prob=model_p,
+            implied_prob=implied_p,
+            edge=edge,
+            tags=tags,
+            context=context,
+        )
+    )
 
 
-def _analyze_1x2(m: CodereMatch, home_xg: float, away_xg: float, value_out: list[ValueBet], likely_out: list[ValueBet]) -> None:
+def _analyze_1x2(m: CodereMatch, home_xg: float, away_xg: float, out: list[ValueBet]) -> None:
     model_probs = match_probabilities(home_xg, away_xg)
     implied_probs = devigged_implied_probabilities(m.odds_1x2)
     ctx = {"home_xg": home_xg, "away_xg": away_xg}
@@ -101,11 +109,11 @@ def _analyze_1x2(m: CodereMatch, home_xg: float, away_xg: float, value_out: list
         _consider(
             m, "1x2", OUTCOME_LABEL[outcome],
             m.odds_1x2.get(outcome), model_probs.get(outcome), implied_probs.get(outcome),
-            ctx, value_out, likely_out,
+            ctx, out,
         )
 
 
-def _analyze_goals(m: CodereMatch, home_xg: float, away_xg: float, value_out: list[ValueBet], likely_out: list[ValueBet]) -> None:
+def _analyze_goals(m: CodereMatch, home_xg: float, away_xg: float, out: list[ValueBet]) -> None:
     if not m.odds_goals:
         return
     line = m.odds_goals["line"]
@@ -114,15 +122,15 @@ def _analyze_goals(m: CodereMatch, home_xg: float, away_xg: float, value_out: li
     ctx = {"home_xg": home_xg, "away_xg": away_xg, "line": line}
     _consider(
         m, "goals", f"Más de {line} goles",
-        m.odds_goals["over"], model_probs.get("over"), implied_probs.get("over"), ctx, value_out, likely_out,
+        m.odds_goals["over"], model_probs.get("over"), implied_probs.get("over"), ctx, out,
     )
     _consider(
         m, "goals", f"Menos de {line} goles",
-        m.odds_goals["under"], model_probs.get("under"), implied_probs.get("under"), ctx, value_out, likely_out,
+        m.odds_goals["under"], model_probs.get("under"), implied_probs.get("under"), ctx, out,
     )
 
 
-def _analyze_btts(m: CodereMatch, home_xg: float, away_xg: float, value_out: list[ValueBet], likely_out: list[ValueBet]) -> None:
+def _analyze_btts(m: CodereMatch, home_xg: float, away_xg: float, out: list[ValueBet]) -> None:
     if not m.odds_btts:
         return
     model_probs = btts_probabilities(home_xg, away_xg)
@@ -130,17 +138,16 @@ def _analyze_btts(m: CodereMatch, home_xg: float, away_xg: float, value_out: lis
     ctx = {"home_xg": home_xg, "away_xg": away_xg}
     _consider(
         m, "btts", "Ambos marcan: Sí",
-        m.odds_btts["yes"], model_probs.get("yes"), implied_probs.get("yes"), ctx, value_out, likely_out,
+        m.odds_btts["yes"], model_probs.get("yes"), implied_probs.get("yes"), ctx, out,
     )
     _consider(
         m, "btts", "Ambos marcan: No",
-        m.odds_btts["no"], model_probs.get("no"), implied_probs.get("no"), ctx, value_out, likely_out,
+        m.odds_btts["no"], model_probs.get("no"), implied_probs.get("no"), ctx, out,
     )
 
 
 def _analyze_corners(
-    m: CodereMatch, home_id: int, away_id: int, home_events: list, away_events: list,
-    value_out: list[ValueBet], likely_out: list[ValueBet],
+    m: CodereMatch, home_id: int, away_id: int, home_events: list, away_events: list, out: list[ValueBet],
 ) -> None:
     if not m.odds_corners:
         return
@@ -157,11 +164,11 @@ def _analyze_corners(
     ctx = {"total_corners_xg": total_xc, "line": line}
     _consider(
         m, "corners", f"Más de {line} córners",
-        m.odds_corners["over"], model_probs.get("over"), implied_probs.get("over"), ctx, value_out, likely_out,
+        m.odds_corners["over"], model_probs.get("over"), implied_probs.get("over"), ctx, out,
     )
     _consider(
         m, "corners", f"Menos de {line} córners",
-        m.odds_corners["under"], model_probs.get("under"), implied_probs.get("under"), ctx, value_out, likely_out,
+        m.odds_corners["under"], model_probs.get("under"), implied_probs.get("under"), ctx, out,
     )
 
 
@@ -215,29 +222,27 @@ def _league_avg_goals(team_data: dict[int, dict]) -> float:
 
 def _analyze_match(
     m: CodereMatch, home_id: int, away_id: int, team_data: dict, league_avg_goals: float
-) -> tuple[list[ValueBet], list[ValueBet]]:
+) -> list[ValueBet]:
     home_stats = team_data[home_id]["goal_stats"]
     away_stats = team_data[away_id]["goal_stats"]
     if not home_stats or not away_stats:
         logger.info("Sin historial suficiente para %s vs %s, se omite", m.home, m.away)
-        return [], []
+        return []
 
     home_xg, away_xg = expected_goals(home_stats, away_stats, league_avg_goals)
 
-    value_out: list[ValueBet] = []
-    likely_out: list[ValueBet] = []
-    _analyze_1x2(m, home_xg, away_xg, value_out, likely_out)
-    _analyze_goals(m, home_xg, away_xg, value_out, likely_out)
-    _analyze_btts(m, home_xg, away_xg, value_out, likely_out)
+    out: list[ValueBet] = []
+    _analyze_1x2(m, home_xg, away_xg, out)
+    _analyze_goals(m, home_xg, away_xg, out)
+    _analyze_btts(m, home_xg, away_xg, out)
     _analyze_corners(
-        m, home_id, away_id, team_data[home_id]["events"], team_data[away_id]["events"],
-        value_out, likely_out,
+        m, home_id, away_id, team_data[home_id]["events"], team_data[away_id]["events"], out,
     )
-    return value_out, likely_out
+    return out
 
 
-def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], list[ValueBet], RunStats]:
-    """Devuelve (cuotas_con_valor, eventos_probables, stats_de_la_corrida)."""
+def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunStats]:
+    """Devuelve (selecciones que son cuota-con-valor Y evento-probable a la vez, stats_de_la_corrida)."""
     now = now or datetime.now()
     matches = fetch_featured_soccer_matches()
     matches = [m for m in matches if not m.start_date or m.start_date > now]
@@ -250,24 +255,20 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], list[V
             "(no se publican resultados esta pasada para no pisar el último dato bueno)",
             stats.teams_resolved, stats.teams_attempted,
         )
-        return [], [], stats
+        return [], stats
 
     league_avg_goals = _league_avg_goals(team_data)
 
-    all_value_bets: list[ValueBet] = []
-    all_likely_events: list[ValueBet] = []
+    all_bets: list[ValueBet] = []
     for m in matches:
         home_id = espn_client.find_team_id(m.home)
         away_id = espn_client.find_team_id(m.away)
         if not home_id or not away_id or home_id not in team_data or away_id not in team_data:
             continue
         try:
-            value_bets, likely_events = _analyze_match(m, home_id, away_id, team_data, league_avg_goals)
-            all_value_bets.extend(value_bets)
-            all_likely_events.extend(likely_events)
+            all_bets.extend(_analyze_match(m, home_id, away_id, team_data, league_avg_goals))
         except Exception:
             logger.exception("Error analizando %s vs %s", m.home, m.away)
 
-    all_value_bets.sort(key=lambda vb: vb.edge, reverse=True)
-    all_likely_events.sort(key=lambda vb: vb.model_prob, reverse=True)
-    return all_value_bets, all_likely_events, stats
+    all_bets.sort(key=lambda vb: vb.edge, reverse=True)
+    return all_bets, stats

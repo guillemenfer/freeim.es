@@ -3,13 +3,13 @@
 Compara las cuotas de fútbol de la Liga Profesional Argentina publicadas por
 Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de Córners) con
 una probabilidad estimada a partir del historial reciente de cada equipo
-(datos de ESPN), usando un modelo de Poisson. Produce dos listas:
+(datos de ESPN), usando un modelo de Poisson. Solo muestra selecciones que
+cumplen **las dos condiciones a la vez**:
 
-- **Cuotas con valor**: la cuota de Codere implica menos probabilidad de la
-  que estima el modelo (posible cuota mal puesta).
-- **Eventos probables**: selecciones con alta probabilidad según el modelo
-  (`HIGH_PROB_THRESHOLD`, 70% por defecto), tengan o no valor frente a la
-  cuota — para ver directamente qué es lo más probable que pase.
+- **Valor**: la cuota de Codere implica menos probabilidad de la que estima
+  el modelo (edge entre `EDGE_THRESHOLD` y `MAX_TRUSTED_EDGE`).
+- **Alta probabilidad**: el modelo le da al menos `HIGH_PROB_THRESHOLD`
+  (70% por defecto) de probabilidad de ocurrir.
 
 ## Cómo se usa hoy
 

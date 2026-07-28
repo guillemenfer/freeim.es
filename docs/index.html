@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cuotas con valor · Liga Profesional Argentina</title>
+<title>Cuotas con valor y alta probabilidad · Liga Profesional Argentina</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -109,20 +109,15 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>Cuotas con valor — Liga Profesional Argentina</h1>
-    <div class="subtitle">1X2, goles, ambos marcan y córners — Codere vs modelo estadístico basado en Sofascore</div>
+    <h1>Cuotas con valor y alta probabilidad — Liga Profesional Argentina</h1>
+    <div class="subtitle">1X2, goles, ambos marcan y córners — Codere vs modelo estadístico basado en ESPN</div>
     <div class="meta">
       <span id="status">Cargando...</span>
       <span id="updated"></span>
     </div>
 
-    <div class="section-title">Cuotas con valor</div>
-    <div class="section-sub">La cuota de Codere implica menos probabilidad de la que estima el modelo.</div>
-    <div id="valueList"></div>
-
-    <div class="section-title">Eventos probables</div>
-    <div class="section-sub">El modelo les da alta probabilidad de ocurrir, tengan o no valor frente a la cuota.</div>
-    <div id="likelyList"></div>
+    <div class="section-sub">Selecciones donde la cuota de Codere tiene valor frente al modelo Y el modelo les da alta probabilidad de ocurrir, a la vez.</div>
+    <div id="list"></div>
 
     <div class="disclaimer">
       Esto es una estimación estadística simple (modelo de Poisson sobre goles recientes), no
@@ -134,15 +129,12 @@
 <script>
 const marketNames = {"1x2": "1X2", "goals": "Goles", "btts": "Ambos marcan", "corners": "Córners"};
 
-function renderCard(b, showEdge) {
+function renderCard(b) {
   const start = b.start_date ? new Date(b.start_date).toLocaleString("es-AR", {dateStyle:"short", timeStyle:"short"}) : "sin fecha";
   const ctx = b.context || {};
   const extra = ctx.total_corners_xg !== undefined
     ? `Córners esperados: <b>${ctx.total_corners_xg}</b>`
     : `xG: <b>${ctx.home_xg} - ${ctx.away_xg}</b>`;
-  const badge = showEdge
-    ? `<div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>`
-    : `<div class="prob-badge">${(b.model_prob * 100).toFixed(0)}%</div>`;
   const card = document.createElement("div");
   card.className = "card";
   card.innerHTML = `
@@ -153,7 +145,10 @@ function renderCard(b, showEdge) {
         <div class="selection">${b.selection_label}</div>
         <div class="league">${b.league} · ${start}</div>
       </div>
-      ${badge}
+      <div style="display:flex; flex-direction:column; gap:0.3rem; align-items:flex-end;">
+        <div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>
+        <div class="prob-badge">${(b.model_prob * 100).toFixed(0)}%</div>
+      </div>
     </div>
     <div class="details">
       <div>Cuota: <b>${b.odd.toFixed(2)}</b></div>
@@ -165,15 +160,15 @@ function renderCard(b, showEdge) {
   return card;
 }
 
-function renderList(containerId, bets, showEdge, sortKey, emptyMsg) {
-  const el = document.getElementById(containerId);
+function renderList(bets) {
+  const el = document.getElementById("list");
   el.innerHTML = "";
   if (!bets.length) {
-    el.innerHTML = `<div class="empty">${emptyMsg}</div>`;
+    el.innerHTML = '<div class="empty">No se encontraron selecciones con valor y alta probabilidad a la vez en la última revisión.</div>';
     return;
   }
-  bets.sort((a, b) => b[sortKey] - a[sortKey]);
-  for (const b of bets) el.appendChild(renderCard(b, showEdge));
+  bets.sort((a, b) => b.edge - a.edge);
+  for (const b of bets) el.appendChild(renderCard(b));
 }
 
 async function load() {
@@ -183,18 +178,16 @@ async function load() {
     const res = await fetch("data.json?_=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
-    const valueBets = data.value_bets || [];
-    const likelyEvents = data.likely_events || [];
+    const bets = data.bets || [];
 
     const generated = new Date(data.generated_at);
     updatedEl.textContent = "Última actualización: " + generated.toLocaleString("es-AR");
-    statusEl.textContent = `${valueBets.length} cuota(s) con valor · ${likelyEvents.length} evento(s) probable(s)`;
+    statusEl.textContent = `${bets.length} selección(es) detectada(s)`;
 
-    renderList("valueList", valueBets, true, "edge", "No se encontraron cuotas con valor en la última revisión.");
-    renderList("likelyList", likelyEvents, false, "model_prob", "No se encontraron eventos con alta probabilidad en la última revisión.");
+    renderList(bets);
   } catch (err) {
     statusEl.textContent = "No se pudo cargar data.json todavía";
-    document.getElementById("valueList").innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
+    document.getElementById("list").innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
   }
 }
 load();
