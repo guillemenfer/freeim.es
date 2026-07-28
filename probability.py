@@ -9,12 +9,14 @@ MAX_CORNERS = 25
 MIN_XG = 0.15
 MAX_XG = 5.0
 
-# Promedios "típicos" usados como ancla para suavizar (shrinkage) promedios calculados
-# con pocos partidos. Sin esto, una racha corta contra rivales flojos (ej. goleadas en
-# liga chica) infla el promedio del equipo muy por encima de lo que sostiene en un
-# cruce parejo.
-LEAGUE_AVG_GOALS = 1.35
-LEAGUE_AVG_CORNERS = 5.0
+# Promedios usados como ancla para suavizar (shrinkage) promedios calculados con pocos
+# partidos. Sin esto, una racha corta contra rivales flojos (ej. goleadas en liga chica)
+# infla el promedio del equipo muy por encima de lo que sostiene en un cruce parejo.
+# Se recalculan a partir de los propios equipos de la liga que se está analizando (ver
+# value_finder.py), en vez de usar una constante "mundial" que puede no calzar con ligas
+# más o menos ofensivas que el promedio (ej. Argentina suele ser más defensiva).
+DEFAULT_LEAGUE_AVG_GOALS = 1.35
+DEFAULT_LEAGUE_AVG_CORNERS = 5.0
 SHRINKAGE_K = 6  # "partidos fantasma" con los que se pondera el promedio general
 
 
@@ -30,13 +32,15 @@ def _poisson_cdf(k: int, lam: float) -> float:
     return sum(_poisson_pmf(i, lam) for i in range(k + 1))
 
 
-def expected_goals(home_stats: GoalStats, away_stats: GoalStats) -> tuple[float, float]:
+def expected_goals(
+    home_stats: GoalStats, away_stats: GoalStats, league_avg_goals: float = DEFAULT_LEAGUE_AVG_GOALS
+) -> tuple[float, float]:
     """Combina el ataque de un equipo con la defensa del rival (estilo Dixon-Coles simplificado),
-    suavizando cada promedio hacia la media general según cuántos partidos lo respaldan."""
-    home_scored = _shrink(home_stats.avg_scored_home, home_stats.home_sample_size, LEAGUE_AVG_GOALS)
-    away_conceded_away = _shrink(away_stats.avg_conceded_away, away_stats.away_sample_size, LEAGUE_AVG_GOALS)
-    away_scored = _shrink(away_stats.avg_scored_away, away_stats.away_sample_size, LEAGUE_AVG_GOALS)
-    home_conceded = _shrink(home_stats.avg_conceded_home, home_stats.home_sample_size, LEAGUE_AVG_GOALS)
+    suavizando cada promedio hacia la media de la liga según cuántos partidos lo respaldan."""
+    home_scored = _shrink(home_stats.avg_scored_home, home_stats.home_sample_size, league_avg_goals)
+    away_conceded_away = _shrink(away_stats.avg_conceded_away, away_stats.away_sample_size, league_avg_goals)
+    away_scored = _shrink(away_stats.avg_scored_away, away_stats.away_sample_size, league_avg_goals)
+    home_conceded = _shrink(home_stats.avg_conceded_home, home_stats.home_sample_size, league_avg_goals)
 
     home_xg = (home_scored + away_conceded_away) / 2
     away_xg = (away_scored + home_conceded) / 2
@@ -45,12 +49,14 @@ def expected_goals(home_stats: GoalStats, away_stats: GoalStats) -> tuple[float,
     return home_xg, away_xg
 
 
-def expected_corners(home_stats: CornerStats, away_stats: CornerStats) -> float:
+def expected_corners(
+    home_stats: CornerStats, away_stats: CornerStats, league_avg_corners: float = DEFAULT_LEAGUE_AVG_CORNERS
+) -> float:
     """Estima el total de córners esperado del partido (suma de ambos equipos)."""
-    home_for = _shrink(home_stats.avg_corners_home, home_stats.home_sample_size, LEAGUE_AVG_CORNERS)
-    away_conceded = _shrink(away_stats.avg_corners_conceded_away, away_stats.away_sample_size, LEAGUE_AVG_CORNERS)
-    away_for = _shrink(away_stats.avg_corners_away, away_stats.away_sample_size, LEAGUE_AVG_CORNERS)
-    home_conceded = _shrink(home_stats.avg_corners_conceded_home, home_stats.home_sample_size, LEAGUE_AVG_CORNERS)
+    home_for = _shrink(home_stats.avg_corners_home, home_stats.home_sample_size, league_avg_corners)
+    away_conceded = _shrink(away_stats.avg_corners_conceded_away, away_stats.away_sample_size, league_avg_corners)
+    away_for = _shrink(away_stats.avg_corners_away, away_stats.away_sample_size, league_avg_corners)
+    home_conceded = _shrink(home_stats.avg_corners_conceded_home, home_stats.home_sample_size, league_avg_corners)
 
     home_xc = (home_for + away_conceded) / 2
     away_xc = (away_for + home_conceded) / 2

@@ -149,6 +149,7 @@ class CornerStats:
     avg_corners_conceded_home: float
     avg_corners_away: float
     avg_corners_conceded_away: float
+    avg_corners_overall: float
     sample_size: int
     home_sample_size: int
     away_sample_size: int
@@ -207,6 +208,7 @@ def compute_corner_stats(team_id: int, events: list[dict]) -> CornerStats | None
         avg_corners_conceded_home=avg(home_against, overall_against_avg),
         avg_corners_away=avg(away_for, overall_avg),
         avg_corners_conceded_away=avg(away_against, overall_against_avg),
+        avg_corners_overall=overall_avg,
         sample_size=len(home_for) + len(away_for),
         home_sample_size=len(home_for),
         away_sample_size=len(away_for),

@@ -124,8 +124,9 @@ def _event_to_match(ev: dict, is_live: bool) -> CodereMatch | None:
 
 
 def fetch_featured_soccer_matches() -> list[CodereMatch]:
-    """Trae los partidos de fútbol de los países en TARGET_COUNTRIES con sus mercados
-    1X2, Total Goles, Ambos Marcan y Córners (los que Codere tenga cargados)."""
+    """Trae el fixture completo (no solo lo destacado en portada) de cada liga en
+    CODERE_LEAGUE_NODE_IDS, con sus mercados 1X2, Total Goles, Ambos Marcan y Córners
+    (los que Codere tenga cargados para cada partido)."""
     game_types = ";".join(
         str(gt)
         for gt in (
@@ -135,33 +136,20 @@ def fetch_featured_soccer_matches() -> list[CodereMatch]:
             config.CODERE_MARKET_CORNERS,
         )
     )
-    params = {
-        "countHomeLiveEvents": 0,
-        "gameTypesHomeLiveEvents": 1,
-        "sportHandle": "soccer",
-        "countHighlightsEvents": config.CODERE_HIGHLIGHTS_COUNT,
-        "gameTypesHighlightsEvents": game_types,
-    }
-    data = get_json(config.CODERE_HOME_INFO_URL, params=params)
-    if not data:
-        return []
 
     matches: dict[str, CodereMatch] = {}
-    target_countries = {c.lower() for c in config.TARGET_COUNTRIES}
-
-    for group in data.get("highlightsEvents") or []:
-        if group.get("Name") != "Fútbol":
+    for node_id, league_name in config.CODERE_LEAGUE_NODE_IDS.items():
+        events = get_json(config.CODERE_EVENTS_URL, params={"parentId": node_id, "gameTypes": game_types})
+        if not events:
+            logger.warning("Codere: sin respuesta para la liga %s (nodeId=%s)", league_name, node_id)
             continue
-        for ev in group.get("Events") or []:
-            country = (ev.get("CountryName") or "").lower()
-            if country not in target_countries:
-                continue
+        for ev in events:
             m = _event_to_match(ev, bool(ev.get("isLive")))
             if m:
                 matches[m.event_id] = m
 
     logger.info(
-        "Codere: %d partidos de fútbol de %s encontrados",
-        len(matches), ", ".join(config.TARGET_COUNTRIES),
+        "Codere: %d partidos encontrados en %s",
+        len(matches), ", ".join(config.CODERE_LEAGUE_NODE_IDS.values()),
     )
     return list(matches.values())

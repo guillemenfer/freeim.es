@@ -7,6 +7,7 @@ from dataclasses import dataclass, field
 from datetime import datetime
 
 import config
+import probability
 import sofascore_client
 from codere_client import CodereMatch, fetch_featured_soccer_matches
 from probability import (
@@ -157,27 +158,52 @@ def _analyze_corners(m: CodereMatch, home_id: int, away_id: int, home_events: li
     )
 
 
-def _analyze_match(m: CodereMatch) -> list[ValueBet]:
-    home_id = sofascore_client.find_team_id(m.home)
-    away_id = sofascore_client.find_team_id(m.away)
-    if not home_id or not away_id:
-        return []
+def _collect_team_data(matches: list[CodereMatch]) -> dict[int, dict]:
+    """Resuelve equipo->id y trae su historial de goles una sola vez por equipo
+    (varios partidos de una misma ronda pueden repetir equipos)."""
+    team_data: dict[int, dict] = {}
+    for m in matches:
+        for name in (m.home, m.away):
+            team_id = sofascore_client.find_team_id(name)
+            if not team_id or team_id in team_data:
+                continue
+            events = sofascore_client.get_recent_finished_events(team_id)
+            goal_stats = sofascore_client.compute_goal_stats(team_id, events)
+            team_data[team_id] = {"events": events, "goal_stats": goal_stats}
+    return team_data
 
-    home_events = sofascore_client.get_recent_finished_events(home_id)
-    away_events = sofascore_client.get_recent_finished_events(away_id)
-    home_stats = sofascore_client.compute_goal_stats(home_id, home_events)
-    away_stats = sofascore_client.compute_goal_stats(away_id, away_events)
+
+def _league_avg_goals(team_data: dict[int, dict]) -> float:
+    """Calibra el promedio de goles 'típico' con los equipos de esta misma liga,
+    en vez de usar una constante mundial que puede no calzar (ligas más o menos
+    ofensivas que el promedio)."""
+    avgs = [d["goal_stats"].avg_scored_overall for d in team_data.values() if d["goal_stats"]]
+    if not avgs:
+        return probability.DEFAULT_LEAGUE_AVG_GOALS
+    league_avg = sum(avgs) / len(avgs)
+    logger.info(
+        "Promedio de goles calibrado para esta liga: %.2f goles/equipo/partido (sobre %d equipos)",
+        league_avg, len(avgs),
+    )
+    return league_avg
+
+
+def _analyze_match(m: CodereMatch, home_id: int, away_id: int, team_data: dict, league_avg_goals: float) -> list[ValueBet]:
+    home_stats = team_data[home_id]["goal_stats"]
+    away_stats = team_data[away_id]["goal_stats"]
     if not home_stats or not away_stats:
         logger.info("Sin historial suficiente para %s vs %s, se omite", m.home, m.away)
         return []
 
-    home_xg, away_xg = expected_goals(home_stats, away_stats)
+    home_xg, away_xg = expected_goals(home_stats, away_stats, league_avg_goals)
 
     out: list[ValueBet] = []
     _analyze_1x2(m, home_xg, away_xg, out)
     _analyze_goals(m, home_xg, away_xg, out)
     _analyze_btts(m, home_xg, away_xg, out)
-    _analyze_corners(m, home_id, away_id, home_events, away_events, out)
+    _analyze_corners(
+        m, home_id, away_id, team_data[home_id]["events"], team_data[away_id]["events"], out
+    )
     return out
 
 
@@ -186,10 +212,17 @@ def find_value_bets(now: datetime | None = None) -> list[ValueBet]:
     matches = fetch_featured_soccer_matches()
     matches = [m for m in matches if not m.start_date or m.start_date > now]
 
+    team_data = _collect_team_data(matches)
+    league_avg_goals = _league_avg_goals(team_data)
+
     all_value_bets: list[ValueBet] = []
     for m in matches:
+        home_id = sofascore_client.find_team_id(m.home)
+        away_id = sofascore_client.find_team_id(m.away)
+        if not home_id or not away_id or home_id not in team_data or away_id not in team_data:
+            continue
         try:
-            all_value_bets.extend(_analyze_match(m))
+            all_value_bets.extend(_analyze_match(m, home_id, away_id, team_data, league_avg_goals))
         except Exception:
             logger.exception("Error analizando %s vs %s", m.home, m.away)
 

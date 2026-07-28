@@ -76,9 +76,9 @@ usar `--loop`.
 
 ## Cómo funciona
 
-1. `codere_client.py` trae los partidos de fútbol destacados de Codere de los
-   países en `TARGET_COUNTRIES` (Argentina por defecto) con 4 mercados:
-   1X2, Total de Goles, Ambos Marcan y Total de Córners.
+1. `codere_client.py` trae el fixture completo de las ligas configuradas en
+   `CODERE_LEAGUE_NODE_IDS` (Liga Profesional Argentina por defecto) con 4
+   mercados: 1X2, Total de Goles, Ambos Marcan y Total de Córners.
 2. `sofascore_client.py` busca cada equipo por nombre en Sofascore y calcula
    el promedio de goles y córners a favor/en contra como local y como
    visitante en sus últimos partidos (`FORM_MATCHES`), excluyendo amistosos.
@@ -97,8 +97,11 @@ usar `--loop`.
 
 ## Ajustes útiles en `.env`
 
-- `TARGET_COUNTRIES`: países de Codere a incluir (por nombre exacto de
-  `CountryName`, separados por coma). Por defecto solo `Argentina`.
+- `CODERE_LEAGUE_NODE_IDS`: ligas a seguir (`nodeId:Nombre`, separadas por
+  coma). Por defecto solo Liga Profesional Argentina. Para agregar otra liga,
+  hay que ubicar su NodeId: en la web de Codere, entrar a Fútbol → el país →
+  la liga, y mirar en las herramientas de desarrollador la llamada a
+  `NavigationService/Event/GetEvents?parentId=<NodeId>`.
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
 - `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente
@@ -106,12 +109,9 @@ usar `--loop`.
   cuota real mal puesta).
 - `FORM_MATCHES`: más partidos = promedio más estable pero menos sensible a
   la forma reciente.
-- `CODERE_HIGHLIGHTS_COUNT`: cuántos partidos destacados pedir a Codere.
 
 ## Limitaciones conocidas
 
-- Solo cubre partidos que Codere muestra como "destacados" en portada (no
-  todo el catálogo de ligas), filtrados por país.
 - El emparejamiento de equipos entre Codere y Sofascore es por similitud de
   nombre; en casos raros puede fallar (se descarta el partido si la
   similitud es baja, ver `NAME_MATCH_THRESHOLD`).

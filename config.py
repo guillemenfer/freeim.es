@@ -6,15 +6,20 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Codere ---
-CODERE_HOME_INFO_URL = "https://m.apuestas.codere.es/NavigationService/Home/GetHomeInfo"
-CODERE_HIGHLIGHTS_COUNT = int(os.getenv("CODERE_HIGHLIGHTS_COUNT", "150"))
-# GameTypeId de Codere para cada mercado (ver docere_client.py)
+CODERE_EVENTS_URL = "https://m.apuestas.codere.es/NavigationService/Event/GetEvents"
+# GameTypeId de Codere para cada mercado (ver codere_client.py)
 CODERE_MARKET_1X2 = 1
 CODERE_MARKET_TOTAL_GOALS = 18
 CODERE_MARKET_BTTS = 31
 CODERE_MARKET_CORNERS = 54
-# Países a los que nos especializamos (nombre exacto tal como lo devuelve Codere en CountryName)
-TARGET_COUNTRIES = [c.strip() for c in os.getenv("TARGET_COUNTRIES", "Argentina").split(",") if c.strip()]
+# NodeId de liga en Codere -> nombre. Se pide el fixture completo de cada una
+# (no solo lo "destacado" en portada). Liga Profesional Argentina = 3253425078.
+CODERE_LEAGUE_NODE_IDS = {
+    nid.strip(): name.strip()
+    for pair in os.getenv("CODERE_LEAGUE_NODE_IDS", "3253425078:Liga Profesional").split(",")
+    for nid, name in [pair.split(":", 1)]
+    if pair.strip()
+}
 
 # --- Sofascore ---
 SOFASCORE_BASE_URL = "https://api.sofascore.com/api/v1"
