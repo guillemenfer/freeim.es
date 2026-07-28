@@ -7,11 +7,19 @@ load_dotenv()
 
 # --- Codere ---
 CODERE_HOME_INFO_URL = "https://m.apuestas.codere.es/NavigationService/Home/GetHomeInfo"
-CODERE_HIGHLIGHTS_COUNT = int(os.getenv("CODERE_HIGHLIGHTS_COUNT", "60"))
+CODERE_HIGHLIGHTS_COUNT = int(os.getenv("CODERE_HIGHLIGHTS_COUNT", "150"))
+# GameTypeId de Codere para cada mercado (ver docere_client.py)
+CODERE_MARKET_1X2 = 1
+CODERE_MARKET_TOTAL_GOALS = 18
+CODERE_MARKET_BTTS = 31
+CODERE_MARKET_CORNERS = 54
+# Países a los que nos especializamos (nombre exacto tal como lo devuelve Codere en CountryName)
+TARGET_COUNTRIES = [c.strip() for c in os.getenv("TARGET_COUNTRIES", "Argentina").split(",") if c.strip()]
 
 # --- Sofascore ---
 SOFASCORE_BASE_URL = "https://api.sofascore.com/api/v1"
 FORM_MATCHES = int(os.getenv("FORM_MATCHES", "8"))  # partidos recientes usados para el modelo
+LEAGUE_AVG_CORNERS = float(os.getenv("LEAGUE_AVG_CORNERS", "5.0"))  # córners promedio de un equipo por partido
 
 # --- Red / cortesía con los servidores ---
 REQUEST_TIMEOUT = int(os.getenv("REQUEST_TIMEOUT", "10"))

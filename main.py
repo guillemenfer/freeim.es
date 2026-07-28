@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 
 import config
 from notifier import send_value_bet_alert
-from value_finder import OUTCOME_LABEL, ValueBet, find_value_bets, value_bet_to_dict
+from value_finder import ValueBet, find_value_bets, value_bet_to_dict
 
 logging.basicConfig(
     level=logging.INFO,
@@ -34,7 +34,7 @@ def print_report(value_bets: list[ValueBet]) -> None:
         fecha = m.start_date.strftime("%d/%m %H:%M") if m.start_date else "sin fecha"
         print(
             f"- {m.home} vs {m.away} ({m.league}, {fecha})\n"
-            f"    {OUTCOME_LABEL[vb.outcome]} @ {vb.codere_odd:.2f} | "
+            f"    [{vb.market}] {vb.selection_label} @ {vb.codere_odd:.2f} | "
             f"modelo: {vb.model_prob*100:.1f}% vs implícita: {vb.implied_prob*100:.1f}% "
             f"(edge +{vb.edge*100:.1f} pts)"
         )

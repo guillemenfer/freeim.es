@@ -1,17 +1,18 @@
-# Detector de cuotas con valor - Codere vs Sofascore
+# Detector de cuotas con valor - Liga Profesional Argentina
 
-Compara las cuotas 1X2 de fútbol publicadas en la portada de Codere con una
-probabilidad estimada a partir del historial de goles reciente de cada
-equipo (datos de Sofascore), usando un modelo de Poisson. Cuando la cuota de
-Codere implica una probabilidad bastante menor que la del modelo, lo marca
-como "cuota con valor".
+Compara las cuotas de fútbol de la Liga Profesional Argentina publicadas por
+Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de Córners) con
+una probabilidad estimada a partir del historial reciente de cada equipo
+(datos de Sofascore), usando un modelo de Poisson. Cuando la cuota de Codere
+implica una probabilidad bastante menor que la del modelo, lo marca como
+"cuota con valor".
 
 ## Cómo se usa hoy
 
 Corre solo cada 30 minutos en **GitHub Actions** (`.github/workflows/detect.yml`)
 y publica los resultados como `docs/data.json`, servido por **GitHub Pages** en:
 
-**https://guillemenfer.github.io/codere-value-bets/**
+**https://guillemenfer.github.io/freeim.es/**
 
 Esa página web es "la app": no hace falta instalar nada ni dejar la PC
 prendida, se actualiza sola. El modo por email (`notifier.py`) sigue
@@ -75,22 +76,29 @@ usar `--loop`.
 
 ## Cómo funciona
 
-1. `codere_client.py` trae los partidos de fútbol destacados de Codere con
-   mercado 1X2 (equipos, liga, fecha, cuotas).
+1. `codere_client.py` trae los partidos de fútbol destacados de Codere de los
+   países en `TARGET_COUNTRIES` (Argentina por defecto) con 4 mercados:
+   1X2, Total de Goles, Ambos Marcan y Total de Córners.
 2. `sofascore_client.py` busca cada equipo por nombre en Sofascore y calcula
-   el promedio de goles marcados/recibidos como local y como visitante en
-   sus últimos partidos (`FORM_MATCHES`).
-3. `probability.py` combina esos promedios en goles esperados (xG simple) y
-   calcula P(1)/P(X)/P(2) con una distribución de Poisson. También le quita
-   el margen de la casa a las cuotas de Codere para obtener su probabilidad
-   implícita real.
-4. `value_finder.py` compara probabilidad del modelo vs. probabilidad
-   implícita; si la diferencia supera `EDGE_THRESHOLD` (5 puntos por
-   defecto), lo marca como cuota con valor.
-5. `notifier.py` envía un email con el resumen si se encontró algo.
+   el promedio de goles y córners a favor/en contra como local y como
+   visitante en sus últimos partidos (`FORM_MATCHES`), excluyendo amistosos.
+3. `probability.py` combina esos promedios (suavizados hacia un promedio
+   general, ver `SHRINKAGE_K`) en goles/córners esperados y calcula, con una
+   distribución de Poisson: P(1)/P(X)/P(2), P(over/under goles), P(ambos
+   marcan) y P(over/under córners). También le quita el margen de la casa a
+   las cuotas de Codere para obtener su probabilidad implícita real.
+4. `value_finder.py` compara, mercado por mercado, probabilidad del modelo
+   vs. probabilidad implícita; si la diferencia está entre `EDGE_THRESHOLD`
+   y `MAX_TRUSTED_EDGE`, lo marca como cuota con valor (los edges por encima
+   de `MAX_TRUSTED_EDGE` se descartan por ser casi siempre error de modelo).
+5. `notifier.py` envía un email con el resumen si se lo llama manualmente
+   (no se usa en la corrida automática de GitHub Actions, que en cambio
+   publica `docs/data.json` para la web).
 
 ## Ajustes útiles en `.env`
 
+- `TARGET_COUNTRIES`: países de Codere a incluir (por nombre exacto de
+  `CountryName`, separados por coma). Por defecto solo `Argentina`.
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
 - `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente
@@ -103,9 +111,12 @@ usar `--loop`.
 ## Limitaciones conocidas
 
 - Solo cubre partidos que Codere muestra como "destacados" en portada (no
-  todo el catálogo de ligas).
+  todo el catálogo de ligas), filtrados por país.
 - El emparejamiento de equipos entre Codere y Sofascore es por similitud de
   nombre; en casos raros puede fallar (se descarta el partido si la
   similitud es baja, ver `NAME_MATCH_THRESHOLD`).
-- No usa lesiones, alineaciones, clima ni otros factores: solo goles
-  históricos.
+- El mercado de córners necesita las estadísticas de cada partido reciente
+  (una petición extra por partido a Sofascore); si Sofascore no tiene esos
+  datos cargados para algún equipo, ese mercado se omite para ese partido.
+- No usa lesiones, alineaciones, clima ni otros factores: solo estadísticas
+  históricas de goles/córners.

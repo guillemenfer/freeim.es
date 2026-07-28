@@ -1,8 +1,8 @@
 """Cliente para la API interna (no oficial) de Sofascore.
 
-Se usa únicamente para resolver el id de un equipo por nombre y para leer
-su historial reciente de goles marcados/recibidos. Igual que con Codere, no
-es una API pública documentada.
+Se usa para resolver el id de un equipo por nombre y para leer su historial
+reciente de goles y córners a favor/en contra. Igual que con Codere, no es
+una API pública documentada.
 """
 import logging
 import unicodedata
@@ -61,6 +61,28 @@ def find_team_id(name: str) -> int | None:
     return team_id
 
 
+def _is_friendly(event: dict) -> bool:
+    """Amistosos (pretemporada, exhibición) meten goleadas contra rivales muy débiles
+    que no representan el nivel real del equipo, así que se descartan de la muestra."""
+    tournament = event.get("tournament") or {}
+    name = (tournament.get("name") or "").lower()
+    category = ((tournament.get("category") or {}).get("name") or "").lower()
+    return "friendly" in name or "friendlies" in category
+
+
+def get_recent_finished_events(team_id: int) -> list[dict]:
+    """Últimos partidos finalizados del equipo (sin amistosos), más recientes primero."""
+    data = get_json(f"{config.SOFASCORE_BASE_URL}/team/{team_id}/events/last/0")
+    if not data:
+        return []
+    events = [
+        e
+        for e in (data.get("events") or [])
+        if (e.get("status") or {}).get("type") == "finished" and not _is_friendly(e)
+    ]
+    return events[: config.FORM_MATCHES]
+
+
 @dataclass
 class GoalStats:
     avg_scored_home: float
@@ -74,31 +96,8 @@ class GoalStats:
     away_sample_size: int
 
 
-def _is_friendly(event: dict) -> bool:
-    """Amistosos (pretemporada, exhibición) meten goleadas contra rivales muy débiles
-    que no representan el nivel real del equipo, así que se descartan de la muestra."""
-    tournament = event.get("tournament") or {}
-    name = (tournament.get("name") or "").lower()
-    category = ((tournament.get("category") or {}).get("name") or "").lower()
-    return "friendly" in name or "friendlies" in category
-
-
-def get_team_goal_stats(team_id: int) -> GoalStats | None:
-    """Calcula promedios de goles a favor/en contra de los últimos partidos finalizados
-    (excluyendo amistosos, ver `_is_friendly`)."""
-    data = get_json(f"{config.SOFASCORE_BASE_URL}/team/{team_id}/events/last/0")
-    if not data:
-        return None
-
-    events = [
-        e
-        for e in (data.get("events") or [])
-        if (e.get("status") or {}).get("type") == "finished" and not _is_friendly(e)
-    ]
-    events = events[: config.FORM_MATCHES]
-    if not events:
-        return None
-
+def compute_goal_stats(team_id: int, events: list[dict]) -> GoalStats | None:
+    """Calcula promedios de goles a favor/en contra a partir de una lista de partidos ya traída."""
     home_scored, home_conceded = [], []
     away_scored, away_conceded = [], []
     all_scored, all_conceded = [], []
@@ -141,4 +140,74 @@ def get_team_goal_stats(team_id: int) -> GoalStats | None:
         sample_size=len(all_scored),
         home_sample_size=len(home_scored),
         away_sample_size=len(away_scored),
+    )
+
+
+@dataclass
+class CornerStats:
+    avg_corners_home: float
+    avg_corners_conceded_home: float
+    avg_corners_away: float
+    avg_corners_conceded_away: float
+    sample_size: int
+    home_sample_size: int
+    away_sample_size: int
+
+
+def _event_corner_counts(event_id: int) -> tuple[int, int] | None:
+    """Córners (local, visitante) de un partido finalizado, o None si no hay dato."""
+    data = get_json(f"{config.SOFASCORE_BASE_URL}/event/{event_id}/statistics")
+    if not data:
+        return None
+    for period in data.get("statistics") or []:
+        for group in period.get("groups") or []:
+            for item in group.get("statisticsItems") or []:
+                if item.get("name") == "Corner kicks":
+                    try:
+                        return int(item.get("home")), int(item.get("away"))
+                    except (TypeError, ValueError):
+                        return None
+    return None
+
+
+def compute_corner_stats(team_id: int, events: list[dict]) -> CornerStats | None:
+    """Calcula promedios de córners a favor/en contra pidiendo las estadísticas de cada
+    partido reciente ya traído (una petición extra por partido)."""
+    home_for, home_against = [], []
+    away_for, away_against = [], []
+
+    for ev in events:
+        home_team = (ev.get("homeTeam") or {}).get("id")
+        away_team = (ev.get("awayTeam") or {}).get("id")
+        counts = _event_corner_counts(ev.get("id"))
+        if counts is None:
+            continue
+        home_corners, away_corners = counts
+
+        if home_team == team_id:
+            home_for.append(home_corners)
+            home_against.append(away_corners)
+        elif away_team == team_id:
+            away_for.append(away_corners)
+            away_against.append(home_corners)
+
+    if not home_for and not away_for:
+        return None
+
+    def avg(values, fallback):
+        return sum(values) / len(values) if values else fallback
+
+    overall = (home_for + away_for) or [config.LEAGUE_AVG_CORNERS]
+    overall_avg = sum(overall) / len(overall)
+    overall_against = (home_against + away_against) or [config.LEAGUE_AVG_CORNERS]
+    overall_against_avg = sum(overall_against) / len(overall_against)
+
+    return CornerStats(
+        avg_corners_home=avg(home_for, overall_avg),
+        avg_corners_conceded_home=avg(home_against, overall_against_avg),
+        avg_corners_away=avg(away_for, overall_avg),
+        avg_corners_conceded_away=avg(away_against, overall_against_avg),
+        sample_size=len(home_for) + len(away_for),
+        home_sample_size=len(home_for),
+        away_sample_size=len(away_for),
     )

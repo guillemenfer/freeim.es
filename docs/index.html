@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cuotas con valor · Codere vs Sofascore</title>
+<title>Cuotas con valor · Liga Profesional Argentina</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -67,6 +67,15 @@
     padding: 0.2rem 0.55rem; border-radius: 999px;
     white-space: nowrap;
   }
+  .market-badge {
+    display: inline-block;
+    background: var(--border); color: var(--muted);
+    font-size: 0.72rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.02em;
+    padding: 0.1rem 0.45rem; border-radius: 6px;
+    margin-bottom: 0.3rem;
+  }
+  .selection { font-weight: 600; font-size: 0.95rem; margin-top: 0.1rem; }
   .details {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 0.4rem 1rem;
@@ -88,8 +97,8 @@
 </head>
 <body>
   <div class="wrap">
-    <h1>Cuotas con valor — Codere</h1>
-    <div class="subtitle">Comparadas contra un modelo estadístico basado en Sofascore</div>
+    <h1>Cuotas con valor — Liga Profesional Argentina</h1>
+    <div class="subtitle">1X2, goles, ambos marcan y córners — Codere vs modelo estadístico basado en Sofascore</div>
     <div class="meta">
       <span id="status">Cargando...</span>
       <span id="updated"></span>
@@ -125,25 +134,32 @@ async function load() {
       return;
     }
 
+    const marketNames = {"1x2": "1X2", "goals": "Goles", "btts": "Ambos marcan", "corners": "Córners"};
+
     bets.sort((a, b) => b.edge - a.edge);
     for (const b of bets) {
       const start = b.start_date ? new Date(b.start_date).toLocaleString("es-AR", {dateStyle:"short", timeStyle:"short"}) : "sin fecha";
+      const ctx = b.context || {};
+      const extra = ctx.total_corners_xg !== undefined
+        ? `Córners esperados: <b>${ctx.total_corners_xg}</b>`
+        : `xG: <b>${ctx.home_xg} - ${ctx.away_xg}</b>`;
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
         <div class="card-top">
           <div>
+            <span class="market-badge">${marketNames[b.market] || b.market}</span>
             <div class="match">${b.home} vs ${b.away}</div>
+            <div class="selection">${b.selection_label}</div>
             <div class="league">${b.league} · ${start}</div>
           </div>
           <div class="edge-badge">+${(b.edge * 100).toFixed(1)} pts</div>
         </div>
         <div class="details">
-          <div>Resultado: <b>${b.outcome_label}</b></div>
           <div>Cuota: <b>${b.odd.toFixed(2)}</b></div>
           <div>Modelo: <b>${(b.model_prob * 100).toFixed(1)}%</b></div>
           <div>Implícita: <b>${(b.implied_prob * 100).toFixed(1)}%</b></div>
-          <div>xG: <b>${b.home_xg.toFixed(2)} - ${b.away_xg.toFixed(2)}</b></div>
+          <div>${extra}</div>
         </div>
       `;
       listEl.appendChild(card);

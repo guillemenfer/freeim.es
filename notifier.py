@@ -4,7 +4,7 @@ import smtplib
 from email.mime.text import MIMEText
 
 import config
-from value_finder import OUTCOME_LABEL, ValueBet
+from value_finder import ValueBet
 
 logger = logging.getLogger(__name__)
 
@@ -20,10 +20,9 @@ def _build_body(value_bets: list[ValueBet]) -> str:
         fecha = m.start_date.strftime("%d/%m %H:%M") if m.start_date else "sin fecha"
         lines.append(
             f"- {m.home} vs {m.away} ({m.league}, {fecha})\n"
-            f"  Resultado: {OUTCOME_LABEL[vb.outcome]} | Cuota Codere: {vb.codere_odd:.2f}\n"
+            f"  Mercado: {vb.market} | Selección: {vb.selection_label} | Cuota Codere: {vb.codere_odd:.2f}\n"
             f"  Prob. modelo: {vb.model_prob*100:.1f}% | Prob. implícita (sin margen): "
-            f"{vb.implied_prob*100:.1f}% | Edge: +{vb.edge*100:.1f} pts\n"
-            f"  xG estimado: {vb.home_xg:.2f} - {vb.away_xg:.2f}"
+            f"{vb.implied_prob*100:.1f}% | Edge: +{vb.edge*100:.1f} pts"
         )
         lines.append("")
     lines.append(
