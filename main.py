@@ -55,7 +55,15 @@ def publish_json(path: str, value_bets: list[ValueBet]) -> None:
 
 def run_once(dry_run: bool, publish_json_path: str | None) -> None:
     logger.info("Buscando cuotas con valor...")
-    value_bets = find_value_bets()
+    value_bets, stats = find_value_bets()
+
+    if stats.looks_blocked:
+        print(
+            f"Sofascore pareció bloquear esta corrida ({stats.teams_resolved}/{stats.teams_attempted} "
+            "equipos resueltos). No se publican ni envían resultados esta vez."
+        )
+        return
+
     print_report(value_bets)
     if publish_json_path:
         publish_json(publish_json_path, value_bets)

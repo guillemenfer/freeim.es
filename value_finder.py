@@ -158,19 +158,37 @@ def _analyze_corners(m: CodereMatch, home_id: int, away_id: int, home_events: li
     )
 
 
-def _collect_team_data(matches: list[CodereMatch]) -> dict[int, dict]:
+@dataclass
+class RunStats:
+    total_matches: int
+    teams_attempted: int
+    teams_resolved: int
+
+    @property
+    def looks_blocked(self) -> bool:
+        """Si casi ningún equipo se pudo resolver en Sofascore, probablemente no es que
+        realmente no existan (nombres raros aislados sí pasan) sino que Sofascore está
+        bloqueando las peticiones (ej. IP de datacenter en GitHub Actions)."""
+        if self.teams_attempted < 4:
+            return False
+        return (self.teams_resolved / self.teams_attempted) < 0.2
+
+
+def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[int, dict], int]:
     """Resuelve equipo->id y trae su historial de goles una sola vez por equipo
     (varios partidos de una misma ronda pueden repetir equipos)."""
     team_data: dict[int, dict] = {}
+    attempted_names: set[str] = set()
     for m in matches:
         for name in (m.home, m.away):
+            attempted_names.add(name)
             team_id = sofascore_client.find_team_id(name)
             if not team_id or team_id in team_data:
                 continue
             events = sofascore_client.get_recent_finished_events(team_id)
             goal_stats = sofascore_client.compute_goal_stats(team_id, events)
             team_data[team_id] = {"events": events, "goal_stats": goal_stats}
-    return team_data
+    return team_data, len(attempted_names)
 
 
 def _league_avg_goals(team_data: dict[int, dict]) -> float:
@@ -207,12 +225,21 @@ def _analyze_match(m: CodereMatch, home_id: int, away_id: int, team_data: dict, 
     return out
 
 
-def find_value_bets(now: datetime | None = None) -> list[ValueBet]:
+def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunStats]:
     now = now or datetime.now()
     matches = fetch_featured_soccer_matches()
     matches = [m for m in matches if not m.start_date or m.start_date > now]
 
-    team_data = _collect_team_data(matches)
+    team_data, teams_attempted = _collect_team_data(matches)
+    stats = RunStats(total_matches=len(matches), teams_attempted=teams_attempted, teams_resolved=len(team_data))
+    if stats.looks_blocked:
+        logger.warning(
+            "Solo se resolvieron %d/%d equipos en Sofascore: probablemente bloqueado "
+            "(no se publican resultados esta pasada para no pisar el último dato bueno)",
+            stats.teams_resolved, stats.teams_attempted,
+        )
+        return [], stats
+
     league_avg_goals = _league_avg_goals(team_data)
 
     all_value_bets: list[ValueBet] = []
@@ -227,4 +254,4 @@ def find_value_bets(now: datetime | None = None) -> list[ValueBet]:
             logger.exception("Error analizando %s vs %s", m.home, m.away)
 
     all_value_bets.sort(key=lambda vb: vb.edge, reverse=True)
-    return all_value_bets
+    return all_value_bets, stats
