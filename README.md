@@ -1,10 +1,12 @@
-# Detector de cuotas con valor - Liga Profesional Argentina
+# Detector de cuotas con valor - Liga Profesional Argentina, Eliteserien y Allsvenskan
 
-Compara las cuotas de fútbol de la Liga Profesional Argentina publicadas por
-Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de Córners) con
-una probabilidad estimada a partir del historial reciente de cada equipo
-(datos de ESPN), usando un modelo de Poisson. Solo muestra selecciones que
-cumplen **las dos condiciones a la vez**:
+Compara las cuotas de fútbol de las ligas configuradas (por defecto: Liga
+Profesional Argentina, Eliteserien de Noruega y Allsvenskan de Suecia)
+publicadas por Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de
+Córners) con una probabilidad estimada a partir del historial reciente de
+cada equipo (datos de ESPN), usando un modelo de Poisson calibrado por
+separado para cada liga. Solo muestra selecciones que cumplen **las dos
+condiciones a la vez**:
 
 - **Valor**: la cuota de Codere implica menos probabilidad de la que estima
   el modelo (edge entre `EDGE_THRESHOLD` y `MAX_TRUSTED_EDGE`).
@@ -83,8 +85,8 @@ usar `--loop`.
 ## Cómo funciona
 
 1. `codere_client.py` trae el fixture completo de las ligas configuradas en
-   `CODERE_LEAGUE_NODE_IDS` (Liga Profesional Argentina por defecto) con 4
-   mercados: 1X2, Total de Goles, Ambos Marcan y Total de Córners.
+   `CODERE_LEAGUE_NODE_IDS` con 4 mercados: 1X2, Total de Goles, Ambos Marcan
+   y Total de Córners.
 2. `espn_client.py` busca cada equipo por nombre en ESPN y calcula
    el promedio de goles y córners a favor/en contra como local y como
    visitante en sus últimos partidos (`FORM_MATCHES`), excluyendo amistosos.
@@ -104,14 +106,15 @@ usar `--loop`.
 ## Ajustes útiles en `.env`
 
 - `CODERE_LEAGUE_NODE_IDS`: ligas de Codere a seguir (`nodeId:Nombre`,
-  separadas por coma). Por defecto solo Liga Profesional Argentina. Para
-  agregar otra liga, hay que ubicar su NodeId: en la web de Codere, entrar a
-  Fútbol → el país → la liga, y mirar en las herramientas de desarrollador
-  la llamada a `NavigationService/Event/GetEvents?parentId=<NodeId>`.
-- `ESPN_LEAGUE_SLUG`: liga de ESPN de la que se traen las estadísticas
-  (`arg.1` = Liga Profesional Argentina). **Si cambiás `CODERE_LEAGUE_NODE_IDS`
-  a otra liga, hay que actualizar también este valor** al slug equivalente
-  en ESPN (se puede ubicar navegando espn.com/soccer/ y mirando la URL).
+  separadas por coma). Para agregar otra liga, hay que ubicar su NodeId: en
+  la web de Codere, entrar a Fútbol → el país → la liga, y mirar en las
+  herramientas de desarrollador la llamada a
+  `NavigationService/Event/GetEvents?parentId=<NodeId>`.
+- `ESPN_LEAGUE_SLUGS`: mapea cada nombre de liga (el mismo `Nombre` usado en
+  `CODERE_LEAGUE_NODE_IDS`) a su slug en ESPN. **Toda liga que agregues a
+  `CODERE_LEAGUE_NODE_IDS` necesita también su entrada acá**, si no, se
+  ignora esa liga (queda un aviso en el log). El slug se puede ubicar
+  navegando espn.com/soccer/ y mirando la URL de la liga.
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
 - `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente

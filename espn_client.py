@@ -51,7 +51,7 @@ def _get_league_teams(league_slug: str) -> list[dict]:
     return teams
 
 
-def find_team_id(name: str, league_slug: str = config.ESPN_LEAGUE_SLUG) -> int | None:
+def find_team_id(name: str, league_slug: str) -> int | None:
     """Busca un equipo por nombre entre los de la liga (lista trae 30 equipos como
     mucho, así que se compara localmente en vez de pedirle 'búsqueda' al servidor)."""
     cache_key = f"{league_slug}:{_normalize(name)}"
@@ -79,7 +79,7 @@ def find_team_id(name: str, league_slug: str = config.ESPN_LEAGUE_SLUG) -> int |
     return result
 
 
-def get_recent_finished_events(team_id: int, league_slug: str = config.ESPN_LEAGUE_SLUG) -> list[dict]:
+def get_recent_finished_events(team_id: int, league_slug: str) -> list[dict]:
     """Últimos partidos finalizados del equipo en esta liga, más recientes primero."""
     data = get_json(f"{ESPN_BASE_URL}/{league_slug}/teams/{team_id}/schedule")
     if not data:
@@ -192,9 +192,7 @@ def _event_corner_counts(event_id: str, league_slug: str) -> dict[str, int] | No
     return result or None
 
 
-def compute_corner_stats(
-    team_id: int, events: list[dict], league_slug: str = config.ESPN_LEAGUE_SLUG
-) -> CornerStats | None:
+def compute_corner_stats(team_id: int, events: list[dict], league_slug: str) -> CornerStats | None:
     home_for, home_against = [], []
     away_for, away_against = [], []
 

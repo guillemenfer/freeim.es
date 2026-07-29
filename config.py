@@ -12,18 +12,25 @@ CODERE_MARKET_1X2 = 1
 CODERE_MARKET_TOTAL_GOALS = 18
 CODERE_MARKET_BTTS = 31
 CODERE_MARKET_CORNERS = 54
-# NodeId de liga en Codere -> nombre. Se pide el fixture completo de cada una
-# (no solo lo "destacado" en portada). Liga Profesional Argentina = 3253425078.
+# NodeId de liga en Codere -> nombre (debe coincidir con el LeagueName que devuelve
+# Codere). Se pide el fixture completo de cada una (no solo lo "destacado" en portada).
+_DEFAULT_LEAGUES = "3253425078:Liga Profesional,3788530433:Eliteserien,2995719538:Allsvenskan"
 CODERE_LEAGUE_NODE_IDS = {
     nid.strip(): name.strip()
-    for pair in os.getenv("CODERE_LEAGUE_NODE_IDS", "3253425078:Liga Profesional").split(",")
+    for pair in os.getenv("CODERE_LEAGUE_NODE_IDS", _DEFAULT_LEAGUES).split(",")
     for nid, name in [pair.split(":", 1)]
     if pair.strip()
 }
 
 # --- ESPN (fuente de estadísticas) ---
-# Slug de liga de ESPN (soccer). Liga Profesional Argentina = "arg.1".
-ESPN_LEAGUE_SLUG = os.getenv("ESPN_LEAGUE_SLUG", "arg.1")
+# Nombre de liga (igual que arriba) -> slug de liga de ESPN (soccer).
+_DEFAULT_ESPN_SLUGS = "Liga Profesional:arg.1,Eliteserien:nor.1,Allsvenskan:swe.1"
+ESPN_LEAGUE_SLUGS = {
+    name.strip(): slug.strip()
+    for pair in os.getenv("ESPN_LEAGUE_SLUGS", _DEFAULT_ESPN_SLUGS).split(",")
+    for name, slug in [pair.split(":", 1)]
+    if pair.strip()
+}
 FORM_MATCHES = int(os.getenv("FORM_MATCHES", "8"))  # partidos recientes usados para el modelo
 LEAGUE_AVG_CORNERS = float(os.getenv("LEAGUE_AVG_CORNERS", "5.0"))  # córners promedio de un equipo por partido
 

@@ -147,12 +147,13 @@ def _analyze_btts(m: CodereMatch, home_xg: float, away_xg: float, out: list[Valu
 
 
 def _analyze_corners(
-    m: CodereMatch, home_id: int, away_id: int, home_events: list, away_events: list, out: list[ValueBet],
+    m: CodereMatch, home_id: int, away_id: int, home_events: list, away_events: list,
+    league_slug: str, out: list[ValueBet],
 ) -> None:
     if not m.odds_corners:
         return
-    home_corner_stats = espn_client.compute_corner_stats(home_id, home_events)
-    away_corner_stats = espn_client.compute_corner_stats(away_id, away_events)
+    home_corner_stats = espn_client.compute_corner_stats(home_id, home_events, league_slug)
+    away_corner_stats = espn_client.compute_corner_stats(away_id, away_events, league_slug)
     if not home_corner_stats or not away_corner_stats:
         logger.info("Sin historial de córners suficiente para %s vs %s, se omite ese mercado", m.home, m.away)
         return
@@ -188,43 +189,61 @@ class RunStats:
         return (self.teams_resolved / self.teams_attempted) < 0.2
 
 
-def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[int, dict], int]:
-    """Resuelve equipo->id y trae su historial de goles una sola vez por equipo
-    (varios partidos de una misma ronda pueden repetir equipos)."""
-    team_data: dict[int, dict] = {}
-    attempted_names: set[str] = set()
+def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[tuple[str, int], dict], int]:
+    """Resuelve equipo->id (dentro de la liga de ESPN que corresponda) y trae su
+    historial de goles una sola vez por equipo (varios partidos de una misma ronda
+    pueden repetir equipos). Clave: (slug_liga_espn, team_id), para no mezclar
+    equipos de ligas distintas."""
+    team_data: dict[tuple[str, int], dict] = {}
+    attempted = set()
+    missing_leagues = set()
     for m in matches:
+        league_slug = config.ESPN_LEAGUE_SLUGS.get(m.league)
+        if not league_slug:
+            missing_leagues.add(m.league)
+            continue
         for name in (m.home, m.away):
-            attempted_names.add(name)
-            team_id = espn_client.find_team_id(name)
-            if not team_id or team_id in team_data:
+            attempted.add((league_slug, name))
+            team_id = espn_client.find_team_id(name, league_slug)
+            key = (league_slug, team_id)
+            if not team_id or key in team_data:
                 continue
-            events = espn_client.get_recent_finished_events(team_id)
+            events = espn_client.get_recent_finished_events(team_id, league_slug)
             goal_stats = espn_client.compute_goal_stats(team_id, events)
-            team_data[team_id] = {"events": events, "goal_stats": goal_stats}
-    return team_data, len(attempted_names)
+            team_data[key] = {"events": events, "goal_stats": goal_stats}
+    if missing_leagues:
+        logger.warning(
+            "Sin slug de ESPN configurado para: %s (agregalo a ESPN_LEAGUE_SLUGS)",
+            ", ".join(missing_leagues),
+        )
+    return team_data, len(attempted)
 
 
-def _league_avg_goals(team_data: dict[int, dict]) -> float:
-    """Calibra el promedio de goles 'típico' con los equipos de esta misma liga,
-    en vez de usar una constante mundial que puede no calzar (ligas más o menos
-    ofensivas que el promedio)."""
-    avgs = [d["goal_stats"].avg_scored_overall for d in team_data.values() if d["goal_stats"]]
-    if not avgs:
-        return probability.DEFAULT_LEAGUE_AVG_GOALS
-    league_avg = sum(avgs) / len(avgs)
-    logger.info(
-        "Promedio de goles calibrado para esta liga: %.2f goles/equipo/partido (sobre %d equipos)",
-        league_avg, len(avgs),
-    )
-    return league_avg
+def _league_avg_goals_by_league(team_data: dict[tuple[str, int], dict]) -> dict[str, float]:
+    """Calibra el promedio de goles 'típico' de cada liga con sus propios equipos,
+    en vez de usar una constante mundial (o mezclar ligas más o menos ofensivas que
+    el promedio, ej. Argentina y Noruega no anotan igual)."""
+    by_league: dict[str, list[float]] = {}
+    for (league_slug, _team_id), d in team_data.items():
+        if d["goal_stats"]:
+            by_league.setdefault(league_slug, []).append(d["goal_stats"].avg_scored_overall)
+
+    result = {}
+    for league_slug, avgs in by_league.items():
+        result[league_slug] = sum(avgs) / len(avgs)
+        logger.info(
+            "Promedio de goles calibrado para %s: %.2f goles/equipo/partido (sobre %d equipos)",
+            league_slug, result[league_slug], len(avgs),
+        )
+    return result
 
 
 def _analyze_match(
-    m: CodereMatch, home_id: int, away_id: int, team_data: dict, league_avg_goals: float
+    m: CodereMatch, home_id: int, away_id: int, league_slug: str,
+    team_data: dict[tuple[str, int], dict], league_avg_goals: float,
 ) -> list[ValueBet]:
-    home_stats = team_data[home_id]["goal_stats"]
-    away_stats = team_data[away_id]["goal_stats"]
+    home_stats = team_data[(league_slug, home_id)]["goal_stats"]
+    away_stats = team_data[(league_slug, away_id)]["goal_stats"]
     if not home_stats or not away_stats:
         logger.info("Sin historial suficiente para %s vs %s, se omite", m.home, m.away)
         return []
@@ -236,7 +255,9 @@ def _analyze_match(
     _analyze_goals(m, home_xg, away_xg, out)
     _analyze_btts(m, home_xg, away_xg, out)
     _analyze_corners(
-        m, home_id, away_id, team_data[home_id]["events"], team_data[away_id]["events"], out,
+        m, home_id, away_id,
+        team_data[(league_slug, home_id)]["events"], team_data[(league_slug, away_id)]["events"],
+        league_slug, out,
     )
     return out
 
@@ -257,16 +278,24 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunSta
         )
         return [], stats
 
-    league_avg_goals = _league_avg_goals(team_data)
+    league_avg_goals_map = _league_avg_goals_by_league(team_data)
 
     all_bets: list[ValueBet] = []
     for m in matches:
-        home_id = espn_client.find_team_id(m.home)
-        away_id = espn_client.find_team_id(m.away)
-        if not home_id or not away_id or home_id not in team_data or away_id not in team_data:
+        league_slug = config.ESPN_LEAGUE_SLUGS.get(m.league)
+        if not league_slug:
             continue
+        home_id = espn_client.find_team_id(m.home, league_slug)
+        away_id = espn_client.find_team_id(m.away, league_slug)
+        if (
+            not home_id or not away_id
+            or (league_slug, home_id) not in team_data
+            or (league_slug, away_id) not in team_data
+        ):
+            continue
+        league_avg_goals = league_avg_goals_map.get(league_slug, probability.DEFAULT_LEAGUE_AVG_GOALS)
         try:
-            all_bets.extend(_analyze_match(m, home_id, away_id, team_data, league_avg_goals))
+            all_bets.extend(_analyze_match(m, home_id, away_id, league_slug, team_data, league_avg_goals))
         except Exception:
             logger.exception("Error analizando %s vs %s", m.home, m.away)
 
