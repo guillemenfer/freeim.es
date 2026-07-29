@@ -2,7 +2,9 @@ name: Detectar cuotas con valor
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Evitar los minutos :00/:30 en punto: es cuando más carga tiene GitHub Actions
+    # (todo el mundo agenda sus cron ahí) y las corridas se saltean o retrasan más.
+    - cron: "7,37 * * * *"
   workflow_dispatch: {}
 
 permissions:
