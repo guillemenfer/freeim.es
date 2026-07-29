@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-07-29T02:07:32.238607+00:00",
+  "generated_at": "2026-07-29T03:23:23.735915+00:00",
   "bets": [
+    {
+      "home": "Ind. Rivadavia",
+      "away": "Huracán",
+      "league": "Liga Profesional",
+      "start_date": "2026-07-30T22:00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.6718,
+      "implied_prob": 0.5179,
+      "edge": 0.1539,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.04,
+        "line": 8.5
+      }
+    },
     {
       "home": "Independiente",
       "away": "Newell's Old Boys",
@@ -104,27 +124,6 @@
       }
     },
     {
-      "home": "Belgrano",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-01T21:00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.7075,
-      "implied_prob": 0.5867,
-      "edge": 0.1208,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.44,
-        "away_xg": 1.04,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Ind. Rivadavia",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -132,9 +131,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7059,
+      "model_prob": 0.7069,
       "implied_prob": 0.5867,
-      "edge": 0.1192,
+      "edge": 0.1202,
       "tags": [
         "value",
         "likely"
@@ -142,6 +141,27 @@
       "context": {
         "home_xg": 1.34,
         "away_xg": 1.13,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Belgrano",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-01T21:00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.693,
+      "implied_prob": 0.5867,
+      "edge": 0.1063,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.35,
+        "away_xg": 1.05,
         "line": 1.5
       }
     },
@@ -174,9 +194,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6749,
+      "model_prob": 0.676,
       "implied_prob": 0.5867,
-      "edge": 0.0882,
+      "edge": 0.0893,
       "tags": [
         "value",
         "likely"
@@ -195,9 +215,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.697,
+      "model_prob": 0.698,
       "implied_prob": 0.6104,
-      "edge": 0.0866,
+      "edge": 0.0876,
       "tags": [
         "value",
         "likely"
@@ -236,9 +256,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6868,
+      "model_prob": 0.6855,
       "implied_prob": 0.6104,
-      "edge": 0.0764,
+      "edge": 0.0751,
       "tags": [
         "value",
         "likely"
@@ -278,9 +298,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.45,
-      "model_prob": 0.6943,
+      "model_prob": 0.6932,
       "implied_prob": 0.6234,
-      "edge": 0.0709,
+      "edge": 0.0698,
       "tags": [
         "value",
         "likely"
@@ -312,27 +332,6 @@
       }
     },
     {
-      "home": "River Plate",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-02T22:15:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.674,
-      "implied_prob": 0.6104,
-      "edge": 0.0637,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.25,
-        "away_xg": 1.07,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Unión de Santa Fe",
       "away": "Lanús",
       "league": "Liga Profesional",
@@ -340,15 +339,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6574,
+      "model_prob": 0.6588,
       "implied_prob": 0.5952,
-      "edge": 0.0622,
+      "edge": 0.0635,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.26,
+        "home_xg": 1.27,
         "away_xg": 0.99,
         "line": 1.5
       }
