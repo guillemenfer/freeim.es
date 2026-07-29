@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T16:15:13.687938+00:00",
+  "generated_at": "2026-07-29T20:20:48.944008+00:00",
   "bets": [
     {
       "home": "Ind. Rivadavia",
@@ -39,26 +39,6 @@
       "context": {
         "total_corners_xg": 10.21,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Barracas Central",
-      "away": "Aldosivi",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-29T17:30:00",
-      "market": "corners",
-      "selection_label": "Más de 7.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6702,
-      "implied_prob": 0.5342,
-      "edge": 0.136,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 8.95,
-        "line": 7.5
       }
     },
     {
