@@ -14,7 +14,10 @@ CODERE_MARKET_BTTS = 31
 CODERE_MARKET_CORNERS = 54
 # NodeId de liga en Codere -> nombre (debe coincidir con el LeagueName que devuelve
 # Codere). Se pide el fixture completo de cada una (no solo lo "destacado" en portada).
-_DEFAULT_LEAGUES = "3253425078:Liga Profesional,3788530433:Eliteserien,2995719538:Allsvenskan"
+_DEFAULT_LEAGUES = (
+    "3253425078:Liga Profesional,3788530433:Eliteserien,2995719538:Allsvenskan,"
+    "2995723493:Veikkausliiga"
+)
 CODERE_LEAGUE_NODE_IDS = {
     nid.strip(): name.strip()
     for pair in os.getenv("CODERE_LEAGUE_NODE_IDS", _DEFAULT_LEAGUES).split(",")
@@ -22,14 +25,36 @@ CODERE_LEAGUE_NODE_IDS = {
     if pair.strip()
 }
 
-# --- ESPN (fuente de estadísticas) ---
-# Nombre de liga (igual que arriba) -> slug de liga de ESPN (soccer).
+# --- Fuentes de estadísticas ---
+# Nombre de liga (igual que arriba) -> proveedor de estadísticas ("espn" o "flashscore").
+# ESPN no tiene datos reales para todas las ligas (ej. Veikkausliiga de Finlandia le
+# devuelve una temporada vacía/desactualizada); para esas se usa Flashscore en cambio.
+_DEFAULT_STATS_PROVIDERS = (
+    "Liga Profesional:espn,Eliteserien:espn,Allsvenskan:espn,Veikkausliiga:flashscore"
+)
+STATS_PROVIDERS = {
+    name.strip(): provider.strip()
+    for pair in os.getenv("STATS_PROVIDERS", _DEFAULT_STATS_PROVIDERS).split(",")
+    for name, provider in [pair.split(":", 1)]
+    if pair.strip()
+}
+# Nombre de liga -> slug de liga de ESPN (soccer), para las que usan proveedor "espn".
 _DEFAULT_ESPN_SLUGS = "Liga Profesional:arg.1,Eliteserien:nor.1,Allsvenskan:swe.1"
 ESPN_LEAGUE_SLUGS = {
     name.strip(): slug.strip()
     for pair in os.getenv("ESPN_LEAGUE_SLUGS", _DEFAULT_ESPN_SLUGS).split(",")
     for name, slug in [pair.split(":", 1)]
     if pair.strip()
+}
+# Nombre de liga -> "tournamentId:tournamentStageId" de Flashscore, para las que usan
+# proveedor "flashscore". Se ubican inspeccionando las llamadas de red que hace
+# flashscore.com a "2.flashscore.ninja/2/x/feed/to_<tournamentId>_<stageId>_1".
+_DEFAULT_FLASHSCORE_TOURNAMENTS = "Veikkausliiga:jg5JgLZo:h6IND07k"
+FLASHSCORE_TOURNAMENTS = {
+    name.strip(): f"{tid.strip()}:{stage.strip()}"
+    for entry in os.getenv("FLASHSCORE_TOURNAMENTS", _DEFAULT_FLASHSCORE_TOURNAMENTS).split(",")
+    for name, tid, stage in [entry.split(":", 2)]
+    if entry.strip()
 }
 FORM_MATCHES = int(os.getenv("FORM_MATCHES", "8"))  # partidos recientes usados para el modelo
 LEAGUE_AVG_CORNERS = float(os.getenv("LEAGUE_AVG_CORNERS", "5.0"))  # córners promedio de un equipo por partido

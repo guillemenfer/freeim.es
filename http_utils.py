@@ -50,3 +50,20 @@ def get_json(url: str, params: dict | None = None, retries: int = 3):
             time.sleep(1.5 * attempt)
     logger.error("No se pudo obtener %s tras %d intentos: %s", url, retries, last_exc)
     return None
+
+
+def get_text(url: str, headers: dict | None = None, retries: int = 3) -> str | None:
+    """GET que devuelve texto plano (para APIs que no responden JSON, ej. Flashscore)."""
+    last_exc = None
+    for attempt in range(1, retries + 1):
+        _throttle()
+        try:
+            resp = _session.get(url, headers=headers, timeout=config.REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            return resp.text
+        except RequestException as exc:
+            last_exc = exc
+            logger.warning("Fallo GET %s (intento %d/%d): %s", url, attempt, retries, exc)
+            time.sleep(1.5 * attempt)
+    logger.error("No se pudo obtener %s tras %d intentos: %s", url, retries, last_exc)
+    return None

@@ -1,6 +1,8 @@
-"""Orquesta la búsqueda de cuotas con valor: Codere (cuotas) vs ESPN (forma real).
+"""Orquesta la búsqueda de cuotas con valor: Codere (cuotas) vs estadísticas reales.
 
 Evalúa 4 mercados por partido: 1X2, Total de Goles, Ambos Marcan y Total de Córners.
+Cada liga usa la fuente de estadísticas configurada en STATS_PROVIDERS (ESPN por
+defecto, Flashscore para las que ESPN no cubre bien).
 """
 import logging
 from dataclasses import dataclass, field
@@ -9,6 +11,7 @@ from datetime import datetime
 import config
 import probability
 import espn_client
+import flashscore_client
 from codere_client import CodereMatch, fetch_featured_soccer_matches
 from probability import (
     btts_probabilities,
@@ -23,6 +26,19 @@ from probability import (
 logger = logging.getLogger(__name__)
 
 OUTCOME_LABEL = {"1": "Local", "X": "Empate", "2": "Visitante"}
+
+_PROVIDERS = {"espn": espn_client, "flashscore": flashscore_client}
+
+
+def _resolve_provider(league_name: str):
+    """Devuelve (módulo_proveedor, identificador_de_liga_para_ese_proveedor) o
+    (None, None) si la liga no está configurada en ningún proveedor."""
+    provider_name = config.STATS_PROVIDERS.get(league_name)
+    if provider_name == "espn":
+        return espn_client, config.ESPN_LEAGUE_SLUGS.get(league_name)
+    if provider_name == "flashscore":
+        return flashscore_client, config.FLASHSCORE_TOURNAMENTS.get(league_name)
+    return None, None
 
 
 @dataclass
@@ -147,13 +163,13 @@ def _analyze_btts(m: CodereMatch, home_xg: float, away_xg: float, out: list[Valu
 
 
 def _analyze_corners(
-    m: CodereMatch, home_id: int, away_id: int, home_events: list, away_events: list,
-    league_slug: str, out: list[ValueBet],
+    m: CodereMatch, provider, identifier: str, home_id, away_id, home_events: list, away_events: list,
+    out: list[ValueBet],
 ) -> None:
     if not m.odds_corners:
         return
-    home_corner_stats = espn_client.compute_corner_stats(home_id, home_events, league_slug)
-    away_corner_stats = espn_client.compute_corner_stats(away_id, away_events, league_slug)
+    home_corner_stats = provider.compute_corner_stats(home_id, home_events, identifier)
+    away_corner_stats = provider.compute_corner_stats(away_id, away_events, identifier)
     if not home_corner_stats or not away_corner_stats:
         logger.info("Sin historial de córners suficiente para %s vs %s, se omite ese mercado", m.home, m.away)
         return
@@ -181,69 +197,70 @@ class RunStats:
 
     @property
     def looks_blocked(self) -> bool:
-        """Si casi ningún equipo se pudo resolver en ESPN, probablemente no es que
-        realmente no existan (nombres raros aislados sí pasan) sino que ESPN está
-        bloqueando las peticiones (ej. IP de datacenter en GitHub Actions)."""
+        """Si casi ningún equipo se pudo resolver en las fuentes de estadísticas,
+        probablemente no es que realmente no existan (nombres raros aislados sí
+        pasan) sino que alguna fuente está bloqueando las peticiones (ej. IP de
+        datacenter en GitHub Actions)."""
         if self.teams_attempted < 4:
             return False
         return (self.teams_resolved / self.teams_attempted) < 0.2
 
 
-def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[tuple[str, int], dict], int]:
-    """Resuelve equipo->id (dentro de la liga de ESPN que corresponda) y trae su
-    historial de goles una sola vez por equipo (varios partidos de una misma ronda
-    pueden repetir equipos). Clave: (slug_liga_espn, team_id), para no mezclar
-    equipos de ligas distintas."""
-    team_data: dict[tuple[str, int], dict] = {}
+def _collect_team_data(matches: list[CodereMatch]) -> tuple[dict[tuple[str, object], dict], int]:
+    """Resuelve equipo->id (dentro de la liga que corresponda) y trae su historial
+    de goles una sola vez por equipo (varios partidos de una misma ronda pueden
+    repetir equipos). Clave: (identificador_de_liga, team_id), para no mezclar
+    equipos de ligas/proveedores distintos."""
+    team_data: dict[tuple[str, object], dict] = {}
     attempted = set()
     missing_leagues = set()
     for m in matches:
-        league_slug = config.ESPN_LEAGUE_SLUGS.get(m.league)
-        if not league_slug:
+        provider, identifier = _resolve_provider(m.league)
+        if not provider or not identifier:
             missing_leagues.add(m.league)
             continue
         for name in (m.home, m.away):
-            attempted.add((league_slug, name))
-            team_id = espn_client.find_team_id(name, league_slug)
-            key = (league_slug, team_id)
+            attempted.add((identifier, name))
+            team_id = provider.find_team_id(name, identifier)
+            key = (identifier, team_id)
             if not team_id or key in team_data:
                 continue
-            events = espn_client.get_recent_finished_events(team_id, league_slug)
-            goal_stats = espn_client.compute_goal_stats(team_id, events)
+            events = provider.get_recent_finished_events(team_id, identifier)
+            goal_stats = provider.compute_goal_stats(team_id, events)
             team_data[key] = {"events": events, "goal_stats": goal_stats}
     if missing_leagues:
         logger.warning(
-            "Sin slug de ESPN configurado para: %s (agregalo a ESPN_LEAGUE_SLUGS)",
+            "Sin proveedor de estadísticas configurado para: %s (agregalo a STATS_PROVIDERS)",
             ", ".join(missing_leagues),
         )
     return team_data, len(attempted)
 
 
-def _league_avg_goals_by_league(team_data: dict[tuple[str, int], dict]) -> dict[str, float]:
+def _league_avg_goals_by_league(team_data: dict[tuple[str, object], dict]) -> dict[str, float]:
     """Calibra el promedio de goles 'típico' de cada liga con sus propios equipos,
     en vez de usar una constante mundial (o mezclar ligas más o menos ofensivas que
     el promedio, ej. Argentina y Noruega no anotan igual)."""
     by_league: dict[str, list[float]] = {}
-    for (league_slug, _team_id), d in team_data.items():
+    for (identifier, _team_id), d in team_data.items():
         if d["goal_stats"]:
-            by_league.setdefault(league_slug, []).append(d["goal_stats"].avg_scored_overall)
+            by_league.setdefault(identifier, []).append(d["goal_stats"].avg_scored_overall)
 
     result = {}
-    for league_slug, avgs in by_league.items():
-        result[league_slug] = sum(avgs) / len(avgs)
+    for identifier, avgs in by_league.items():
+        result[identifier] = sum(avgs) / len(avgs)
         logger.info(
             "Promedio de goles calibrado para %s: %.2f goles/equipo/partido (sobre %d equipos)",
-            league_slug, result[league_slug], len(avgs),
+            identifier, result[identifier], len(avgs),
         )
     return result
 
 
 def _analyze_match(
-    m: CodereMatch, home_id: int, away_id: int, league_slug: str,
-    team_data: dict[tuple[str, int], dict], league_avg_goals: float,
+    m: CodereMatch, provider, identifier: str, home_id, away_id,
+    team_data: dict[tuple[str, object], dict], league_avg_goals: float,
 ) -> list[ValueBet]:
-    home_stats = team_data[(league_slug, home_id)]["goal_stats"]
-    away_stats = team_data[(league_slug, away_id)]["goal_stats"]
+    home_stats = team_data[(identifier, home_id)]["goal_stats"]
+    away_stats = team_data[(identifier, away_id)]["goal_stats"]
     if not home_stats or not away_stats:
         logger.info("Sin historial suficiente para %s vs %s, se omite", m.home, m.away)
         return []
@@ -255,9 +272,9 @@ def _analyze_match(
     _analyze_goals(m, home_xg, away_xg, out)
     _analyze_btts(m, home_xg, away_xg, out)
     _analyze_corners(
-        m, home_id, away_id,
-        team_data[(league_slug, home_id)]["events"], team_data[(league_slug, away_id)]["events"],
-        league_slug, out,
+        m, provider, identifier, home_id, away_id,
+        team_data[(identifier, home_id)]["events"], team_data[(identifier, away_id)]["events"],
+        out,
     )
     return out
 
@@ -272,7 +289,7 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunSta
     stats = RunStats(total_matches=len(matches), teams_attempted=teams_attempted, teams_resolved=len(team_data))
     if stats.looks_blocked:
         logger.warning(
-            "Solo se resolvieron %d/%d equipos en ESPN: probablemente bloqueado "
+            "Solo se resolvieron %d/%d equipos: probablemente bloqueado en alguna fuente "
             "(no se publican resultados esta pasada para no pisar el último dato bueno)",
             stats.teams_resolved, stats.teams_attempted,
         )
@@ -282,20 +299,20 @@ def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunSta
 
     all_bets: list[ValueBet] = []
     for m in matches:
-        league_slug = config.ESPN_LEAGUE_SLUGS.get(m.league)
-        if not league_slug:
+        provider, identifier = _resolve_provider(m.league)
+        if not provider or not identifier:
             continue
-        home_id = espn_client.find_team_id(m.home, league_slug)
-        away_id = espn_client.find_team_id(m.away, league_slug)
+        home_id = provider.find_team_id(m.home, identifier)
+        away_id = provider.find_team_id(m.away, identifier)
         if (
             not home_id or not away_id
-            or (league_slug, home_id) not in team_data
-            or (league_slug, away_id) not in team_data
+            or (identifier, home_id) not in team_data
+            or (identifier, away_id) not in team_data
         ):
             continue
-        league_avg_goals = league_avg_goals_map.get(league_slug, probability.DEFAULT_LEAGUE_AVG_GOALS)
+        league_avg_goals = league_avg_goals_map.get(identifier, probability.DEFAULT_LEAGUE_AVG_GOALS)
         try:
-            all_bets.extend(_analyze_match(m, home_id, away_id, league_slug, team_data, league_avg_goals))
+            all_bets.extend(_analyze_match(m, provider, identifier, home_id, away_id, team_data, league_avg_goals))
         except Exception:
             logger.exception("Error analizando %s vs %s", m.home, m.away)
 

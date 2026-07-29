@@ -28,7 +28,11 @@ def _normalize(name: str) -> str:
 
 
 def _similarity(a: str, b: str) -> float:
-    return SequenceMatcher(None, _normalize(a), _normalize(b)).ratio()
+    na, nb = _normalize(a), _normalize(b)
+    ratio = SequenceMatcher(None, na, nb).ratio()
+    if len(na) >= 3 and len(nb) >= 3 and (na in nb or nb in na):
+        ratio = max(ratio, 0.75)  # ej. "HJK" está contenido en "HJK Helsinki"
+    return ratio
 
 
 def _get_league_teams(league_slug: str) -> list[dict]:

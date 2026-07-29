@@ -1,10 +1,11 @@
-# Detector de cuotas con valor - Liga Profesional Argentina, Eliteserien y Allsvenskan
+# Detector de cuotas con valor - Argentina, Noruega, Suecia y Finlandia
 
 Compara las cuotas de fútbol de las ligas configuradas (por defecto: Liga
-Profesional Argentina, Eliteserien de Noruega y Allsvenskan de Suecia)
-publicadas por Codere (mercados 1X2, Total de Goles, Ambos Marcan y Total de
-Córners) con una probabilidad estimada a partir del historial reciente de
-cada equipo (datos de ESPN), usando un modelo de Poisson calibrado por
+Profesional Argentina, Eliteserien de Noruega, Allsvenskan de Suecia y
+Veikkausliiga de Finlandia) publicadas por Codere (mercados 1X2, Total de
+Goles, Ambos Marcan y Total de Córners) con una probabilidad estimada a
+partir del historial reciente de cada equipo (ESPN, o Flashscore para las
+ligas que ESPN no cubre bien), usando un modelo de Poisson calibrado por
 separado para cada liga. Solo muestra selecciones que cumplen **las dos
 condiciones a la vez**:
 
@@ -27,13 +28,22 @@ disponible en el código para uso local manual, pero no se dispara solo.
 ## Aviso importante
 
 - Este programa usa la **API interna no oficial** de Codere (la misma que usa
-  su web) y la **API pública no documentada** de ESPN. Ninguna es una API
-  oficial con contrato estable: pueden cambiar o dejar de funcionar sin
-  aviso. Es un proyecto para uso personal/educativo; usalo bajo tu propio
-  criterio y responsabilidad.
+  su web), la **API pública no documentada** de ESPN, y para algunas ligas el
+  **feed interno no documentado** de Flashscore. Ninguna es una API oficial
+  con contrato estable: pueden cambiar o dejar de funcionar sin aviso, y en
+  el caso de Flashscore además requiere imitar el header `x-fsign` que usa su
+  propio frontend (token público fijo, no una credencial de nadie). Es un
+  proyecto para uso personal/educativo; usalo bajo tu propio criterio y
+  responsabilidad.
   - (Nota: originalmente se usaba Sofascore para las estadísticas, pero
     empezó a bloquear con 403 las peticiones hechas desde las IPs de
-    datacenter de GitHub Actions. Se migró a ESPN, que no tuvo ese problema.)
+    datacenter de GitHub Actions. Se migró a ESPN, que no tuvo ese problema.
+    ESPN a su vez no tiene datos reales para algunas ligas chicas —ej.
+    Finlandia le devuelve una temporada vacía del año 2000—, así que para
+    esas se usa Flashscore en cambio. Flashscore tiene fama de proteger más
+    su acceso que Sofascore, así que si en algún momento empieza a bloquear
+    también desde la nube, solo se vería afectada la liga que dependa de él
+    (las demás siguen andando, cada una es independiente).)
 - El modelo estadístico es deliberadamente simple (Poisson con promedio de
   goles de los últimos partidos). **No es asesoramiento de apuestas ni
   garantiza ganancias.** Una "cuota con valor" es solo una discrepancia
@@ -87,9 +97,11 @@ usar `--loop`.
 1. `codere_client.py` trae el fixture completo de las ligas configuradas en
    `CODERE_LEAGUE_NODE_IDS` con 4 mercados: 1X2, Total de Goles, Ambos Marcan
    y Total de Córners.
-2. `espn_client.py` busca cada equipo por nombre en ESPN y calcula
-   el promedio de goles y córners a favor/en contra como local y como
-   visitante en sus últimos partidos (`FORM_MATCHES`), excluyendo amistosos.
+2. `espn_client.py` (o `flashscore_client.py`, según `STATS_PROVIDERS`) busca
+   cada equipo por nombre y calcula el promedio de goles a favor/en contra
+   como local y como visitante en sus últimos partidos (`FORM_MATCHES`),
+   excluyendo amistosos. Flashscore no expone córners, así que ese mercado
+   queda deshabilitado para las ligas que usan esa fuente.
 3. `probability.py` combina esos promedios (suavizados hacia un promedio
    general, ver `SHRINKAGE_K`) en goles/córners esperados y calcula, con una
    distribución de Poisson: P(1)/P(X)/P(2), P(over/under goles), P(ambos
@@ -110,11 +122,18 @@ usar `--loop`.
   la web de Codere, entrar a Fútbol → el país → la liga, y mirar en las
   herramientas de desarrollador la llamada a
   `NavigationService/Event/GetEvents?parentId=<NodeId>`.
-- `ESPN_LEAGUE_SLUGS`: mapea cada nombre de liga (el mismo `Nombre` usado en
-  `CODERE_LEAGUE_NODE_IDS`) a su slug en ESPN. **Toda liga que agregues a
-  `CODERE_LEAGUE_NODE_IDS` necesita también su entrada acá**, si no, se
-  ignora esa liga (queda un aviso en el log). El slug se puede ubicar
-  navegando espn.com/soccer/ y mirando la URL de la liga.
+- `STATS_PROVIDERS`: mapea cada nombre de liga (el mismo `Nombre` usado en
+  `CODERE_LEAGUE_NODE_IDS`) a su fuente de estadísticas, `espn` o
+  `flashscore`. **Toda liga que agregues a `CODERE_LEAGUE_NODE_IDS` necesita
+  también su entrada acá** (y en el mapeo correspondiente de abajo), si no,
+  se ignora esa liga (queda un aviso en el log).
+- `ESPN_LEAGUE_SLUGS`: nombre de liga -> slug en ESPN, para las que usan
+  proveedor `espn`. Se ubica navegando espn.com/soccer/ y mirando la URL.
+- `FLASHSCORE_TOURNAMENTS`: nombre de liga -> `tournamentId:tournamentStageId`
+  de Flashscore, para las que usan proveedor `flashscore`. Se ubican
+  inspeccionando (herramientas de desarrollador → Red) las llamadas que hace
+  flashscore.com al abrir la liga, buscando una a
+  `2.flashscore.ninja/2/x/feed/to_<tournamentId>_<stageId>_1`.
 - `EDGE_THRESHOLD`: subilo si recibís demasiadas alertas poco confiables,
   bajalo si querés más sensibilidad.
 - `MAX_TRUSTED_EDGE`: edges por encima de esto se descartan directamente
@@ -125,11 +144,13 @@ usar `--loop`.
 
 ## Limitaciones conocidas
 
-- El emparejamiento de equipos entre Codere y ESPN es por similitud de
-  nombre; en casos raros puede fallar (se descarta el partido si la
-  similitud es baja, ver `NAME_MATCH_THRESHOLD`).
+- El emparejamiento de equipos entre Codere y la fuente de estadísticas es
+  por similitud de nombre; en casos raros puede fallar (se descarta el
+  partido si la similitud es baja, ver `NAME_MATCH_THRESHOLD`).
 - El mercado de córners necesita las estadísticas de cada partido reciente
-  (una petición extra por partido a ESPN); si ESPN no tiene esos
-  datos cargados para algún equipo, ese mercado se omite para ese partido.
+  (una petición extra por partido a ESPN); si ESPN no tiene esos datos
+  cargados para algún equipo, ese mercado se omite para ese partido. Las
+  ligas que usan Flashscore no tienen mercado de córners en absoluto (ese
+  feed no lo incluye).
 - No usa lesiones, alineaciones, clima ni otros factores: solo estadísticas
   históricas de goles/córners.
