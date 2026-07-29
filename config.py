@@ -74,7 +74,7 @@ USER_AGENT = os.getenv(
 EDGE_THRESHOLD = float(os.getenv("EDGE_THRESHOLD", "0.05"))
 # Edges por encima de esto casi seguro son error del modelo (falta de contexto sobre nivel
 # real del equipo), no una cuota mal puesta de verdad, así que se descartan en vez de avisar.
-MAX_TRUSTED_EDGE = float(os.getenv("MAX_TRUSTED_EDGE", "0.15"))
+MAX_TRUSTED_EDGE = float(os.getenv("MAX_TRUSTED_EDGE", "0.20"))
 # Selecciones con probabilidad del modelo por encima de esto se listan aparte como
 # "eventos probables", independientemente de si la cuota tiene valor (edge) o no.
 HIGH_PROB_THRESHOLD = float(os.getenv("HIGH_PROB_THRESHOLD", "0.65"))
