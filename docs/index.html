@@ -88,6 +88,19 @@
   }
   .section-title:first-of-type { margin-top: 0.5rem; }
   .section-sub { color: var(--muted); font-size: 0.82rem; margin-bottom: 0.75rem; }
+  .tabs {
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  .tab-btn {
+    background: var(--card-bg); color: var(--muted);
+    border: 1px solid var(--border); border-radius: 999px;
+    font-size: 0.82rem; font-weight: 600;
+    padding: 0.35rem 0.85rem; cursor: pointer;
+  }
+  .tab-btn.active {
+    background: var(--accent); color: #fff; border-color: var(--accent);
+  }
   .details {
     display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 0.4rem 1rem;
@@ -117,6 +130,7 @@
     </div>
 
     <div class="section-sub">Selecciones donde la cuota de Codere tiene valor frente al modelo Y el modelo les da alta probabilidad de ocurrir, a la vez.</div>
+    <div id="tabs" class="tabs"></div>
     <div id="list"></div>
 
     <div class="disclaimer">
@@ -160,15 +174,37 @@ function renderCard(b) {
   return card;
 }
 
+let allBets = [];
+let currentTab = "all";
+
 function renderList(bets) {
   const el = document.getElementById("list");
   el.innerHTML = "";
-  if (!bets.length) {
+  const filtered = currentTab === "all" ? bets : bets.filter(b => b.league === currentTab);
+  if (!filtered.length) {
     el.innerHTML = '<div class="empty">No se encontraron selecciones con valor y alta probabilidad a la vez en la última revisión.</div>';
     return;
   }
-  bets.sort((a, b) => b.edge - a.edge);
-  for (const b of bets) el.appendChild(renderCard(b));
+  filtered.sort((a, b) => b.edge - a.edge);
+  for (const b of filtered) el.appendChild(renderCard(b));
+}
+
+function renderTabs(bets) {
+  const tabsEl = document.getElementById("tabs");
+  const leagues = [...new Set(bets.map(b => b.league))];
+  if (!leagues.includes(currentTab) && currentTab !== "all") currentTab = "all";
+
+  const makeBtn = (label, value) => {
+    const btn = document.createElement("button");
+    btn.className = "tab-btn" + (currentTab === value ? " active" : "");
+    btn.textContent = label;
+    btn.onclick = () => { currentTab = value; renderTabs(allBets); renderList(allBets); };
+    return btn;
+  };
+
+  tabsEl.innerHTML = "";
+  tabsEl.appendChild(makeBtn("Todas", "all"));
+  for (const lg of leagues) tabsEl.appendChild(makeBtn(lg, lg));
 }
 
 async function load() {
@@ -178,13 +214,14 @@ async function load() {
     const res = await fetch("data.json?_=" + Date.now());
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
-    const bets = data.bets || [];
+    allBets = data.bets || [];
 
     const generated = new Date(data.generated_at);
     updatedEl.textContent = "Última actualización: " + generated.toLocaleString("es-AR");
-    statusEl.textContent = `${bets.length} selección(es) detectada(s)`;
+    statusEl.textContent = `${allBets.length} selección(es) detectada(s)`;
 
-    renderList(bets);
+    renderTabs(allBets);
+    renderList(allBets);
   } catch (err) {
     statusEl.textContent = "No se pudo cargar data.json todavía";
     document.getElementById("list").innerHTML = '<div class="empty">Esperando la primera corrida del detector...</div>';
