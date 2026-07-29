@@ -77,7 +77,7 @@ EDGE_THRESHOLD = float(os.getenv("EDGE_THRESHOLD", "0.05"))
 MAX_TRUSTED_EDGE = float(os.getenv("MAX_TRUSTED_EDGE", "0.15"))
 # Selecciones con probabilidad del modelo por encima de esto se listan aparte como
 # "eventos probables", independientemente de si la cuota tiene valor (edge) o no.
-HIGH_PROB_THRESHOLD = float(os.getenv("HIGH_PROB_THRESHOLD", "0.70"))
+HIGH_PROB_THRESHOLD = float(os.getenv("HIGH_PROB_THRESHOLD", "0.65"))
 NAME_MATCH_THRESHOLD = float(os.getenv("NAME_MATCH_THRESHOLD", "0.6"))
 
 # --- Email (SMTP) ---
