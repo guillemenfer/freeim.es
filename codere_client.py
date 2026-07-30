@@ -7,7 +7,7 @@ cambiar sin aviso. Se hacen pocas peticiones y espaciadas (ver config.py).
 import logging
 import re
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 
 import config
 from http_utils import get_json
@@ -32,12 +32,16 @@ class CodereMatch:
 
 
 def _parse_date(raw: str | None) -> datetime | None:
+    """Devuelve un datetime consciente de zona horaria (UTC). Antes se usaba
+    fromtimestamp() sin tz, que toma la hora local de la máquina que corre el
+    script — funciona distinto en tu PC que en GitHub Actions (que usa UTC),
+    y hacía que los horarios mostrados en la web quedaran desfasados."""
     if not raw:
         return None
     m = _DATE_RE.search(raw)
     if not m:
         return None
-    return datetime.fromtimestamp(int(m.group(1)) / 1000)
+    return datetime.fromtimestamp(int(m.group(1)) / 1000, tz=timezone.utc)
 
 
 def _parse_1x2(results: list, home: str, away: str) -> dict | None:

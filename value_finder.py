@@ -6,7 +6,7 @@ defecto, Flashscore para las que ESPN no cubre bien).
 """
 import logging
 from dataclasses import dataclass, field
-from datetime import datetime
+from datetime import datetime, timezone
 
 import config
 import probability
@@ -281,7 +281,7 @@ def _analyze_match(
 
 def find_value_bets(now: datetime | None = None) -> tuple[list[ValueBet], RunStats]:
     """Devuelve (selecciones que son cuota-con-valor Y evento-probable a la vez, stats_de_la_corrida)."""
-    now = now or datetime.now()
+    now = now or datetime.now(timezone.utc)
     matches = fetch_featured_soccer_matches()
     matches = [m for m in matches if not m.start_date or m.start_date > now]
 
