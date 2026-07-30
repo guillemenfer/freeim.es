@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T10:03:10.321412+00:00",
+  "generated_at": "2026-07-30T16:11:14.600338+00:00",
   "bets": [
     {
       "home": "Ind. Rivadavia",
@@ -203,27 +203,6 @@
       ],
       "context": {
         "home_xg": 1.14,
-        "away_xg": 1.19,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Central Córdoba",
-      "away": "Atlético Tucumán",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-31T00:15:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.697,
-      "implied_prob": 0.6104,
-      "edge": 0.0866,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.24,
         "away_xg": 1.19,
         "line": 1.5
       }
