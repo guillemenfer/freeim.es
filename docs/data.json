@@ -1,67 +1,6 @@
 {
-  "generated_at": "2026-07-30T20:48:00.444843+00:00",
+  "generated_at": "2026-07-31T08:14:09.251911+00:00",
   "bets": [
-    {
-      "home": "Ind. Rivadavia",
-      "away": "Huracán",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-30T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6718,
-      "implied_prob": 0.5179,
-      "edge": 0.1539,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.04,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Independiente",
-      "away": "Newell's Old Boys",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-31T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.6904,
-      "implied_prob": 0.5479,
-      "edge": 0.1425,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.21,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Ind. Rivadavia",
-      "away": "Huracán",
-      "league": "Liga Profesional",
-      "start_date": "2026-07-30T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.7059,
-      "implied_prob": 0.5676,
-      "edge": 0.1383,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.34,
-        "away_xg": 1.13,
-        "line": 1.5
-      }
-    },
     {
       "home": "Start",
       "away": "Viking FK",
@@ -105,26 +44,6 @@
       }
     },
     {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Banfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-01T18:30:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 7.5 córners",
-      "odd": 1.62,
-      "model_prob": 0.6814,
-      "implied_prob": 0.5586,
-      "edge": 0.1228,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.05,
-        "line": 7.5
-      }
-    },
-    {
       "home": "TPS",
       "away": "IFK Mariehamn",
       "league": "Veikkausliiga",
@@ -142,6 +61,47 @@
       "context": {
         "home_xg": 1.94,
         "away_xg": 1.45
+      }
+    },
+    {
+      "home": "Belgrano",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-01T21:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.6628,
+      "implied_prob": 0.545,
+      "edge": 0.1178,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.96,
+        "line": 8.5
+      }
+    },
+    {
+      "home": "Gimnasia y Esgrima La Plata",
+      "away": "Barracas Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7123,
+      "implied_prob": 0.5952,
+      "edge": 0.1171,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.0,
+        "away_xg": 0.87,
+        "line": 2.5
       }
     },
     {
@@ -213,17 +173,17 @@
       "start_date": "2026-08-04T00:15:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6749,
-      "implied_prob": 0.5867,
-      "edge": 0.0882,
+      "odd": 1.53,
+      "model_prob": 0.6861,
+      "implied_prob": 0.5952,
+      "edge": 0.0908,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.14,
-        "away_xg": 1.19,
+        "home_xg": 1.09,
+        "away_xg": 1.29,
         "line": 1.5
       }
     },
@@ -245,6 +205,27 @@
       "context": {
         "home_xg": 1.78,
         "away_xg": 1.6
+      }
+    },
+    {
+      "home": "Boca Juniors",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6952,
+      "implied_prob": 0.6104,
+      "edge": 0.0848,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.21,
+        "away_xg": 1.21,
+        "line": 1.5
       }
     },
     {
@@ -308,27 +289,6 @@
         "home_xg": 1.43,
         "away_xg": 1.55,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Boca Juniors",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6732,
-      "implied_prob": 0.6104,
-      "edge": 0.0628,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.22,
-        "away_xg": 1.1,
-        "line": 1.5
       }
     },
     {
