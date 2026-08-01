@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T00:18:15.809602+00:00",
+  "generated_at": "2026-08-01T09:00:58.458667+00:00",
   "bets": [
     {
       "home": "Aldosivi",
@@ -90,10 +90,10 @@
       "start_date": "2026-08-01T12:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.7,
+      "odd": 1.67,
       "model_prob": 0.6561,
-      "implied_prob": 0.5342,
-      "edge": 0.1218,
+      "implied_prob": 0.545,
+      "edge": 0.1111,
       "tags": [
         "value",
         "likely"
