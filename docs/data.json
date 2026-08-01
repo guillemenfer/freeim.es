@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T16:36:12.076894+00:00",
+  "generated_at": "2026-08-01T20:18:25.218979+00:00",
   "bets": [
     {
       "home": "Aldosivi",
@@ -49,17 +49,37 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6797,
+      "model_prob": 0.6848,
       "implied_prob": 0.5541,
-      "edge": 0.1257,
+      "edge": 0.1307,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.56,
-        "away_xg": 1.3,
+        "home_xg": 1.54,
+        "away_xg": 1.29,
         "line": 3.5
+      }
+    },
+    {
+      "home": "CA Sarmiento",
+      "away": "Ind. Rivadavia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-03T19:45:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6615,
+      "implied_prob": 0.5342,
+      "edge": 0.1273,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.95,
+        "line": 8.5
       }
     },
     {
@@ -81,27 +101,6 @@
         "home_xg": 1.34,
         "away_xg": 1.46,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Belgrano",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-01T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6918,
-      "implied_prob": 0.5867,
-      "edge": 0.1052,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.35,
-        "away_xg": 1.05,
-        "line": 1.5
       }
     },
     {
@@ -143,6 +142,27 @@
       "context": {
         "home_xg": 0.85,
         "away_xg": 0.76
+      }
+    },
+    {
+      "home": "Belgrano",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-01T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6918,
+      "implied_prob": 0.5952,
+      "edge": 0.0966,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.35,
+        "away_xg": 1.05,
+        "line": 1.5
       }
     },
     {
