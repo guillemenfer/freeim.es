@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:18:25.218979+00:00",
+  "generated_at": "2026-08-01T23:50:31.864332+00:00",
   "bets": [
     {
       "home": "Aldosivi",
@@ -22,22 +22,22 @@
       }
     },
     {
-      "home": "Belgrano",
-      "away": "Argentinos Juniors",
+      "home": "Platense",
+      "away": "Talleres de Córdoba",
       "league": "Liga Profesional",
-      "start_date": "2026-08-01T21:00:00+00:00",
+      "start_date": "2026-08-03T22:00:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6628,
-      "implied_prob": 0.5179,
-      "edge": 0.1449,
+      "odd": 1.7,
+      "model_prob": 0.6672,
+      "implied_prob": 0.5342,
+      "edge": 0.1329,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 9.96,
+        "total_corners_xg": 10.0,
         "line": 8.5
       }
     },
@@ -83,6 +83,27 @@
       }
     },
     {
+      "home": "Gimnasia y Esgrima La Plata",
+      "away": "Barracas Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7194,
+      "implied_prob": 0.6104,
+      "edge": 0.1091,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 0.86,
+        "line": 2.5
+      }
+    },
+    {
       "home": "SJK",
       "away": "HJK Helsinki",
       "league": "Veikkausliiga",
@@ -104,27 +125,6 @@
       }
     },
     {
-      "home": "Gimnasia y Esgrima La Plata",
-      "away": "Barracas Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7123,
-      "implied_prob": 0.6104,
-      "edge": 0.1019,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.0,
-        "away_xg": 0.87,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Lanús",
       "away": "Instituto de Córdoba",
       "league": "Liga Profesional",
@@ -132,37 +132,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6943,
+      "model_prob": 0.6999,
       "implied_prob": 0.5952,
-      "edge": 0.0991,
+      "edge": 0.1047,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.85,
-        "away_xg": 0.76
-      }
-    },
-    {
-      "home": "Belgrano",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-01T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6918,
-      "implied_prob": 0.5952,
-      "edge": 0.0966,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.35,
-        "away_xg": 1.05,
-        "line": 1.5
+        "home_xg": 0.84,
+        "away_xg": 0.75
       }
     },
     {
@@ -173,37 +152,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6861,
+      "model_prob": 0.6805,
       "implied_prob": 0.5952,
-      "edge": 0.0908,
+      "edge": 0.0853,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.09,
-        "away_xg": 1.29,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Boca Juniors",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6952,
-      "implied_prob": 0.6104,
-      "edge": 0.0848,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.21,
+        "home_xg": 1.08,
+        "away_xg": 1.27,
         "line": 1.5
       }
     },
@@ -215,17 +173,38 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6868,
+      "model_prob": 0.6933,
       "implied_prob": 0.6104,
-      "edge": 0.0764,
+      "edge": 0.0829,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.94,
-        "away_xg": 1.02,
+        "home_xg": 0.93,
+        "away_xg": 1.01,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Boca Juniors",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6891,
+      "implied_prob": 0.6104,
+      "edge": 0.0787,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.19,
+        "away_xg": 1.19,
+        "line": 1.5
       }
     },
     {
@@ -236,16 +215,37 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6574,
+      "model_prob": 0.6566,
       "implied_prob": 0.5952,
-      "edge": 0.0622,
+      "edge": 0.0614,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.26,
-        "away_xg": 0.99,
+        "home_xg": 1.2,
+        "away_xg": 1.04,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Banfield",
+      "away": "Belgrano",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6533,
+      "implied_prob": 0.5952,
+      "edge": 0.0581,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.09,
+        "away_xg": 1.14,
         "line": 1.5
       }
     },
@@ -257,16 +257,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6645,
+      "model_prob": 0.659,
       "implied_prob": 0.6053,
-      "edge": 0.0592,
+      "edge": 0.0537,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.07,
+        "home_xg": 1.19,
+        "away_xg": 1.06,
         "line": 1.5
       }
     }
