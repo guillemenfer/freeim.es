@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T09:02:49.398709+00:00",
+  "generated_at": "2026-08-02T12:46:16.016657+00:00",
   "bets": [
     {
       "home": "Aldosivi",
@@ -83,27 +83,6 @@
       }
     },
     {
-      "home": "SJK",
-      "away": "HJK Helsinki",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-03T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.692,
-      "implied_prob": 0.5867,
-      "edge": 0.1053,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.34,
-        "away_xg": 1.46,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Gimnasia y Esgrima La Plata",
       "away": "Barracas Central",
       "league": "Liga Profesional",
@@ -163,6 +142,26 @@
         "home_xg": 1.08,
         "away_xg": 1.28,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Djurgårdens IF",
+      "away": "Västerås SK FK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-03T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6618,
+      "implied_prob": 0.578,
+      "edge": 0.0838,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.78,
+        "away_xg": 1.59
       }
     },
     {
