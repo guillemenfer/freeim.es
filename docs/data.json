@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T12:46:16.016657+00:00",
+  "generated_at": "2026-08-02T16:35:15.239214+00:00",
   "bets": [
     {
       "home": "Aldosivi",
@@ -42,27 +42,6 @@
       }
     },
     {
-      "home": "Molde",
-      "away": "Sarpsborg 08",
-      "league": "Eliteserien",
-      "start_date": "2026-08-02T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.65,
-      "model_prob": 0.6848,
-      "implied_prob": 0.5541,
-      "edge": 0.1307,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.29,
-        "line": 3.5
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
@@ -86,7 +65,7 @@
       "home": "Gimnasia y Esgrima La Plata",
       "away": "Barracas Central",
       "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
+      "start_date": "2026-08-09T20:45:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
@@ -124,6 +103,68 @@
       }
     },
     {
+      "home": "SJK",
+      "away": "HJK Helsinki",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-03T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6808,
+      "implied_prob": 0.5867,
+      "edge": 0.0942,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.36,
+        "away_xg": 1.49,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Kristiansund BK",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "start_date": "2026-08-09T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6992,
+      "implied_prob": 0.6053,
+      "edge": 0.0939,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.44,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6676,
+      "implied_prob": 0.578,
+      "edge": 0.0897,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.86,
+        "away_xg": 1.56
+      }
+    },
+    {
       "home": "Central Córdoba",
       "away": "San Lorenzo",
       "league": "Liga Profesional",
@@ -145,30 +186,10 @@
       }
     },
     {
-      "home": "Djurgårdens IF",
-      "away": "Västerås SK FK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-03T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6618,
-      "implied_prob": 0.578,
-      "edge": 0.0838,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.78,
-        "away_xg": 1.59
-      }
-    },
-    {
       "home": "Boca Juniors",
       "away": "Vélez Sársfield",
       "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
+      "start_date": "2026-08-08T22:15:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
@@ -207,6 +228,47 @@
       }
     },
     {
+      "home": "Djurgårdens IF",
+      "away": "Västerås SK FK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-03T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6542,
+      "implied_prob": 0.578,
+      "edge": 0.0762,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.75,
+        "away_xg": 1.57
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-08-02T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6541,
+      "implied_prob": 0.578,
+      "edge": 0.0761,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.59,
+        "away_xg": 1.38,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Unión de Santa Fe",
       "away": "Lanús",
       "league": "Liga Profesional",
@@ -231,7 +293,7 @@
       "home": "Banfield",
       "away": "Belgrano",
       "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:00:00+00:00",
+      "start_date": "2026-08-10T22:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
