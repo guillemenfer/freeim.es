@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-08-03T19:10:51.951039+00:00",
+  "generated_at": "2026-08-03T22:46:53.685172+00:00",
   "bets": [
     {
-      "home": "Platense",
-      "away": "Talleres de Córdoba",
+      "home": "Boca Juniors",
+      "away": "Estudiantes de La Plata",
       "league": "Liga Profesional",
-      "start_date": "2026-08-03T22:00:00+00:00",
+      "start_date": "2026-08-05T22:00:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.8,
-      "model_prob": 0.6672,
-      "implied_prob": 0.5068,
-      "edge": 0.1603,
+      "odd": 1.7,
+      "model_prob": 0.6946,
+      "implied_prob": 0.5342,
+      "edge": 0.1604,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 10.0,
+        "total_corners_xg": 10.25,
         "line": 8.5
       }
     },
@@ -25,7 +25,7 @@
       "home": "Ilves",
       "away": "IFK Mariehamn",
       "league": "Veikkausliiga",
-      "start_date": "2026-08-08T14:00:00+00:00",
+      "start_date": "2026-08-09T15:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.67,
@@ -43,36 +43,16 @@
       }
     },
     {
-      "home": "CA Sarmiento",
-      "away": "Ind. Rivadavia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-03T19:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6615,
-      "implied_prob": 0.5342,
-      "edge": 0.1273,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.95,
-        "line": 8.5
-      }
-    },
-    {
       "home": "IK Sirius",
       "away": "IF Brommapojkarna",
       "league": "Allsvenskan",
       "start_date": "2026-08-10T17:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
+      "odd": 1.62,
       "model_prob": 0.683,
-      "implied_prob": 0.578,
-      "edge": 0.105,
+      "implied_prob": 0.5586,
+      "edge": 0.1244,
       "tags": [
         "value",
         "likely"
@@ -90,9 +70,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6816,
+      "model_prob": 0.6843,
       "implied_prob": 0.5867,
-      "edge": 0.095,
+      "edge": 0.0977,
       "tags": [
         "value",
         "likely"
@@ -111,16 +91,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7045,
+      "model_prob": 0.7011,
       "implied_prob": 0.6104,
-      "edge": 0.0942,
+      "edge": 0.0907,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.98,
-        "away_xg": 0.91,
+        "home_xg": 0.99,
+        "away_xg": 0.92,
         "line": 2.5
       }
     },
@@ -132,16 +112,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6957,
+      "model_prob": 0.6988,
       "implied_prob": 0.6104,
-      "edge": 0.0853,
+      "edge": 0.0884,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.27,
+        "home_xg": 1.16,
+        "away_xg": 1.28,
         "line": 1.5
       }
     },
@@ -174,16 +154,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6547,
+      "model_prob": 0.6582,
       "implied_prob": 0.5952,
-      "edge": 0.0595,
+      "edge": 0.0629,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.09,
-        "away_xg": 1.14,
+        "home_xg": 1.1,
+        "away_xg": 1.15,
         "line": 1.5
       }
     }
