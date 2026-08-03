@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:44:39.317578+00:00",
+  "generated_at": "2026-08-03T19:10:51.951039+00:00",
   "bets": [
     {
       "home": "Platense",
@@ -8,10 +8,10 @@
       "start_date": "2026-08-03T22:00:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
+      "odd": 1.8,
       "model_prob": 0.6672,
-      "implied_prob": 0.5342,
-      "edge": 0.1329,
+      "implied_prob": 0.5068,
+      "edge": 0.1603,
       "tags": [
         "value",
         "likely"
@@ -19,6 +19,27 @@
       "context": {
         "total_corners_xg": 10.0,
         "line": 8.5
+      }
+    },
+    {
+      "home": "Ilves",
+      "away": "IFK Mariehamn",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-08T14:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.675,
+      "implied_prob": 0.545,
+      "edge": 0.13,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.72,
+        "away_xg": 1.16,
+        "line": 3.5
       }
     },
     {
@@ -42,45 +63,23 @@
       }
     },
     {
-      "home": "Ilves",
-      "away": "IFK Mariehamn",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-08T14:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.6591,
-      "implied_prob": 0.545,
-      "edge": 0.1142,
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.683,
+      "implied_prob": 0.578,
+      "edge": 0.105,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.75,
-        "away_xg": 1.19,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "SJK",
-      "away": "HJK Helsinki",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-03T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6975,
-      "implied_prob": 0.5867,
-      "edge": 0.1109,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.32,
-        "away_xg": 1.45,
-        "line": 3.5
+        "home_xg": 1.87,
+        "away_xg": 1.65
       }
     },
     {
@@ -126,26 +125,6 @@
       }
     },
     {
-      "home": "IK Sirius",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-10T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6676,
-      "implied_prob": 0.578,
-      "edge": 0.0897,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.86,
-        "away_xg": 1.56
-      }
-    },
-    {
       "home": "Boca Juniors",
       "away": "Vélez Sársfield",
       "league": "Liga Profesional",
@@ -164,26 +143,6 @@
         "home_xg": 1.15,
         "away_xg": 1.27,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Djurgårdens IF",
-      "away": "Västerås SK FK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-03T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6542,
-      "implied_prob": 0.578,
-      "edge": 0.0762,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.75,
-        "away_xg": 1.57
       }
     },
     {
