@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-08-05T22:44:21.587095+00:00",
+  "generated_at": "2026-08-06T08:08:59.002875+00:00",
   "bets": [
-    {
-      "home": "Unión de Santa Fe",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-06T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.82,
-      "model_prob": 0.6601,
-      "implied_prob": 0.5,
-      "edge": 0.1601,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.94,
-        "line": 8.5
-      }
-    },
     {
       "home": "Ilves",
       "away": "IFK Mariehamn",
@@ -70,9 +50,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6762,
+      "model_prob": 0.6733,
       "implied_prob": 0.5541,
-      "edge": 0.1221,
+      "edge": 0.1192,
       "tags": [
         "value",
         "likely"
@@ -84,6 +64,26 @@
       }
     },
     {
+      "home": "Unión de Santa Fe",
+      "away": "Lanús",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-06T22:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.6601,
+      "implied_prob": 0.545,
+      "edge": 0.1151,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.94,
+        "line": 8.5
+      }
+    },
+    {
       "home": "Gimnasia y Esgrima La Plata",
       "away": "Barracas Central",
       "league": "Liga Profesional",
@@ -91,15 +91,15 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7114,
+      "model_prob": 0.7088,
       "implied_prob": 0.6104,
-      "edge": 0.101,
+      "edge": 0.0984,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.97,
+        "home_xg": 0.98,
         "away_xg": 0.9,
         "line": 2.5
       }
@@ -123,6 +123,27 @@
         "home_xg": 1.44,
         "away_xg": 1.51,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Racing Club",
+      "away": "Banfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-14T23:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6532,
+      "implied_prob": 0.5952,
+      "edge": 0.058,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.06,
+        "away_xg": 1.03,
+        "line": 2.5
       }
     }
   ]
