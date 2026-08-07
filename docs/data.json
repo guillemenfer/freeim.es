@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T08:08:59.002875+00:00",
+  "generated_at": "2026-08-07T01:47:43.748233+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -20,6 +20,26 @@
         "home_xg": 1.72,
         "away_xg": 1.16,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Boca Juniors",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-08T22:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6593,
+      "implied_prob": 0.5342,
+      "edge": 0.1251,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.93,
+        "line": 8.5
       }
     },
     {
@@ -50,58 +70,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6733,
+      "model_prob": 0.6616,
       "implied_prob": 0.5541,
-      "edge": 0.1192,
+      "edge": 0.1076,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.03,
-        "away_xg": 0.98,
+        "home_xg": 1.08,
+        "away_xg": 0.97,
         "line": 2.5
       }
     },
     {
-      "home": "Unión de Santa Fe",
-      "away": "Lanús",
+      "home": "Instituto de Córdoba",
+      "away": "Gimnasia y Esgrima de Mendoza",
       "league": "Liga Profesional",
-      "start_date": "2026-08-06T22:00:00+00:00",
+      "start_date": "2026-08-09T00:30:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.67,
-      "model_prob": 0.6601,
-      "implied_prob": 0.545,
-      "edge": 0.1151,
+      "odd": 1.65,
+      "model_prob": 0.6545,
+      "implied_prob": 0.5479,
+      "edge": 0.1066,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 9.94,
+        "total_corners_xg": 9.89,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Gimnasia y Esgrima La Plata",
-      "away": "Barracas Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-09T20:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7088,
-      "implied_prob": 0.6104,
-      "edge": 0.0984,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.98,
-        "away_xg": 0.9,
-        "line": 2.5
       }
     },
     {
@@ -133,9 +132,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6532,
+      "model_prob": 0.6508,
       "implied_prob": 0.5952,
-      "edge": 0.058,
+      "edge": 0.0555,
       "tags": [
         "value",
         "likely"
