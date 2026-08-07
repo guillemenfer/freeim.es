@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T18:35:57.418933+00:00",
+  "generated_at": "2026-08-07T20:27:25.931111+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -20,6 +20,27 @@
         "home_xg": 1.69,
         "away_xg": 1.13,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Unión de Santa Fe",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-11T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6616,
+      "implied_prob": 0.5342,
+      "edge": 0.1274,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.08,
+        "away_xg": 0.97,
+        "line": 2.5
       }
     },
     {
@@ -60,27 +81,6 @@
       "context": {
         "home_xg": 1.87,
         "away_xg": 1.65
-      }
-    },
-    {
-      "home": "Unión de Santa Fe",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-11T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.6616,
-      "implied_prob": 0.545,
-      "edge": 0.1167,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.97,
-        "line": 2.5
       }
     },
     {
