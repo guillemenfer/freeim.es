@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-07T06:18:02.004488+00:00",
+  "generated_at": "2026-08-07T09:48:25.841366+00:00",
   "bets": [
+    {
+      "home": "SJK",
+      "away": "IF Gnistan",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-07T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7433,
+      "implied_prob": 0.5952,
+      "edge": 0.148,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.31,
+        "away_xg": 1.26,
+        "line": 3.5
+      }
+    },
     {
       "home": "Ilves",
       "away": "IFK Mariehamn",
@@ -63,6 +84,27 @@
       }
     },
     {
+      "home": "CA Sarmiento",
+      "away": "Huracán",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.65,
+      "model_prob": 0.6676,
+      "implied_prob": 0.5541,
+      "edge": 0.1135,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.17,
+        "away_xg": 1.12,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Unión de Santa Fe",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -104,6 +146,48 @@
       }
     },
     {
+      "home": "Platense",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6935,
+      "implied_prob": 0.5952,
+      "edge": 0.0983,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 1.43,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-09T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6791,
+      "implied_prob": 0.6104,
+      "edge": 0.0687,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.32,
+        "away_xg": 1.02,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Kristiansund BK",
       "away": "Molde",
       "league": "Eliteserien",
@@ -122,6 +206,48 @@
         "home_xg": 1.44,
         "away_xg": 1.51,
         "line": 3.5
+      }
+    },
+    {
+      "home": "River Plate",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6533,
+      "implied_prob": 0.5952,
+      "edge": 0.0581,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.07,
+        "away_xg": 1.16,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Central Córdoba",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.652,
+      "implied_prob": 0.5952,
+      "edge": 0.0568,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 1.25,
+        "line": 1.5
       }
     },
     {
