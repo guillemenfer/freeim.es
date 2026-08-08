@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:27:04.485353+00:00",
+  "generated_at": "2026-08-08T11:08:24.356831+00:00",
   "bets": [
     {
       "home": "Vålerenga",
@@ -104,26 +104,6 @@
       }
     },
     {
-      "home": "Viking FK",
-      "away": "Sarpsborg 08",
-      "league": "Eliteserien",
-      "start_date": "2026-08-08T14:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6549,
-      "implied_prob": 0.5342,
-      "edge": 0.1206,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.36,
-        "line": 11.5
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -142,6 +122,26 @@
         "home_xg": 1.17,
         "away_xg": 1.12,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Viking FK",
+      "away": "Sarpsborg 08",
+      "league": "Eliteserien",
+      "start_date": "2026-08-08T14:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.6549,
+      "implied_prob": 0.545,
+      "edge": 0.1099,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.36,
+        "line": 11.5
       }
     },
     {
