@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-08-08T11:08:24.356831+00:00",
+  "generated_at": "2026-08-08T12:05:26.444423+00:00",
   "bets": [
-    {
-      "home": "Vålerenga",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien",
-      "start_date": "2026-08-08T12:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 10.5 córners",
-      "odd": 1.82,
-      "model_prob": 0.6515,
-      "implied_prob": 0.5,
-      "edge": 0.1515,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.45,
-        "line": 10.5
-      }
-    },
     {
       "home": "Ilves",
       "away": "IFK Mariehamn",
@@ -165,6 +145,27 @@
       }
     },
     {
+      "home": "Kristiansund BK",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "start_date": "2026-08-09T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6687,
+      "implied_prob": 0.5676,
+      "edge": 0.1012,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.42,
+        "away_xg": 1.48,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Platense",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -204,26 +205,6 @@
         "home_xg": 1.32,
         "away_xg": 1.02,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Viking FK",
-      "away": "Sarpsborg 08",
-      "league": "Eliteserien",
-      "start_date": "2026-08-08T14:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.45,
-      "model_prob": 0.6864,
-      "implied_prob": 0.6234,
-      "edge": 0.0631,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.9,
-        "away_xg": 1.65
       }
     },
     {
