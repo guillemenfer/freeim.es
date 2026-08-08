@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-08T14:11:44.246949+00:00",
+  "generated_at": "2026-08-08T16:01:47.608344+00:00",
   "bets": [
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.7076,
+      "implied_prob": 0.5586,
+      "edge": 0.149,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.96,
+        "away_xg": 1.74
+      }
+    },
     {
       "home": "Ilves",
       "away": "IFK Mariehamn",
@@ -23,23 +43,23 @@
       }
     },
     {
-      "home": "IK Sirius",
-      "away": "IF Brommapojkarna",
+      "home": "Malmö FF",
+      "away": "Degerfors IF",
       "league": "Allsvenskan",
-      "start_date": "2026-08-10T17:00:00+00:00",
+      "start_date": "2026-08-09T12:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6946,
-      "implied_prob": 0.5586,
-      "edge": 0.136,
+      "odd": 1.75,
+      "model_prob": 0.6596,
+      "implied_prob": 0.5179,
+      "edge": 0.1417,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.91,
-        "away_xg": 1.69
+        "home_xg": 2.07,
+        "away_xg": 1.41
       }
     },
     {
@@ -81,6 +101,27 @@
       "context": {
         "total_corners_xg": 9.93,
         "line": 8.5
+      }
+    },
+    {
+      "home": "Malmö FF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-09T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.674,
+      "implied_prob": 0.5586,
+      "edge": 0.1154,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.07,
+        "away_xg": 1.41,
+        "line": 2.5
       }
     },
     {
@@ -143,27 +184,6 @@
       "context": {
         "total_corners_xg": 9.89,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Malmö FF",
-      "away": "Degerfors IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-09T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6584,
-      "implied_prob": 0.5586,
-      "edge": 0.0999,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.03,
-        "away_xg": 1.37,
-        "line": 2.5
       }
     },
     {
