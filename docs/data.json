@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-07T22:23:21.095982+00:00",
+  "generated_at": "2026-08-08T00:06:54.557420+00:00",
   "bets": [
+    {
+      "home": "Vålerenga",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-08-08T12:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 10.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.6515,
+      "implied_prob": 0.5,
+      "edge": 0.1515,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.45,
+        "line": 10.5
+      }
+    },
     {
       "home": "Ilves",
       "away": "IFK Mariehamn",
@@ -30,9 +50,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6616,
+      "model_prob": 0.6642,
       "implied_prob": 0.5342,
-      "edge": 0.1274,
+      "edge": 0.13,
       "tags": [
         "value",
         "likely"
@@ -91,9 +111,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6676,
+      "model_prob": 0.6657,
       "implied_prob": 0.5541,
-      "edge": 0.1135,
+      "edge": 0.1116,
       "tags": [
         "value",
         "likely"
@@ -132,15 +152,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6935,
+      "model_prob": 0.6918,
       "implied_prob": 0.5952,
-      "edge": 0.0983,
+      "edge": 0.0966,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.98,
+        "home_xg": 0.97,
         "away_xg": 1.43,
         "line": 1.5
       }
@@ -153,9 +173,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6791,
+      "model_prob": 0.6768,
       "implied_prob": 0.6104,
-      "edge": 0.0687,
+      "edge": 0.0664,
       "tags": [
         "value",
         "likely"
@@ -187,6 +207,27 @@
       }
     },
     {
+      "home": "Racing Club",
+      "away": "Banfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-14T23:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6529,
+      "implied_prob": 0.5952,
+      "edge": 0.0577,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.06,
+        "away_xg": 1.03,
+        "line": 2.5
+      }
+    },
+    {
       "home": "River Plate",
       "away": "Argentinos Juniors",
       "league": "Liga Profesional",
@@ -194,9 +235,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6533,
+      "model_prob": 0.6515,
       "implied_prob": 0.5952,
-      "edge": 0.0581,
+      "edge": 0.0563,
       "tags": [
         "value",
         "likely"
@@ -215,38 +256,17 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.652,
+      "model_prob": 0.6501,
       "implied_prob": 0.5952,
-      "edge": 0.0568,
+      "edge": 0.0549,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.98,
+        "home_xg": 0.97,
         "away_xg": 1.25,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Racing Club",
-      "away": "Banfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-14T23:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6508,
-      "implied_prob": 0.5952,
-      "edge": 0.0555,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.06,
-        "away_xg": 1.03,
-        "line": 2.5
       }
     }
   ]
