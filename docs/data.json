@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T12:05:26.444423+00:00",
+  "generated_at": "2026-08-08T14:11:44.246949+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -20,6 +20,26 @@
         "home_xg": 1.69,
         "away_xg": 1.13,
         "line": 3.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6946,
+      "implied_prob": 0.5586,
+      "edge": 0.136,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.91,
+        "away_xg": 1.69
       }
     },
     {
@@ -64,26 +84,6 @@
       }
     },
     {
-      "home": "IK Sirius",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-10T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.683,
-      "implied_prob": 0.5586,
-      "edge": 0.1244,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.87,
-        "away_xg": 1.65
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -105,23 +105,24 @@
       }
     },
     {
-      "home": "Viking FK",
-      "away": "Sarpsborg 08",
+      "home": "Kristiansund BK",
+      "away": "Molde",
       "league": "Eliteserien",
-      "start_date": "2026-08-08T14:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.67,
-      "model_prob": 0.6549,
-      "implied_prob": 0.545,
-      "edge": 0.1099,
+      "start_date": "2026-08-09T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6746,
+      "implied_prob": 0.5676,
+      "edge": 0.1071,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 10.36,
-        "line": 11.5
+        "home_xg": 1.41,
+        "away_xg": 1.47,
+        "line": 3.5
       }
     },
     {
@@ -145,24 +146,24 @@
       }
     },
     {
-      "home": "Kristiansund BK",
-      "away": "Molde",
-      "league": "Eliteserien",
-      "start_date": "2026-08-09T17:15:00+00:00",
+      "home": "Malmö FF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-09T12:00:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6687,
-      "implied_prob": 0.5676,
-      "edge": 0.1012,
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6584,
+      "implied_prob": 0.5586,
+      "edge": 0.0999,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.42,
-        "away_xg": 1.48,
-        "line": 3.5
+        "home_xg": 2.03,
+        "away_xg": 1.37,
+        "line": 2.5
       }
     },
     {
