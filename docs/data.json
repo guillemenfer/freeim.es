@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T21:17:48.514699+00:00",
+  "generated_at": "2026-08-08T23:02:56.690465+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -50,9 +50,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6627,
+      "model_prob": 0.6622,
       "implied_prob": 0.5342,
-      "edge": 0.1284,
+      "edge": 0.1279,
       "tags": [
         "value",
         "likely"
@@ -64,26 +64,6 @@
       }
     },
     {
-      "home": "Boca Juniors",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-08T22:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6593,
-      "implied_prob": 0.5342,
-      "edge": 0.1251,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.93,
-        "line": 8.5
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -91,9 +71,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6668,
+      "model_prob": 0.6672,
       "implied_prob": 0.5541,
-      "edge": 0.1127,
+      "edge": 0.1131,
       "tags": [
         "value",
         "likely"
@@ -132,9 +112,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6928,
+      "model_prob": 0.6932,
       "implied_prob": 0.5952,
-      "edge": 0.0976,
+      "edge": 0.0979,
       "tags": [
         "value",
         "likely"
@@ -188,6 +168,27 @@
       }
     },
     {
+      "home": "River Plate",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6639,
+      "implied_prob": 0.5952,
+      "edge": 0.0687,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.11,
+        "away_xg": 1.16,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Independiente",
       "away": "Platense",
       "league": "Liga Profesional",
@@ -195,9 +196,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6782,
+      "model_prob": 0.6786,
       "implied_prob": 0.6104,
-      "edge": 0.0678,
+      "edge": 0.0682,
       "tags": [
         "value",
         "likely"
@@ -216,9 +217,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6538,
+      "model_prob": 0.6534,
       "implied_prob": 0.5952,
-      "edge": 0.0585,
+      "edge": 0.0581,
       "tags": [
         "value",
         "likely"
@@ -229,23 +230,23 @@
       }
     },
     {
-      "home": "River Plate",
-      "away": "Argentinos Juniors",
+      "home": "Central Córdoba",
+      "away": "Instituto de Córdoba",
       "league": "Liga Profesional",
-      "start_date": "2026-08-16T21:00:00+00:00",
+      "start_date": "2026-08-16T18:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6526,
+      "model_prob": 0.6516,
       "implied_prob": 0.5952,
-      "edge": 0.0574,
+      "edge": 0.0564,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 1.16,
+        "home_xg": 0.98,
+        "away_xg": 1.25,
         "line": 1.5
       }
     },
@@ -257,9 +258,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6516,
+      "model_prob": 0.6512,
       "implied_prob": 0.5952,
-      "edge": 0.0564,
+      "edge": 0.056,
       "tags": [
         "value",
         "likely"
@@ -268,27 +269,6 @@
         "home_xg": 1.06,
         "away_xg": 1.03,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Central Córdoba",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-16T18:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6513,
-      "implied_prob": 0.5952,
-      "edge": 0.056,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.98,
-        "away_xg": 1.25,
-        "line": 1.5
       }
     }
   ]
