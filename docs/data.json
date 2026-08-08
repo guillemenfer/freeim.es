@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:47:44.277903+00:00",
+  "generated_at": "2026-08-08T21:17:48.514699+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -206,6 +206,26 @@
         "home_xg": 1.32,
         "away_xg": 1.02,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Estudiantes Río Cuarto",
+      "away": "Atlético Tucumán",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-17T17:45:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6538,
+      "implied_prob": 0.5952,
+      "edge": 0.0585,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.78,
+        "away_xg": 1.02
       }
     },
     {
