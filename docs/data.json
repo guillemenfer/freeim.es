@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:55:13.338004+00:00",
+  "generated_at": "2026-08-09T23:53:37.933851+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -92,9 +92,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6622,
+      "model_prob": 0.6641,
       "implied_prob": 0.5342,
-      "edge": 0.128,
+      "edge": 0.1298,
       "tags": [
         "value",
         "likely"
@@ -133,9 +133,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6671,
+      "model_prob": 0.6658,
       "implied_prob": 0.5541,
-      "edge": 0.1131,
+      "edge": 0.1117,
       "tags": [
         "value",
         "likely"
@@ -154,15 +154,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6931,
+      "model_prob": 0.6919,
       "implied_prob": 0.5952,
-      "edge": 0.0979,
+      "edge": 0.0967,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.98,
+        "home_xg": 0.97,
         "away_xg": 1.43,
         "line": 1.5
       }
@@ -216,9 +216,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6639,
+      "model_prob": 0.6626,
       "implied_prob": 0.5952,
-      "edge": 0.0686,
+      "edge": 0.0674,
       "tags": [
         "value",
         "likely"
@@ -237,9 +237,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6534,
+      "model_prob": 0.6548,
       "implied_prob": 0.5952,
-      "edge": 0.0582,
+      "edge": 0.0596,
       "tags": [
         "value",
         "likely"
@@ -250,27 +250,6 @@
       }
     },
     {
-      "home": "Central Córdoba",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-16T18:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6516,
-      "implied_prob": 0.5952,
-      "edge": 0.0563,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.98,
-        "away_xg": 1.25,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Racing Club",
       "away": "Banfield",
       "league": "Liga Profesional",
@@ -278,9 +257,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6513,
+      "model_prob": 0.6527,
       "implied_prob": 0.5952,
-      "edge": 0.056,
+      "edge": 0.0575,
       "tags": [
         "value",
         "likely"
@@ -289,6 +268,27 @@
         "home_xg": 1.06,
         "away_xg": 1.03,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Central Córdoba",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6503,
+      "implied_prob": 0.5952,
+      "edge": 0.055,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.97,
+        "away_xg": 1.25,
+        "line": 1.5
       }
     }
   ]
