@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:03:15.454085+00:00",
+  "generated_at": "2026-08-09T17:54:47.765839+00:00",
   "bets": [
     {
       "home": "Degerfors IF",
@@ -9,17 +9,37 @@
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
       "odd": 1.8,
-      "model_prob": 0.6804,
+      "model_prob": 0.679,
       "implied_prob": 0.5068,
-      "edge": 0.1735,
+      "edge": 0.1721,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.68,
+        "home_xg": 1.86,
+        "away_xg": 1.64,
         "line": 2.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6962,
+      "implied_prob": 0.5586,
+      "edge": 0.1376,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.92,
+        "away_xg": 1.69
       }
     },
     {
@@ -30,16 +50,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.67,
-      "model_prob": 0.6829,
+      "model_prob": 0.6805,
       "implied_prob": 0.545,
-      "edge": 0.138,
+      "edge": 0.1355,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.68
+        "home_xg": 1.86,
+        "away_xg": 1.64
       }
     },
     {
@@ -64,26 +84,6 @@
       }
     },
     {
-      "home": "IK Sirius",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-10T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6912,
-      "implied_prob": 0.5586,
-      "edge": 0.1327,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.9,
-        "away_xg": 1.68
-      }
-    },
-    {
       "home": "Sarpsborg 08",
       "away": "Sandefjord Fotball",
       "league": "Eliteserien",
@@ -91,16 +91,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7053,
+      "model_prob": 0.7229,
       "implied_prob": 0.5952,
-      "edge": 0.1101,
+      "edge": 0.1277,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.58,
-        "away_xg": 1.16,
+        "home_xg": 1.54,
+        "away_xg": 1.12,
         "line": 3.5
       }
     },
@@ -126,6 +126,27 @@
       }
     },
     {
+      "home": "Brann",
+      "away": "Hamarkameratene",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6604,
+      "implied_prob": 0.5586,
+      "edge": 0.1018,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.52,
+        "away_xg": 1.43,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Platense",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -147,26 +168,6 @@
       }
     },
     {
-      "home": "Molde",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6509,
-      "implied_prob": 0.5586,
-      "edge": 0.0923,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.62,
-        "away_xg": 1.66
-      }
-    },
-    {
       "home": "Djurgårdens IF",
       "away": "AIK",
       "league": "Allsvenskan",
@@ -174,16 +175,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.53,
-      "model_prob": 0.6679,
+      "model_prob": 0.6725,
       "implied_prob": 0.5952,
-      "edge": 0.0727,
+      "edge": 0.0772,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.79,
-        "away_xg": 1.62
+        "home_xg": 1.8,
+        "away_xg": 1.64
       }
     },
     {
