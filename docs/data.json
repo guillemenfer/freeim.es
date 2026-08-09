@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:09:41.798259+00:00",
+  "generated_at": "2026-08-09T11:53:07.340764+00:00",
   "bets": [
     {
       "home": "Unión de Santa Fe",
@@ -145,27 +145,6 @@
         "home_xg": 2.01,
         "away_xg": 1.35,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Mjällby AIF",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-15T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6847,
-      "implied_prob": 0.5952,
-      "edge": 0.0894,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.14,
-        "away_xg": 1.7,
-        "line": 3.5
       }
     },
     {
