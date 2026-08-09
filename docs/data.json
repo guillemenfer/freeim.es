@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-09T19:53:56.958219+00:00",
+  "generated_at": "2026-08-09T21:55:13.338004+00:00",
   "bets": [
+    {
+      "home": "AC Oulu",
+      "away": "FC Inter Turku",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-16T14:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.72,
+      "model_prob": 0.7157,
+      "implied_prob": 0.5249,
+      "edge": 0.1908,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.79,
+        "away_xg": 1.07,
+        "line": 2.5
+      }
+    },
     {
       "home": "Degerfors IF",
       "away": "IFK Göteborg",
@@ -30,37 +51,17 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.57,
-      "model_prob": 0.718,
+      "model_prob": 0.7155,
       "implied_prob": 0.578,
-      "edge": 0.14,
+      "edge": 0.1375,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.55,
-        "away_xg": 1.13,
+        "home_xg": 1.56,
+        "away_xg": 1.14,
         "line": 3.5
-      }
-    },
-    {
-      "home": "IK Sirius",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-10T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6962,
-      "implied_prob": 0.5586,
-      "edge": 0.1376,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.92,
-        "away_xg": 1.69
       }
     },
     {
@@ -91,17 +92,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6683,
+      "model_prob": 0.6622,
       "implied_prob": 0.5342,
-      "edge": 0.1341,
+      "edge": 0.128,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 0.96,
+        "home_xg": 1.08,
+        "away_xg": 0.97,
         "line": 2.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6962,
+      "implied_prob": 0.578,
+      "edge": 0.1183,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.92,
+        "away_xg": 1.69
       }
     },
     {
@@ -112,16 +133,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6626,
+      "model_prob": 0.6671,
       "implied_prob": 0.5541,
-      "edge": 0.1086,
+      "edge": 0.1131,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.16,
-        "away_xg": 1.11,
+        "home_xg": 1.12,
+        "away_xg": 1.17,
         "line": 1.5
       }
     },
@@ -133,16 +154,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6891,
+      "model_prob": 0.6931,
       "implied_prob": 0.5952,
-      "edge": 0.0939,
+      "edge": 0.0979,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.97,
-        "away_xg": 1.42,
+        "home_xg": 0.98,
+        "away_xg": 1.43,
         "line": 1.5
       }
     },
@@ -154,16 +175,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6523,
+      "model_prob": 0.6538,
       "implied_prob": 0.5586,
-      "edge": 0.0937,
+      "edge": 0.0952,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.55,
-        "away_xg": 1.42,
+        "home_xg": 1.53,
+        "away_xg": 1.44,
         "line": 3.5
       }
     },
@@ -188,26 +209,6 @@
       }
     },
     {
-      "home": "Lanús",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T20:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.57,
-      "model_prob": 0.6502,
-      "implied_prob": 0.578,
-      "edge": 0.0723,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 0.83
-      }
-    },
-    {
       "home": "River Plate",
       "away": "Argentinos Juniors",
       "league": "Liga Profesional",
@@ -215,16 +216,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6595,
+      "model_prob": 0.6639,
       "implied_prob": 0.5952,
-      "edge": 0.0643,
+      "edge": 0.0686,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.1,
-        "away_xg": 1.15,
+        "home_xg": 1.11,
+        "away_xg": 1.16,
         "line": 1.5
       }
     },
@@ -236,16 +237,37 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6582,
+      "model_prob": 0.6534,
       "implied_prob": 0.5952,
-      "edge": 0.0629,
+      "edge": 0.0582,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.77,
-        "away_xg": 1.01
+        "home_xg": 0.78,
+        "away_xg": 1.02
+      }
+    },
+    {
+      "home": "Central Córdoba",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6516,
+      "implied_prob": 0.5952,
+      "edge": 0.0563,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 1.25,
+        "line": 1.5
       }
     },
     {
@@ -256,16 +278,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6563,
+      "model_prob": 0.6513,
       "implied_prob": 0.5952,
-      "edge": 0.061,
+      "edge": 0.056,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
-        "away_xg": 1.02,
+        "home_xg": 1.06,
+        "away_xg": 1.03,
         "line": 2.5
       }
     }
