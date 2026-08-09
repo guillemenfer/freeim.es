@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:54:47.765839+00:00",
+  "generated_at": "2026-08-09T19:53:56.958219+00:00",
   "bets": [
     {
       "home": "Degerfors IF",
@@ -20,6 +20,27 @@
         "home_xg": 1.86,
         "away_xg": 1.64,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.718,
+      "implied_prob": 0.578,
+      "edge": 0.14,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.55,
+        "away_xg": 1.13,
+        "line": 3.5
       }
     },
     {
@@ -84,27 +105,6 @@
       }
     },
     {
-      "home": "Sarpsborg 08",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7229,
-      "implied_prob": 0.5952,
-      "edge": 0.1277,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.12,
-        "line": 3.5
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -126,27 +126,6 @@
       }
     },
     {
-      "home": "Brann",
-      "away": "Hamarkameratene",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6604,
-      "implied_prob": 0.5586,
-      "edge": 0.1018,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.52,
-        "away_xg": 1.43,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Platense",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -165,6 +144,27 @@
         "home_xg": 0.97,
         "away_xg": 1.42,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Hamarkameratene",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6523,
+      "implied_prob": 0.5586,
+      "edge": 0.0937,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.55,
+        "away_xg": 1.42,
+        "line": 3.5
       }
     },
     {
