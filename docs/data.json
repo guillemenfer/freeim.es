@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:02:47.121017+00:00",
+  "generated_at": "2026-08-09T10:09:41.798259+00:00",
   "bets": [
     {
       "home": "Unión de Santa Fe",
@@ -106,6 +106,48 @@
       }
     },
     {
+      "home": "Kristiansund BK",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "start_date": "2026-08-09T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6599,
+      "implied_prob": 0.5676,
+      "edge": 0.0923,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.44,
+        "away_xg": 1.5,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Malmö FF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-09T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6505,
+      "implied_prob": 0.5586,
+      "edge": 0.0919,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.01,
+        "away_xg": 1.35,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Mjällby AIF",
       "away": "IK Sirius",
       "league": "Allsvenskan",
@@ -124,27 +166,6 @@
         "home_xg": 1.14,
         "away_xg": 1.7,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Malmö FF",
-      "away": "Degerfors IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-09T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6505,
-      "implied_prob": 0.578,
-      "edge": 0.0725,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.01,
-        "away_xg": 1.35,
-        "line": 2.5
       }
     },
     {
