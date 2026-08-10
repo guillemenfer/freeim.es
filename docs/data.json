@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:53:37.933851+00:00",
+  "generated_at": "2026-08-10T05:13:08.157784+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -82,6 +82,26 @@
       "context": {
         "home_xg": 1.86,
         "away_xg": 1.64
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-10T17:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6648,
+      "implied_prob": 0.5342,
+      "edge": 0.1305,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.28,
+        "line": 11.5
       }
     },
     {
@@ -209,27 +229,6 @@
       }
     },
     {
-      "home": "River Plate",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-16T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6626,
-      "implied_prob": 0.5952,
-      "edge": 0.0674,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.11,
-        "away_xg": 1.16,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Estudiantes Río Cuarto",
       "away": "Atlético Tucumán",
       "league": "Liga Profesional",
@@ -247,6 +246,27 @@
       "context": {
         "home_xg": 0.78,
         "away_xg": 1.02
+      }
+    },
+    {
+      "home": "River Plate",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6539,
+      "implied_prob": 0.5952,
+      "edge": 0.0587,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.12,
+        "away_xg": 1.12,
+        "line": 1.5
       }
     },
     {
