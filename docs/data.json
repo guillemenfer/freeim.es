@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:23:49.012013+00:00",
+  "generated_at": "2026-08-10T22:22:55.565098+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -92,10 +92,10 @@
       "start_date": "2026-08-11T00:15:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
-      "odd": 1.7,
+      "odd": 1.67,
       "model_prob": 0.6641,
-      "implied_prob": 0.5342,
-      "edge": 0.1298,
+      "implied_prob": 0.545,
+      "edge": 0.1191,
       "tags": [
         "value",
         "likely"
