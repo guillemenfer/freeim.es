@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-10T17:41:05.964787+00:00",
+  "generated_at": "2026-08-10T20:23:49.012013+00:00",
   "bets": [
-    {
-      "home": "Degerfors IF",
-      "away": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.8,
-      "model_prob": 0.6633,
-      "implied_prob": 0.5068,
-      "edge": 0.1565,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.6,
-        "line": 2.5
-      }
-    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -40,6 +19,27 @@
       "context": {
         "home_xg": 0.86,
         "away_xg": 1.13,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Degerfors IF",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.8,
+      "model_prob": 0.6553,
+      "implied_prob": 0.5068,
+      "edge": 0.1484,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.8,
+        "away_xg": 1.58,
         "line": 2.5
       }
     },
@@ -114,16 +114,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.67,
-      "model_prob": 0.6682,
+      "model_prob": 0.662,
       "implied_prob": 0.545,
-      "edge": 0.1233,
+      "edge": 0.117,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.6
+        "home_xg": 1.8,
+        "away_xg": 1.58
       }
     },
     {
@@ -197,16 +197,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6617,
+      "model_prob": 0.6563,
       "implied_prob": 0.578,
-      "edge": 0.0838,
+      "edge": 0.0783,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.77,
-        "away_xg": 1.6
+        "home_xg": 1.75,
+        "away_xg": 1.58
       }
     },
     {
