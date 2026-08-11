@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:05:39.889592+00:00",
+  "generated_at": "2026-08-11T04:53:00.551870+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -65,27 +65,6 @@
       }
     },
     {
-      "home": "IF Gnistan",
-      "away": "Ilves",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-17T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7399,
-      "implied_prob": 0.6053,
-      "edge": 0.1347,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.32,
-        "away_xg": 1.26,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Degerfors IF",
       "away": "IFK Göteborg",
       "league": "Allsvenskan",
@@ -124,27 +103,6 @@
         "home_xg": 1.11,
         "away_xg": 1.15,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Unión de Santa Fe",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-11T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6713,
-      "implied_prob": 0.5676,
-      "edge": 0.1037,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.07,
-        "away_xg": 0.95,
-        "line": 2.5
       }
     },
     {
@@ -208,6 +166,27 @@
         "home_xg": 0.96,
         "away_xg": 1.42,
         "line": 1.5
+      }
+    },
+    {
+      "home": "IF Brommapojkarna",
+      "away": "Örgryte IS",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6836,
+      "implied_prob": 0.5952,
+      "edge": 0.0884,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.47,
+        "away_xg": 1.37,
+        "line": 3.5
       }
     },
     {
