@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T23:27:52.005396+00:00",
+  "generated_at": "2026-08-12T05:20:08.664441+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -113,9 +113,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6872,
+      "model_prob": 0.6873,
       "implied_prob": 0.578,
-      "edge": 0.1092,
+      "edge": 0.1094,
       "tags": [
         "value",
         "likely"
@@ -134,9 +134,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6604,
+      "model_prob": 0.6606,
       "implied_prob": 0.5541,
-      "edge": 0.1064,
+      "edge": 0.1065,
       "tags": [
         "value",
         "likely"
@@ -155,9 +155,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6954,
+      "model_prob": 0.6952,
       "implied_prob": 0.5952,
-      "edge": 0.1002,
+      "edge": 0.1,
       "tags": [
         "value",
         "likely"
@@ -197,9 +197,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6991,
+      "model_prob": 0.6989,
       "implied_prob": 0.6104,
-      "edge": 0.0887,
+      "edge": 0.0885,
       "tags": [
         "value",
         "likely"
@@ -231,26 +231,6 @@
       }
     },
     {
-      "home": "Lanús",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T20:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.57,
-      "model_prob": 0.6524,
-      "implied_prob": 0.578,
-      "edge": 0.0744,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.96,
-        "away_xg": 0.83
-      }
-    },
-    {
       "home": "Estudiantes Río Cuarto",
       "away": "Atlético Tucumán",
       "league": "Liga Profesional",
@@ -258,9 +238,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6604,
+      "model_prob": 0.6603,
       "implied_prob": 0.5952,
-      "edge": 0.0652,
+      "edge": 0.065,
       "tags": [
         "value",
         "likely"
