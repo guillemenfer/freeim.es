@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:33:25.346166+00:00",
+  "generated_at": "2026-08-14T15:31:09.873341+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.72,
-      "model_prob": 0.6797,
+      "model_prob": 0.6941,
       "implied_prob": 0.5249,
-      "edge": 0.1548,
+      "edge": 0.1693,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.86,
-        "away_xg": 1.13,
+        "home_xg": 0.83,
+        "away_xg": 1.11,
         "line": 2.5
       }
     },
@@ -44,6 +44,27 @@
       }
     },
     {
+      "home": "IF Gnistan",
+      "away": "Ilves",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-17T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7522,
+      "implied_prob": 0.6053,
+      "edge": 0.1469,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.29,
+        "away_xg": 1.23,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Sarpsborg 08",
       "away": "Sandefjord Fotball",
       "league": "Eliteserien",
@@ -61,27 +82,6 @@
       "context": {
         "home_xg": 1.56,
         "away_xg": 1.14,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "IF Gnistan",
-      "away": "Ilves",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-17T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7399,
-      "implied_prob": 0.6053,
-      "edge": 0.1347,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.32,
-        "away_xg": 1.26,
         "line": 3.5
       }
     },
