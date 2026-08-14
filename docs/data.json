@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T20:19:19.299645+00:00",
+  "generated_at": "2026-08-14T21:47:56.828556+00:00",
   "bets": [
     {
       "home": "Sarpsborg 08",
@@ -127,6 +127,27 @@
       }
     },
     {
+      "home": "Racing Club",
+      "away": "Banfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-14T23:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6931,
+      "implied_prob": 0.5676,
+      "edge": 0.1256,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.97,
+        "away_xg": 0.97,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Belgrano",
       "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
@@ -206,27 +227,6 @@
         "home_xg": 1.11,
         "away_xg": 1.16,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Racing Club",
-      "away": "Banfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-14T23:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6931,
-      "implied_prob": 0.5867,
-      "edge": 0.1065,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 0.97,
-        "line": 2.5
       }
     },
     {
