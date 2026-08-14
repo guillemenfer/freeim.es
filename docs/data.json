@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-14T15:31:09.873341+00:00",
+  "generated_at": "2026-08-14T18:36:26.219242+00:00",
   "bets": [
+    {
+      "home": "Sarpsborg 08",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.7512,
+      "implied_prob": 0.578,
+      "edge": 0.1732,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.47,
+        "away_xg": 1.06,
+        "line": 3.5
+      }
+    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -30,16 +51,16 @@
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
       "odd": 1.8,
-      "model_prob": 0.6553,
+      "model_prob": 0.661,
       "implied_prob": 0.5068,
-      "edge": 0.1484,
+      "edge": 0.1542,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.8,
-        "away_xg": 1.58,
+        "home_xg": 1.81,
+        "away_xg": 1.59,
         "line": 2.5
       }
     },
@@ -65,44 +86,44 @@
       }
     },
     {
-      "home": "Sarpsborg 08",
-      "away": "Sandefjord Fotball",
+      "home": "CA Sarmiento",
+      "away": "Huracán",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T18:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.661,
+      "implied_prob": 0.5179,
+      "edge": 0.1431,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.95,
+        "line": 8.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Hamarkameratene",
       "league": "Eliteserien",
       "start_date": "2026-08-16T15:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7155,
-      "implied_prob": 0.578,
-      "edge": 0.1375,
+      "odd": 1.62,
+      "model_prob": 0.6854,
+      "implied_prob": 0.5586,
+      "edge": 0.1268,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.56,
-        "away_xg": 1.14,
+        "home_xg": 1.46,
+        "away_xg": 1.37,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Rosenborg BK",
-      "away": "Viking FK",
-      "league": "Eliteserien",
-      "start_date": "2026-08-14T17:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6521,
-      "implied_prob": 0.5179,
-      "edge": 0.1342,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.39,
-        "line": 11.5
       }
     },
     {
@@ -133,16 +154,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.67,
-      "model_prob": 0.662,
+      "model_prob": 0.6665,
       "implied_prob": 0.545,
-      "edge": 0.117,
+      "edge": 0.1215,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.8,
-        "away_xg": 1.58
+        "home_xg": 1.81,
+        "away_xg": 1.59
       }
     },
     {
@@ -194,10 +215,10 @@
       "start_date": "2026-08-14T23:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
+      "odd": 1.55,
       "model_prob": 0.6941,
-      "implied_prob": 0.5952,
-      "edge": 0.0988,
+      "implied_prob": 0.5867,
+      "edge": 0.1074,
       "tags": [
         "value",
         "likely"
@@ -206,27 +227,6 @@
         "home_xg": 0.97,
         "away_xg": 0.97,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Brann",
-      "away": "Hamarkameratene",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6538,
-      "implied_prob": 0.5586,
-      "edge": 0.0952,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.53,
-        "away_xg": 1.44,
-        "line": 3.5
       }
     },
     {
@@ -258,16 +258,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6563,
+      "model_prob": 0.6602,
       "implied_prob": 0.578,
-      "edge": 0.0783,
+      "edge": 0.0822,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.75,
-        "away_xg": 1.58
+        "home_xg": 1.76,
+        "away_xg": 1.59
       }
     },
     {
