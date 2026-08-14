@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:40:17.865527+00:00",
+  "generated_at": "2026-08-14T12:33:25.346166+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -92,10 +92,10 @@
       "start_date": "2026-08-14T17:00:00+00:00",
       "market": "corners",
       "selection_label": "Menos de 11.5 córners",
-      "odd": 1.72,
+      "odd": 1.75,
       "model_prob": 0.6521,
-      "implied_prob": 0.5249,
-      "edge": 0.1272,
+      "implied_prob": 0.5179,
+      "edge": 0.1342,
       "tags": [
         "value",
         "likely"
