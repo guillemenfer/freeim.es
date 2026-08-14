@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T22:27:29.836709+00:00",
+  "generated_at": "2026-08-14T05:19:16.973720+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -83,6 +83,26 @@
         "home_xg": 1.32,
         "away_xg": 1.26,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Rosenborg BK",
+      "away": "Viking FK",
+      "league": "Eliteserien",
+      "start_date": "2026-08-14T17:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.72,
+      "model_prob": 0.6521,
+      "implied_prob": 0.5249,
+      "edge": 0.1272,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.39,
+        "line": 11.5
       }
     },
     {
