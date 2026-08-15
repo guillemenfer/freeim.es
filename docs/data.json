@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:10:11.959620+00:00",
+  "generated_at": "2026-08-15T04:55:18.861198+00:00",
   "bets": [
     {
       "home": "Sarpsborg 08",
@@ -112,10 +112,10 @@
       "start_date": "2026-08-16T15:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
+      "odd": 1.67,
       "model_prob": 0.6854,
-      "implied_prob": 0.5586,
-      "edge": 0.1268,
+      "implied_prob": 0.545,
+      "edge": 0.1404,
       "tags": [
         "value",
         "likely"
