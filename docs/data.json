@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-15T13:47:26.522406+00:00",
+  "generated_at": "2026-08-15T14:59:00.320125+00:00",
   "bets": [
-    {
-      "home": "Sarpsborg 08",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7512,
-      "implied_prob": 0.578,
-      "edge": 0.1732,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.47,
-        "away_xg": 1.06,
-        "line": 3.5
-      }
-    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -41,6 +20,27 @@
         "home_xg": 0.83,
         "away_xg": 1.11,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.7392,
+      "implied_prob": 0.578,
+      "edge": 0.1613,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.5,
+        "away_xg": 1.08,
+        "line": 3.5
       }
     },
     {
@@ -92,16 +92,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.67,
-      "model_prob": 0.6854,
+      "model_prob": 0.6747,
       "implied_prob": 0.545,
-      "edge": 0.1404,
+      "edge": 0.1298,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.46,
-        "away_xg": 1.37,
+        "home_xg": 1.48,
+        "away_xg": 1.39,
         "line": 3.5
       }
     },
@@ -185,27 +185,6 @@
       "context": {
         "home_xg": 1.78,
         "away_xg": 1.56
-      }
-    },
-    {
-      "home": "Estudiantes de La Plata",
-      "away": "Gimnasia y Esgrima La Plata",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-15T19:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6918,
-      "implied_prob": 0.6104,
-      "edge": 0.0814,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 0.97,
-        "line": 2.5
       }
     },
     {
