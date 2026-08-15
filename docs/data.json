@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-15T17:54:43.150188+00:00",
+  "generated_at": "2026-08-15T19:05:18.381786+00:00",
   "bets": [
-    {
-      "home": "Sarpsborg 08",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7392,
-      "implied_prob": 0.578,
-      "edge": 0.1613,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.5,
-        "away_xg": 1.08,
-        "line": 3.5
-      }
-    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -41,6 +20,27 @@
         "home_xg": 0.87,
         "away_xg": 1.15,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7392,
+      "implied_prob": 0.5952,
+      "edge": 0.144,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.5,
+        "away_xg": 1.08,
+        "line": 3.5
       }
     },
     {
