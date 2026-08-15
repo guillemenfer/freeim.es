@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:05:18.381786+00:00",
+  "generated_at": "2026-08-15T19:50:38.057805+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -133,15 +133,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.701,
+      "model_prob": 0.7027,
       "implied_prob": 0.578,
-      "edge": 0.1231,
+      "edge": 0.1248,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.99,
+        "home_xg": 1.0,
         "away_xg": 1.45,
         "line": 1.5
       }
@@ -154,15 +154,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.65,
-      "model_prob": 0.676,
+      "model_prob": 0.6779,
       "implied_prob": 0.5541,
-      "edge": 0.122,
+      "edge": 0.1239,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.14,
+        "home_xg": 1.15,
         "away_xg": 1.19,
         "line": 1.5
       }
@@ -215,9 +215,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6646,
+      "model_prob": 0.6666,
       "implied_prob": 0.6104,
-      "edge": 0.0543,
+      "edge": 0.0563,
       "tags": [
         "value",
         "likely"
