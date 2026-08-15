@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-15T20:57:23.201174+00:00",
+  "generated_at": "2026-08-15T21:52:15.696356+00:00",
   "bets": [
+    {
+      "home": "Belgrano",
+      "away": "Ind. Rivadavia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-15T22:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.8,
+      "model_prob": 0.6596,
+      "implied_prob": 0.5068,
+      "edge": 0.1528,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.93,
+        "line": 8.5
+      }
+    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -103,26 +123,6 @@
         "home_xg": 1.34,
         "away_xg": 1.28,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Belgrano",
-      "away": "Ind. Rivadavia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-15T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6596,
-      "implied_prob": 0.5342,
-      "edge": 0.1254,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.93,
-        "line": 8.5
       }
     },
     {
