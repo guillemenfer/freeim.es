@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:56:32.867023+00:00",
+  "generated_at": "2026-08-15T23:52:03.977597+00:00",
   "bets": [
     {
       "home": "AC Oulu",
@@ -85,27 +85,6 @@
       }
     },
     {
-      "home": "Platense",
-      "away": "Boca Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-16T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6929,
-      "implied_prob": 0.578,
-      "edge": 0.1149,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.98,
-        "away_xg": 1.43,
-        "line": 1.5
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -144,6 +123,27 @@
       "context": {
         "home_xg": 1.78,
         "away_xg": 1.56
+      }
+    },
+    {
+      "home": "Platense",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-16T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6929,
+      "implied_prob": 0.5952,
+      "edge": 0.0977,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 1.43,
+        "line": 1.5
       }
     },
     {
