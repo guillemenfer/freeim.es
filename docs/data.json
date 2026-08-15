@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:53:12.144721+00:00",
+  "generated_at": "2026-08-15T13:47:26.522406+00:00",
   "bets": [
     {
       "home": "Sarpsborg 08",
@@ -40,27 +40,6 @@
       "context": {
         "home_xg": 0.83,
         "away_xg": 1.11,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Degerfors IF",
-      "away": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.8,
-      "model_prob": 0.661,
-      "implied_prob": 0.5068,
-      "edge": 0.1542,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.81,
-        "away_xg": 1.59,
         "line": 2.5
       }
     },
@@ -147,26 +126,6 @@
       }
     },
     {
-      "home": "Degerfors IF",
-      "away": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
-      "model_prob": 0.6665,
-      "implied_prob": 0.545,
-      "edge": 0.1215,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.81,
-        "away_xg": 1.59
-      }
-    },
-    {
       "home": "Platense",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -209,23 +168,23 @@
       }
     },
     {
-      "home": "Djurgårdens IF",
-      "away": "AIK",
+      "home": "Degerfors IF",
+      "away": "IFK Göteborg",
       "league": "Allsvenskan",
       "start_date": "2026-08-16T12:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6602,
-      "implied_prob": 0.578,
-      "edge": 0.0822,
+      "odd": 1.67,
+      "model_prob": 0.6556,
+      "implied_prob": 0.545,
+      "edge": 0.1106,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.76,
-        "away_xg": 1.59
+        "home_xg": 1.78,
+        "away_xg": 1.56
       }
     },
     {
@@ -247,6 +206,26 @@
         "home_xg": 0.97,
         "away_xg": 0.97,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Djurgårdens IF",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6507,
+      "implied_prob": 0.578,
+      "edge": 0.0728,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.73,
+        "away_xg": 1.56
       }
     },
     {
