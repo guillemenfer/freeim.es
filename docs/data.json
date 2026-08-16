@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-16T14:59:24.814403+00:00",
+  "generated_at": "2026-08-16T15:55:30.466133+00:00",
   "bets": [
-    {
-      "home": "Sarpsborg 08",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7427,
-      "implied_prob": 0.5586,
-      "edge": 0.1841,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.49,
-        "away_xg": 1.08,
-        "line": 3.5
-      }
-    },
     {
       "home": "HJK Helsinki",
       "away": "IF Gnistan",
@@ -30,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.57,
-      "model_prob": 0.7552,
+      "model_prob": 0.7408,
       "implied_prob": 0.578,
-      "edge": 0.1773,
+      "edge": 0.1629,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.31,
-        "away_xg": 1.2,
+        "home_xg": 1.34,
+        "away_xg": 1.23,
         "line": 3.5
       }
     },
@@ -64,6 +43,27 @@
       }
     },
     {
+      "home": "Örgryte IS",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-22T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6562,
+      "implied_prob": 0.5342,
+      "edge": 0.1219,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.86,
+        "away_xg": 1.52,
+        "line": 2.5
+      }
+    },
+    {
       "home": "IF Gnistan",
       "away": "Ilves",
       "league": "Veikkausliiga",
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7348,
+      "model_prob": 0.7193,
       "implied_prob": 0.6053,
-      "edge": 0.1295,
+      "edge": 0.1141,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.33,
-        "away_xg": 1.27,
+        "home_xg": 1.37,
+        "away_xg": 1.31,
         "line": 3.5
       }
     },
@@ -106,24 +106,43 @@
       }
     },
     {
-      "home": "Brann",
-      "away": "Hamarkameratene",
-      "league": "Eliteserien",
-      "start_date": "2026-08-16T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6778,
-      "implied_prob": 0.5952,
-      "edge": 0.0826,
+      "home": "Örgryte IS",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-22T13:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6598,
+      "implied_prob": 0.5586,
+      "edge": 0.1013,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.48,
-        "away_xg": 1.39,
-        "line": 3.5
+        "home_xg": 1.86,
+        "away_xg": 1.52
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-17T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6536,
+      "implied_prob": 0.5586,
+      "edge": 0.095,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.81,
+        "away_xg": 1.52
       }
     },
     {
