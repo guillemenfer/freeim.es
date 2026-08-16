@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-16T03:32:20.644459+00:00",
+  "generated_at": "2026-08-16T05:07:45.267979+00:00",
   "bets": [
+    {
+      "home": "Degerfors IF",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.8,
+      "model_prob": 0.6742,
+      "implied_prob": 0.5068,
+      "edge": 0.1674,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.85,
+        "away_xg": 1.63,
+        "line": 2.5
+      }
+    },
     {
       "home": "AC Oulu",
       "away": "FC Inter Turku",
@@ -23,6 +44,27 @@
       }
     },
     {
+      "home": "Sarpsborg 08",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-08-16T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7392,
+      "implied_prob": 0.5952,
+      "edge": 0.144,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.5,
+        "away_xg": 1.08,
+        "line": 3.5
+      }
+    },
+    {
       "home": "CA Sarmiento",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -40,6 +82,26 @@
       "context": {
         "total_corners_xg": 9.95,
         "line": 8.5
+      }
+    },
+    {
+      "home": "Degerfors IF",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.6768,
+      "implied_prob": 0.545,
+      "edge": 0.1318,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.85,
+        "away_xg": 1.63
       }
     },
     {
@@ -84,23 +146,44 @@
       }
     },
     {
-      "home": "Degerfors IF",
-      "away": "IFK Göteborg",
+      "home": "Örgryte IS",
+      "away": "Halmstads BK",
       "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
-      "model_prob": 0.6556,
-      "implied_prob": 0.545,
-      "edge": 0.1106,
+      "start_date": "2026-08-22T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6602,
+      "implied_prob": 0.5342,
+      "edge": 0.126,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.78,
-        "away_xg": 1.56
+        "home_xg": 1.87,
+        "away_xg": 1.53,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Örgryte IS",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-22T13:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.663,
+      "implied_prob": 0.5586,
+      "edge": 0.1044,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.87,
+        "away_xg": 1.53
       }
     },
     {
@@ -125,24 +208,43 @@
       }
     },
     {
-      "home": "IF Brommapojkarna",
-      "away": "Örgryte IS",
+      "home": "BK Häcken",
+      "away": "Halmstads BK",
       "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.692,
-      "implied_prob": 0.6053,
-      "edge": 0.0867,
+      "start_date": "2026-08-17T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6568,
+      "implied_prob": 0.5586,
+      "edge": 0.0982,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.45,
-        "away_xg": 1.35,
-        "line": 3.5
+        "home_xg": 1.82,
+        "away_xg": 1.53
+      }
+    },
+    {
+      "home": "Djurgårdens IF",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6692,
+      "implied_prob": 0.578,
+      "edge": 0.0912,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.79,
+        "away_xg": 1.62
       }
     },
     {
@@ -166,26 +268,6 @@
       }
     },
     {
-      "home": "Djurgårdens IF",
-      "away": "AIK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6507,
-      "implied_prob": 0.578,
-      "edge": 0.0728,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.73,
-        "away_xg": 1.56
-      }
-    },
-    {
       "home": "Estudiantes Río Cuarto",
       "away": "Atlético Tucumán",
       "league": "Liga Profesional",
@@ -203,6 +285,27 @@
       "context": {
         "home_xg": 0.76,
         "away_xg": 1.0
+      }
+    },
+    {
+      "home": "IF Brommapojkarna",
+      "away": "Örgryte IS",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6636,
+      "implied_prob": 0.6053,
+      "edge": 0.0584,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.51,
+        "away_xg": 1.41,
+        "line": 3.5
       }
     }
   ]
