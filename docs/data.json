@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:04:19.606788+00:00",
+  "generated_at": "2026-08-16T07:51:15.464984+00:00",
   "bets": [
     {
       "home": "Degerfors IF",
@@ -173,10 +173,10 @@
       "start_date": "2026-08-16T15:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
+      "odd": 1.6,
       "model_prob": 0.6747,
-      "implied_prob": 0.5586,
-      "edge": 0.1162,
+      "implied_prob": 0.5676,
+      "edge": 0.1072,
       "tags": [
         "value",
         "likely"
