@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:55:24.039859+00:00",
+  "generated_at": "2026-08-16T21:50:14.894275+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -64,6 +64,46 @@
       }
     },
     {
+      "home": "Lanús",
+      "away": "Independiente",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-17T20:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.57,
+      "model_prob": 0.6753,
+      "implied_prob": 0.578,
+      "edge": 0.0974,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.89,
+        "away_xg": 0.8
+      }
+    },
+    {
+      "home": "Estudiantes Río Cuarto",
+      "away": "Atlético Tucumán",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-17T17:45:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6895,
+      "implied_prob": 0.5952,
+      "edge": 0.0942,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.71,
+        "away_xg": 0.95
+      }
+    },
+    {
       "home": "BK Häcken",
       "away": "Halmstads BK",
       "league": "Allsvenskan",
@@ -84,46 +124,6 @@
       }
     },
     {
-      "home": "Lanús",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T20:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.57,
-      "model_prob": 0.6596,
-      "implied_prob": 0.578,
-      "edge": 0.0816,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.92,
-        "away_xg": 0.83
-      }
-    },
-    {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Atlético Tucumán",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T17:45:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.53,
-      "model_prob": 0.6735,
-      "implied_prob": 0.5952,
-      "edge": 0.0782,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.74,
-        "away_xg": 0.98
-      }
-    },
-    {
       "home": "Barracas Central",
       "away": "Rosario Central",
       "league": "Liga Profesional",
@@ -131,16 +131,37 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6502,
+      "model_prob": 0.6684,
       "implied_prob": 0.5952,
-      "edge": 0.0549,
+      "edge": 0.0732,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.92,
-        "away_xg": 0.87
+        "home_xg": 0.89,
+        "away_xg": 0.83
+      }
+    },
+    {
+      "home": "Vélez Sársfield",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-17T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6576,
+      "implied_prob": 0.5867,
+      "edge": 0.0709,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.22,
+        "away_xg": 0.85,
+        "line": 2.5
       }
     }
   ]
