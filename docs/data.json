@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-16T09:07:30.943589+00:00",
+  "generated_at": "2026-08-16T10:01:09.857634+00:00",
   "bets": [
-    {
-      "home": "Degerfors IF",
-      "away": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-16T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.8,
-      "model_prob": 0.6742,
-      "implied_prob": 0.5068,
-      "edge": 0.1674,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.85,
-        "away_xg": 1.63,
-        "line": 2.5
-      }
-    },
     {
       "home": "Sarpsborg 08",
       "away": "Sandefjord Fotball",
@@ -41,6 +20,27 @@
         "home_xg": 1.5,
         "away_xg": 1.08,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Degerfors IF",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-16T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.75,
+      "model_prob": 0.6742,
+      "implied_prob": 0.5179,
+      "edge": 0.1563,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.85,
+        "away_xg": 1.63,
+        "line": 2.5
       }
     },
     {
