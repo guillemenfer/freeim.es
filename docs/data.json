@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T15:55:30.466133+00:00",
+  "generated_at": "2026-08-16T17:00:08.612451+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.57,
-      "model_prob": 0.7408,
+      "model_prob": 0.7552,
       "implied_prob": 0.578,
-      "edge": 0.1629,
+      "edge": 0.1773,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.34,
-        "away_xg": 1.23,
+        "home_xg": 1.31,
+        "away_xg": 1.2,
         "line": 3.5
       }
     },
@@ -50,38 +50,17 @@
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6562,
+      "model_prob": 0.654,
       "implied_prob": 0.5342,
-      "edge": 0.1219,
+      "edge": 0.1197,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.86,
+        "home_xg": 1.85,
         "away_xg": 1.52,
         "line": 2.5
-      }
-    },
-    {
-      "home": "IF Gnistan",
-      "away": "Ilves",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-17T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7193,
-      "implied_prob": 0.6053,
-      "edge": 0.1141,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.37,
-        "away_xg": 1.31,
-        "line": 3.5
       }
     },
     {
@@ -113,15 +92,15 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.62,
-      "model_prob": 0.6598,
+      "model_prob": 0.6581,
       "implied_prob": 0.5586,
-      "edge": 0.1013,
+      "edge": 0.0995,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.86,
+        "home_xg": 1.85,
         "away_xg": 1.52
       }
     },
@@ -133,15 +112,15 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.62,
-      "model_prob": 0.6536,
+      "model_prob": 0.6518,
       "implied_prob": 0.5586,
-      "edge": 0.095,
+      "edge": 0.0932,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.81,
+        "home_xg": 1.8,
         "away_xg": 1.52
       }
     },
