@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T19:17:17.289297+00:00",
+  "generated_at": "2026-08-17T20:57:21.671799+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -20,67 +20,6 @@
         "home_xg": 1.31,
         "away_xg": 1.2,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Örgryte IS",
-      "away": "Halmstads BK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-22T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.654,
-      "implied_prob": 0.5586,
-      "edge": 0.0954,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.85,
-        "away_xg": 1.52,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Örgryte IS",
-      "away": "Halmstads BK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-22T13:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6581,
-      "implied_prob": 0.578,
-      "edge": 0.0801,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.85,
-        "away_xg": 1.52
-      }
-    },
-    {
-      "home": "Lanús",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T20:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.53,
-      "model_prob": 0.6567,
-      "implied_prob": 0.5952,
-      "edge": 0.0614,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.93,
-        "away_xg": 0.84
       }
     }
   ]
