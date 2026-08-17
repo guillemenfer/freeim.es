@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T10:07:48.231150+00:00",
+  "generated_at": "2026-08-17T11:05:15.513216+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -19,6 +19,27 @@
       "context": {
         "home_xg": 1.31,
         "away_xg": 1.2,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "IF Gnistan",
+      "away": "Ilves",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-17T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7348,
+      "implied_prob": 0.5952,
+      "edge": 0.1396,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.27,
         "line": 3.5
       }
     },
@@ -104,6 +125,27 @@
       }
     },
     {
+      "home": "Vélez Sársfield",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-17T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6835,
+      "implied_prob": 0.578,
+      "edge": 0.1056,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.18,
+        "away_xg": 0.8,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Örgryte IS",
       "away": "Halmstads BK",
       "league": "Allsvenskan",
@@ -121,27 +163,6 @@
       "context": {
         "home_xg": 1.85,
         "away_xg": 1.52
-      }
-    },
-    {
-      "home": "Vélez Sársfield",
-      "away": "Defensa y Justicia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-17T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6835,
-      "implied_prob": 0.5867,
-      "edge": 0.0968,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.18,
-        "away_xg": 0.8,
-        "line": 2.5
       }
     }
   ]
