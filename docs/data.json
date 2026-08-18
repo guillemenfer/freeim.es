@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T11:02:30.782795+00:00",
+  "generated_at": "2026-08-18T11:59:33.301071+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -20,6 +20,27 @@
         "home_xg": 1.31,
         "away_xg": 1.2,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Aldosivi",
+      "away": "Unión de Santa Fe",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-21T17:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7043,
+      "implied_prob": 0.6104,
+      "edge": 0.0939,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.01,
+        "away_xg": 0.88,
+        "line": 2.5
       }
     }
   ]
