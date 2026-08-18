@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:37:15.145122+00:00",
+  "generated_at": "2026-08-18T20:44:56.439287+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -62,6 +62,26 @@
         "home_xg": 1.02,
         "away_xg": 0.87,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Bodø/Glimt",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-08-30T12:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.7205,
+      "implied_prob": 0.6234,
+      "edge": 0.0971,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.11,
+        "away_xg": 1.71
       }
     },
     {
