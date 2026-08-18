@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-08-18T20:44:56.439287+00:00",
+  "generated_at": "2026-08-18T21:54:23.394958+00:00",
   "bets": [
+    {
+      "home": "Bodø/Glimt",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-08-30T12:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.9,
+      "model_prob": 0.6536,
+      "implied_prob": 0.4751,
+      "edge": 0.1785,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.69,
+        "away_xg": 1.29,
+        "line": 3.5
+      }
+    },
     {
       "home": "HJK Helsinki",
       "away": "IF Gnistan",
@@ -44,6 +65,27 @@
       }
     },
     {
+      "home": "Lillestrom SK",
+      "away": "Fredrikstad",
+      "league": "Eliteserien",
+      "start_date": "2026-08-30T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7093,
+      "implied_prob": 0.5867,
+      "edge": 0.1226,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.39,
+        "away_xg": 1.34,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Independiente",
       "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
@@ -65,23 +107,24 @@
       }
     },
     {
-      "home": "Bodø/Glimt",
-      "away": "Rosenborg BK",
+      "home": "Sandefjord Fotball",
+      "away": "Brann",
       "league": "Eliteserien",
-      "start_date": "2026-08-30T12:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.45,
-      "model_prob": 0.7205,
-      "implied_prob": 0.6234,
-      "edge": 0.0971,
+      "start_date": "2026-08-30T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6639,
+      "implied_prob": 0.5676,
+      "edge": 0.0963,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.11,
-        "away_xg": 1.71
+        "home_xg": 1.42,
+        "away_xg": 1.51,
+        "line": 3.5
       }
     },
     {
