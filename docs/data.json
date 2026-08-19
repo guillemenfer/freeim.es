@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:55:37.696581+00:00",
+  "generated_at": "2026-08-19T03:15:49.046402+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -107,27 +107,6 @@
       }
     },
     {
-      "home": "Sandefjord Fotball",
-      "away": "Brann",
-      "league": "Eliteserien",
-      "start_date": "2026-08-30T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6639,
-      "implied_prob": 0.5676,
-      "edge": 0.0963,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.42,
-        "away_xg": 1.51,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Newell's Old Boys",
       "away": "Banfield",
       "league": "Liga Profesional",
@@ -146,6 +125,27 @@
         "home_xg": 1.03,
         "away_xg": 0.93,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Brann",
+      "league": "Eliteserien",
+      "start_date": "2026-08-30T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6639,
+      "implied_prob": 0.5867,
+      "edge": 0.0772,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.42,
+        "away_xg": 1.51,
+        "line": 3.5
       }
     },
     {
