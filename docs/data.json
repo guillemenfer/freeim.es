@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:00:28.508425+00:00",
+  "generated_at": "2026-08-21T11:06:04.257846+00:00",
   "bets": [
     {
       "home": "HJK Helsinki",
@@ -145,6 +145,26 @@
         "home_xg": 1.42,
         "away_xg": 1.51,
         "line": 3.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "BK Häcken",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-21T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.7065,
+      "implied_prob": 0.6361,
+      "edge": 0.0703,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.99,
+        "away_xg": 1.71
       }
     },
     {
