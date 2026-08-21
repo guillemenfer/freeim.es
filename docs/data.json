@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:04:15.324197+00:00",
+  "generated_at": "2026-08-21T17:51:22.819806+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -44,26 +44,6 @@
       }
     },
     {
-      "home": "Aldosivi",
-      "away": "Unión de Santa Fe",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-21T17:30:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6733,
-      "implied_prob": 0.5342,
-      "edge": 0.139,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.05,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Tigre",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -71,16 +51,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7366,
+      "model_prob": 0.7323,
       "implied_prob": 0.6104,
-      "edge": 0.1262,
+      "edge": 0.1219,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 0.92,
-        "away_xg": 0.86,
+        "away_xg": 0.87,
         "line": 2.5
       }
     },
@@ -92,9 +72,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7088,
+      "model_prob": 0.7044,
       "implied_prob": 0.5952,
-      "edge": 0.1135,
+      "edge": 0.1092,
       "tags": [
         "value",
         "likely"
@@ -113,16 +93,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6871,
+      "model_prob": 0.6834,
       "implied_prob": 0.6053,
-      "edge": 0.0819,
+      "edge": 0.0782,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.03,
-        "away_xg": 0.93,
+        "home_xg": 1.04,
+        "away_xg": 0.94,
         "line": 2.5
       }
     },
@@ -148,26 +128,6 @@
       }
     },
     {
-      "home": "IK Sirius",
-      "away": "BK Häcken",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-21T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.7065,
-      "implied_prob": 0.6361,
-      "edge": 0.0703,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.99,
-        "away_xg": 1.71
-      }
-    },
-    {
       "home": "Racing Club",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -175,15 +135,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6738,
+      "model_prob": 0.6769,
       "implied_prob": 0.6104,
-      "edge": 0.0634,
+      "edge": 0.0665,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.07,
         "away_xg": 1.26,
         "line": 1.5
       }
