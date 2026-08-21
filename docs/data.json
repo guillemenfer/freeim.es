@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-21T14:10:48.951209+00:00",
+  "generated_at": "2026-08-21T16:04:15.324197+00:00",
   "bets": [
-    {
-      "home": "HJK Helsinki",
-      "away": "IF Gnistan",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-23T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7552,
-      "implied_prob": 0.578,
-      "edge": 0.1773,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.31,
-        "away_xg": 1.2,
-        "line": 3.5
-      }
-    },
     {
       "home": "Bodø/Glimt",
       "away": "Rosenborg BK",
@@ -40,6 +19,27 @@
       "context": {
         "home_xg": 1.69,
         "away_xg": 1.29,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "HJK Helsinki",
+      "away": "IF Gnistan",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-23T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.7485,
+      "implied_prob": 0.578,
+      "edge": 0.1706,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.22,
         "line": 3.5
       }
     },
