@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-08-21T19:35:19.935796+00:00",
+  "generated_at": "2026-08-21T20:47:26.746678+00:00",
   "bets": [
+    {
+      "home": "Belgrano",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-23T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.95,
+      "model_prob": 0.65,
+      "implied_prob": 0.4658,
+      "edge": 0.1843,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
+      }
+    },
     {
       "home": "Bodø/Glimt",
       "away": "Rosenborg BK",
