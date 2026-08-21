@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:01:55.951283+00:00",
+  "generated_at": "2026-08-21T23:59:32.959085+00:00",
   "bets": [
     {
       "home": "Belgrano",
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7323,
+      "model_prob": 0.7188,
       "implied_prob": 0.6104,
-      "edge": 0.1219,
+      "edge": 0.1084,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.92,
-        "away_xg": 0.87,
+        "home_xg": 0.95,
+        "away_xg": 0.89,
         "line": 2.5
       }
     },
@@ -92,38 +92,38 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7044,
+      "model_prob": 0.6907,
       "implied_prob": 0.5952,
-      "edge": 0.1092,
+      "edge": 0.0954,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.02,
-        "away_xg": 0.87,
+        "home_xg": 1.05,
+        "away_xg": 0.9,
         "line": 2.5
       }
     },
     {
-      "home": "Newell's Old Boys",
-      "away": "Banfield",
+      "home": "Barracas Central",
+      "away": "Platense",
       "league": "Liga Profesional",
-      "start_date": "2026-08-23T00:00:00+00:00",
+      "start_date": "2026-08-23T17:45:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6834,
-      "implied_prob": 0.6053,
-      "edge": 0.0782,
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6559,
+      "implied_prob": 0.5676,
+      "edge": 0.0883,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.04,
-        "away_xg": 0.94,
-        "line": 2.5
+        "home_xg": 1.12,
+        "away_xg": 1.12,
+        "line": 1.5
       }
     },
     {
@@ -155,17 +155,38 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6769,
+      "model_prob": 0.6866,
       "implied_prob": 0.6104,
+      "edge": 0.0762,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.09,
+        "away_xg": 1.28,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Newell's Old Boys",
+      "away": "Banfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-23T00:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6717,
+      "implied_prob": 0.6053,
       "edge": 0.0665,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 1.26,
-        "line": 1.5
+        "home_xg": 1.06,
+        "away_xg": 0.96,
+        "line": 2.5
       }
     }
   ]
