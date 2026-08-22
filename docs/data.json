@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:59:32.959085+00:00",
+  "generated_at": "2026-08-22T03:13:55.117804+00:00",
   "bets": [
     {
       "home": "Belgrano",
@@ -127,6 +127,27 @@
       }
     },
     {
+      "home": "Racing Club",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-24T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6866,
+      "implied_prob": 0.6053,
+      "edge": 0.0813,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.09,
+        "away_xg": 1.28,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Sandefjord Fotball",
       "away": "Brann",
       "league": "Eliteserien",
@@ -145,27 +166,6 @@
         "home_xg": 1.42,
         "away_xg": 1.51,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Racing Club",
-      "away": "Boca Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-24T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6866,
-      "implied_prob": 0.6104,
-      "edge": 0.0762,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.09,
-        "away_xg": 1.28,
-        "line": 1.5
       }
     },
     {
