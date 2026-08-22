@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:57:19.676728+00:00",
+  "generated_at": "2026-08-22T19:07:39.361507+00:00",
   "bets": [
     {
       "home": "Belgrano",
@@ -112,16 +112,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7188,
+      "model_prob": 0.7149,
       "implied_prob": 0.6104,
-      "edge": 0.1084,
+      "edge": 0.1045,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.95,
-        "away_xg": 0.89,
+        "home_xg": 0.96,
+        "away_xg": 0.9,
         "line": 2.5
       }
     },
@@ -133,16 +133,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6559,
+      "model_prob": 0.6592,
       "implied_prob": 0.5676,
-      "edge": 0.0883,
+      "edge": 0.0916,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.12,
-        "away_xg": 1.12,
+        "home_xg": 1.13,
+        "away_xg": 1.13,
         "line": 1.5
       }
     },
@@ -154,38 +154,17 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6866,
+      "model_prob": 0.6893,
       "implied_prob": 0.6053,
-      "edge": 0.0813,
+      "edge": 0.0841,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.09,
-        "away_xg": 1.28,
+        "home_xg": 1.1,
+        "away_xg": 1.29,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Independiente",
-      "away": "Ind. Rivadavia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-22T21:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6907,
-      "implied_prob": 0.6104,
-      "edge": 0.0803,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.05,
-        "away_xg": 0.9,
-        "line": 2.5
       }
     },
     {
@@ -210,6 +189,27 @@
       }
     },
     {
+      "home": "Independiente",
+      "away": "Ind. Rivadavia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-22T21:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6867,
+      "implied_prob": 0.6104,
+      "edge": 0.0763,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.06,
+        "away_xg": 0.91,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Newell's Old Boys",
       "away": "Banfield",
       "league": "Liga Profesional",
@@ -217,15 +217,15 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6717,
+      "model_prob": 0.6683,
       "implied_prob": 0.6053,
-      "edge": 0.0665,
+      "edge": 0.0631,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.07,
         "away_xg": 0.96,
         "line": 2.5
       }
