@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:50:24.622772+00:00",
+  "generated_at": "2026-08-23T15:00:03.494610+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -50,16 +50,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.67,
-      "model_prob": 0.6797,
+      "model_prob": 0.6898,
       "implied_prob": 0.545,
-      "edge": 0.1348,
+      "edge": 0.1448,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.58,
-        "away_xg": 1.28,
+        "home_xg": 1.56,
+        "away_xg": 1.25,
         "line": 3.5
       }
     },
@@ -81,27 +81,6 @@
       "context": {
         "total_corners_xg": 10.11,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Hammarby IF",
-      "away": "GAIS",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-23T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6909,
-      "implied_prob": 0.5676,
-      "edge": 0.1233,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.63,
-        "away_xg": 1.18,
-        "line": 3.5
       }
     },
     {
@@ -144,6 +123,27 @@
         "home_xg": 0.95,
         "away_xg": 0.9,
         "line": 2.5
+      }
+    },
+    {
+      "home": "AIK",
+      "away": "Hammarby IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-30T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6586,
+      "implied_prob": 0.5676,
+      "edge": 0.0911,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.26,
+        "away_xg": 1.69,
+        "line": 3.5
       }
     },
     {
