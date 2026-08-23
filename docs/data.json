@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T11:56:43.837356+00:00",
+  "generated_at": "2026-08-23T13:50:24.622772+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -43,44 +43,23 @@
       }
     },
     {
-      "home": "KuPS",
-      "away": "IFK Mariehamn",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-23T12:00:00+00:00",
+      "home": "BK Häcken",
+      "away": "Västerås SK FK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-29T13:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7059,
-      "implied_prob": 0.5586,
-      "edge": 0.1473,
+      "odd": 1.67,
+      "model_prob": 0.6797,
+      "implied_prob": 0.545,
+      "edge": 0.1348,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.59,
-        "away_xg": 1.15,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "HJK Helsinki",
-      "away": "IF Gnistan",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-23T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7117,
-      "implied_prob": 0.578,
-      "edge": 0.1337,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.41,
-        "away_xg": 1.3,
+        "home_xg": 1.58,
+        "away_xg": 1.28,
         "line": 3.5
       }
     },
@@ -105,6 +84,48 @@
       }
     },
     {
+      "home": "Hammarby IF",
+      "away": "GAIS",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-23T14:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6909,
+      "implied_prob": 0.5676,
+      "edge": 0.1233,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.63,
+        "away_xg": 1.18,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Barracas Central",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-23T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.6566,
+      "implied_prob": 0.545,
+      "edge": 0.1117,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.13,
+        "away_xg": 1.12,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Tigre",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -123,48 +144,6 @@
         "home_xg": 0.95,
         "away_xg": 0.9,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Barracas Central",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6566,
-      "implied_prob": 0.5676,
-      "edge": 0.0891,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.13,
-        "away_xg": 1.12,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Hammarby IF",
-      "away": "GAIS",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-23T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6641,
-      "implied_prob": 0.578,
-      "edge": 0.0861,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.69,
-        "away_xg": 1.24,
-        "line": 3.5
       }
     },
     {
