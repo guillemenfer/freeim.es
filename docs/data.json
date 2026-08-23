@@ -1,47 +1,6 @@
 {
-  "generated_at": "2026-08-23T10:01:15.858764+00:00",
+  "generated_at": "2026-08-23T10:59:58.479816+00:00",
   "bets": [
-    {
-      "home": "Belgrano",
-      "away": "Defensa y Justicia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T20:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.95,
-      "model_prob": 0.65,
-      "implied_prob": 0.4658,
-      "edge": 0.1843,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "KuPS",
-      "away": "IFK Mariehamn",
-      "league": "Veikkausliiga",
-      "start_date": "2026-08-23T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.7,
-      "model_prob": 0.7059,
-      "implied_prob": 0.5342,
-      "edge": 0.1716,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.59,
-        "away_xg": 1.15,
-        "line": 3.5
-      }
-    },
     {
       "home": "Bodø/Glimt",
       "away": "Rosenborg BK",
@@ -61,6 +20,47 @@
         "home_xg": 1.69,
         "away_xg": 1.29,
         "line": 3.5
+      }
+    },
+    {
+      "home": "KuPS",
+      "away": "IFK Mariehamn",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-23T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.7059,
+      "implied_prob": 0.545,
+      "edge": 0.1609,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.59,
+        "away_xg": 1.15,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Belgrano",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-23T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.65,
+      "implied_prob": 0.5,
+      "edge": 0.15,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
       }
     },
     {
