@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:02:56.433393+00:00",
+  "generated_at": "2026-08-23T17:53:36.781973+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -64,27 +64,6 @@
       }
     },
     {
-      "home": "Barracas Central",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.72,
-      "model_prob": 0.6566,
-      "implied_prob": 0.5249,
-      "edge": 0.1318,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.13,
-        "away_xg": 1.12,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Talleres de Córdoba",
       "away": "Rosario Central",
       "league": "Liga Profesional",
@@ -112,15 +91,15 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7179,
+      "model_prob": 0.7142,
       "implied_prob": 0.6104,
-      "edge": 0.1076,
+      "edge": 0.1038,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.95,
+        "home_xg": 0.96,
         "away_xg": 0.9,
         "line": 2.5
       }
@@ -175,15 +154,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6872,
+      "model_prob": 0.6898,
       "implied_prob": 0.6053,
-      "edge": 0.0819,
+      "edge": 0.0845,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.09,
+        "home_xg": 1.1,
         "away_xg": 1.29,
         "line": 1.5
       }
