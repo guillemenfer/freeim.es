@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T15:56:50.887093+00:00",
+  "generated_at": "2026-08-23T17:02:56.433393+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -50,17 +50,38 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.67,
-      "model_prob": 0.692,
+      "model_prob": 0.6948,
       "implied_prob": 0.545,
-      "edge": 0.147,
+      "edge": 0.1498,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.55,
-        "away_xg": 1.25,
+        "home_xg": 1.54,
+        "away_xg": 1.24,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Barracas Central",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-23T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.72,
+      "model_prob": 0.6566,
+      "implied_prob": 0.5249,
+      "edge": 0.1318,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.13,
+        "away_xg": 1.12,
+        "line": 1.5
       }
     },
     {
@@ -81,27 +102,6 @@
       "context": {
         "total_corners_xg": 10.11,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Barracas Central",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.6566,
-      "implied_prob": 0.545,
-      "edge": 0.1117,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.13,
-        "away_xg": 1.12,
-        "line": 1.5
       }
     },
     {
@@ -133,16 +133,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.661,
+      "model_prob": 0.6639,
       "implied_prob": 0.5676,
-      "edge": 0.0934,
+      "edge": 0.0964,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.26,
-        "away_xg": 1.68,
+        "home_xg": 1.25,
+        "away_xg": 1.67,
         "line": 3.5
       }
     },
@@ -154,15 +154,15 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6687,
+      "model_prob": 0.6713,
       "implied_prob": 0.5867,
-      "edge": 0.082,
+      "edge": 0.0847,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.62,
+        "home_xg": 1.61,
         "away_xg": 1.28,
         "line": 3.5
       }
