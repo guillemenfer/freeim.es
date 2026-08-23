@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:51:36.665280+00:00",
+  "generated_at": "2026-08-23T20:57:50.105151+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -20,26 +20,6 @@
         "home_xg": 1.69,
         "away_xg": 1.29,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Belgrano",
-      "away": "Defensa y Justicia",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T20:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.82,
-      "model_prob": 0.65,
-      "implied_prob": 0.5,
-      "edge": 0.15,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
       }
     },
     {
@@ -91,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7142,
+      "model_prob": 0.7247,
       "implied_prob": 0.6104,
-      "edge": 0.1038,
+      "edge": 0.1143,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.96,
-        "away_xg": 0.9,
+        "home_xg": 0.94,
+        "away_xg": 0.88,
         "line": 2.5
       }
     },
@@ -147,27 +127,6 @@
       }
     },
     {
-      "home": "Racing Club",
-      "away": "Boca Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-24T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6898,
-      "implied_prob": 0.6053,
-      "edge": 0.0845,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.1,
-        "away_xg": 1.29,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Sandefjord Fotball",
       "away": "Brann",
       "league": "Eliteserien",
@@ -186,6 +145,27 @@
         "home_xg": 1.42,
         "away_xg": 1.51,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Racing Club",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-24T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6824,
+      "implied_prob": 0.6053,
+      "edge": 0.0772,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.08,
+        "away_xg": 1.27,
+        "line": 1.5
       }
     }
   ]
