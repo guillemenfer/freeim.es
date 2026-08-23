@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:54:25.997061+00:00",
+  "generated_at": "2026-08-23T22:55:40.566787+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7247,
+      "model_prob": 0.7235,
       "implied_prob": 0.6104,
-      "edge": 0.1143,
+      "edge": 0.1132,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 0.94,
-        "away_xg": 0.88,
+        "away_xg": 0.89,
         "line": 2.5
       }
     },
@@ -127,6 +127,27 @@
       }
     },
     {
+      "home": "Racing Club",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-24T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6832,
+      "implied_prob": 0.6053,
+      "edge": 0.078,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.09,
+        "away_xg": 1.28,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Sandefjord Fotball",
       "away": "Brann",
       "league": "Eliteserien",
@@ -145,27 +166,6 @@
         "home_xg": 1.42,
         "away_xg": 1.51,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Racing Club",
-      "away": "Boca Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-24T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6824,
-      "implied_prob": 0.6053,
-      "edge": 0.0772,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.08,
-        "away_xg": 1.27,
-        "line": 1.5
       }
     }
   ]
