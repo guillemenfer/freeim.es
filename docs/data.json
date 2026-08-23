@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:05:13.526297+00:00",
+  "generated_at": "2026-08-23T07:53:45.368681+00:00",
   "bets": [
     {
       "home": "Belgrano",
@@ -144,6 +144,27 @@
         "home_xg": 1.13,
         "away_xg": 1.12,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Hammarby IF",
+      "away": "GAIS",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-23T14:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6641,
+      "implied_prob": 0.578,
+      "edge": 0.0861,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.69,
+        "away_xg": 1.24,
+        "line": 3.5
       }
     },
     {
