@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:54:54.207768+00:00",
+  "generated_at": "2026-08-23T03:34:51.427592+00:00",
   "bets": [
     {
       "home": "Belgrano",
@@ -85,6 +85,26 @@
       }
     },
     {
+      "home": "Talleres de Córdoba",
+      "away": "Rosario Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-25T00:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.65,
+      "model_prob": 0.6789,
+      "implied_prob": 0.5479,
+      "edge": 0.131,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.11,
+        "line": 8.5
+      }
+    },
+    {
       "home": "Tigre",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -92,16 +112,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7224,
+      "model_prob": 0.7179,
       "implied_prob": 0.6104,
-      "edge": 0.112,
+      "edge": 0.1076,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.94,
-        "away_xg": 0.89,
+        "home_xg": 0.95,
+        "away_xg": 0.9,
         "line": 2.5
       }
     },
@@ -113,16 +133,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6528,
+      "model_prob": 0.6566,
       "implied_prob": 0.5676,
-      "edge": 0.0853,
+      "edge": 0.0891,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.12,
-        "away_xg": 1.11,
+        "home_xg": 1.13,
+        "away_xg": 1.12,
         "line": 1.5
       }
     },
@@ -134,16 +154,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.684,
+      "model_prob": 0.6872,
       "implied_prob": 0.6053,
-      "edge": 0.0788,
+      "edge": 0.0819,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.09,
-        "away_xg": 1.28,
+        "away_xg": 1.29,
         "line": 1.5
       }
     },
@@ -166,27 +186,6 @@
         "home_xg": 1.42,
         "away_xg": 1.51,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Newell's Old Boys",
-      "away": "Banfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-23T00:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6749,
-      "implied_prob": 0.6053,
-      "edge": 0.0696,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.06,
-        "away_xg": 0.95,
-        "line": 2.5
       }
     }
   ]
