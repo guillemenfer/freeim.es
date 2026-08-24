@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:36:25.716338+00:00",
+  "generated_at": "2026-08-24T05:56:53.973902+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -29,10 +29,10 @@
       "start_date": "2026-08-29T13:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.67,
+      "odd": 1.62,
       "model_prob": 0.6948,
-      "implied_prob": 0.545,
-      "edge": 0.1498,
+      "implied_prob": 0.5586,
+      "edge": 0.1362,
       "tags": [
         "value",
         "likely"
