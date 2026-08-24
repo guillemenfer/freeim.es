@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T21:16:45.641702+00:00",
+  "generated_at": "2026-08-24T22:55:03.427368+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -64,27 +64,6 @@
       }
     },
     {
-      "home": "Tigre",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-24T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7366,
-      "implied_prob": 0.6104,
-      "edge": 0.1262,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.92,
-        "away_xg": 0.86,
-        "line": 2.5
-      }
-    },
-    {
       "home": "AIK",
       "away": "Hammarby IF",
       "league": "Allsvenskan",
@@ -145,27 +124,6 @@
         "home_xg": 1.63,
         "away_xg": 1.3,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Talleres de Córdoba",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-25T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6594,
-      "implied_prob": 0.5952,
-      "edge": 0.0642,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.87,
-        "away_xg": 1.2,
-        "line": 2.5
       }
     }
   ]
