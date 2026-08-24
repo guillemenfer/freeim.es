@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:57:31.461884+00:00",
+  "generated_at": "2026-08-24T14:28:20.025582+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -19,27 +19,6 @@
       "context": {
         "home_xg": 1.69,
         "away_xg": 1.29,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "BK Häcken",
-      "away": "Västerås SK FK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-29T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6948,
-      "implied_prob": 0.5586,
-      "edge": 0.1362,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.24,
         "line": 3.5
       }
     },
@@ -85,43 +64,22 @@
       }
     },
     {
-      "home": "AIK",
-      "away": "Hammarby IF",
+      "home": "BK Häcken",
+      "away": "Västerås SK FK",
       "league": "Allsvenskan",
-      "start_date": "2026-08-30T12:00:00+00:00",
+      "start_date": "2026-08-29T13:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6639,
-      "implied_prob": 0.5676,
-      "edge": 0.0964,
+      "odd": 1.62,
+      "model_prob": 0.6801,
+      "implied_prob": 0.5586,
+      "edge": 0.1216,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.25,
-        "away_xg": 1.67,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "IFK Göteborg",
-      "away": "Örgryte IS",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-30T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6713,
-      "implied_prob": 0.5867,
-      "edge": 0.0847,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.61,
+        "home_xg": 1.58,
         "away_xg": 1.28,
         "line": 3.5
       }
@@ -148,23 +106,23 @@
       }
     },
     {
-      "home": "Malmö FF",
-      "away": "Djurgårdens IF",
+      "home": "IFK Göteborg",
+      "away": "Örgryte IS",
       "league": "Allsvenskan",
-      "start_date": "2026-08-24T17:00:00+00:00",
+      "start_date": "2026-08-30T14:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6613,
-      "implied_prob": 0.5952,
-      "edge": 0.066,
+      "odd": 1.55,
+      "model_prob": 0.6573,
+      "implied_prob": 0.5867,
+      "edge": 0.0707,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.39,
+        "home_xg": 1.65,
+        "away_xg": 1.31,
         "line": 3.5
       }
     }
