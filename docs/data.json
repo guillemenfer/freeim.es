@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T05:56:53.973902+00:00",
+  "generated_at": "2026-08-24T08:31:53.783396+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -144,6 +144,27 @@
       "context": {
         "home_xg": 1.42,
         "away_xg": 1.51,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Malmö FF",
+      "away": "Djurgårdens IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-24T17:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6613,
+      "implied_prob": 0.5952,
+      "edge": 0.066,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.54,
+        "away_xg": 1.39,
         "line": 3.5
       }
     }
