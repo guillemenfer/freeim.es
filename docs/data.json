@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T23:54:44.307522+00:00",
+  "generated_at": "2026-08-25T03:27:37.377228+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -20,26 +20,6 @@
         "home_xg": 1.69,
         "away_xg": 1.29,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Talleres de Córdoba",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-25T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.6789,
-      "implied_prob": 0.5479,
-      "edge": 0.131,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.11,
-        "line": 8.5
       }
     },
     {
