@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:24:41.323309+00:00",
+  "generated_at": "2026-08-26T10:20:30.414993+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -20,6 +20,27 @@
         "home_xg": 1.69,
         "away_xg": 1.29,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-29T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6916,
+      "implied_prob": 0.5586,
+      "edge": 0.133,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.29,
+        "away_xg": 1.11,
+        "line": 1.5
       }
     },
     {
@@ -51,16 +72,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7239,
+      "model_prob": 0.6937,
       "implied_prob": 0.6053,
-      "edge": 0.1186,
+      "edge": 0.0884,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.28,
-        "away_xg": 1.28,
+        "home_xg": 1.2,
+        "away_xg": 1.2,
         "line": 1.5
       }
     },
