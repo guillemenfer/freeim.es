@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:45:15.014519+00:00",
+  "generated_at": "2026-08-28T23:03:13.751555+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -40,6 +40,26 @@
       "context": {
         "total_corners_xg": 9.3,
         "line": 7.5
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "Gimnasia y Esgrima de Mendoza",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T22:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.65,
+      "model_prob": 0.6934,
+      "implied_prob": 0.5479,
+      "edge": 0.1455,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.24,
+        "line": 8.5
       }
     },
     {
@@ -84,27 +104,6 @@
       }
     },
     {
-      "home": "Deportivo Riestra",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-29T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.65,
-      "model_prob": 0.6584,
-      "implied_prob": 0.5541,
-      "edge": 0.1043,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.22,
-        "away_xg": 1.03,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Independiente",
       "away": "Gimnasia y Esgrima de Mendoza",
       "league": "Liga Profesional",
@@ -112,16 +111,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6606,
+      "model_prob": 0.6707,
       "implied_prob": 0.5586,
-      "edge": 0.102,
+      "edge": 0.1121,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.15,
-        "away_xg": 0.9,
+        "home_xg": 1.14,
+        "away_xg": 0.89,
         "line": 2.5
       }
     },
@@ -168,27 +167,6 @@
       }
     },
     {
-      "home": "Defensa y Justicia",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-31T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6662,
-      "implied_prob": 0.5952,
-      "edge": 0.0709,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.07,
-        "away_xg": 1.22,
-        "line": 1.5
-      }
-    },
-    {
       "home": "AIK",
       "away": "Hammarby IF",
       "league": "Allsvenskan",
@@ -207,6 +185,69 @@
         "home_xg": 1.27,
         "away_xg": 1.69,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Estudiantes de La Plata",
+      "away": "Newell's Old Boys",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-31T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6512,
+      "implied_prob": 0.5867,
+      "edge": 0.0645,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 0.89,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Defensa y Justicia",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-31T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6574,
+      "implied_prob": 0.5952,
+      "edge": 0.0622,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.05,
+        "away_xg": 1.2,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Banfield",
+      "away": "River Plate",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6616,
+      "implied_prob": 0.6104,
+      "edge": 0.0512,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.06,
+        "away_xg": 1.0,
+        "line": 2.5
       }
     }
   ]
