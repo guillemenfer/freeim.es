@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:29:50.021047+00:00",
+  "generated_at": "2026-08-28T01:01:06.895396+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -8,10 +8,10 @@
       "start_date": "2026-08-30T12:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.88,
+      "odd": 1.82,
       "model_prob": 0.6536,
-      "implied_prob": 0.4821,
-      "edge": 0.1715,
+      "implied_prob": 0.5,
+      "edge": 0.1536,
       "tags": [
         "value",
         "likely"
@@ -20,6 +20,46 @@
         "home_xg": 1.69,
         "away_xg": 1.29,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-29T17:45:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 7.5 córners",
+      "odd": 1.62,
+      "model_prob": 0.71,
+      "implied_prob": 0.5586,
+      "edge": 0.1515,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.3,
+        "line": 7.5
+      }
+    },
+    {
+      "home": "Talleres de Córdoba",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T00:30:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.6558,
+      "implied_prob": 0.5179,
+      "edge": 0.1379,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.9,
+        "line": 8.5
       }
     },
     {
@@ -44,6 +84,27 @@
       }
     },
     {
+      "home": "Deportivo Riestra",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-29T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.65,
+      "model_prob": 0.6584,
+      "implied_prob": 0.5541,
+      "edge": 0.1043,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.22,
+        "away_xg": 1.03,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Independiente",
       "away": "Gimnasia y Esgrima de Mendoza",
       "league": "Liga Profesional",
@@ -62,48 +123,6 @@
         "home_xg": 1.15,
         "away_xg": 0.9,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Deportivo Riestra",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-29T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6584,
-      "implied_prob": 0.5586,
-      "edge": 0.0998,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.22,
-        "away_xg": 1.03,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "AIK",
-      "away": "Hammarby IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-30T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6551,
-      "implied_prob": 0.5676,
-      "edge": 0.0875,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.27,
-        "away_xg": 1.69,
-        "line": 3.5
       }
     },
     {
@@ -155,10 +174,10 @@
       "start_date": "2026-08-31T22:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
+      "odd": 1.53,
       "model_prob": 0.6662,
-      "implied_prob": 0.6053,
-      "edge": 0.0609,
+      "implied_prob": 0.5952,
+      "edge": 0.0709,
       "tags": [
         "value",
         "likely"
@@ -170,24 +189,24 @@
       }
     },
     {
-      "home": "Boca Juniors",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-29T00:30:00+00:00",
+      "home": "AIK",
+      "away": "Hammarby IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-30T12:00:00+00:00",
       "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6588,
-      "implied_prob": 0.6053,
-      "edge": 0.0535,
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6551,
+      "implied_prob": 0.5867,
+      "edge": 0.0684,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.13,
-        "away_xg": 1.13,
-        "line": 1.5
+        "home_xg": 1.27,
+        "away_xg": 1.69,
+        "line": 3.5
       }
     }
   ]
