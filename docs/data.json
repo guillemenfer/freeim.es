@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T19:25:18.261343+00:00",
+  "generated_at": "2026-08-29T21:57:57.810583+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -8,10 +8,10 @@
       "start_date": "2026-08-30T12:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.82,
+      "odd": 1.88,
       "model_prob": 0.6536,
-      "implied_prob": 0.5,
-      "edge": 0.1536,
+      "implied_prob": 0.4821,
+      "edge": 0.1715,
       "tags": [
         "value",
         "likely"
@@ -70,16 +70,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6763,
+      "model_prob": 0.6808,
       "implied_prob": 0.5586,
-      "edge": 0.1177,
+      "edge": 0.1223,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.13,
-        "away_xg": 0.88,
+        "home_xg": 1.12,
+        "away_xg": 0.87,
         "line": 2.5
       }
     },
@@ -132,16 +132,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6568,
+      "model_prob": 0.6613,
       "implied_prob": 0.5867,
-      "edge": 0.0701,
+      "edge": 0.0746,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.19,
-        "away_xg": 0.88,
+        "home_xg": 1.18,
+        "away_xg": 0.87,
         "line": 2.5
       }
     },
@@ -153,38 +153,38 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6682,
+      "model_prob": 0.6736,
       "implied_prob": 0.6053,
-      "edge": 0.063,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.05,
-        "away_xg": 0.98,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Defensa y Justicia",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-31T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6525,
-      "implied_prob": 0.5952,
-      "edge": 0.0572,
+      "edge": 0.0683,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.04,
-        "away_xg": 1.19,
-        "line": 1.5
+        "away_xg": 0.97,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Ind. Rivadavia",
+      "away": "Racing Club",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-31T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6568,
+      "implied_prob": 0.6053,
+      "edge": 0.0515,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.09,
+        "away_xg": 0.98,
+        "line": 2.5
       }
     }
   ]
