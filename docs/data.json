@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T23:03:13.751555+00:00",
+  "generated_at": "2026-08-29T04:11:00.383514+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -111,16 +111,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6707,
+      "model_prob": 0.6725,
       "implied_prob": 0.5586,
-      "edge": 0.1121,
+      "edge": 0.1139,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.14,
-        "away_xg": 0.89,
+        "home_xg": 1.13,
+        "away_xg": 0.88,
         "line": 2.5
       }
     },
@@ -195,9 +195,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6512,
+      "model_prob": 0.6529,
       "implied_prob": 0.5867,
-      "edge": 0.0645,
+      "edge": 0.0663,
       "tags": [
         "value",
         "likely"
@@ -216,15 +216,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6574,
+      "model_prob": 0.6559,
       "implied_prob": 0.5952,
-      "edge": 0.0622,
+      "edge": 0.0606,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
+        "home_xg": 1.04,
         "away_xg": 1.2,
         "line": 1.5
       }
@@ -237,16 +237,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6616,
-      "implied_prob": 0.6104,
-      "edge": 0.0512,
+      "model_prob": 0.6637,
+      "implied_prob": 0.6053,
+      "edge": 0.0584,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.06,
-        "away_xg": 1.0,
+        "away_xg": 0.99,
         "line": 2.5
       }
     }
