@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T04:11:00.383514+00:00",
+  "generated_at": "2026-08-29T11:23:33.469887+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -19,6 +19,27 @@
       "context": {
         "home_xg": 1.69,
         "away_xg": 1.29,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "Västerås SK FK",
+      "league": "Allsvenskan",
+      "start_date": "2026-08-29T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6864,
+      "implied_prob": 0.5342,
+      "edge": 0.1522,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.56,
+        "away_xg": 1.26,
         "line": 3.5
       }
     },
@@ -80,27 +101,6 @@
       "context": {
         "total_corners_xg": 9.9,
         "line": 8.5
-      }
-    },
-    {
-      "home": "BK Häcken",
-      "away": "Västerås SK FK",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-29T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6864,
-      "implied_prob": 0.5586,
-      "edge": 0.1278,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.56,
-        "away_xg": 1.26,
-        "line": 3.5
       }
     },
     {
