@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:57:57.810583+00:00",
+  "generated_at": "2026-08-30T00:17:50.921424+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -63,27 +63,6 @@
       }
     },
     {
-      "home": "Independiente",
-      "away": "Gimnasia y Esgrima de Mendoza",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-30T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6808,
-      "implied_prob": 0.5586,
-      "edge": 0.1223,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.12,
-        "away_xg": 0.87,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Djurgårdens IF",
       "away": "Mjällby AIF",
       "league": "Allsvenskan",
@@ -101,6 +80,27 @@
       "context": {
         "home_xg": 2.04,
         "away_xg": 1.6
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "Gimnasia y Esgrima de Mendoza",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6709,
+      "implied_prob": 0.5586,
+      "edge": 0.1124,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.14,
+        "away_xg": 0.89,
+        "line": 2.5
       }
     },
     {
@@ -132,17 +132,38 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6613,
+      "model_prob": 0.6514,
       "implied_prob": 0.5867,
-      "edge": 0.0746,
+      "edge": 0.0648,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.18,
-        "away_xg": 0.87,
+        "home_xg": 1.2,
+        "away_xg": 0.89,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Defensa y Justicia",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-31T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6572,
+      "implied_prob": 0.5952,
+      "edge": 0.062,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.05,
+        "away_xg": 1.2,
+        "line": 1.5
       }
     },
     {
@@ -153,37 +174,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6736,
+      "model_prob": 0.6619,
       "implied_prob": 0.6053,
-      "edge": 0.0683,
+      "edge": 0.0566,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.04,
-        "away_xg": 0.97,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Ind. Rivadavia",
-      "away": "Racing Club",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-31T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6568,
-      "implied_prob": 0.6053,
-      "edge": 0.0515,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.09,
-        "away_xg": 0.98,
+        "home_xg": 1.06,
+        "away_xg": 1.0,
         "line": 2.5
       }
     }
