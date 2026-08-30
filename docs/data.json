@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-30T11:54:57.255131+00:00",
+  "generated_at": "2026-08-30T16:40:06.276402+00:00",
   "bets": [
-    {
-      "home": "Bodø/Glimt",
-      "away": "Rosenborg BK",
-      "league": "Eliteserien",
-      "start_date": "2026-08-30T12:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.9,
-      "model_prob": 0.6536,
-      "implied_prob": 0.4751,
-      "edge": 0.1785,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.69,
-        "away_xg": 1.29,
-        "line": 3.5
-      }
-    },
     {
       "home": "Independiente",
       "away": "Gimnasia y Esgrima de Mendoza",
@@ -64,27 +43,6 @@
       }
     },
     {
-      "home": "Independiente",
-      "away": "Gimnasia y Esgrima de Mendoza",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-30T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.6677,
-      "implied_prob": 0.545,
-      "edge": 0.1228,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.14,
-        "away_xg": 0.89,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Djurgårdens IF",
       "away": "Mjällby AIF",
       "league": "Allsvenskan",
@@ -92,9 +50,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6946,
+      "model_prob": 0.6938,
       "implied_prob": 0.578,
-      "edge": 0.1166,
+      "edge": 0.1159,
       "tags": [
         "value",
         "likely"
@@ -105,24 +63,24 @@
       }
     },
     {
-      "home": "Sandefjord Fotball",
-      "away": "Brann",
-      "league": "Eliteserien",
-      "start_date": "2026-08-30T15:00:00+00:00",
+      "home": "Independiente",
+      "away": "Gimnasia y Esgrima de Mendoza",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T22:15:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
+      "selection_label": "Menos de 2.5 goles",
       "odd": 1.65,
-      "model_prob": 0.6639,
+      "model_prob": 0.6677,
       "implied_prob": 0.5541,
-      "edge": 0.1098,
+      "edge": 0.1137,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.42,
-        "away_xg": 1.51,
-        "line": 3.5
+        "home_xg": 1.14,
+        "away_xg": 0.89,
+        "line": 2.5
       }
     },
     {
