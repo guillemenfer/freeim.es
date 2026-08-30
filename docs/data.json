@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T00:17:50.921424+00:00",
+  "generated_at": "2026-08-30T05:51:01.980842+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -43,23 +43,45 @@
       }
     },
     {
-      "home": "Talleres de Córdoba",
+      "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
-      "start_date": "2026-08-30T00:30:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6558,
-      "implied_prob": 0.5179,
-      "edge": 0.1379,
+      "start_date": "2026-09-12T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6753,
+      "implied_prob": 0.5342,
+      "edge": 0.1411,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 9.9,
-        "line": 8.5
+        "home_xg": 1.05,
+        "away_xg": 0.95,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "Gimnasia y Esgrima de Mendoza",
+      "league": "Liga Profesional",
+      "start_date": "2026-08-30T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.6677,
+      "implied_prob": 0.545,
+      "edge": 0.1228,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.14,
+        "away_xg": 0.89,
+        "line": 2.5
       }
     },
     {
@@ -83,23 +105,44 @@
       }
     },
     {
-      "home": "Independiente",
-      "away": "Gimnasia y Esgrima de Mendoza",
+      "home": "River Plate",
+      "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
-      "start_date": "2026-08-30T22:15:00+00:00",
+      "start_date": "2026-09-06T22:15:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6709,
-      "implied_prob": 0.5586,
-      "edge": 0.1124,
+      "odd": 1.55,
+      "model_prob": 0.6899,
+      "implied_prob": 0.5867,
+      "edge": 0.1032,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.14,
-        "away_xg": 0.89,
+        "home_xg": 1.04,
+        "away_xg": 0.91,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Racing Club",
+      "away": "Atlético Tucumán",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-07T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7024,
+      "implied_prob": 0.6053,
+      "edge": 0.0971,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.8,
+        "away_xg": 1.1,
         "line": 2.5
       }
     },
@@ -125,27 +168,6 @@
       }
     },
     {
-      "home": "Estudiantes de La Plata",
-      "away": "Newell's Old Boys",
-      "league": "Liga Profesional",
-      "start_date": "2026-08-31T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6514,
-      "implied_prob": 0.5867,
-      "edge": 0.0648,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 0.89,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Defensa y Justicia",
       "away": "Platense",
       "league": "Liga Profesional",
@@ -153,17 +175,37 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6572,
+      "model_prob": 0.66,
       "implied_prob": 0.5952,
-      "edge": 0.062,
+      "edge": 0.0648,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.05,
-        "away_xg": 1.2,
+        "away_xg": 1.21,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Vélez Sársfield",
+      "away": "Estudiantes de La Plata",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-06T00:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6507,
+      "implied_prob": 0.5952,
+      "edge": 0.0555,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.0,
+        "away_xg": 0.8
       }
     },
     {
@@ -174,16 +216,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6619,
+      "model_prob": 0.6581,
       "implied_prob": 0.6053,
-      "edge": 0.0566,
+      "edge": 0.0528,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.07,
+        "away_xg": 1.0,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Unión de Santa Fe",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-08T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6566,
+      "implied_prob": 0.6053,
+      "edge": 0.0513,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.06,
-        "away_xg": 1.0,
+        "away_xg": 1.02,
         "line": 2.5
       }
     }
