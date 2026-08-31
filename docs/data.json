@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-08-31T01:22:18.527345+00:00",
+  "generated_at": "2026-08-31T07:38:36.497158+00:00",
   "bets": [
-    {
-      "home": "Boca Juniors",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-12T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.7,
-      "model_prob": 0.6699,
-      "implied_prob": 0.5342,
-      "edge": 0.1357,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.06,
-        "away_xg": 0.96,
-        "line": 2.5
-      }
-    },
     {
       "home": "Djurgårdens IF",
       "away": "Mjällby AIF",
@@ -43,6 +22,27 @@
       }
     },
     {
+      "home": "Boca Juniors",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-12T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6672,
+      "implied_prob": 0.5342,
+      "edge": 0.133,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.07,
+        "away_xg": 0.97,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Racing Club",
       "away": "Atlético Tucumán",
       "league": "Liga Profesional",
@@ -50,16 +50,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.697,
+      "model_prob": 0.6943,
       "implied_prob": 0.6053,
-      "edge": 0.0917,
+      "edge": 0.089,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.81,
-        "away_xg": 1.11,
+        "home_xg": 0.82,
+        "away_xg": 1.12,
         "line": 2.5
       }
     },
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6705,
+      "model_prob": 0.6713,
       "implied_prob": 0.5867,
-      "edge": 0.0839,
+      "edge": 0.0847,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.06,
-        "away_xg": 0.97,
+        "away_xg": 0.96,
         "line": 2.5
       }
     },
@@ -92,15 +92,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.665,
+      "model_prob": 0.6674,
       "implied_prob": 0.5952,
-      "edge": 0.0697,
+      "edge": 0.0722,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.07,
         "away_xg": 1.22,
         "line": 1.5
       }
