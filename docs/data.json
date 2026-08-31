@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:43:27.233434+00:00",
+  "generated_at": "2026-08-31T01:22:18.527345+00:00",
   "bets": [
     {
       "home": "Boca Juniors",
@@ -9,9 +9,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6713,
+      "model_prob": 0.6699,
       "implied_prob": 0.5342,
-      "edge": 0.137,
+      "edge": 0.1357,
       "tags": [
         "value",
         "likely"
@@ -29,10 +29,10 @@
       "start_date": "2026-08-31T17:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
+      "odd": 1.62,
       "model_prob": 0.6938,
-      "implied_prob": 0.578,
-      "edge": 0.1159,
+      "implied_prob": 0.5586,
+      "edge": 0.1352,
       "tags": [
         "value",
         "likely"
@@ -50,9 +50,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6983,
+      "model_prob": 0.697,
       "implied_prob": 0.6053,
-      "edge": 0.0931,
+      "edge": 0.0917,
       "tags": [
         "value",
         "likely"
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6718,
+      "model_prob": 0.6705,
       "implied_prob": 0.5867,
-      "edge": 0.0851,
+      "edge": 0.0839,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
-        "away_xg": 0.96,
+        "home_xg": 1.06,
+        "away_xg": 0.97,
         "line": 2.5
       }
     },
@@ -92,9 +92,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6637,
+      "model_prob": 0.665,
       "implied_prob": 0.5952,
-      "edge": 0.0685,
+      "edge": 0.0697,
       "tags": [
         "value",
         "likely"
