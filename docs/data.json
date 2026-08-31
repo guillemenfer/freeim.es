@@ -1,24 +1,67 @@
 {
-  "generated_at": "2026-08-31T07:38:36.497158+00:00",
+  "generated_at": "2026-08-31T15:30:14.612032+00:00",
   "bets": [
     {
-      "home": "Djurgårdens IF",
-      "away": "Mjällby AIF",
-      "league": "Allsvenskan",
-      "start_date": "2026-08-31T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6938,
-      "implied_prob": 0.5586,
-      "edge": 0.1352,
+      "home": "Fredrikstad",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-09-04T17:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6864,
+      "implied_prob": 0.5342,
+      "edge": 0.1522,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.04,
-        "away_xg": 1.6
+        "home_xg": 1.29,
+        "away_xg": 1.54,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "IF Gnistan",
+      "away": "TPS",
+      "league": "Veikkausliiga",
+      "start_date": "2026-08-31T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7451,
+      "implied_prob": 0.5952,
+      "edge": 0.1498,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.25,
+        "away_xg": 1.31,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Viking FK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-04T19:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.7063,
+      "implied_prob": 0.5676,
+      "edge": 0.1388,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.22,
+        "away_xg": 1.51,
+        "line": 3.5
       }
     },
     {
@@ -40,6 +83,47 @@
         "home_xg": 1.07,
         "away_xg": 0.97,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Västerås SK FK",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-05T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6954,
+      "implied_prob": 0.578,
+      "edge": 0.1175,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.42,
+        "away_xg": 1.37,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Molde",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6551,
+      "implied_prob": 0.5586,
+      "edge": 0.0965,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.77,
+        "away_xg": 1.56
       }
     },
     {
