@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T05:40:59.613323+00:00",
+  "generated_at": "2026-09-01T11:34:55.582441+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -124,6 +124,27 @@
       "context": {
         "home_xg": 1.05,
         "away_xg": 0.95,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Rosario Central",
+      "away": "Newell's Old Boys",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-06T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6994,
+      "implied_prob": 0.6104,
+      "edge": 0.0891,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.01,
+        "away_xg": 0.91,
         "line": 2.5
       }
     },
