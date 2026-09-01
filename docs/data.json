@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T00:36:47.473180+00:00",
+  "generated_at": "2026-09-01T05:40:59.613323+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -51,9 +51,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6699,
+      "model_prob": 0.6726,
       "implied_prob": 0.5342,
-      "edge": 0.1357,
+      "edge": 0.1384,
       "tags": [
         "value",
         "likely"
@@ -71,10 +71,10 @@
       "start_date": "2026-09-05T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
+      "odd": 1.53,
       "model_prob": 0.7058,
-      "implied_prob": 0.5867,
-      "edge": 0.1192,
+      "implied_prob": 0.5952,
+      "edge": 0.1106,
       "tags": [
         "value",
         "likely"
@@ -93,9 +93,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.697,
+      "model_prob": 0.6997,
       "implied_prob": 0.6053,
-      "edge": 0.0917,
+      "edge": 0.0944,
       "tags": [
         "value",
         "likely"
@@ -114,17 +114,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6739,
+      "model_prob": 0.6765,
       "implied_prob": 0.5867,
-      "edge": 0.0872,
+      "edge": 0.0898,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.05,
         "away_xg": 0.95,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Vélez Sársfield",
+      "away": "Estudiantes de La Plata",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-06T00:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.57,
+      "model_prob": 0.6563,
+      "implied_prob": 0.578,
+      "edge": 0.0783,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.07,
+        "away_xg": 0.74
       }
     },
     {
@@ -148,23 +168,24 @@
       }
     },
     {
-      "home": "Vélez Sársfield",
-      "away": "Estudiantes de La Plata",
+      "home": "Unión de Santa Fe",
+      "away": "Instituto de Córdoba",
       "league": "Liga Profesional",
-      "start_date": "2026-09-06T00:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.57,
-      "model_prob": 0.6537,
-      "implied_prob": 0.578,
-      "edge": 0.0757,
+      "start_date": "2026-09-08T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6589,
+      "implied_prob": 0.6053,
+      "edge": 0.0537,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 0.75
+        "home_xg": 1.05,
+        "away_xg": 1.02,
+        "line": 2.5
       }
     }
   ]
