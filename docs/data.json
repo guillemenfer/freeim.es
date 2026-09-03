@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:09:18.031359+00:00",
+  "generated_at": "2026-09-03T15:10:56.275752+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -93,9 +93,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6689,
+      "model_prob": 0.6726,
       "implied_prob": 0.5342,
-      "edge": 0.1346,
+      "edge": 0.1384,
       "tags": [
         "value",
         "likely"
@@ -155,9 +155,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6959,
+      "model_prob": 0.6997,
       "implied_prob": 0.6053,
-      "edge": 0.0907,
+      "edge": 0.0944,
       "tags": [
         "value",
         "likely"
@@ -176,15 +176,15 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6729,
+      "model_prob": 0.6765,
       "implied_prob": 0.5867,
-      "edge": 0.0863,
+      "edge": 0.0898,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.05,
         "away_xg": 0.95,
         "line": 2.5
       }
@@ -197,16 +197,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.57,
-      "model_prob": 0.6527,
+      "model_prob": 0.6563,
       "implied_prob": 0.578,
-      "edge": 0.0747,
+      "edge": 0.0783,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.75
+        "home_xg": 1.07,
+        "away_xg": 0.74
       }
     },
     {
@@ -217,9 +217,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6551,
+      "model_prob": 0.6589,
       "implied_prob": 0.5952,
-      "edge": 0.0599,
+      "edge": 0.0637,
       "tags": [
         "value",
         "likely"
