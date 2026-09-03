@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-03T00:42:31.186288+00:00",
+  "generated_at": "2026-09-03T05:45:49.938070+00:00",
   "bets": [
+    {
+      "home": "Ilves",
+      "away": "FF Jaro",
+      "league": "Veikkausliiga",
+      "start_date": "2026-09-08T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7994,
+      "implied_prob": 0.6053,
+      "edge": 0.1941,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.34,
+        "away_xg": 0.96,
+        "line": 3.5
+      }
+    },
     {
       "home": "Fredrikstad",
       "away": "Bodø/Glimt",
