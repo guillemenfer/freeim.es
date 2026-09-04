@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:42:44.074600+00:00",
+  "generated_at": "2026-09-04T00:03:34.966067+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -50,10 +50,10 @@
       "start_date": "2026-09-04T17:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.7,
+      "odd": 1.72,
       "model_prob": 0.6864,
-      "implied_prob": 0.5342,
-      "edge": 0.1522,
+      "implied_prob": 0.5249,
+      "edge": 0.1616,
       "tags": [
         "value",
         "likely"
