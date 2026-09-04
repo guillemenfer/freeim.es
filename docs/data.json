@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T04:26:10.823222+00:00",
+  "generated_at": "2026-09-04T09:05:02.556932+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -44,6 +44,26 @@
       }
     },
     {
+      "home": "Aalesunds FK",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-09-04T17:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.6991,
+      "implied_prob": 0.5179,
+      "edge": 0.1812,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.98,
+        "line": 11.5
+      }
+    },
+    {
       "home": "Fredrikstad",
       "away": "Bodø/Glimt",
       "league": "Eliteserien",
@@ -62,6 +82,26 @@
         "home_xg": 1.29,
         "away_xg": 1.54,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Viking FK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-04T19:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.6558,
+      "implied_prob": 0.5,
+      "edge": 0.1558,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.35,
+        "line": 11.5
       }
     },
     {
