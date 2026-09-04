@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:30:49.168729+00:00",
+  "generated_at": "2026-09-04T17:06:07.187477+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -44,47 +44,6 @@
       }
     },
     {
-      "home": "Aalesunds FK",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-09-04T17:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6991,
-      "implied_prob": 0.5179,
-      "edge": 0.1812,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.98,
-        "line": 11.5
-      }
-    },
-    {
-      "home": "Fredrikstad",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien",
-      "start_date": "2026-09-04T17:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.8,
-      "model_prob": 0.6864,
-      "implied_prob": 0.5068,
-      "edge": 0.1796,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.29,
-        "away_xg": 1.54,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Sandefjord Fotball",
       "away": "Viking FK",
       "league": "Eliteserien",
@@ -112,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.62,
-      "model_prob": 0.7063,
+      "model_prob": 0.7142,
       "implied_prob": 0.5586,
-      "edge": 0.1478,
+      "edge": 0.1557,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.22,
-        "away_xg": 1.51,
+        "home_xg": 1.2,
+        "away_xg": 1.5,
         "line": 3.5
       }
     },
@@ -165,26 +124,6 @@
         "home_xg": 1.38,
         "away_xg": 1.33,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Molde",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-09-06T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6551,
-      "implied_prob": 0.5586,
-      "edge": 0.0965,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.77,
-        "away_xg": 1.56
       }
     },
     {
