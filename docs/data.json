@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T17:06:07.187477+00:00",
+  "generated_at": "2026-09-04T19:34:43.194406+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -44,47 +44,6 @@
       }
     },
     {
-      "home": "Sandefjord Fotball",
-      "away": "Viking FK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-04T19:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.82,
-      "model_prob": 0.6558,
-      "implied_prob": 0.5,
-      "edge": 0.1558,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.35,
-        "line": 11.5
-      }
-    },
-    {
-      "home": "Sandefjord Fotball",
-      "away": "Viking FK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-04T19:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7142,
-      "implied_prob": 0.5586,
-      "edge": 0.1557,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 1.5,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -124,6 +83,46 @@
         "home_xg": 1.38,
         "away_xg": 1.33,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Molde",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6623,
+      "implied_prob": 0.5586,
+      "edge": 0.1038,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.8,
+        "away_xg": 1.58
+      }
+    },
+    {
+      "home": "Kristiansund BK",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T17:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.6555,
+      "implied_prob": 0.5586,
+      "edge": 0.0969,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.64,
+        "away_xg": 1.68
       }
     },
     {
