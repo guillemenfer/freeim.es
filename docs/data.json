@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:34:43.194406+00:00",
+  "generated_at": "2026-09-04T21:49:19.518257+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -20,6 +20,26 @@
         "home_xg": 1.2,
         "away_xg": 0.89,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Lanús",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-06T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.6946,
+      "implied_prob": 0.5,
+      "edge": 0.1946,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.25,
+        "line": 8.5
       }
     },
     {
@@ -51,9 +71,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6726,
+      "model_prob": 0.6723,
       "implied_prob": 0.5342,
-      "edge": 0.1384,
+      "edge": 0.1381,
       "tags": [
         "value",
         "likely"
@@ -86,26 +106,6 @@
       }
     },
     {
-      "home": "Molde",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-09-06T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6623,
-      "implied_prob": 0.5586,
-      "edge": 0.1038,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.8,
-        "away_xg": 1.58
-      }
-    },
-    {
       "home": "Kristiansund BK",
       "away": "Tromsø",
       "league": "Eliteserien",
@@ -133,9 +133,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6997,
+      "model_prob": 0.6994,
       "implied_prob": 0.6053,
-      "edge": 0.0944,
+      "edge": 0.0941,
       "tags": [
         "value",
         "likely"
@@ -154,9 +154,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6765,
+      "model_prob": 0.6762,
       "implied_prob": 0.5867,
-      "edge": 0.0898,
+      "edge": 0.0896,
       "tags": [
         "value",
         "likely"
@@ -168,6 +168,26 @@
       }
     },
     {
+      "home": "Molde",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6623,
+      "implied_prob": 0.578,
+      "edge": 0.0844,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.8,
+        "away_xg": 1.58
+      }
+    },
+    {
       "home": "Vélez Sársfield",
       "away": "Estudiantes de La Plata",
       "league": "Liga Profesional",
@@ -175,9 +195,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.57,
-      "model_prob": 0.6563,
+      "model_prob": 0.656,
       "implied_prob": 0.578,
-      "edge": 0.0783,
+      "edge": 0.078,
       "tags": [
         "value",
         "likely"
@@ -195,9 +215,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6589,
+      "model_prob": 0.6586,
       "implied_prob": 0.5952,
-      "edge": 0.0637,
+      "edge": 0.0634,
       "tags": [
         "value",
         "likely"
