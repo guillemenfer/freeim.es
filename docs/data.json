@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:02:16.001709+00:00",
+  "generated_at": "2026-09-05T04:22:46.618682+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -64,6 +64,26 @@
       }
     },
     {
+      "home": "Rosenborg BK",
+      "away": "Hamarkameratene",
+      "league": "Eliteserien",
+      "start_date": "2026-09-05T14:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.6659,
+      "implied_prob": 0.5179,
+      "edge": 0.148,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.27,
+        "line": 11.5
+      }
+    },
+    {
       "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -71,16 +91,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6686,
+      "model_prob": 0.6669,
       "implied_prob": 0.5342,
-      "edge": 0.1343,
+      "edge": 0.1327,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
-        "away_xg": 0.96,
+        "home_xg": 1.07,
+        "away_xg": 0.97,
         "line": 2.5
       }
     },
@@ -112,10 +132,10 @@
       "start_date": "2026-09-06T17:15:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
+      "odd": 1.67,
       "model_prob": 0.6555,
-      "implied_prob": 0.5586,
-      "edge": 0.0969,
+      "implied_prob": 0.545,
+      "edge": 0.1105,
       "tags": [
         "value",
         "likely"
@@ -126,6 +146,26 @@
       }
     },
     {
+      "home": "Vélez Sársfield",
+      "away": "Estudiantes de La Plata",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-06T00:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.62,
+      "model_prob": 0.6508,
+      "implied_prob": 0.5586,
+      "edge": 0.0922,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.08,
+        "away_xg": 0.75
+      }
+    },
+    {
       "home": "Racing Club",
       "away": "Atlético Tucumán",
       "league": "Liga Profesional",
@@ -133,16 +173,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6956,
+      "model_prob": 0.694,
       "implied_prob": 0.6053,
-      "edge": 0.0904,
+      "edge": 0.0887,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.81,
-        "away_xg": 1.11,
+        "home_xg": 0.82,
+        "away_xg": 1.12,
         "line": 2.5
       }
     },
@@ -154,9 +194,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6726,
+      "model_prob": 0.6711,
       "implied_prob": 0.5867,
-      "edge": 0.086,
+      "edge": 0.0844,
       "tags": [
         "value",
         "likely"
@@ -188,26 +228,6 @@
       }
     },
     {
-      "home": "Vélez Sársfield",
-      "away": "Estudiantes de La Plata",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-06T00:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.57,
-      "model_prob": 0.6524,
-      "implied_prob": 0.578,
-      "edge": 0.0744,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.75
-      }
-    },
-    {
       "home": "Unión de Santa Fe",
       "away": "Instituto de Córdoba",
       "league": "Liga Profesional",
@@ -215,9 +235,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6548,
+      "model_prob": 0.6532,
       "implied_prob": 0.5952,
-      "edge": 0.0596,
+      "edge": 0.0579,
       "tags": [
         "value",
         "likely"
