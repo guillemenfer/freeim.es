@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:10:51.386225+00:00",
+  "generated_at": "2026-09-05T17:36:45.518193+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -71,9 +71,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.6669,
+      "model_prob": 0.6651,
       "implied_prob": 0.5342,
-      "edge": 0.1327,
+      "edge": 0.1308,
       "tags": [
         "value",
         "likely"
@@ -85,44 +85,44 @@
       }
     },
     {
-      "home": "Västerås SK FK",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-05T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6875,
-      "implied_prob": 0.5952,
-      "edge": 0.0923,
+      "home": "Kristiansund BK",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T17:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.6601,
+      "implied_prob": 0.545,
+      "edge": 0.1152,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.44,
-        "away_xg": 1.39,
-        "line": 3.5
+        "home_xg": 1.65,
+        "away_xg": 1.7
       }
     },
     {
-      "home": "Vélez Sársfield",
-      "away": "Estudiantes de La Plata",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-06T00:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.62,
-      "model_prob": 0.6508,
-      "implied_prob": 0.5586,
-      "edge": 0.0922,
+      "home": "Kristiansund BK",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-09-06T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.65,
+      "model_prob": 0.6501,
+      "implied_prob": 0.5541,
+      "edge": 0.096,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.75
+        "home_xg": 1.65,
+        "away_xg": 1.7,
+        "line": 2.5
       }
     },
     {
@@ -133,9 +133,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.694,
+      "model_prob": 0.6921,
       "implied_prob": 0.6053,
-      "edge": 0.0887,
+      "edge": 0.0869,
       "tags": [
         "value",
         "likely"
@@ -154,37 +154,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6711,
+      "model_prob": 0.6693,
       "implied_prob": 0.5867,
-      "edge": 0.0844,
+      "edge": 0.0826,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.07,
         "away_xg": 0.96,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Aldosivi",
-      "away": "Banfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-05T16:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6785,
-      "implied_prob": 0.6104,
-      "edge": 0.0681,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.92,
-        "away_xg": 1.07,
         "line": 2.5
       }
     }
