@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-05T21:42:16.472404+00:00",
+  "generated_at": "2026-09-05T23:52:23.974793+00:00",
   "bets": [
+    {
+      "home": "TPS",
+      "away": "SJK",
+      "league": "Veikkausliiga",
+      "start_date": "2026-09-08T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 2.0,
+      "model_prob": 0.653,
+      "implied_prob": 0.455,
+      "edge": 0.198,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 0.89,
+        "line": 2.5
+      }
+    },
     {
       "home": "Lanús",
       "away": "Defensa y Justicia",
@@ -43,27 +64,6 @@
       }
     },
     {
-      "home": "TPS",
-      "away": "SJK",
-      "league": "Veikkausliiga",
-      "start_date": "2026-09-08T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.95,
-      "model_prob": 0.653,
-      "implied_prob": 0.4658,
-      "edge": 0.1873,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 0.89,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -71,16 +71,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.7202,
+      "model_prob": 0.7107,
       "implied_prob": 0.5342,
-      "edge": 0.1859,
+      "edge": 0.1765,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.0,
-        "away_xg": 0.84,
+        "home_xg": 1.02,
+        "away_xg": 0.86,
         "line": 2.5
       }
     },
@@ -105,27 +105,6 @@
       }
     },
     {
-      "home": "Racing Club",
-      "away": "Atlético Tucumán",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-07T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7037,
-      "implied_prob": 0.6053,
-      "edge": 0.0985,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.8,
-        "away_xg": 1.1,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Kristiansund BK",
       "away": "Tromsø",
       "league": "Eliteserien",
@@ -147,6 +126,27 @@
       }
     },
     {
+      "home": "Racing Club",
+      "away": "Atlético Tucumán",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-07T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6947,
+      "implied_prob": 0.6053,
+      "edge": 0.0895,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.82,
+        "away_xg": 1.12,
+        "line": 2.5
+      }
+    },
+    {
       "home": "River Plate",
       "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
@@ -154,16 +154,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6804,
+      "model_prob": 0.6718,
       "implied_prob": 0.5867,
-      "edge": 0.0937,
+      "edge": 0.0851,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
-        "away_xg": 0.94,
+        "home_xg": 1.06,
+        "away_xg": 0.96,
         "line": 2.5
       }
     },
@@ -175,16 +175,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7037,
+      "model_prob": 0.6942,
       "implied_prob": 0.6104,
-      "edge": 0.0933,
+      "edge": 0.0838,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.0,
-        "away_xg": 0.9,
+        "home_xg": 1.02,
+        "away_xg": 0.92,
         "line": 2.5
       }
     },
@@ -196,37 +196,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6602,
+      "model_prob": 0.6515,
       "implied_prob": 0.5952,
-      "edge": 0.0649,
+      "edge": 0.0563,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
-        "away_xg": 0.73
-      }
-    },
-    {
-      "home": "Unión de Santa Fe",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-08T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.663,
-      "implied_prob": 0.6104,
-      "edge": 0.0526,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.04,
-        "away_xg": 1.01,
-        "line": 2.5
+        "home_xg": 1.08,
+        "away_xg": 0.75
       }
     }
   ]
