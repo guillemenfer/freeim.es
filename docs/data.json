@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T04:22:46.618682+00:00",
+  "generated_at": "2026-09-05T08:37:18.822757+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -225,27 +225,6 @@
       "context": {
         "home_xg": 1.8,
         "away_xg": 1.58
-      }
-    },
-    {
-      "home": "Unión de Santa Fe",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-08T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6532,
-      "implied_prob": 0.5952,
-      "edge": 0.0579,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.06,
-        "away_xg": 1.03,
-        "line": 2.5
       }
     }
   ]
