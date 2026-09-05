@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:37:18.822757+00:00",
+  "generated_at": "2026-09-05T12:05:58.659931+00:00",
   "bets": [
     {
       "home": "TPS",
@@ -84,6 +84,27 @@
       }
     },
     {
+      "home": "Västerås SK FK",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-05T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7329,
+      "implied_prob": 0.5952,
+      "edge": 0.1377,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.28,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -102,27 +123,6 @@
         "home_xg": 1.07,
         "away_xg": 0.97,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Västerås SK FK",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-05T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.71,
-      "implied_prob": 0.5952,
-      "edge": 0.1147,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.38,
-        "away_xg": 1.33,
-        "line": 3.5
       }
     },
     {
@@ -187,6 +187,27 @@
       }
     },
     {
+      "home": "Malmö FF",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-07T17:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6661,
+      "implied_prob": 0.578,
+      "edge": 0.0882,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.32,
+        "away_xg": 1.6,
+        "line": 3.5
+      }
+    },
+    {
       "home": "River Plate",
       "away": "Ind. Rivadavia",
       "league": "Liga Profesional",
@@ -208,23 +229,24 @@
       }
     },
     {
-      "home": "Molde",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-09-06T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6623,
-      "implied_prob": 0.578,
-      "edge": 0.0844,
+      "home": "Aldosivi",
+      "away": "Banfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-05T16:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6785,
+      "implied_prob": 0.6104,
+      "edge": 0.0681,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.8,
-        "away_xg": 1.58
+        "home_xg": 0.92,
+        "away_xg": 1.07,
+        "line": 2.5
       }
     }
   ]
