@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-09-06T18:38:42.379513+00:00",
+  "generated_at": "2026-09-06T20:51:18.878387+00:00",
   "bets": [
-    {
-      "home": "Lanús",
-      "away": "Defensa y Justicia",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-06T20:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.82,
-      "model_prob": 0.6946,
-      "implied_prob": 0.5,
-      "edge": 0.1946,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.25,
-        "line": 8.5
-      }
-    },
     {
       "home": "Ilves",
       "away": "FF Jaro",
@@ -64,27 +44,6 @@
       }
     },
     {
-      "home": "Viking FK",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-13T12:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.88,
-      "model_prob": 0.6662,
-      "implied_prob": 0.4821,
-      "edge": 0.1841,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.65,
-        "away_xg": 1.26,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Boca Juniors",
       "away": "Central Córdoba",
       "league": "Liga Profesional",
@@ -92,9 +51,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.7141,
+      "model_prob": 0.7166,
       "implied_prob": 0.5342,
-      "edge": 0.1799,
+      "edge": 0.1824,
       "tags": [
         "value",
         "likely"
@@ -102,27 +61,6 @@
       "context": {
         "home_xg": 1.01,
         "away_xg": 0.85,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Rosenborg BK",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-09-12T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.689,
-      "implied_prob": 0.5676,
-      "edge": 0.1214,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.06,
-        "away_xg": 1.5,
         "line": 2.5
       }
     },
@@ -151,19 +89,20 @@
       "away": "Tromsø",
       "league": "Eliteserien",
       "start_date": "2026-09-12T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6775,
-      "implied_prob": 0.578,
-      "edge": 0.0995,
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6677,
+      "implied_prob": 0.5676,
+      "edge": 0.1001,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.06,
-        "away_xg": 1.5
+        "home_xg": 1.93,
+        "away_xg": 1.51,
+        "line": 2.5
       }
     },
     {
@@ -174,9 +113,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6979,
+      "model_prob": 0.7003,
       "implied_prob": 0.6053,
-      "edge": 0.0927,
+      "edge": 0.0951,
       "tags": [
         "value",
         "likely"
@@ -195,17 +134,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6748,
+      "model_prob": 0.6771,
       "implied_prob": 0.5867,
-      "edge": 0.0882,
+      "edge": 0.0905,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.05,
         "away_xg": 0.95,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Rosenborg BK",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-09-12T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.666,
+      "implied_prob": 0.578,
+      "edge": 0.0881,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.93,
+        "away_xg": 1.51
       }
     },
     {
@@ -216,16 +175,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.665,
+      "model_prob": 0.6596,
       "implied_prob": 0.5952,
-      "edge": 0.0697,
+      "edge": 0.0644,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.33,
-        "away_xg": 1.59,
+        "home_xg": 1.34,
+        "away_xg": 1.6,
         "line": 3.5
       }
     },
@@ -237,16 +196,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.6956,
+      "model_prob": 0.6987,
       "implied_prob": 0.6361,
-      "edge": 0.0594,
+      "edge": 0.0626,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.67,
-        "away_xg": 1.94
+        "home_xg": 1.68,
+        "away_xg": 1.95
       }
     }
   ]
