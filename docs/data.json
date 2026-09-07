@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:29:12.053201+00:00",
+  "generated_at": "2026-09-07T23:45:25.480737+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -72,16 +72,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.7104,
+      "model_prob": 0.7163,
       "implied_prob": 0.5342,
-      "edge": 0.1761,
+      "edge": 0.1821,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.02,
-        "away_xg": 0.86,
+        "home_xg": 1.01,
+        "away_xg": 0.85,
         "line": 2.5
       }
     },
@@ -148,6 +148,27 @@
       }
     },
     {
+      "home": "Tigre",
+      "away": "Rosario Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7135,
+      "implied_prob": 0.6104,
+      "edge": 0.1031,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.96,
+        "away_xg": 0.91,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Rosenborg BK",
       "away": "Tromsø",
       "league": "Eliteserien",
@@ -165,27 +186,6 @@
       "context": {
         "home_xg": 1.94,
         "away_xg": 1.52,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Tigre",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7079,
-      "implied_prob": 0.6104,
-      "edge": 0.0975,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 0.92,
         "line": 2.5
       }
     },
