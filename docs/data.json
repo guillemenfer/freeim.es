@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-09-08T13:34:25.156728+00:00",
+  "generated_at": "2026-09-08T17:29:40.199405+00:00",
   "bets": [
-    {
-      "home": "TPS",
-      "away": "SJK",
-      "league": "Veikkausliiga",
-      "start_date": "2026-09-08T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 2.0,
-      "model_prob": 0.653,
-      "implied_prob": 0.455,
-      "edge": 0.198,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 0.89,
-        "line": 2.5
-      }
-    },
     {
       "home": "Hammarby IF",
       "away": "IF Brommapojkarna",
@@ -145,6 +124,47 @@
       "context": {
         "home_xg": 1.94,
         "away_xg": 1.52
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T22:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.682,
+      "implied_prob": 0.5952,
+      "edge": 0.0867,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.83,
+        "away_xg": 0.83
+      }
+    },
+    {
+      "home": "Newell's Old Boys",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-11T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6827,
+      "implied_prob": 0.6104,
+      "edge": 0.0723,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.23,
+        "away_xg": 1.13,
+        "line": 1.5
       }
     },
     {
