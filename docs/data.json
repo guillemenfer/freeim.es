@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T23:45:25.480737+00:00",
+  "generated_at": "2026-09-08T04:28:18.625114+00:00",
   "bets": [
     {
       "home": "Ilves",
@@ -72,16 +72,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.7,
-      "model_prob": 0.7163,
+      "model_prob": 0.7031,
       "implied_prob": 0.5342,
-      "edge": 0.1821,
+      "edge": 0.1689,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.01,
-        "away_xg": 0.85,
+        "home_xg": 1.03,
+        "away_xg": 0.87,
         "line": 2.5
       }
     },
@@ -128,47 +128,6 @@
       }
     },
     {
-      "home": "Unión de Santa Fe",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-08T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.6603,
-      "implied_prob": 0.5479,
-      "edge": 0.1124,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.94,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Tigre",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7135,
-      "implied_prob": 0.6104,
-      "edge": 0.1031,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.96,
-        "away_xg": 0.91,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Rosenborg BK",
       "away": "Tromsø",
       "league": "Eliteserien",
@@ -186,6 +145,27 @@
       "context": {
         "home_xg": 1.94,
         "away_xg": 1.52,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Tigre",
+      "away": "Rosario Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T17:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.701,
+      "implied_prob": 0.6104,
+      "edge": 0.0906,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 0.93,
         "line": 2.5
       }
     },
