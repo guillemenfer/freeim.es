@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T18:45:31.497286+00:00",
+  "generated_at": "2026-09-12T21:26:39.818771+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -154,9 +154,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7031,
+      "model_prob": 0.7018,
       "implied_prob": 0.6104,
-      "edge": 0.0927,
+      "edge": 0.0914,
       "tags": [
         "value",
         "likely"
@@ -175,9 +175,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6839,
+      "model_prob": 0.6827,
       "implied_prob": 0.5952,
-      "edge": 0.0886,
+      "edge": 0.0874,
       "tags": [
         "value",
         "likely"
@@ -195,9 +195,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6896,
+      "model_prob": 0.6883,
       "implied_prob": 0.6104,
-      "edge": 0.0792,
+      "edge": 0.0779,
       "tags": [
         "value",
         "likely"
@@ -216,9 +216,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.652,
+      "model_prob": 0.6533,
       "implied_prob": 0.5867,
-      "edge": 0.0654,
+      "edge": 0.0666,
       "tags": [
         "value",
         "likely"
