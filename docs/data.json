@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:15:53.080598+00:00",
+  "generated_at": "2026-09-12T05:02:21.053743+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -44,44 +44,23 @@
       }
     },
     {
-      "home": "Boca Juniors",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-12T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7065,
-      "implied_prob": 0.5586,
-      "edge": 0.1479,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.03,
-        "away_xg": 0.86,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "FC Inter Turku",
-      "away": "VPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-09-14T15:00:00+00:00",
+      "home": "IFK Göteborg",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-12T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.3,
-      "model_prob": 0.8291,
-      "implied_prob": 0.7011,
-      "edge": 0.1279,
+      "odd": 1.53,
+      "model_prob": 0.7608,
+      "implied_prob": 0.5952,
+      "edge": 0.1655,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.01,
-        "away_xg": 1.14,
+        "home_xg": 1.43,
+        "away_xg": 1.05,
         "line": 3.5
       }
     },
@@ -103,6 +82,27 @@
       "context": {
         "total_corners_xg": 9.9,
         "line": 8.5
+      }
+    },
+    {
+      "home": "FC Inter Turku",
+      "away": "VPS",
+      "league": "Veikkausliiga",
+      "start_date": "2026-09-14T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.28,
+      "model_prob": 0.8291,
+      "implied_prob": 0.7078,
+      "edge": 0.1213,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.01,
+        "away_xg": 1.14,
+        "line": 3.5
       }
     },
     {
@@ -153,9 +153,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7042,
+      "model_prob": 0.7052,
       "implied_prob": 0.6104,
-      "edge": 0.0938,
+      "edge": 0.0948,
       "tags": [
         "value",
         "likely"
@@ -195,9 +195,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6907,
+      "model_prob": 0.6917,
       "implied_prob": 0.6104,
-      "edge": 0.0803,
+      "edge": 0.0813,
       "tags": [
         "value",
         "likely"
@@ -226,6 +226,27 @@
       "context": {
         "home_xg": 1.69,
         "away_xg": 1.96
+      }
+    },
+    {
+      "home": "Gimnasia y Esgrima de Mendoza",
+      "away": "Deportivo Riestra",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-19T17:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6501,
+      "implied_prob": 0.5867,
+      "edge": 0.0634,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.3,
+        "away_xg": 0.92,
+        "line": 1.5
       }
     },
     {
