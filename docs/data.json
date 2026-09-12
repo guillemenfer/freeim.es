@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:26:39.818771+00:00",
+  "generated_at": "2026-09-12T23:19:24.168620+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -86,26 +86,6 @@
       }
     },
     {
-      "home": "Talleres de Córdoba",
-      "away": "Unión de Santa Fe",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-12T23:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6558,
-      "implied_prob": 0.5342,
-      "edge": 0.1216,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.9,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Start",
       "away": "Brann",
       "league": "Eliteserien",
@@ -154,9 +134,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7018,
+      "model_prob": 0.701,
       "implied_prob": 0.6104,
-      "edge": 0.0914,
+      "edge": 0.0906,
       "tags": [
         "value",
         "likely"
@@ -175,9 +155,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: No",
       "odd": 1.53,
-      "model_prob": 0.6827,
+      "model_prob": 0.682,
       "implied_prob": 0.5952,
-      "edge": 0.0874,
+      "edge": 0.0867,
       "tags": [
         "value",
         "likely"
@@ -195,9 +175,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6883,
+      "model_prob": 0.6875,
       "implied_prob": 0.6104,
-      "edge": 0.0779,
+      "edge": 0.0771,
       "tags": [
         "value",
         "likely"
@@ -216,9 +196,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6533,
+      "model_prob": 0.654,
       "implied_prob": 0.5867,
-      "edge": 0.0666,
+      "edge": 0.0673,
       "tags": [
         "value",
         "likely"
