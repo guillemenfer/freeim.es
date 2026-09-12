@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:43:39.951309+00:00",
+  "generated_at": "2026-09-12T00:15:53.080598+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -51,15 +51,15 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.708,
+      "model_prob": 0.7065,
       "implied_prob": 0.5586,
-      "edge": 0.1494,
+      "edge": 0.1479,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.02,
+        "home_xg": 1.03,
         "away_xg": 0.86,
         "line": 2.5
       }
@@ -106,6 +106,46 @@
       }
     },
     {
+      "home": "Rosenborg BK",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-09-12T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.62,
+      "model_prob": 0.668,
+      "implied_prob": 0.5586,
+      "edge": 0.1094,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.94,
+        "away_xg": 1.52
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T22:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.65,
+      "model_prob": 0.6615,
+      "implied_prob": 0.5541,
+      "edge": 0.1075,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.95,
+        "line": 8.5
+      }
+    },
+    {
       "home": "Tigre",
       "away": "Rosario Central",
       "league": "Liga Profesional",
@@ -113,9 +153,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7056,
+      "model_prob": 0.7042,
       "implied_prob": 0.6104,
-      "edge": 0.0953,
+      "edge": 0.0938,
       "tags": [
         "value",
         "likely"
@@ -131,32 +171,12 @@
       "away": "Tromsø",
       "league": "Eliteserien",
       "start_date": "2026-09-12T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.668,
-      "implied_prob": 0.578,
-      "edge": 0.09,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.94,
-        "away_xg": 1.52
-      }
-    },
-    {
-      "home": "Rosenborg BK",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-09-12T16:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
-      "odd": 1.55,
+      "odd": 1.57,
       "model_prob": 0.6701,
-      "implied_prob": 0.5867,
-      "edge": 0.0834,
+      "implied_prob": 0.578,
+      "edge": 0.0921,
       "tags": [
         "value",
         "likely"
@@ -175,9 +195,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6921,
+      "model_prob": 0.6907,
       "implied_prob": 0.6104,
-      "edge": 0.0818,
+      "edge": 0.0803,
       "tags": [
         "value",
         "likely"
