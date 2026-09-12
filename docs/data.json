@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:18:01.928138+00:00",
+  "generated_at": "2026-09-12T13:09:53.008464+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.65,
-      "model_prob": 0.743,
+      "model_prob": 0.7387,
       "implied_prob": 0.5541,
-      "edge": 0.1889,
+      "edge": 0.1847,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.36,
+        "home_xg": 1.22,
+        "away_xg": 1.37,
         "line": 3.5
       }
     },
@@ -30,16 +30,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.82,
-      "model_prob": 0.6767,
+      "model_prob": 0.6721,
       "implied_prob": 0.5,
-      "edge": 0.1767,
+      "edge": 0.1721,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.85,
-        "away_xg": 1.02,
+        "home_xg": 1.86,
+        "away_xg": 1.03,
         "line": 3.5
       }
     },
@@ -51,16 +51,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7608,
+      "model_prob": 0.7567,
       "implied_prob": 0.5952,
-      "edge": 0.1655,
+      "edge": 0.1615,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.43,
-        "away_xg": 1.05,
+        "home_xg": 1.44,
+        "away_xg": 1.06,
         "line": 3.5
       }
     },
