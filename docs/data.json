@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:02:21.053743+00:00",
+  "generated_at": "2026-09-12T09:18:01.928138+00:00",
   "bets": [
     {
       "home": "Malmö FF",
@@ -185,6 +185,26 @@
         "home_xg": 1.94,
         "away_xg": 1.52,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T22:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6858,
+      "implied_prob": 0.5952,
+      "edge": 0.0906,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.82,
+        "away_xg": 0.82
       }
     },
     {
