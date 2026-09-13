@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:27:19.347680+00:00",
+  "generated_at": "2026-09-13T21:40:49.621481+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -50,16 +50,36 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.45,
-      "model_prob": 0.7049,
+      "model_prob": 0.7092,
       "implied_prob": 0.6234,
-      "edge": 0.0815,
+      "edge": 0.0858,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.86,
-        "away_xg": 1.81
+        "home_xg": 1.87,
+        "away_xg": 1.82
+      }
+    },
+    {
+      "home": "Independiente",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-13T22:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6728,
+      "implied_prob": 0.5952,
+      "edge": 0.0775,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.85,
+        "away_xg": 0.85
       }
     },
     {
@@ -70,16 +90,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6652,
+      "model_prob": 0.6634,
       "implied_prob": 0.5867,
-      "edge": 0.0785,
+      "edge": 0.0767,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.33,
-        "away_xg": 0.96,
+        "home_xg": 1.32,
+        "away_xg": 0.95,
         "line": 1.5
       }
     },
@@ -91,37 +111,17 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6561,
+      "model_prob": 0.6542,
       "implied_prob": 0.578,
-      "edge": 0.0781,
+      "edge": 0.0762,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 1.18,
+        "home_xg": 1.06,
+        "away_xg": 1.17,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Independiente",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T22:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.53,
-      "model_prob": 0.6709,
-      "implied_prob": 0.5952,
-      "edge": 0.0757,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.85,
-        "away_xg": 0.85
       }
     },
     {
@@ -132,16 +132,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.45,
-      "model_prob": 0.6896,
+      "model_prob": 0.6946,
       "implied_prob": 0.6234,
-      "edge": 0.0662,
+      "edge": 0.0713,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.17,
-        "away_xg": 1.51
+        "home_xg": 2.19,
+        "away_xg": 1.52
       }
     },
     {
@@ -152,9 +152,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6753,
+      "model_prob": 0.6774,
       "implied_prob": 0.6104,
-      "edge": 0.0649,
+      "edge": 0.067,
       "tags": [
         "value",
         "likely"
@@ -173,16 +173,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.53,
-      "model_prob": 0.6544,
+      "model_prob": 0.6594,
       "implied_prob": 0.5952,
-      "edge": 0.0592,
+      "edge": 0.0641,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.66,
-        "away_xg": 1.66
+        "home_xg": 1.67,
+        "away_xg": 1.67
       }
     }
   ]
