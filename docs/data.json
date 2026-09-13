@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:45:14.750707+00:00",
+  "generated_at": "2026-09-13T16:59:42.622212+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -19,69 +19,6 @@
       "context": {
         "home_xg": 1.26,
         "away_xg": 1.2,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Malmö FF",
-      "away": "Örgryte IS",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-13T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7328,
-      "implied_prob": 0.578,
-      "edge": 0.1548,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.38,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "FC Inter Turku",
-      "away": "VPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-09-14T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.28,
-      "model_prob": 0.8184,
-      "implied_prob": 0.7078,
-      "edge": 0.1106,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.04,
-        "away_xg": 1.17,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Start",
-      "away": "Brann",
-      "league": "Eliteserien",
-      "start_date": "2026-09-13T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7042,
-      "implied_prob": 0.5952,
-      "edge": 0.1089,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.24,
-        "away_xg": 1.5,
         "line": 3.5
       }
     },
@@ -206,6 +143,66 @@
         "home_xg": 0.99,
         "away_xg": 0.99,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Molde",
+      "away": "Aalesunds FK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-19T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.6987,
+      "implied_prob": 0.6361,
+      "edge": 0.0626,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.05,
+        "away_xg": 1.62
+      }
+    },
+    {
+      "home": "Viking FK",
+      "away": "Lillestrom SK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-20T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.6859,
+      "implied_prob": 0.6234,
+      "edge": 0.0625,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.16,
+        "away_xg": 1.49
+      }
+    },
+    {
+      "home": "Kristiansund BK",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-19T14:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.53,
+      "model_prob": 0.6508,
+      "implied_prob": 0.5952,
+      "edge": 0.0556,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.64,
+        "away_xg": 1.64
       }
     }
   ]
