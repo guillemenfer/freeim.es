@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:59:42.622212+00:00",
+  "generated_at": "2026-09-13T19:27:19.347680+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -43,43 +43,23 @@
       }
     },
     {
-      "home": "Tigre",
-      "away": "Rosario Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T17:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.65,
-      "implied_prob": 0.5479,
-      "edge": 0.1021,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Independiente",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T22:15:00+00:00",
+      "home": "Vålerenga",
+      "away": "Fredrikstad",
+      "league": "Eliteserien",
+      "start_date": "2026-09-20T12:30:00+00:00",
       "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.53,
-      "model_prob": 0.6749,
-      "implied_prob": 0.5952,
-      "edge": 0.0797,
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.7049,
+      "implied_prob": 0.6234,
+      "edge": 0.0815,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.84,
-        "away_xg": 0.84
+        "home_xg": 1.86,
+        "away_xg": 1.81
       }
     },
     {
@@ -90,16 +70,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6612,
+      "model_prob": 0.6652,
       "implied_prob": 0.5867,
-      "edge": 0.0745,
+      "edge": 0.0785,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.32,
-        "away_xg": 0.95,
+        "home_xg": 1.33,
+        "away_xg": 0.96,
         "line": 1.5
       }
     },
@@ -111,58 +91,37 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6519,
+      "model_prob": 0.6561,
       "implied_prob": 0.578,
-      "edge": 0.074,
+      "edge": 0.0781,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
-        "away_xg": 1.17,
+        "home_xg": 1.07,
+        "away_xg": 1.18,
         "line": 1.5
       }
     },
     {
-      "home": "Central Córdoba",
-      "away": "Defensa y Justicia",
+      "home": "Independiente",
+      "away": "San Lorenzo",
       "league": "Liga Profesional",
-      "start_date": "2026-09-18T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6798,
-      "implied_prob": 0.6104,
-      "edge": 0.0694,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.99,
-        "away_xg": 0.99,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Molde",
-      "away": "Aalesunds FK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-19T16:00:00+00:00",
+      "start_date": "2026-09-13T22:15:00+00:00",
       "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.6987,
-      "implied_prob": 0.6361,
-      "edge": 0.0626,
+      "selection_label": "Ambos marcan: No",
+      "odd": 1.53,
+      "model_prob": 0.6709,
+      "implied_prob": 0.5952,
+      "edge": 0.0757,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.05,
-        "away_xg": 1.62
+        "home_xg": 0.85,
+        "away_xg": 0.85
       }
     },
     {
@@ -173,16 +132,37 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.45,
-      "model_prob": 0.6859,
+      "model_prob": 0.6896,
       "implied_prob": 0.6234,
-      "edge": 0.0625,
+      "edge": 0.0662,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.16,
-        "away_xg": 1.49
+        "home_xg": 2.17,
+        "away_xg": 1.51
+      }
+    },
+    {
+      "home": "Central Córdoba",
+      "away": "Defensa y Justicia",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-18T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6753,
+      "implied_prob": 0.6104,
+      "edge": 0.0649,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.0,
+        "away_xg": 1.0,
+        "line": 2.5
       }
     },
     {
@@ -193,16 +173,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.53,
-      "model_prob": 0.6508,
+      "model_prob": 0.6544,
       "implied_prob": 0.5952,
-      "edge": 0.0556,
+      "edge": 0.0592,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.64,
-        "away_xg": 1.64
+        "home_xg": 1.66,
+        "away_xg": 1.66
       }
     }
   ]
