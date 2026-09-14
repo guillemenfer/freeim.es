@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:09:18.115344+00:00",
+  "generated_at": "2026-09-14T05:26:24.388237+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -20,6 +20,26 @@
         "home_xg": 1.26,
         "away_xg": 1.2,
         "line": 3.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-14T17:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6749,
+      "implied_prob": 0.5342,
+      "edge": 0.1406,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.19,
+        "line": 11.5
       }
     },
     {
@@ -50,16 +70,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6596,
+      "model_prob": 0.6627,
       "implied_prob": 0.5867,
-      "edge": 0.073,
+      "edge": 0.076,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.32,
-        "away_xg": 0.94,
+        "away_xg": 0.95,
         "line": 1.5
       }
     },
@@ -71,15 +91,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6504,
+      "model_prob": 0.6535,
       "implied_prob": 0.578,
-      "edge": 0.0724,
+      "edge": 0.0755,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
+        "home_xg": 1.06,
         "away_xg": 1.17,
         "line": 1.5
       }
@@ -112,16 +132,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6814,
+      "model_prob": 0.6781,
       "implied_prob": 0.6104,
-      "edge": 0.071,
+      "edge": 0.0677,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.99,
-        "away_xg": 0.99,
+        "home_xg": 1.0,
+        "away_xg": 1.0,
         "line": 2.5
       }
     },
