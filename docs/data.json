@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:59:11.622934+00:00",
+  "generated_at": "2026-09-14T16:58:42.423302+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -9,58 +9,38 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7661,
+      "model_prob": 0.7764,
       "implied_prob": 0.5867,
-      "edge": 0.1794,
+      "edge": 0.1897,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.26,
-        "away_xg": 1.2,
+        "home_xg": 1.23,
+        "away_xg": 1.18,
         "line": 3.5
       }
     },
     {
-      "home": "Bodø/Glimt",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-09-14T17:00:00+00:00",
+      "home": "Degerfors IF",
+      "away": "Hammarby IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-20T14:30:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 4.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.7535,
-      "implied_prob": 0.578,
-      "edge": 0.1755,
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.7173,
+      "implied_prob": 0.5676,
+      "edge": 0.1498,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.95,
-        "away_xg": 1.4,
-        "line": 4.5
-      }
-    },
-    {
-      "home": "Viking FK",
-      "away": "Lillestrom SK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-20T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6946,
-      "implied_prob": 0.5952,
-      "edge": 0.0994,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.19,
-        "away_xg": 1.52
+        "home_xg": 1.38,
+        "away_xg": 1.31,
+        "line": 3.5
       }
     },
     {
@@ -123,6 +103,26 @@
         "home_xg": 1.07,
         "away_xg": 1.18,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Viking FK",
+      "away": "Lillestrom SK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-20T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.6946,
+      "implied_prob": 0.6234,
+      "edge": 0.0713,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.19,
+        "away_xg": 1.52
       }
     },
     {
