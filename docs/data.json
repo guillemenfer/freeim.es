@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:40:49.621481+00:00",
+  "generated_at": "2026-09-14T00:09:18.115344+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -23,26 +23,6 @@
       }
     },
     {
-      "home": "Independiente",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T22:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.6615,
-      "implied_prob": 0.5541,
-      "edge": 0.1075,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.95,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Vålerenga",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -63,26 +43,6 @@
       }
     },
     {
-      "home": "Independiente",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-13T22:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: No",
-      "odd": 1.53,
-      "model_prob": 0.6728,
-      "implied_prob": 0.5952,
-      "edge": 0.0775,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.85,
-        "away_xg": 0.85
-      }
-    },
-    {
       "home": "Gimnasia y Esgrima de Mendoza",
       "away": "Deportivo Riestra",
       "league": "Liga Profesional",
@@ -90,16 +50,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6634,
+      "model_prob": 0.6596,
       "implied_prob": 0.5867,
-      "edge": 0.0767,
+      "edge": 0.073,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.32,
-        "away_xg": 0.95,
+        "away_xg": 0.94,
         "line": 1.5
       }
     },
@@ -111,15 +71,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6542,
+      "model_prob": 0.6504,
       "implied_prob": 0.578,
-      "edge": 0.0762,
+      "edge": 0.0724,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.06,
+        "home_xg": 1.05,
         "away_xg": 1.17,
         "line": 1.5
       }
@@ -152,16 +112,16 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6774,
+      "model_prob": 0.6814,
       "implied_prob": 0.6104,
-      "edge": 0.067,
+      "edge": 0.071,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.0,
-        "away_xg": 1.0,
+        "home_xg": 0.99,
+        "away_xg": 0.99,
         "line": 2.5
       }
     },
