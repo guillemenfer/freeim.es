@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:48:23.391575+00:00",
+  "generated_at": "2026-09-15T10:02:00.946623+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -8,10 +8,10 @@
       "start_date": "2026-09-18T16:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
+      "odd": 1.53,
       "model_prob": 0.7764,
-      "implied_prob": 0.5867,
-      "edge": 0.1897,
+      "implied_prob": 0.5952,
+      "edge": 0.1812,
       "tags": [
         "value",
         "likely"
