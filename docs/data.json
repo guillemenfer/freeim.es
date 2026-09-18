@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:09:30.463632+00:00",
+  "generated_at": "2026-09-18T15:01:10.343944+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -65,24 +65,23 @@
       }
     },
     {
-      "home": "Örgryte IS",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-19T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
+      "home": "Instituto de Córdoba",
+      "away": "Talleres de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-20T00:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 10.5 córners",
       "odd": 1.6,
-      "model_prob": 0.659,
+      "model_prob": 0.6604,
       "implied_prob": 0.5676,
-      "edge": 0.0914,
+      "edge": 0.0928,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.39,
-        "away_xg": 1.56,
-        "line": 3.5
+        "total_corners_xg": 9.38,
+        "line": 10.5
       }
     },
     {
@@ -103,6 +102,27 @@
       "context": {
         "home_xg": 1.85,
         "away_xg": 1.8
+      }
+    },
+    {
+      "home": "Örgryte IS",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-19T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.659,
+      "implied_prob": 0.5952,
+      "edge": 0.0637,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.39,
+        "away_xg": 1.56,
+        "line": 3.5
       }
     },
     {
