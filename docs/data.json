@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T05:54:21.903637+00:00",
+  "generated_at": "2026-09-18T11:09:30.463632+00:00",
   "bets": [
     {
       "home": "IF Gnistan",
@@ -8,10 +8,10 @@
       "start_date": "2026-09-18T16:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
+      "odd": 1.53,
       "model_prob": 0.7764,
-      "implied_prob": 0.6053,
-      "edge": 0.1711,
+      "implied_prob": 0.5952,
+      "edge": 0.1812,
       "tags": [
         "value",
         "likely"
@@ -20,26 +20,6 @@
         "home_xg": 1.23,
         "away_xg": 1.18,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Instituto de Córdoba",
-      "away": "Talleres de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-20T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 10.5 córners",
-      "odd": 1.75,
-      "model_prob": 0.6604,
-      "implied_prob": 0.5179,
-      "edge": 0.1425,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.38,
-        "line": 10.5
       }
     },
     {
@@ -91,10 +71,10 @@
       "start_date": "2026-09-19T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
+      "odd": 1.6,
       "model_prob": 0.659,
-      "implied_prob": 0.5586,
-      "edge": 0.1004,
+      "implied_prob": 0.5676,
+      "edge": 0.0914,
       "tags": [
         "value",
         "likely"
