@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:35:54.735642+00:00",
+  "generated_at": "2026-09-19T14:48:34.680040+00:00",
   "bets": [
     {
       "home": "Örgryte IS",
@@ -19,6 +19,27 @@
       "context": {
         "total_corners_xg": 10.39,
         "line": 11.5
+      }
+    },
+    {
+      "home": "Molde",
+      "away": "Aalesunds FK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-19T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 4.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.69,
+      "implied_prob": 0.578,
+      "edge": 0.112,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.07,
+        "away_xg": 1.62,
+        "line": 4.5
       }
     },
     {
@@ -43,24 +64,24 @@
       }
     },
     {
-      "home": "Molde",
-      "away": "Aalesunds FK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-19T16:00:00+00:00",
+      "home": "Örgryte IS",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-19T15:30:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 4.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6807,
-      "implied_prob": 0.578,
-      "edge": 0.1027,
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.669,
+      "implied_prob": 0.5676,
+      "edge": 0.1015,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.09,
-        "away_xg": 1.64,
-        "line": 4.5
+        "home_xg": 1.37,
+        "away_xg": 1.53,
+        "line": 3.5
       }
     },
     {
@@ -84,27 +105,6 @@
       }
     },
     {
-      "home": "Örgryte IS",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-19T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.659,
-      "implied_prob": 0.5676,
-      "edge": 0.0914,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.39,
-        "away_xg": 1.56,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Vålerenga",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -112,36 +112,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7149,
+      "model_prob": 0.7085,
       "implied_prob": 0.6361,
-      "edge": 0.0787,
+      "edge": 0.0724,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.89,
-        "away_xg": 1.84
-      }
-    },
-    {
-      "home": "Viking FK",
-      "away": "Lillestrom SK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-20T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.7013,
-      "implied_prob": 0.6361,
-      "edge": 0.0651,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.21,
-        "away_xg": 1.55
+        "home_xg": 1.87,
+        "away_xg": 1.82
       }
     },
     {
@@ -163,6 +143,26 @@
         "home_xg": 1.22,
         "away_xg": 1.08,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Viking FK",
+      "away": "Lillestrom SK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-20T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.6938,
+      "implied_prob": 0.6361,
+      "edge": 0.0577,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.19,
+        "away_xg": 1.52
       }
     }
   ]
