@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T18:00:24.003369+00:00",
+  "generated_at": "2026-09-19T20:36:23.332413+00:00",
   "bets": [
     {
       "home": "Instituto de Córdoba",
@@ -22,27 +22,6 @@
       }
     },
     {
-      "home": "Instituto de Córdoba",
-      "away": "Talleres de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-20T00:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6632,
-      "implied_prob": 0.6053,
-      "edge": 0.058,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.07,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Vålerenga",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -60,6 +39,27 @@
       "context": {
         "home_xg": 1.8,
         "away_xg": 1.75
+      }
+    },
+    {
+      "home": "Instituto de Córdoba",
+      "away": "Talleres de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-20T00:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6583,
+      "implied_prob": 0.6053,
+      "edge": 0.0531,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 1.05,
+        "line": 1.5
       }
     }
   ]
