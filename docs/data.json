@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-19T01:37:09.915771+00:00",
+  "generated_at": "2026-09-19T06:39:30.180996+00:00",
   "bets": [
+    {
+      "home": "Örgryte IS",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-19T15:30:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.6518,
+      "implied_prob": 0.5,
+      "edge": 0.1518,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.39,
+        "line": 11.5
+      }
+    },
     {
       "home": "Gimnasia y Esgrima de Mendoza",
       "away": "Deportivo Riestra",
@@ -84,6 +104,27 @@
       }
     },
     {
+      "home": "Örgryte IS",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-09-19T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.659,
+      "implied_prob": 0.5867,
+      "edge": 0.0723,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.39,
+        "away_xg": 1.56,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Kristiansund BK",
       "away": "Rosenborg BK",
       "league": "Eliteserien",
@@ -124,24 +165,24 @@
       }
     },
     {
-      "home": "Örgryte IS",
-      "away": "IK Sirius",
-      "league": "Allsvenskan",
-      "start_date": "2026-09-19T15:30:00+00:00",
+      "home": "Instituto de Córdoba",
+      "away": "Talleres de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-09-20T00:15:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.659,
-      "implied_prob": 0.5952,
-      "edge": 0.0637,
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6693,
+      "implied_prob": 0.6104,
+      "edge": 0.0589,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.39,
-        "away_xg": 1.56,
-        "line": 3.5
+        "home_xg": 1.22,
+        "away_xg": 1.08,
+        "line": 1.5
       }
     }
   ]
