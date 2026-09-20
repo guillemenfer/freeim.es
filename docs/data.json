@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T14:15:40.734169+00:00",
+  "generated_at": "2026-09-20T17:40:46.386173+00:00",
   "bets": [
     {
       "home": "Rosario Central",
@@ -20,26 +20,6 @@
         "home_xg": 0.97,
         "away_xg": 0.92,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Viking FK",
-      "away": "Lillestrom SK",
-      "league": "Eliteserien",
-      "start_date": "2026-09-20T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6663,
-      "implied_prob": 0.5952,
-      "edge": 0.0711,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.09,
-        "away_xg": 1.43
       }
     }
   ]
