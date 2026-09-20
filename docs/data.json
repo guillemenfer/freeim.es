@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-09-19T22:31:21.167494+00:00",
+  "generated_at": "2026-09-20T00:24:50.854437+00:00",
   "bets": [
-    {
-      "home": "Instituto de Córdoba",
-      "away": "Talleres de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-20T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 10.5 córners",
-      "odd": 1.6,
-      "model_prob": 0.6604,
-      "implied_prob": 0.5676,
-      "edge": 0.0928,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.38,
-        "line": 10.5
-      }
-    },
     {
       "home": "Vålerenga",
       "away": "Fredrikstad",
