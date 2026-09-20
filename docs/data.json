@@ -1,26 +1,4 @@
 {
-  "generated_at": "2026-09-20T17:40:46.386173+00:00",
-  "bets": [
-    {
-      "home": "Rosario Central",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-09-20T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7071,
-      "implied_prob": 0.6053,
-      "edge": 0.1018,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 0.92,
-        "line": 2.5
-      }
-    }
-  ]
+  "generated_at": "2026-09-20T20:46:03.017855+00:00",
+  "bets": []
 }
