@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-20T05:26:37.122303+00:00",
+  "generated_at": "2026-09-20T10:08:45.152180+00:00",
   "bets": [
+    {
+      "home": "Viking FK",
+      "away": "Lillestrom SK",
+      "league": "Eliteserien",
+      "start_date": "2026-09-20T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.7082,
+      "implied_prob": 0.6234,
+      "edge": 0.0848,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.24,
+        "away_xg": 1.57
+      }
+    },
     {
       "home": "Vålerenga",
       "away": "Fredrikstad",
@@ -9,16 +29,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.6911,
+      "model_prob": 0.7207,
       "implied_prob": 0.6361,
-      "edge": 0.0549,
+      "edge": 0.0846,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.8,
-        "away_xg": 1.75
+        "home_xg": 1.92,
+        "away_xg": 1.87
       }
     }
   ]
