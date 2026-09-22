@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-09-22T07:40:23.685561+00:00",
+  "generated_at": "2026-09-22T13:22:46.771049+00:00",
   "bets": [
+    {
+      "home": "IFK Mariehamn",
+      "away": "Ilves",
+      "league": "Veikkausliiga",
+      "start_date": "2026-10-10T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7787,
+      "implied_prob": 0.5867,
+      "edge": 0.1921,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.39,
+        "away_xg": 1.01,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Hammarby IF",
+      "away": "Djurgårdens IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-11T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7549,
+      "implied_prob": 0.5867,
+      "edge": 0.1682,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.19,
+        "line": 3.5
+      }
+    },
     {
       "home": "Newell's Old Boys",
       "away": "Lanús",
@@ -40,27 +82,6 @@
       "context": {
         "home_xg": 1.12,
         "away_xg": 1.12,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Argentinos Juniors",
-      "away": "Tigre",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-03T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6879,
-      "implied_prob": 0.6104,
-      "edge": 0.0775,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.3,
-        "away_xg": 1.08,
         "line": 1.5
       }
     },
