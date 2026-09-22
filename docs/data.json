@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:22:46.771049+00:00",
+  "generated_at": "2026-09-22T17:45:24.275818+00:00",
   "bets": [
     {
       "home": "IFK Mariehamn",
@@ -104,6 +104,26 @@
         "home_xg": 0.87,
         "away_xg": 1.12,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Viking FK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-09T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7229,
+      "implied_prob": 0.6634,
+      "edge": 0.0595,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.92,
+        "away_xg": 1.88
       }
     }
   ]
