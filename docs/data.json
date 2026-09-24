@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:32:11.166372+00:00",
+  "generated_at": "2026-09-24T20:46:06.216881+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -167,27 +167,6 @@
       }
     },
     {
-      "home": "Deportivo Riestra",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-05T19:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6563,
-      "implied_prob": 0.578,
-      "edge": 0.0783,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.12,
-        "away_xg": 1.12,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Instituto de Córdoba",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -227,6 +206,27 @@
         "home_xg": 0.87,
         "away_xg": 1.12,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-05T19:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6563,
+      "implied_prob": 0.5952,
+      "edge": 0.061,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.12,
+        "away_xg": 1.12,
+        "line": 1.5
       }
     },
     {
