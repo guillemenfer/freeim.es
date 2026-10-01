@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-09-30T22:15:20.722983+00:00",
+  "generated_at": "2026-10-01T01:33:15.059148+00:00",
   "bets": [
+    {
+      "home": "Independiente",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-02T22:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 9.5 córners",
+      "odd": 1.88,
+      "model_prob": 0.6595,
+      "implied_prob": 0.4821,
+      "edge": 0.1774,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 11.0,
+        "line": 9.5
+      }
+    },
     {
       "home": "Fredrikstad",
       "away": "Tromsø",
