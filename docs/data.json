@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:25:52.203525+00:00",
+  "generated_at": "2026-10-01T20:30:55.863808+00:00",
   "bets": [
     {
       "home": "Independiente",
@@ -61,6 +61,26 @@
         "home_xg": 1.33,
         "away_xg": 1.19,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Defensa y Justicia",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-03T17:45:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.664,
+      "implied_prob": 0.5,
+      "edge": 0.164,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.97,
+        "line": 8.5
       }
     },
     {
