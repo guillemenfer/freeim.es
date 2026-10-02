@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-10-02T18:42:35.327860+00:00",
+  "generated_at": "2026-10-02T22:58:59.471971+00:00",
   "bets": [
-    {
-      "home": "Independiente",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-02T22:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 9.5 córners",
-      "odd": 1.88,
-      "model_prob": 0.6595,
-      "implied_prob": 0.4821,
-      "edge": 0.1774,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 11.0,
-        "line": 9.5
-      }
-    },
     {
       "home": "Fredrikstad",
       "away": "Tromsø",
@@ -121,6 +101,26 @@
       "context": {
         "home_xg": 1.82,
         "away_xg": 1.86
+      }
+    },
+    {
+      "home": "Talleres de Córdoba",
+      "away": "Belgrano",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-04T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6558,
+      "implied_prob": 0.5342,
+      "edge": 0.1216,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.9,
+        "line": 8.5
       }
     },
     {
