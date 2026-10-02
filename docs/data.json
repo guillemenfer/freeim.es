@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T06:10:47.624792+00:00",
+  "generated_at": "2026-10-02T13:09:50.914897+00:00",
   "bets": [
     {
       "home": "Independiente",
@@ -70,10 +70,10 @@
       "start_date": "2026-10-03T17:45:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.82,
+      "odd": 1.7,
       "model_prob": 0.664,
-      "implied_prob": 0.5,
-      "edge": 0.164,
+      "implied_prob": 0.5342,
+      "edge": 0.1298,
       "tags": [
         "value",
         "likely"
@@ -225,27 +225,6 @@
         "home_xg": 1.22,
         "away_xg": 1.07,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Independiente",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-02T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.678,
-      "implied_prob": 0.6104,
-      "edge": 0.0676,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.87,
-        "away_xg": 1.12,
-        "line": 2.5
       }
     },
     {
