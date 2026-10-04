@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T18:48:51.867407+00:00",
+  "generated_at": "2026-10-04T22:20:40.417363+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -104,26 +104,6 @@
       }
     },
     {
-      "home": "Talleres de Córdoba",
-      "away": "Belgrano",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-04T20:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6558,
-      "implied_prob": 0.5342,
-      "edge": 0.1216,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.9,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Rosenborg BK",
       "away": "Sandefjord Fotball",
       "league": "Eliteserien",
@@ -171,58 +151,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6872,
+      "model_prob": 0.6839,
       "implied_prob": 0.5952,
-      "edge": 0.0919,
+      "edge": 0.0886,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.19,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Vélez Sársfield",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-05T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6527,
-      "implied_prob": 0.5676,
-      "edge": 0.0851,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.04,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Talleres de Córdoba",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-12T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6918,
-      "implied_prob": 0.6104,
-      "edge": 0.0814,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.04,
-        "away_xg": 1.36,
+        "home_xg": 1.18,
+        "away_xg": 1.18,
         "line": 1.5
       }
     },
@@ -234,17 +172,38 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6693,
+      "model_prob": 0.673,
       "implied_prob": 0.5952,
-      "edge": 0.0741,
+      "edge": 0.0778,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.08,
-        "away_xg": 0.95,
+        "home_xg": 1.07,
+        "away_xg": 0.94,
         "line": 2.5
+      }
+    },
+    {
+      "home": "Talleres de Córdoba",
+      "away": "Independiente",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-12T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6745,
+      "implied_prob": 0.6104,
+      "edge": 0.0641,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 1.34,
+        "line": 1.5
       }
     },
     {
@@ -255,37 +214,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.676,
+      "model_prob": 0.6726,
       "implied_prob": 0.6104,
-      "edge": 0.0656,
+      "edge": 0.0622,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.24,
-        "away_xg": 1.09,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Deportivo Riestra",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-05T19:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6645,
-      "implied_prob": 0.6053,
-      "edge": 0.0592,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.14,
-        "away_xg": 1.14,
+        "home_xg": 1.23,
+        "away_xg": 1.08,
         "line": 1.5
       }
     },
@@ -307,6 +245,27 @@
       "context": {
         "home_xg": 1.75,
         "away_xg": 1.57
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-05T19:45:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.661,
+      "implied_prob": 0.6053,
+      "edge": 0.0557,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.13,
+        "away_xg": 1.13,
+        "line": 1.5
       }
     }
   ]
