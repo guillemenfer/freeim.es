@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:41:14.234574+00:00",
+  "generated_at": "2026-10-05T17:07:21.076340+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -145,23 +145,23 @@
       }
     },
     {
-      "home": "Vélez Sársfield",
-      "away": "Platense",
+      "home": "Instituto de Córdoba",
+      "away": "Boca Juniors",
       "league": "Liga Profesional",
-      "start_date": "2026-10-05T22:00:00+00:00",
+      "start_date": "2026-10-09T22:30:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6539,
-      "implied_prob": 0.578,
-      "edge": 0.0759,
+      "odd": 1.53,
+      "model_prob": 0.6771,
+      "implied_prob": 0.5952,
+      "edge": 0.0819,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.04,
+        "home_xg": 1.24,
+        "away_xg": 1.09,
         "line": 1.5
       }
     },
@@ -187,23 +187,23 @@
       }
     },
     {
-      "home": "Instituto de Córdoba",
-      "away": "Boca Juniors",
+      "home": "Vélez Sársfield",
+      "away": "Platense",
       "league": "Liga Profesional",
-      "start_date": "2026-10-09T22:30:00+00:00",
+      "start_date": "2026-10-05T22:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6771,
-      "implied_prob": 0.6104,
-      "edge": 0.0667,
+      "odd": 1.53,
+      "model_prob": 0.6539,
+      "implied_prob": 0.5952,
+      "edge": 0.0586,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.24,
-        "away_xg": 1.09,
+        "home_xg": 1.19,
+        "away_xg": 1.04,
         "line": 1.5
       }
     },
