@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:20:40.417363+00:00",
+  "generated_at": "2026-10-05T01:16:17.718364+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -20,26 +20,6 @@
         "home_xg": 1.82,
         "away_xg": 1.86,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Racing Club",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-05T00:30:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.88,
-      "model_prob": 0.6552,
-      "implied_prob": 0.4821,
-      "edge": 0.1731,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.89,
-        "line": 8.5
       }
     },
     {
@@ -151,38 +131,38 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6839,
+      "model_prob": 0.6861,
       "implied_prob": 0.5952,
-      "edge": 0.0886,
+      "edge": 0.0908,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.18,
-        "away_xg": 1.18,
+        "home_xg": 1.19,
+        "away_xg": 1.19,
         "line": 1.5
       }
     },
     {
-      "home": "Tigre",
-      "away": "Banfield",
+      "home": "Vélez Sársfield",
+      "away": "Platense",
       "league": "Liga Profesional",
-      "start_date": "2026-10-10T22:15:00+00:00",
+      "start_date": "2026-10-05T22:00:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.673,
-      "implied_prob": 0.5952,
-      "edge": 0.0778,
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6515,
+      "implied_prob": 0.578,
+      "edge": 0.0735,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.07,
-        "away_xg": 0.94,
-        "line": 2.5
+        "home_xg": 1.19,
+        "away_xg": 1.04,
+        "line": 1.5
       }
     },
     {
@@ -193,16 +173,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6745,
+      "model_prob": 0.6767,
       "implied_prob": 0.6104,
-      "edge": 0.0641,
+      "edge": 0.0664,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.98,
-        "away_xg": 1.34,
+        "home_xg": 0.99,
+        "away_xg": 1.35,
         "line": 1.5
       }
     },
@@ -214,16 +194,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6726,
+      "model_prob": 0.6749,
       "implied_prob": 0.6104,
-      "edge": 0.0622,
+      "edge": 0.0645,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.08,
+        "home_xg": 1.24,
+        "away_xg": 1.09,
         "line": 1.5
       }
     },
@@ -255,16 +235,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.661,
+      "model_prob": 0.6633,
       "implied_prob": 0.6053,
-      "edge": 0.0557,
+      "edge": 0.0581,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.13,
-        "away_xg": 1.13,
+        "home_xg": 1.14,
+        "away_xg": 1.14,
         "line": 1.5
       }
     }
