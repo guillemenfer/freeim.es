@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T23:10:16.558142+00:00",
+  "generated_at": "2026-10-06T03:19:30.038037+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -84,6 +84,27 @@
       }
     },
     {
+      "home": "Lanús",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-12T19:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6948,
+      "implied_prob": 0.5952,
+      "edge": 0.0996,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.21,
+        "away_xg": 1.21,
+        "line": 1.5
+      }
+    },
+    {
       "home": "KFUM Oslo",
       "away": "Vålerenga",
       "league": "Eliteserien",
@@ -104,27 +125,6 @@
       }
     },
     {
-      "home": "Lanús",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-12T19:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6894,
-      "implied_prob": 0.5952,
-      "edge": 0.0941,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 1.2,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Instituto de Córdoba",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -132,16 +132,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6783,
+      "model_prob": 0.6839,
       "implied_prob": 0.5952,
-      "edge": 0.083,
+      "edge": 0.0886,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.25,
-        "away_xg": 1.1,
+        "home_xg": 1.26,
+        "away_xg": 1.11,
         "line": 1.5
       }
     },
