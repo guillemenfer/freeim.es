@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:46:12.718760+00:00",
+  "generated_at": "2026-10-06T17:10:14.051144+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -8,10 +8,10 @@
       "start_date": "2026-10-11T12:30:00+00:00",
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
-      "odd": 1.7,
+      "odd": 1.72,
       "model_prob": 0.7095,
-      "implied_prob": 0.5342,
-      "edge": 0.1753,
+      "implied_prob": 0.5249,
+      "edge": 0.1847,
       "tags": [
         "value",
         "likely"
@@ -50,10 +50,10 @@
       "start_date": "2026-10-11T12:30:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
+      "odd": 1.62,
       "model_prob": 0.7065,
-      "implied_prob": 0.578,
-      "edge": 0.1285,
+      "implied_prob": 0.5586,
+      "edge": 0.1479,
       "tags": [
         "value",
         "likely"
