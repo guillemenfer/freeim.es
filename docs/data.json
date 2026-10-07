@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:31:41.924335+00:00",
+  "generated_at": "2026-10-07T20:49:37.650953+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -84,27 +84,6 @@
       }
     },
     {
-      "home": "Lanús",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-12T19:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6948,
-      "implied_prob": 0.5952,
-      "edge": 0.0996,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.21,
-        "line": 1.5
-      }
-    },
-    {
       "home": "KFUM Oslo",
       "away": "Vålerenga",
       "league": "Eliteserien",
@@ -132,9 +111,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6839,
+      "model_prob": 0.6848,
       "implied_prob": 0.5952,
-      "edge": 0.0886,
+      "edge": 0.0896,
       "tags": [
         "value",
         "likely"
