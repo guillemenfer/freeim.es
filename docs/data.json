@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T07:42:40.303425+00:00",
+  "generated_at": "2026-10-07T15:31:41.924335+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -20,26 +20,6 @@
         "home_xg": 1.82,
         "away_xg": 1.86,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Bodø/Glimt",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T14:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.75,
-      "model_prob": 0.7026,
-      "implied_prob": 0.5179,
-      "edge": 0.1846,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.42,
-        "away_xg": 1.47
       }
     },
     {
