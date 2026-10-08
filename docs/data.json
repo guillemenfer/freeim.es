@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:55:54.737630+00:00",
+  "generated_at": "2026-10-08T20:42:16.273223+00:00",
   "bets": [
     {
       "home": "Fredrikstad",
@@ -81,6 +81,27 @@
       "context": {
         "home_xg": 1.82,
         "away_xg": 1.86
+      }
+    },
+    {
+      "home": "FC Inter Turku",
+      "away": "KuPS",
+      "league": "Veikkausliiga",
+      "start_date": "2026-10-11T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.6888,
+      "implied_prob": 0.545,
+      "edge": 0.1438,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.98,
+        "away_xg": 0.97,
+        "line": 2.5
       }
     },
     {
