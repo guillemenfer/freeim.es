@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:17:31.683419+00:00",
+  "generated_at": "2026-10-09T20:21:45.027053+00:00",
   "bets": [
     {
       "home": "Barracas Central",
@@ -22,27 +22,6 @@
       }
     },
     {
-      "home": "Fredrikstad",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-10-11T12:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.72,
-      "model_prob": 0.7095,
-      "implied_prob": 0.5249,
-      "edge": 0.1847,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.86,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Bodø/Glimt",
       "away": "Kristiansund BK",
       "league": "Eliteserien",
@@ -50,16 +29,57 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.75,
-      "model_prob": 0.7026,
+      "model_prob": 0.6945,
       "implied_prob": 0.5179,
-      "edge": 0.1846,
+      "edge": 0.1766,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.42,
-        "away_xg": 1.47
+        "home_xg": 2.39,
+        "away_xg": 1.44
+      }
+    },
+    {
+      "home": "Fredrikstad",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-10-11T12:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.72,
+      "model_prob": 0.7,
+      "implied_prob": 0.5249,
+      "edge": 0.1752,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.79,
+        "away_xg": 1.83,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Rosario Central",
+      "away": "Ind. Rivadavia",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-11T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.65,
+      "model_prob": 0.7206,
+      "implied_prob": 0.5479,
+      "edge": 0.1726,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.5,
+        "line": 8.5
       }
     },
     {
@@ -70,17 +90,38 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7549,
+      "model_prob": 0.7622,
       "implied_prob": 0.5952,
-      "edge": 0.1597,
+      "edge": 0.1669,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.33,
-        "away_xg": 1.19,
+        "home_xg": 1.31,
+        "away_xg": 1.17,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Bodø/Glimt",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-10T14:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 4.5 goles",
+      "odd": 1.82,
+      "model_prob": 0.6611,
+      "implied_prob": 0.5,
+      "edge": 0.1611,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.39,
+        "away_xg": 1.44,
+        "line": 4.5
       }
     },
     {
@@ -91,36 +132,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.62,
-      "model_prob": 0.7065,
+      "model_prob": 0.699,
       "implied_prob": 0.5586,
-      "edge": 0.1479,
+      "edge": 0.1404,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.82,
-        "away_xg": 1.86
-      }
-    },
-    {
-      "home": "Rosenborg BK",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.698,
-      "implied_prob": 0.578,
-      "edge": 0.12,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.16,
-        "away_xg": 1.56
+        "home_xg": 1.79,
+        "away_xg": 1.83
       }
     },
     {
@@ -165,6 +186,26 @@
       }
     },
     {
+      "home": "Rosenborg BK",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-10-10T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6894,
+      "implied_prob": 0.578,
+      "edge": 0.1115,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.13,
+        "away_xg": 1.52
+      }
+    },
+    {
       "home": "KFUM Oslo",
       "away": "Vålerenga",
       "league": "Eliteserien",
@@ -172,16 +213,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7352,
+      "model_prob": 0.7281,
       "implied_prob": 0.6361,
-      "edge": 0.0991,
+      "edge": 0.092,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.97,
-        "away_xg": 1.92
+        "home_xg": 1.94,
+        "away_xg": 1.89
       }
     },
     {
@@ -192,9 +233,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6839,
+      "model_prob": 0.6843,
       "implied_prob": 0.5952,
-      "edge": 0.0886,
+      "edge": 0.0891,
       "tags": [
         "value",
         "likely"
@@ -213,9 +254,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6948,
+      "model_prob": 0.6953,
       "implied_prob": 0.6104,
-      "edge": 0.0844,
+      "edge": 0.0849,
       "tags": [
         "value",
         "likely"
@@ -224,26 +265,6 @@
         "home_xg": 1.21,
         "away_xg": 1.21,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Start",
-      "away": "Hamarkameratene",
-      "league": "Eliteserien",
-      "start_date": "2026-10-11T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6536,
-      "implied_prob": 0.5952,
-      "edge": 0.0583,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.75,
-        "away_xg": 1.57
       }
     }
   ]
