@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:51:04.012723+00:00",
+  "generated_at": "2026-10-10T21:38:31.160418+00:00",
   "bets": [
     {
       "home": "BK Häcken",
@@ -9,37 +9,17 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.8,
-      "model_prob": 0.7031,
+      "model_prob": 0.6864,
       "implied_prob": 0.5068,
-      "edge": 0.1962,
+      "edge": 0.1796,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.43,
-        "away_xg": 1.32,
+        "home_xg": 1.46,
+        "away_xg": 1.36,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Barracas Central",
-      "away": "Huracán",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-10T18:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 7.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.7208,
-      "implied_prob": 0.5342,
-      "edge": 0.1866,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.4,
-        "line": 7.5
       }
     },
     {
@@ -84,27 +64,6 @@
       }
     },
     {
-      "home": "Hammarby IF",
-      "away": "Djurgårdens IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-11T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7378,
-      "implied_prob": 0.5952,
-      "edge": 0.1426,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.37,
-        "away_xg": 1.23,
-        "line": 3.5
-      }
-    },
-    {
       "home": "Fredrikstad",
       "away": "Tromsø",
       "league": "Eliteserien",
@@ -125,6 +84,47 @@
       }
     },
     {
+      "home": "Hammarby IF",
+      "away": "Djurgårdens IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-11T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7205,
+      "implied_prob": 0.5952,
+      "edge": 0.1253,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.4,
+        "away_xg": 1.27,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Lanús",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-12T19:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.65,
+      "implied_prob": 0.5342,
+      "edge": 0.1158,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
+      }
+    },
+    {
       "home": "FC Inter Turku",
       "away": "KuPS",
       "league": "Veikkausliiga",
@@ -142,6 +142,27 @@
       "context": {
         "home_xg": 1.01,
         "away_xg": 1.0,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "AIK",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-17T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6735,
+      "implied_prob": 0.5867,
+      "edge": 0.0869,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.63,
+        "away_xg": 1.84,
         "line": 2.5
       }
     },
@@ -173,16 +194,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6749,
+      "model_prob": 0.6789,
       "implied_prob": 0.6104,
-      "edge": 0.0645,
+      "edge": 0.0685,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.16,
-        "away_xg": 1.16,
+        "home_xg": 1.17,
+        "away_xg": 1.17,
         "line": 1.5
       }
     },
@@ -194,17 +215,37 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6564,
+      "model_prob": 0.6516,
       "implied_prob": 0.5952,
-      "edge": 0.0612,
+      "edge": 0.0563,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.96,
-        "away_xg": 1.11,
+        "home_xg": 0.97,
+        "away_xg": 1.12,
         "line": 2.5
+      }
+    },
+    {
+      "home": "AIK",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-17T15:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.6766,
+      "implied_prob": 0.6234,
+      "edge": 0.0532,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.63,
+        "away_xg": 1.84
       }
     }
   ]
