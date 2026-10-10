@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:21:45.027053+00:00",
+  "generated_at": "2026-10-10T00:20:54.818206+00:00",
   "bets": [
     {
       "home": "Barracas Central",
@@ -165,27 +165,6 @@
       }
     },
     {
-      "home": "FC Inter Turku",
-      "away": "KuPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-10-11T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6734,
-      "implied_prob": 0.5586,
-      "edge": 0.1149,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.01,
-        "away_xg": 1.0,
-        "line": 2.5
-      }
-    },
-    {
       "home": "Rosenborg BK",
       "away": "Sandefjord Fotball",
       "league": "Eliteserien",
@@ -203,6 +182,27 @@
       "context": {
         "home_xg": 2.13,
         "away_xg": 1.52
+      }
+    },
+    {
+      "home": "FC Inter Turku",
+      "away": "KuPS",
+      "league": "Veikkausliiga",
+      "start_date": "2026-10-11T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6734,
+      "implied_prob": 0.5676,
+      "edge": 0.1059,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.01,
+        "away_xg": 1.0,
+        "line": 2.5
       }
     },
     {
@@ -226,27 +226,6 @@
       }
     },
     {
-      "home": "Instituto de Córdoba",
-      "away": "Boca Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-09T22:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6843,
-      "implied_prob": 0.5952,
-      "edge": 0.0891,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.26,
-        "away_xg": 1.11,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Lanús",
       "away": "Vélez Sársfield",
       "league": "Liga Profesional",
@@ -254,16 +233,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6953,
+      "model_prob": 0.6856,
       "implied_prob": 0.6104,
-      "edge": 0.0849,
+      "edge": 0.0753,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.21,
+        "home_xg": 1.19,
+        "away_xg": 1.19,
         "line": 1.5
       }
     }
