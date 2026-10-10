@@ -1,45 +1,25 @@
 {
-  "generated_at": "2026-10-10T13:03:59.756131+00:00",
+  "generated_at": "2026-10-10T17:51:04.012723+00:00",
   "bets": [
     {
-      "home": "Bodø/Glimt",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T14:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 12.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.7316,
-      "implied_prob": 0.5342,
-      "edge": 0.1973,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.6,
-        "line": 12.5
-      }
-    },
-    {
-      "home": "Fredrikstad",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-10-11T12:30:00+00:00",
+      "home": "BK Häcken",
+      "away": "Örgryte IS",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-11T14:30:00+00:00",
       "market": "goals",
-      "selection_label": "Más de 2.5 goles",
+      "selection_label": "Menos de 3.5 goles",
       "odd": 1.8,
-      "model_prob": 0.7,
+      "model_prob": 0.7031,
       "implied_prob": 0.5068,
-      "edge": 0.1932,
+      "edge": 0.1962,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.79,
-        "away_xg": 1.83,
-        "line": 2.5
+        "home_xg": 1.43,
+        "away_xg": 1.32,
+        "line": 3.5
       }
     },
     {
@@ -60,27 +40,6 @@
       "context": {
         "total_corners_xg": 9.4,
         "line": 7.5
-      }
-    },
-    {
-      "home": "Hammarby IF",
-      "away": "Djurgårdens IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-11T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7784,
-      "implied_prob": 0.5952,
-      "edge": 0.1831,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.27,
-        "away_xg": 1.13,
-        "line": 3.5
       }
     },
     {
@@ -108,40 +67,61 @@
       "away": "Tromsø",
       "league": "Eliteserien",
       "start_date": "2026-10-11T12:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
-      "model_prob": 0.699,
-      "implied_prob": 0.545,
-      "edge": 0.154,
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.8,
+      "model_prob": 0.6787,
+      "implied_prob": 0.5068,
+      "edge": 0.1718,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.79,
-        "away_xg": 1.83
+        "home_xg": 1.73,
+        "away_xg": 1.77,
+        "line": 2.5
       }
     },
     {
-      "home": "Bodø/Glimt",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T14:00:00+00:00",
+      "home": "Hammarby IF",
+      "away": "Djurgårdens IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-11T12:00:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 4.5 goles",
-      "odd": 1.7,
-      "model_prob": 0.6611,
-      "implied_prob": 0.5342,
-      "edge": 0.1268,
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7378,
+      "implied_prob": 0.5952,
+      "edge": 0.1426,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.39,
-        "away_xg": 1.44,
-        "line": 4.5
+        "home_xg": 1.37,
+        "away_xg": 1.23,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Fredrikstad",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-10-11T12:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.6823,
+      "implied_prob": 0.545,
+      "edge": 0.1374,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.73,
+        "away_xg": 1.77
       }
     },
     {
@@ -152,9 +132,9 @@
       "market": "goals",
       "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6734,
+      "model_prob": 0.6722,
       "implied_prob": 0.5586,
-      "edge": 0.1149,
+      "edge": 0.1136,
       "tags": [
         "value",
         "likely"
@@ -166,26 +146,6 @@
       }
     },
     {
-      "home": "Rosenborg BK",
-      "away": "Sandefjord Fotball",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6894,
-      "implied_prob": 0.578,
-      "edge": 0.1115,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.13,
-        "away_xg": 1.52
-      }
-    },
-    {
       "home": "KFUM Oslo",
       "away": "Vålerenga",
       "league": "Eliteserien",
@@ -193,16 +153,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7281,
+      "model_prob": 0.7121,
       "implied_prob": 0.6361,
-      "edge": 0.092,
+      "edge": 0.076,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.94,
-        "away_xg": 1.89
+        "home_xg": 1.88,
+        "away_xg": 1.83
       }
     },
     {
