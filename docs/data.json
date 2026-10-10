@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:24:56.842988+00:00",
+  "generated_at": "2026-10-10T13:03:59.756131+00:00",
   "bets": [
     {
       "home": "Bodø/Glimt",
@@ -22,23 +22,24 @@
       }
     },
     {
-      "home": "Bodø/Glimt",
-      "away": "Kristiansund BK",
+      "home": "Fredrikstad",
+      "away": "Tromsø",
       "league": "Eliteserien",
-      "start_date": "2026-10-10T14:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.82,
-      "model_prob": 0.6945,
-      "implied_prob": 0.5,
-      "edge": 0.1945,
+      "start_date": "2026-10-11T12:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.8,
+      "model_prob": 0.7,
+      "implied_prob": 0.5068,
+      "edge": 0.1932,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.39,
-        "away_xg": 1.44
+        "home_xg": 1.79,
+        "away_xg": 1.83,
+        "line": 2.5
       }
     },
     {
@@ -62,24 +63,24 @@
       }
     },
     {
-      "home": "Fredrikstad",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-10-11T12:30:00+00:00",
+      "home": "Hammarby IF",
+      "away": "Djurgårdens IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-11T12:00:00+00:00",
       "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.72,
-      "model_prob": 0.7,
-      "implied_prob": 0.5249,
-      "edge": 0.1752,
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7784,
+      "implied_prob": 0.5952,
+      "edge": 0.1831,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.79,
-        "away_xg": 1.83,
-        "line": 2.5
+        "home_xg": 1.27,
+        "away_xg": 1.13,
+        "line": 3.5
       }
     },
     {
@@ -103,24 +104,23 @@
       }
     },
     {
-      "home": "Hammarby IF",
-      "away": "Djurgårdens IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-11T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7622,
-      "implied_prob": 0.5952,
-      "edge": 0.1669,
+      "home": "Fredrikstad",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-10-11T12:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.699,
+      "implied_prob": 0.545,
+      "edge": 0.154,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.31,
-        "away_xg": 1.17,
-        "line": 3.5
+        "home_xg": 1.79,
+        "away_xg": 1.83
       }
     },
     {
@@ -130,10 +130,10 @@
       "start_date": "2026-10-10T14:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 4.5 goles",
-      "odd": 1.82,
+      "odd": 1.7,
       "model_prob": 0.6611,
-      "implied_prob": 0.5,
-      "edge": 0.1611,
+      "implied_prob": 0.5342,
+      "edge": 0.1268,
       "tags": [
         "value",
         "likely"
@@ -145,23 +145,24 @@
       }
     },
     {
-      "home": "Fredrikstad",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-10-11T12:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
+      "home": "FC Inter Turku",
+      "away": "KuPS",
+      "league": "Veikkausliiga",
+      "start_date": "2026-10-11T12:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
       "odd": 1.62,
-      "model_prob": 0.699,
+      "model_prob": 0.6734,
       "implied_prob": 0.5586,
-      "edge": 0.1404,
+      "edge": 0.1149,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.79,
-        "away_xg": 1.83
+        "home_xg": 1.01,
+        "away_xg": 1.0,
+        "line": 2.5
       }
     },
     {
@@ -182,27 +183,6 @@
       "context": {
         "home_xg": 2.13,
         "away_xg": 1.52
-      }
-    },
-    {
-      "home": "FC Inter Turku",
-      "away": "KuPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-10-11T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6734,
-      "implied_prob": 0.5676,
-      "edge": 0.1059,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.01,
-        "away_xg": 1.0,
-        "line": 2.5
       }
     },
     {
