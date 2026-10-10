@@ -1,6 +1,46 @@
 {
-  "generated_at": "2026-10-10T00:20:54.818206+00:00",
+  "generated_at": "2026-10-10T06:24:56.842988+00:00",
   "bets": [
+    {
+      "home": "Bodø/Glimt",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-10T14:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 12.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.7316,
+      "implied_prob": 0.5342,
+      "edge": 0.1973,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.6,
+        "line": 12.5
+      }
+    },
+    {
+      "home": "Bodø/Glimt",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-10T14:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.82,
+      "model_prob": 0.6945,
+      "implied_prob": 0.5,
+      "edge": 0.1945,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.39,
+        "away_xg": 1.44
+      }
+    },
     {
       "home": "Barracas Central",
       "away": "Huracán",
@@ -19,26 +59,6 @@
       "context": {
         "total_corners_xg": 9.4,
         "line": 7.5
-      }
-    },
-    {
-      "home": "Bodø/Glimt",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-10T14:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.75,
-      "model_prob": 0.6945,
-      "implied_prob": 0.5179,
-      "edge": 0.1766,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.39,
-        "away_xg": 1.44
       }
     },
     {
@@ -145,26 +165,6 @@
       }
     },
     {
-      "home": "Unión de Santa Fe",
-      "away": "Defensa y Justicia",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-10T00:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.65,
-      "implied_prob": 0.5342,
-      "edge": 0.1158,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Rosenborg BK",
       "away": "Sandefjord Fotball",
       "league": "Eliteserien",
@@ -233,17 +233,38 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6856,
+      "model_prob": 0.6749,
       "implied_prob": 0.6104,
-      "edge": 0.0753,
+      "edge": 0.0645,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.19,
+        "home_xg": 1.16,
+        "away_xg": 1.16,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Racing Club",
+      "away": "Belgrano",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-11T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6564,
+      "implied_prob": 0.5952,
+      "edge": 0.0612,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.96,
+        "away_xg": 1.11,
+        "line": 2.5
       }
     }
   ]
