@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:28:07.614019+00:00",
+  "generated_at": "2026-10-11T22:27:17.686802+00:00",
   "bets": [
     {
       "home": "IF Brommapojkarna",
@@ -23,26 +23,6 @@
       }
     },
     {
-      "home": "Rosario Central",
-      "away": "Ind. Rivadavia",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-11T20:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.7206,
-      "implied_prob": 0.5479,
-      "edge": 0.1726,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.5,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Viking FK",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -50,16 +30,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.62,
-      "model_prob": 0.698,
+      "model_prob": 0.6964,
       "implied_prob": 0.5586,
-      "edge": 0.1394,
+      "edge": 0.1379,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 2.01,
-        "away_xg": 1.64
+        "away_xg": 1.63
       }
     },
     {
@@ -70,16 +50,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7002,
+      "model_prob": 0.703,
       "implied_prob": 0.5867,
-      "edge": 0.1135,
+      "edge": 0.1164,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.27,
-        "away_xg": 1.17,
+        "home_xg": 1.22,
+        "away_xg": 1.24,
         "line": 1.5
       }
     },
@@ -91,16 +71,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6856,
+      "model_prob": 0.684,
       "implied_prob": 0.578,
-      "edge": 0.1076,
+      "edge": 0.106,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.58,
-        "away_xg": 2.0
+        "home_xg": 1.57,
+        "away_xg": 1.99
       }
     },
     {
@@ -111,9 +91,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7399,
+      "model_prob": 0.7386,
       "implied_prob": 0.6361,
-      "edge": 0.1038,
+      "edge": 0.1025,
       "tags": [
         "value",
         "likely"
@@ -121,27 +101,6 @@
       "context": {
         "home_xg": 1.99,
         "away_xg": 1.94
-      }
-    },
-    {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Aldosivi",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-18T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6983,
-      "implied_prob": 0.5952,
-      "edge": 0.103,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.2,
-        "away_xg": 1.23,
-        "line": 1.5
       }
     },
     {
@@ -165,6 +124,27 @@
       }
     },
     {
+      "home": "Estudiantes Río Cuarto",
+      "away": "Aldosivi",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-18T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6971,
+      "implied_prob": 0.5952,
+      "edge": 0.1019,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 1.23,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Molde",
       "away": "Start",
       "league": "Eliteserien",
@@ -172,15 +152,15 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.53,
-      "model_prob": 0.6856,
+      "model_prob": 0.684,
       "implied_prob": 0.5952,
-      "edge": 0.0903,
+      "edge": 0.0887,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.94,
+        "home_xg": 1.93,
         "away_xg": 1.61
       }
     },
@@ -192,9 +172,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7002,
+      "model_prob": 0.6991,
       "implied_prob": 0.6104,
-      "edge": 0.0898,
+      "edge": 0.0887,
       "tags": [
         "value",
         "likely"
@@ -213,15 +193,15 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7174,
+      "model_prob": 0.7159,
       "implied_prob": 0.6361,
-      "edge": 0.0813,
+      "edge": 0.0798,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.78,
+        "home_xg": 1.77,
         "away_xg": 1.99
       }
     },
@@ -233,36 +213,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6742,
+      "model_prob": 0.673,
       "implied_prob": 0.5952,
-      "edge": 0.079,
+      "edge": 0.0777,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.24,
-        "away_xg": 1.08,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Gimnasia y Esgrima de Mendoza",
-      "away": "Newell's Old Boys",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-12T21:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6609,
-      "implied_prob": 0.6104,
-      "edge": 0.0505,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.19,
         "away_xg": 1.08,
         "line": 1.5
       }
