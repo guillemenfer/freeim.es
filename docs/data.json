@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:38:31.160418+00:00",
+  "generated_at": "2026-10-11T00:31:32.078007+00:00",
   "bets": [
     {
       "home": "BK Häcken",
@@ -194,38 +194,17 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6789,
+      "model_prob": 0.6823,
       "implied_prob": 0.6104,
-      "edge": 0.0685,
+      "edge": 0.0719,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.17,
-        "away_xg": 1.17,
+        "home_xg": 1.18,
+        "away_xg": 1.18,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Racing Club",
-      "away": "Belgrano",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-11T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6516,
-      "implied_prob": 0.5952,
-      "edge": 0.0563,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.97,
-        "away_xg": 1.12,
-        "line": 2.5
       }
     },
     {
