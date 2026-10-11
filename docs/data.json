@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-11T00:31:32.078007+00:00",
+  "generated_at": "2026-10-11T06:27:28.737546+00:00",
   "bets": [
+    {
+      "home": "Aalesunds FK",
+      "away": "Sarpsborg 08",
+      "league": "Eliteserien",
+      "start_date": "2026-10-11T15:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 12.5 córners",
+      "odd": 1.82,
+      "model_prob": 0.6887,
+      "implied_prob": 0.5,
+      "edge": 0.1887,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 11.0,
+        "line": 12.5
+      }
+    },
     {
       "home": "BK Häcken",
       "away": "Örgryte IS",
@@ -167,6 +187,27 @@
       }
     },
     {
+      "home": "Lanús",
+      "away": "Vélez Sársfield",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-12T19:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6915,
+      "implied_prob": 0.6104,
+      "edge": 0.0812,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 1.2,
+        "line": 1.5
+      }
+    },
+    {
       "home": "KFUM Oslo",
       "away": "Vålerenga",
       "league": "Eliteserien",
@@ -184,27 +225,6 @@
       "context": {
         "home_xg": 1.88,
         "away_xg": 1.83
-      }
-    },
-    {
-      "home": "Lanús",
-      "away": "Vélez Sársfield",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-12T19:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6823,
-      "implied_prob": 0.6104,
-      "edge": 0.0719,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.18,
-        "away_xg": 1.18,
-        "line": 1.5
       }
     },
     {
