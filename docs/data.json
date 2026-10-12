@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T22:27:17.686802+00:00",
+  "generated_at": "2026-10-12T01:45:26.831581+00:00",
   "bets": [
     {
       "home": "IF Brommapojkarna",
@@ -50,16 +50,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.703,
+      "model_prob": 0.7019,
       "implied_prob": 0.5867,
-      "edge": 0.1164,
+      "edge": 0.1153,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.22,
-        "away_xg": 1.24,
+        "away_xg": 1.23,
         "line": 1.5
       }
     },
@@ -131,15 +131,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6971,
+      "model_prob": 0.696,
       "implied_prob": 0.5952,
-      "edge": 0.1019,
+      "edge": 0.1008,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.2,
+        "home_xg": 1.19,
         "away_xg": 1.23,
         "line": 1.5
       }
@@ -172,9 +172,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6991,
+      "model_prob": 0.698,
       "implied_prob": 0.6104,
-      "edge": 0.0887,
+      "edge": 0.0876,
       "tags": [
         "value",
         "likely"
@@ -213,16 +213,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.673,
+      "model_prob": 0.6717,
       "implied_prob": 0.5952,
-      "edge": 0.0777,
+      "edge": 0.0765,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.24,
-        "away_xg": 1.08,
+        "away_xg": 1.07,
         "line": 1.5
       }
     }
