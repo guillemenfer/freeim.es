@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:51:52.608054+00:00",
+  "generated_at": "2026-10-15T17:45:53.998855+00:00",
   "bets": [
     {
       "home": "Halmstads BK",
@@ -391,27 +391,6 @@
       "context": {
         "home_xg": 1.07,
         "away_xg": 1.23,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Huracán",
-      "away": "Gimnasia y Esgrima La Plata",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-15T23:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6622,
-      "implied_prob": 0.6104,
-      "edge": 0.0518,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.26,
-        "away_xg": 1.01,
         "line": 1.5
       }
     }
