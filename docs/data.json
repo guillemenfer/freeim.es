@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:11:17.197103+00:00",
+  "generated_at": "2026-10-15T01:49:26.935501+00:00",
   "bets": [
     {
       "home": "Halmstads BK",
@@ -126,6 +126,26 @@
       }
     },
     {
+      "home": "Tromsø",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T17:15:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.72,
+      "model_prob": 0.6591,
+      "implied_prob": 0.5249,
+      "edge": 0.1342,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.76,
+        "away_xg": 1.59
+      }
+    },
+    {
       "home": "Malmö FF",
       "away": "BK Häcken",
       "league": "Allsvenskan",
@@ -144,26 +164,6 @@
         "home_xg": 1.21,
         "away_xg": 1.46,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Tromsø",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T17:15:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.7,
-      "model_prob": 0.6591,
-      "implied_prob": 0.5342,
-      "edge": 0.1248,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.76,
-        "away_xg": 1.59
       }
     },
     {
@@ -249,6 +249,27 @@
       }
     },
     {
+      "home": "Tromsø",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6502,
+      "implied_prob": 0.5586,
+      "edge": 0.0916,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.76,
+        "away_xg": 1.59,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Rosario Central",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -267,27 +288,6 @@
         "home_xg": 1.41,
         "away_xg": 1.01,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Tromsø",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T17:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6502,
-      "implied_prob": 0.5676,
-      "edge": 0.0826,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.76,
-        "away_xg": 1.59,
-        "line": 2.5
       }
     },
     {
@@ -311,27 +311,6 @@
       }
     },
     {
-      "home": "CA Sarmiento",
-      "away": "Barracas Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-19T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6691,
-      "implied_prob": 0.5952,
-      "edge": 0.0739,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.07,
-        "line": 1.5
-      }
-    },
-    {
       "home": "AIK",
       "away": "IFK Göteborg",
       "league": "Allsvenskan",
@@ -350,6 +329,27 @@
         "home_xg": 1.59,
         "away_xg": 1.8,
         "line": 2.5
+      }
+    },
+    {
+      "home": "CA Sarmiento",
+      "away": "Barracas Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-19T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6663,
+      "implied_prob": 0.5952,
+      "edge": 0.0711,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.22,
+        "away_xg": 1.07,
+        "line": 1.5
       }
     },
     {
