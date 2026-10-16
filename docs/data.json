@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-16T18:22:08.094416+00:00",
+  "generated_at": "2026-10-16T21:43:28.688803+00:00",
   "bets": [
     {
-      "home": "Defensa y Justicia",
-      "away": "Instituto de Córdoba",
+      "home": "Estudiantes Río Cuarto",
+      "away": "Aldosivi",
       "league": "Liga Profesional",
-      "start_date": "2026-10-16T22:00:00+00:00",
+      "start_date": "2026-10-18T21:00:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
       "odd": 1.7,
-      "model_prob": 0.7132,
+      "model_prob": 0.7239,
       "implied_prob": 0.5342,
-      "edge": 0.179,
+      "edge": 0.1897,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "total_corners_xg": 10.43,
+        "total_corners_xg": 10.53,
         "line": 8.5
       }
     },
@@ -38,6 +38,26 @@
       ],
       "context": {
         "total_corners_xg": 10.25,
+        "line": 8.5
+      }
+    },
+    {
+      "home": "Defensa y Justicia",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-16T22:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.7132,
+      "implied_prob": 0.545,
+      "edge": 0.1683,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.43,
         "line": 8.5
       }
     },
@@ -105,6 +125,26 @@
       }
     },
     {
+      "home": "Hamarkameratene",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-10-17T12:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.6826,
+      "implied_prob": 0.545,
+      "edge": 0.1376,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.57,
+        "away_xg": 1.99
+      }
+    },
+    {
       "home": "Viking FK",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -131,10 +171,10 @@
       "start_date": "2026-10-18T17:15:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.72,
+      "odd": 1.7,
       "model_prob": 0.6591,
-      "implied_prob": 0.5249,
-      "edge": 0.1342,
+      "implied_prob": 0.5342,
+      "edge": 0.1248,
       "tags": [
         "value",
         "likely"
@@ -142,26 +182,6 @@
       "context": {
         "home_xg": 1.76,
         "away_xg": 1.59
-      }
-    },
-    {
-      "home": "Hamarkameratene",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien",
-      "start_date": "2026-10-17T12:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.6826,
-      "implied_prob": 0.5586,
-      "edge": 0.124,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.57,
-        "away_xg": 1.99
       }
     },
     {
@@ -269,47 +289,6 @@
       }
     },
     {
-      "home": "Tromsø",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T17:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6502,
-      "implied_prob": 0.5586,
-      "edge": 0.0916,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.76,
-        "away_xg": 1.59,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Sarpsborg 08",
-      "away": "Rosenborg BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T12:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.7146,
-      "implied_prob": 0.6361,
-      "edge": 0.0785,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.77,
-        "away_xg": 1.98
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Barracas Central",
       "league": "Liga Profesional",
@@ -331,6 +310,27 @@
       }
     },
     {
+      "home": "Tromsø",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T17:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6502,
+      "implied_prob": 0.578,
+      "edge": 0.0722,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.76,
+        "away_xg": 1.59,
+        "line": 2.5
+      }
+    },
+    {
       "home": "Banfield",
       "away": "Lanús",
       "league": "Liga Profesional",
@@ -349,6 +349,26 @@
         "home_xg": 1.08,
         "away_xg": 1.24,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T12:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7146,
+      "implied_prob": 0.6634,
+      "edge": 0.0512,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.77,
+        "away_xg": 1.98
       }
     }
   ]
