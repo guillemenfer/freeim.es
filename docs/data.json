@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-16T14:15:15.297093+00:00",
+  "generated_at": "2026-10-16T18:22:08.094416+00:00",
   "bets": [
-    {
-      "home": "Halmstads BK",
-      "away": "Hammarby IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-18T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.72,
-      "model_prob": 0.7196,
-      "implied_prob": 0.5249,
-      "edge": 0.1948,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.24,
-        "away_xg": 1.44,
-        "line": 3.5
-      }
-    },
     {
       "home": "Defensa y Justicia",
       "away": "Instituto de Córdoba",
@@ -63,27 +42,6 @@
       }
     },
     {
-      "home": "IF Brommapojkarna",
-      "away": "Djurgårdens IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-16T17:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.7576,
-      "implied_prob": 0.5867,
-      "edge": 0.1709,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.17,
-        "away_xg": 1.32,
-        "line": 3.5
-      }
-    },
-    {
       "home": "FC Inter Turku",
       "away": "AC Oulu",
       "league": "Veikkausliiga",
@@ -101,6 +59,27 @@
       "context": {
         "home_xg": 1.01,
         "away_xg": 1.02,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Malmö FF",
+      "away": "BK Häcken",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-18T14:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7407,
+      "implied_prob": 0.5952,
+      "edge": 0.1455,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.16,
+        "away_xg": 1.41,
         "line": 3.5
       }
     },
@@ -163,27 +142,6 @@
       "context": {
         "home_xg": 1.76,
         "away_xg": 1.59
-      }
-    },
-    {
-      "home": "Malmö FF",
-      "away": "BK Häcken",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-18T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7206,
-      "implied_prob": 0.5952,
-      "edge": 0.1254,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.46,
-        "line": 3.5
       }
     },
     {
@@ -370,27 +328,6 @@
         "home_xg": 1.22,
         "away_xg": 1.08,
         "line": 1.5
-      }
-    },
-    {
-      "home": "AIK",
-      "away": "IFK Göteborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-17T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6585,
-      "implied_prob": 0.5867,
-      "edge": 0.0718,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.59,
-        "away_xg": 1.8,
-        "line": 2.5
       }
     },
     {
