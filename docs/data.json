@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:25:56.985823+00:00",
+  "generated_at": "2026-10-16T09:18:45.267682+00:00",
   "bets": [
     {
       "home": "Halmstads BK",
@@ -69,10 +69,10 @@
       "start_date": "2026-10-16T17:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
+      "odd": 1.55,
       "model_prob": 0.7576,
-      "implied_prob": 0.5952,
-      "edge": 0.1624,
+      "implied_prob": 0.5867,
+      "edge": 0.1709,
       "tags": [
         "value",
         "likely"
