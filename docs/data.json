@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T16:40:46.748018+00:00",
+  "generated_at": "2026-10-17T19:21:12.599328+00:00",
   "bets": [
     {
       "home": "Estudiantes Río Cuarto",
@@ -176,8 +176,8 @@
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
       "model_prob": 0.673,
-      "implied_prob": 0.6053,
-      "edge": 0.0677,
+      "implied_prob": 0.6104,
+      "edge": 0.0626,
       "tags": [
         "value",
         "likely"
