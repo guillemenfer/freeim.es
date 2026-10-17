@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T21:43:28.688803+00:00",
+  "generated_at": "2026-10-17T00:27:06.713365+00:00",
   "bets": [
     {
       "home": "Estudiantes Río Cuarto",
@@ -42,26 +42,6 @@
       }
     },
     {
-      "home": "Defensa y Justicia",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-16T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.67,
-      "model_prob": 0.7132,
-      "implied_prob": 0.545,
-      "edge": 0.1683,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.43,
-        "line": 8.5
-      }
-    },
-    {
       "home": "FC Inter Turku",
       "away": "AC Oulu",
       "league": "Veikkausliiga",
@@ -80,6 +60,26 @@
         "home_xg": 1.01,
         "away_xg": 1.02,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Hamarkameratene",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-10-17T12:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.7,
+      "model_prob": 0.6826,
+      "implied_prob": 0.5342,
+      "edge": 0.1483,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.57,
+        "away_xg": 1.99
       }
     },
     {
@@ -122,26 +122,6 @@
         "home_xg": 1.45,
         "away_xg": 1.39,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Hamarkameratene",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien",
-      "start_date": "2026-10-17T12:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
-      "model_prob": 0.6826,
-      "implied_prob": 0.545,
-      "edge": 0.1376,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.57,
-        "away_xg": 1.99
       }
     },
     {
@@ -192,9 +172,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7268,
+      "model_prob": 0.7258,
       "implied_prob": 0.6104,
-      "edge": 0.1164,
+      "edge": 0.1154,
       "tags": [
         "value",
         "likely"
@@ -213,16 +193,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.703,
+      "model_prob": 0.7019,
       "implied_prob": 0.5867,
-      "edge": 0.1164,
+      "edge": 0.1153,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.22,
-        "away_xg": 1.24,
+        "away_xg": 1.23,
         "line": 1.5
       }
     },
@@ -234,15 +214,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.6971,
+      "model_prob": 0.696,
       "implied_prob": 0.5867,
-      "edge": 0.1105,
+      "edge": 0.1093,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.2,
+        "home_xg": 1.19,
         "away_xg": 1.23,
         "line": 1.5
       }
@@ -275,9 +255,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.703,
+      "model_prob": 0.7019,
       "implied_prob": 0.6104,
-      "edge": 0.0926,
+      "edge": 0.0915,
       "tags": [
         "value",
         "likely"
@@ -296,9 +276,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.67,
+      "model_prob": 0.6688,
       "implied_prob": 0.5952,
-      "edge": 0.0747,
+      "edge": 0.0735,
       "tags": [
         "value",
         "likely"
@@ -338,15 +318,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.673,
+      "model_prob": 0.6717,
       "implied_prob": 0.6053,
-      "edge": 0.0677,
+      "edge": 0.0664,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.08,
+        "home_xg": 1.07,
         "away_xg": 1.24,
         "line": 1.5
       }
