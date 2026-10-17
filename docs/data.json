@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-17T13:13:19.783381+00:00",
+  "generated_at": "2026-10-17T16:40:46.748018+00:00",
   "bets": [
-    {
-      "home": "FC Inter Turku",
-      "away": "AC Oulu",
-      "league": "Veikkausliiga",
-      "start_date": "2026-10-17T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.28,
-      "model_prob": 0.9006,
-      "implied_prob": 0.7078,
-      "edge": 0.1928,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 0.87,
-        "away_xg": 0.88,
-        "line": 3.5
-      }
-    },
     {
       "home": "Estudiantes Río Cuarto",
       "away": "Aldosivi",
@@ -50,16 +29,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7407,
+      "model_prob": 0.767,
       "implied_prob": 0.5952,
-      "edge": 0.1455,
+      "edge": 0.1718,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.16,
-        "away_xg": 1.41,
+        "home_xg": 1.1,
+        "away_xg": 1.35,
         "line": 3.5
       }
     },
@@ -127,46 +106,6 @@
       }
     },
     {
-      "home": "Viking FK",
-      "away": "Fredrikstad",
-      "league": "Eliteserien",
-      "start_date": "2026-10-17T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6853,
-      "implied_prob": 0.578,
-      "edge": 0.1073,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.97,
-        "away_xg": 1.59
-      }
-    },
-    {
-      "home": "Molde",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6724,
-      "implied_prob": 0.578,
-      "edge": 0.0945,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.89,
-        "away_xg": 1.57
-      }
-    },
-    {
       "home": "Rosario Central",
       "away": "Huracán",
       "league": "Liga Profesional",
@@ -188,24 +127,23 @@
       }
     },
     {
-      "home": "KuPS",
-      "away": "VPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-10-18T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.28,
-      "model_prob": 0.7968,
-      "implied_prob": 0.7078,
-      "edge": 0.089,
+      "home": "Molde",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6653,
+      "implied_prob": 0.578,
+      "edge": 0.0874,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.0,
-        "away_xg": 1.31,
-        "line": 3.5
+        "home_xg": 1.87,
+        "away_xg": 1.55
       }
     },
     {
@@ -248,6 +186,27 @@
         "home_xg": 1.08,
         "away_xg": 1.24,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Lillestrom SK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T15:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6574,
+      "implied_prob": 0.5952,
+      "edge": 0.0621,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.68,
+        "away_xg": 1.28,
+        "line": 3.5
       }
     }
   ]
