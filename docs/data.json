@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T19:21:12.599328+00:00",
+  "generated_at": "2026-10-17T21:44:54.976900+00:00",
   "bets": [
     {
       "home": "Estudiantes Río Cuarto",
@@ -164,27 +164,6 @@
       "context": {
         "home_xg": 1.22,
         "away_xg": 1.08,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Banfield",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-24T17:45:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.673,
-      "implied_prob": 0.6104,
-      "edge": 0.0626,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.08,
-        "away_xg": 1.24,
         "line": 1.5
       }
     },
