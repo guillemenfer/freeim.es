@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T13:16:54.800966+00:00",
+  "generated_at": "2026-10-18T16:54:03.481585+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.7579,
+      "model_prob": 0.7659,
       "implied_prob": 0.5676,
-      "edge": 0.1903,
+      "edge": 0.1983,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.17,
-        "away_xg": 1.33,
+        "home_xg": 1.15,
+        "away_xg": 1.31,
         "line": 3.5
       }
     },
@@ -63,24 +63,65 @@
       }
     },
     {
-      "home": "Malmö FF",
-      "away": "BK Häcken",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-18T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7466,
-      "implied_prob": 0.5952,
-      "edge": 0.1514,
+      "home": "Bodø/Glimt",
+      "away": "Vålerenga",
+      "league": "Eliteserien",
+      "start_date": "2026-10-24T14:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.7276,
+      "implied_prob": 0.578,
+      "edge": 0.1496,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.4,
+        "home_xg": 2.27,
+        "away_xg": 1.67
+      }
+    },
+    {
+      "home": "Mjällby AIF",
+      "away": "Hammarby IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-25T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7333,
+      "implied_prob": 0.5952,
+      "edge": 0.1381,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 0.99,
+        "away_xg": 1.62,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Estudiantes Río Cuarto",
+      "away": "Aldosivi",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-18T21:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6961,
+      "implied_prob": 0.5676,
+      "edge": 0.1285,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.19,
+        "away_xg": 1.23,
+        "line": 1.5
       }
     },
     {
@@ -105,88 +146,6 @@
       }
     },
     {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Aldosivi",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-18T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6961,
-      "implied_prob": 0.5867,
-      "edge": 0.1094,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.23,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Hamarkameratene",
-      "away": "Rosenborg BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-24T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.686,
-      "implied_prob": 0.5952,
-      "edge": 0.0907,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.6,
-        "away_xg": 1.96
-      }
-    },
-    {
-      "home": "Hamarkameratene",
-      "away": "Rosenborg BK",
-      "league": "Eliteserien",
-      "start_date": "2026-10-24T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6899,
-      "implied_prob": 0.6053,
-      "edge": 0.0846,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.6,
-        "away_xg": 1.96,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Molde",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.6581,
-      "implied_prob": 0.578,
-      "edge": 0.0801,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.84,
-        "away_xg": 1.52
-      }
-    },
-    {
       "home": "CA Sarmiento",
       "away": "Barracas Central",
       "league": "Liga Profesional",
@@ -208,24 +167,44 @@
       }
     },
     {
-      "home": "Sandefjord Fotball",
-      "away": "Lillestrom SK",
+      "home": "Hamarkameratene",
+      "away": "Rosenborg BK",
       "league": "Eliteserien",
-      "start_date": "2026-10-18T15:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
+      "start_date": "2026-10-24T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.53,
       "model_prob": 0.6675,
-      "implied_prob": 0.6053,
-      "edge": 0.0622,
+      "implied_prob": 0.5952,
+      "edge": 0.0723,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.66,
-        "away_xg": 1.26,
-        "line": 3.5
+        "home_xg": 1.47,
+        "away_xg": 2.02
+      }
+    },
+    {
+      "home": "Hamarkameratene",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-24T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6766,
+      "implied_prob": 0.6053,
+      "edge": 0.0713,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.47,
+        "away_xg": 2.02,
+        "line": 2.5
       }
     }
   ]
