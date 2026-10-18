@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-18T09:07:10.549457+00:00",
+  "generated_at": "2026-10-18T13:16:54.800966+00:00",
   "bets": [
+    {
+      "home": "IK Sirius",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.7579,
+      "implied_prob": 0.5676,
+      "edge": 0.1903,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.17,
+        "away_xg": 1.33,
+        "line": 3.5
+      }
+    },
     {
       "home": "Estudiantes Río Cuarto",
       "away": "Aldosivi",
@@ -19,27 +40,6 @@
       "context": {
         "total_corners_xg": 10.53,
         "line": 8.5
-      }
-    },
-    {
-      "home": "Malmö FF",
-      "away": "BK Häcken",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-18T14:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.767,
-      "implied_prob": 0.5952,
-      "edge": 0.1718,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.1,
-        "away_xg": 1.35,
-        "line": 3.5
       }
     },
     {
@@ -63,6 +63,27 @@
       }
     },
     {
+      "home": "Malmö FF",
+      "away": "BK Häcken",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-18T14:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7466,
+      "implied_prob": 0.5952,
+      "edge": 0.1514,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.15,
+        "away_xg": 1.4,
+        "line": 3.5
+      }
+    },
+    {
       "home": "Deportivo Riestra",
       "away": "Unión de Santa Fe",
       "league": "Liga Profesional",
@@ -70,16 +91,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7064,
+      "model_prob": 0.702,
       "implied_prob": 0.5867,
-      "edge": 0.1197,
+      "edge": 0.1153,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.24,
+        "home_xg": 1.22,
+        "away_xg": 1.23,
         "line": 1.5
       }
     },
@@ -91,17 +112,78 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7005,
+      "model_prob": 0.6961,
       "implied_prob": 0.5867,
-      "edge": 0.1138,
+      "edge": 0.1094,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.2,
-        "away_xg": 1.24,
+        "home_xg": 1.19,
+        "away_xg": 1.23,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Hamarkameratene",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-24T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.53,
+      "model_prob": 0.686,
+      "implied_prob": 0.5952,
+      "edge": 0.0907,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.6,
+        "away_xg": 1.96
+      }
+    },
+    {
+      "home": "Hamarkameratene",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-10-24T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6899,
+      "implied_prob": 0.6053,
+      "edge": 0.0846,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.6,
+        "away_xg": 1.96,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Molde",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-10-18T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6581,
+      "implied_prob": 0.578,
+      "edge": 0.0801,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.84,
+        "away_xg": 1.52
       }
     },
     {
@@ -112,58 +194,17 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6736,
+      "model_prob": 0.6688,
       "implied_prob": 0.5952,
-      "edge": 0.0784,
+      "edge": 0.0736,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.09,
+        "home_xg": 1.22,
+        "away_xg": 1.08,
         "line": 1.5
-      }
-    },
-    {
-      "home": "Molde",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-10-18T15:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6653,
-      "implied_prob": 0.5952,
-      "edge": 0.0701,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.87,
-        "away_xg": 1.55
-      }
-    },
-    {
-      "home": "KuPS",
-      "away": "VPS",
-      "league": "Veikkausliiga",
-      "start_date": "2026-10-18T12:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.35,
-      "model_prob": 0.7333,
-      "implied_prob": 0.6707,
-      "edge": 0.0626,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.46,
-        "line": 3.5
       }
     },
     {
@@ -174,16 +215,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6574,
+      "model_prob": 0.6675,
       "implied_prob": 0.6053,
-      "edge": 0.0521,
+      "edge": 0.0622,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.68,
-        "away_xg": 1.28,
+        "home_xg": 1.66,
+        "away_xg": 1.26,
         "line": 3.5
       }
     }
