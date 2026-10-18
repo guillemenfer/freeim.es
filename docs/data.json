@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T19:26:10.734234+00:00",
+  "generated_at": "2026-10-18T21:51:25.246056+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -40,26 +40,6 @@
       "context": {
         "home_xg": 2.39,
         "away_xg": 1.75
-      }
-    },
-    {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Aldosivi",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-18T21:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.7239,
-      "implied_prob": 0.5342,
-      "edge": 0.1897,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.53,
-        "line": 8.5
       }
     },
     {
@@ -110,15 +90,15 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.702,
+      "model_prob": 0.7008,
       "implied_prob": 0.5867,
-      "edge": 0.1153,
+      "edge": 0.1141,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.22,
+        "home_xg": 1.21,
         "away_xg": 1.23,
         "line": 1.5
       }
@@ -142,27 +122,6 @@
         "home_xg": 1.69,
         "away_xg": 1.7,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Estudiantes Río Cuarto",
-      "away": "Aldosivi",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-18T21:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6961,
-      "implied_prob": 0.5867,
-      "edge": 0.1094,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.23,
-        "line": 1.5
       }
     },
     {
@@ -295,16 +254,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6688,
+      "model_prob": 0.6675,
       "implied_prob": 0.5952,
-      "edge": 0.0736,
+      "edge": 0.0723,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.22,
-        "away_xg": 1.08,
+        "away_xg": 1.07,
         "line": 1.5
       }
     }
