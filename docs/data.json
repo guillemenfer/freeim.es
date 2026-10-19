@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-19T05:17:52.461335+00:00",
+  "generated_at": "2026-10-19T11:14:57.330648+00:00",
   "bets": [
-    {
-      "home": "IK Sirius",
-      "away": "AIK",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-24T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.7659,
-      "implied_prob": 0.5676,
-      "edge": 0.1983,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.31,
-        "line": 3.5
-      }
-    },
     {
       "home": "Viking FK",
       "away": "Tromsø",
@@ -63,6 +42,27 @@
       }
     },
     {
+      "home": "IK Sirius",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.7466,
+      "implied_prob": 0.5676,
+      "edge": 0.179,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.2,
+        "away_xg": 1.35,
+        "line": 3.5
+      }
+    },
+    {
       "home": "CA Sarmiento",
       "away": "Barracas Central",
       "league": "Liga Profesional",
@@ -80,6 +80,48 @@
       "context": {
         "total_corners_xg": 9.86,
         "line": 8.5
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7569,
+      "implied_prob": 0.5952,
+      "edge": 0.1616,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.42,
+        "away_xg": 1.09,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Kalmar FF",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.7,
+      "model_prob": 0.6525,
+      "implied_prob": 0.5342,
+      "edge": 0.1183,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.54,
+        "away_xg": 1.82,
+        "line": 2.5
       }
     },
     {
@@ -207,6 +249,27 @@
       }
     },
     {
+      "home": "CA Sarmiento",
+      "away": "Barracas Central",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-19T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6675,
+      "implied_prob": 0.578,
+      "edge": 0.0896,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.22,
+        "away_xg": 1.07,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Kristiansund BK",
       "away": "KFUM Oslo",
       "league": "Eliteserien",
@@ -247,24 +310,23 @@
       }
     },
     {
-      "home": "CA Sarmiento",
-      "away": "Barracas Central",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-19T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6675,
-      "implied_prob": 0.5952,
-      "edge": 0.0723,
+      "home": "Kalmar FF",
+      "away": "IF Brommapojkarna",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T15:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.57,
+      "model_prob": 0.6586,
+      "implied_prob": 0.578,
+      "edge": 0.0806,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.22,
-        "away_xg": 1.07,
-        "line": 1.5
+        "home_xg": 1.54,
+        "away_xg": 1.82
       }
     }
   ]
