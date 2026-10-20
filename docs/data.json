@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:34:14.813723+00:00",
+  "generated_at": "2026-10-20T12:08:35.655308+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -316,10 +316,10 @@
       "start_date": "2026-10-31T22:15:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
+      "odd": 1.53,
       "model_prob": 0.6811,
-      "implied_prob": 0.6104,
-      "edge": 0.0707,
+      "implied_prob": 0.5952,
+      "edge": 0.0859,
       "tags": [
         "value",
         "likely"
