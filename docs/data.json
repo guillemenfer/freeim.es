@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:01:30.121463+00:00",
+  "generated_at": "2026-10-23T15:02:05.454052+00:00",
   "bets": [
-    {
-      "home": "Banfield",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-24T17:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.9,
-      "model_prob": 0.6672,
-      "implied_prob": 0.4751,
-      "edge": 0.192,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.0,
-        "line": 8.5
-      }
-    },
     {
       "home": "IK Sirius",
       "away": "AIK",
