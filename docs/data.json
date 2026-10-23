@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-10-23T15:02:05.454052+00:00",
+  "generated_at": "2026-10-23T19:10:25.683213+00:00",
   "bets": [
+    {
+      "home": "Banfield",
+      "away": "Lanús",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-24T17:45:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.9,
+      "model_prob": 0.6672,
+      "implied_prob": 0.4751,
+      "edge": 0.192,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.0,
+        "line": 8.5
+      }
+    },
     {
       "home": "IK Sirius",
       "away": "AIK",
@@ -9,16 +29,37 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.7487,
+      "model_prob": 0.7587,
       "implied_prob": 0.5676,
-      "edge": 0.1811,
+      "edge": 0.1911,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.35,
+        "home_xg": 1.17,
+        "away_xg": 1.33,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-24T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7743,
+      "implied_prob": 0.5952,
+      "edge": 0.179,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.41,
+        "away_xg": 1.01,
         "line": 3.5
       }
     },
@@ -40,27 +81,6 @@
       "context": {
         "home_xg": 2.39,
         "away_xg": 1.75
-      }
-    },
-    {
-      "home": "BK Häcken",
-      "away": "Degerfors IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-24T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7649,
-      "implied_prob": 0.5952,
-      "edge": 0.1697,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.43,
-        "away_xg": 1.03,
-        "line": 3.5
       }
     },
     {
@@ -205,47 +225,6 @@
       "context": {
         "home_xg": 1.53,
         "away_xg": 2.08
-      }
-    },
-    {
-      "home": "Kalmar FF",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-24T15:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 2.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.6505,
-      "implied_prob": 0.545,
-      "edge": 0.1055,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.81,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Kalmar FF",
-      "away": "IF Brommapojkarna",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-24T15:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.657,
-      "implied_prob": 0.5586,
-      "edge": 0.0984,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.54,
-        "away_xg": 1.81
       }
     },
     {
