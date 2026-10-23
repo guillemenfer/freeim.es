@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T19:10:25.683213+00:00",
+  "generated_at": "2026-10-23T22:38:26.935753+00:00",
   "bets": [
     {
       "home": "Banfield",
@@ -104,6 +104,26 @@
       }
     },
     {
+      "home": "Independiente",
+      "away": "Boca Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-25T20:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.72,
+      "model_prob": 0.6783,
+      "implied_prob": 0.5249,
+      "edge": 0.1535,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.1,
+        "line": 8.5
+      }
+    },
+    {
       "home": "Huracán",
       "away": "Tigre",
       "league": "Liga Profesional",
@@ -111,16 +131,37 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7233,
+      "model_prob": 0.7268,
       "implied_prob": 0.5867,
-      "edge": 0.1367,
+      "edge": 0.1402,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.37,
-        "away_xg": 1.18,
+        "home_xg": 1.38,
+        "away_xg": 1.19,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Deportivo Riestra",
+      "away": "Talleres de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-31T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7034,
+      "implied_prob": 0.5867,
+      "edge": 0.1167,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.26,
+        "away_xg": 1.19,
         "line": 1.5
       }
     },
@@ -164,27 +205,6 @@
         "home_xg": 1.73,
         "away_xg": 1.78,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Deportivo Riestra",
-      "away": "Talleres de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-31T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6992,
-      "implied_prob": 0.5867,
-      "edge": 0.1125,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.25,
-        "away_xg": 1.18,
-        "line": 1.5
       }
     },
     {
@@ -249,6 +269,27 @@
       }
     },
     {
+      "home": "Vélez Sársfield",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-31T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6851,
+      "implied_prob": 0.5952,
+      "edge": 0.0898,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.04,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Kristiansund BK",
       "away": "KFUM Oslo",
       "league": "Eliteserien",
@@ -289,23 +330,44 @@
       }
     },
     {
-      "home": "Vélez Sársfield",
-      "away": "San Lorenzo",
+      "home": "Instituto de Córdoba",
+      "away": "Deportivo Riestra",
       "league": "Liga Profesional",
-      "start_date": "2026-10-31T22:15:00+00:00",
+      "start_date": "2026-10-27T00:15:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6811,
-      "implied_prob": 0.5952,
-      "edge": 0.0859,
+      "odd": 1.57,
+      "model_prob": 0.6523,
+      "implied_prob": 0.578,
+      "edge": 0.0744,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.32,
-        "away_xg": 1.03,
+        "home_xg": 1.24,
+        "away_xg": 0.99,
+        "line": 1.5
+      }
+    },
+    {
+      "home": "Barracas Central",
+      "away": "Estudiantes Río Cuarto",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-26T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6523,
+      "implied_prob": 0.5867,
+      "edge": 0.0657,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.19,
+        "away_xg": 1.04,
         "line": 1.5
       }
     }
