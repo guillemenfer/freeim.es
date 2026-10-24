@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:36:18.453501+00:00",
+  "generated_at": "2026-10-24T19:48:23.658754+00:00",
   "bets": [
     {
       "home": "Barracas Central",
@@ -22,26 +22,6 @@
       }
     },
     {
-      "home": "Banfield",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-24T17:45:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.88,
-      "model_prob": 0.6672,
-      "implied_prob": 0.4821,
-      "edge": 0.1851,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.0,
-        "line": 8.5
-      }
-    },
-    {
       "home": "IF Brommapojkarna",
       "away": "BK Häcken",
       "league": "Allsvenskan",
@@ -49,16 +29,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7553,
+      "model_prob": 0.7709,
       "implied_prob": 0.5867,
-      "edge": 0.1686,
+      "edge": 0.1842,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.08,
-        "away_xg": 1.43,
+        "home_xg": 0.99,
+        "away_xg": 1.44,
         "line": 3.5
       }
     },
@@ -110,9 +90,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7246,
+      "model_prob": 0.7241,
       "implied_prob": 0.5867,
-      "edge": 0.1379,
+      "edge": 0.1374,
       "tags": [
         "value",
         "likely"
@@ -151,16 +131,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7007,
+      "model_prob": 0.7001,
       "implied_prob": 0.5867,
-      "edge": 0.114,
+      "edge": 0.1134,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.26,
-        "away_xg": 1.19,
+        "away_xg": 1.18,
         "line": 1.5
       }
     },
@@ -192,9 +172,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6825,
+      "model_prob": 0.682,
       "implied_prob": 0.5952,
-      "edge": 0.0873,
+      "edge": 0.0867,
       "tags": [
         "value",
         "likely"
