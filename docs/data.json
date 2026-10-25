@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T10:10:36.099204+00:00",
+  "generated_at": "2026-10-25T14:25:19.290062+00:00",
   "bets": [
     {
       "home": "IF Brommapojkarna",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7709,
+      "model_prob": 0.7802,
       "implied_prob": 0.5867,
-      "edge": 0.1842,
+      "edge": 0.1936,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 0.99,
-        "away_xg": 1.44,
+        "home_xg": 0.97,
+        "away_xg": 1.42,
         "line": 3.5
       }
     },
@@ -84,26 +84,6 @@
       }
     },
     {
-      "home": "Viking FK",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-10-25T13:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.7352,
-      "implied_prob": 0.5952,
-      "edge": 0.14,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.32,
-        "away_xg": 1.69
-      }
-    },
-    {
       "home": "Central Córdoba",
       "away": "Vélez Sársfield",
       "league": "Liga Profesional",
@@ -131,16 +111,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7128,
+      "model_prob": 0.7221,
       "implied_prob": 0.5952,
-      "edge": 0.1175,
+      "edge": 0.1269,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.04,
-        "away_xg": 1.67,
+        "home_xg": 1.02,
+        "away_xg": 1.65,
         "line": 3.5
       }
     },
@@ -194,9 +174,9 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6827,
+      "model_prob": 0.6845,
       "implied_prob": 0.578,
-      "edge": 0.1048,
+      "edge": 0.1065,
       "tags": [
         "value",
         "likely"
@@ -214,16 +194,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6585,
+      "model_prob": 0.6519,
       "implied_prob": 0.578,
-      "edge": 0.0805,
+      "edge": 0.0739,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.6,
-        "away_xg": 1.74
+        "home_xg": 1.58,
+        "away_xg": 1.72
       }
     },
     {
@@ -233,17 +213,17 @@
       "start_date": "2026-10-25T16:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
-      "odd": 1.57,
-      "model_prob": 0.6526,
-      "implied_prob": 0.578,
-      "edge": 0.0746,
+      "odd": 1.55,
+      "model_prob": 0.655,
+      "implied_prob": 0.5867,
+      "edge": 0.0684,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.66,
-        "away_xg": 1.7,
+        "away_xg": 1.71,
         "line": 2.5
       }
     }
