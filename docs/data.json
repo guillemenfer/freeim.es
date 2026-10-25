@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T00:32:17.689675+00:00",
+  "generated_at": "2026-10-25T05:18:35.239047+00:00",
   "bets": [
     {
       "home": "Barracas Central",
@@ -43,6 +43,27 @@
       }
     },
     {
+      "home": "Huracán",
+      "away": "Tigre",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-30T22:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7441,
+      "implied_prob": 0.5867,
+      "edge": 0.1575,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.43,
+        "away_xg": 1.23,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Independiente",
       "away": "Boca Juniors",
       "league": "Liga Profesional",
@@ -80,27 +101,6 @@
       "context": {
         "home_xg": 2.32,
         "away_xg": 1.69
-      }
-    },
-    {
-      "home": "Huracán",
-      "away": "Tigre",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-30T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.7235,
-      "implied_prob": 0.5867,
-      "edge": 0.1368,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.37,
-        "away_xg": 1.18,
-        "line": 1.5
       }
     },
     {
@@ -145,6 +145,27 @@
       }
     },
     {
+      "home": "Vélez Sársfield",
+      "away": "San Lorenzo",
+      "league": "Liga Profesional",
+      "start_date": "2026-10-31T22:15:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7046,
+      "implied_prob": 0.5952,
+      "edge": 0.1093,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.38,
+        "away_xg": 1.08,
+        "line": 1.5
+      }
+    },
+    {
       "home": "Molde",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -162,27 +183,6 @@
       "context": {
         "home_xg": 1.86,
         "away_xg": 1.66
-      }
-    },
-    {
-      "home": "Vélez Sársfield",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-31T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6813,
-      "implied_prob": 0.5952,
-      "edge": 0.0861,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.32,
-        "away_xg": 1.03,
-        "line": 1.5
       }
     },
     {
