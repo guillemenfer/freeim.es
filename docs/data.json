@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:57:18.564406+00:00",
+  "generated_at": "2026-10-28T00:28:32.879192+00:00",
   "bets": [
     {
       "home": "Huracán",
@@ -9,9 +9,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7554,
+      "model_prob": 0.7558,
       "implied_prob": 0.5867,
-      "edge": 0.1687,
+      "edge": 0.1691,
       "tags": [
         "value",
         "likely"
@@ -41,26 +41,6 @@
         "home_xg": 2.02,
         "away_xg": 1.61,
         "line": 2.5
-      }
-    },
-    {
-      "home": "Argentinos Juniors",
-      "away": "Ind. Rivadavia",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-27T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6904,
-      "implied_prob": 0.5342,
-      "edge": 0.1562,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.21,
-        "line": 8.5
       }
     },
     {
@@ -134,9 +114,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7455,
+      "model_prob": 0.746,
       "implied_prob": 0.6104,
-      "edge": 0.1351,
+      "edge": 0.1356,
       "tags": [
         "value",
         "likely"
@@ -155,16 +135,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.713,
+      "model_prob": 0.7135,
       "implied_prob": 0.5867,
-      "edge": 0.1263,
+      "edge": 0.1269,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.29,
-        "away_xg": 1.21,
+        "away_xg": 1.22,
         "line": 1.5
       }
     },
