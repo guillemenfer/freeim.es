@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-28T13:31:08.481769+00:00",
+  "generated_at": "2026-10-28T19:05:31.056127+00:00",
   "bets": [
+    {
+      "home": "Malmö FF",
+      "away": "Hammarby IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7917,
+      "implied_prob": 0.5952,
+      "edge": 0.1964,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.1,
+        "away_xg": 1.24,
+        "line": 3.5
+      }
+    },
     {
       "home": "Huracán",
       "away": "Tigre",
@@ -20,26 +41,6 @@
         "home_xg": 1.47,
         "away_xg": 1.27,
         "line": 1.5
-      }
-    },
-    {
-      "home": "IFK Göteborg",
-      "away": "Djurgårdens IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-10-28T18:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.72,
-      "model_prob": 0.6911,
-      "implied_prob": 0.5249,
-      "edge": 0.1662,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.05,
-        "line": 11.5
       }
     },
     {
@@ -71,16 +72,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7598,
+      "model_prob": 0.753,
       "implied_prob": 0.6053,
-      "edge": 0.1545,
+      "edge": 0.1478,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.59,
-        "away_xg": 0.9,
+        "home_xg": 1.61,
+        "away_xg": 0.91,
         "line": 3.5
       }
     },
@@ -113,16 +114,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.7053,
+      "model_prob": 0.6983,
       "implied_prob": 0.5676,
-      "edge": 0.1377,
+      "edge": 0.1308,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.4,
-        "away_xg": 1.34,
+        "home_xg": 1.41,
+        "away_xg": 1.36,
         "line": 3.5
       }
     },
@@ -134,16 +135,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.53,
-      "model_prob": 0.7322,
+      "model_prob": 0.7256,
       "implied_prob": 0.5952,
-      "edge": 0.137,
+      "edge": 0.1304,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.66,
-        "away_xg": 0.96,
+        "home_xg": 1.68,
+        "away_xg": 0.97,
         "line": 3.5
       }
     },
