@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-10-28T19:05:31.056127+00:00",
+  "generated_at": "2026-10-28T23:11:25.358423+00:00",
   "bets": [
-    {
-      "home": "Malmö FF",
-      "away": "Hammarby IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-01T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7917,
-      "implied_prob": 0.5952,
-      "edge": 0.1964,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.1,
-        "away_xg": 1.24,
-        "line": 3.5
-      }
-    },
     {
       "home": "Huracán",
       "away": "Tigre",
@@ -72,16 +51,37 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.5,
-      "model_prob": 0.753,
+      "model_prob": 0.7576,
       "implied_prob": 0.6053,
-      "edge": 0.1478,
+      "edge": 0.1524,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.61,
-        "away_xg": 0.91,
+        "home_xg": 1.6,
+        "away_xg": 0.9,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Djurgårdens IF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7397,
+      "implied_prob": 0.5952,
+      "edge": 0.1444,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.52,
+        "away_xg": 1.06,
         "line": 3.5
       }
     },
@@ -114,37 +114,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6983,
+      "model_prob": 0.7031,
       "implied_prob": 0.5676,
-      "edge": 0.1308,
+      "edge": 0.1355,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.41,
-        "away_xg": 1.36,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Djurgårdens IF",
-      "away": "Degerfors IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-01T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7256,
-      "implied_prob": 0.5952,
-      "edge": 0.1304,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.68,
-        "away_xg": 0.97,
+        "home_xg": 1.4,
+        "away_xg": 1.35,
         "line": 3.5
       }
     },
