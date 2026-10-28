@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:16:12.831081+00:00",
+  "generated_at": "2026-10-28T13:31:08.481769+00:00",
   "bets": [
     {
       "home": "Huracán",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7558,
+      "model_prob": 0.758,
       "implied_prob": 0.5867,
-      "edge": 0.1691,
+      "edge": 0.1714,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.46,
-        "away_xg": 1.26,
+        "home_xg": 1.47,
+        "away_xg": 1.27,
         "line": 1.5
       }
     },
@@ -85,6 +85,27 @@
       }
     },
     {
+      "home": "Estudiantes de La Plata",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-01T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7484,
+      "implied_prob": 0.6104,
+      "edge": 0.138,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.33,
+        "away_xg": 1.35,
+        "line": 1.5
+      }
+    },
+    {
       "home": "BK Häcken",
       "away": "IFK Göteborg",
       "league": "Allsvenskan",
@@ -127,27 +148,6 @@
       }
     },
     {
-      "home": "Estudiantes de La Plata",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-01T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.746,
-      "implied_prob": 0.6104,
-      "edge": 0.1356,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.33,
-        "away_xg": 1.34,
-        "line": 1.5
-      }
-    },
-    {
       "home": "Deportivo Riestra",
       "away": "Talleres de Córdoba",
       "league": "Liga Profesional",
@@ -155,9 +155,9 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7135,
+      "model_prob": 0.7162,
       "implied_prob": 0.5867,
-      "edge": 0.1269,
+      "edge": 0.1296,
       "tags": [
         "value",
         "likely"
