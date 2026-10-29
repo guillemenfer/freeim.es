@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-10-29T09:52:12.103429+00:00",
+  "generated_at": "2026-10-29T16:55:05.456197+00:00",
   "bets": [
+    {
+      "home": "Hammarby IF",
+      "away": "IK Sirius",
+      "league": "Allsvenskan",
+      "start_date": "2026-10-29T17:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7834,
+      "implied_prob": 0.5952,
+      "edge": 0.1881,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.19,
+        "away_xg": 1.19,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "IF Elfsborg",
+      "away": "Örgryte IS",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.749,
+      "implied_prob": 0.578,
+      "edge": 0.1711,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.62,
+        "away_xg": 0.92,
+        "line": 3.5
+      }
+    },
     {
       "home": "KFUM Oslo",
       "away": "Hamarkameratene",
@@ -41,6 +83,48 @@
         "home_xg": 1.42,
         "away_xg": 1.22,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Djurgårdens IF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.7305,
+      "implied_prob": 0.578,
+      "edge": 0.1525,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.54,
+        "away_xg": 1.08,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "IFK Göteborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6942,
+      "implied_prob": 0.5676,
+      "edge": 0.1266,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.42,
+        "away_xg": 1.37,
+        "line": 3.5
       }
     },
     {
