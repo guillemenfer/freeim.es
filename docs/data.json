@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:18:34.860512+00:00",
+  "generated_at": "2026-10-31T23:43:30.210692+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -23,16 +23,36 @@
       }
     },
     {
+      "home": "Platense",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-02T22:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.9,
+      "model_prob": 0.65,
+      "implied_prob": 0.4751,
+      "edge": 0.1749,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
+      }
+    },
+    {
       "home": "IF Elfsborg",
       "away": "Örgryte IS",
       "league": "Allsvenskan",
       "start_date": "2026-11-01T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.57,
+      "odd": 1.55,
       "model_prob": 0.7516,
-      "implied_prob": 0.578,
-      "edge": 0.1736,
+      "implied_prob": 0.5867,
+      "edge": 0.1649,
       "tags": [
         "value",
         "likely"
@@ -41,26 +61,6 @@
         "home_xg": 1.61,
         "away_xg": 0.91,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Vélez Sársfield",
-      "away": "San Lorenzo",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-31T22:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6946,
-      "implied_prob": 0.5342,
-      "edge": 0.1604,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.25,
-        "line": 8.5
       }
     },
     {
@@ -133,16 +133,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7381,
+      "model_prob": 0.7394,
       "implied_prob": 0.6104,
-      "edge": 0.1277,
+      "edge": 0.129,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.31,
-        "away_xg": 1.32,
+        "away_xg": 1.33,
         "line": 1.5
       }
     },
@@ -175,16 +175,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7048,
-      "implied_prob": 0.6053,
-      "edge": 0.0995,
+      "model_prob": 0.7063,
+      "implied_prob": 0.6104,
+      "edge": 0.0959,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.15,
-        "away_xg": 1.31,
+        "away_xg": 1.32,
         "line": 1.5
       }
     },
