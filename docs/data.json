@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:20:25.276837+00:00",
+  "generated_at": "2026-10-31T20:18:34.860512+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -126,6 +126,27 @@
       }
     },
     {
+      "home": "Estudiantes de La Plata",
+      "away": "Instituto de Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-01T00:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.7381,
+      "implied_prob": 0.6104,
+      "edge": 0.1277,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.31,
+        "away_xg": 1.32,
+        "line": 1.5
+      }
+    },
+    {
       "home": "KFUM Oslo",
       "away": "Hamarkameratene",
       "league": "Eliteserien",
@@ -133,79 +154,17 @@
       "market": "goals",
       "selection_label": "Más de 2.5 goles",
       "odd": 1.67,
-      "model_prob": 0.6606,
+      "model_prob": 0.6575,
       "implied_prob": 0.545,
-      "edge": 0.1156,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.91,
-        "away_xg": 1.5,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Deportivo Riestra",
-      "away": "Talleres de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-10-31T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.6881,
-      "implied_prob": 0.5867,
-      "edge": 0.1014,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.23,
-        "away_xg": 1.16,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Defensa y Justicia",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-02T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6601,
-      "implied_prob": 0.5676,
-      "edge": 0.0925,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.11,
-        "away_xg": 0.96,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Sarpsborg 08",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-11-01T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6843,
-      "implied_prob": 0.5952,
-      "edge": 0.0891,
+      "edge": 0.1126,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.9,
-        "away_xg": 1.63
+        "away_xg": 1.49,
+        "line": 2.5
       }
     },
     {
@@ -216,17 +175,37 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.5,
-      "model_prob": 0.6881,
+      "model_prob": 0.7048,
       "implied_prob": 0.6053,
-      "edge": 0.0828,
+      "edge": 0.0995,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.11,
-        "away_xg": 1.27,
+        "home_xg": 1.15,
+        "away_xg": 1.31,
         "line": 1.5
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-01T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.53,
+      "model_prob": 0.6823,
+      "implied_prob": 0.5952,
+      "edge": 0.087,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.9,
+        "away_xg": 1.62
       }
     },
     {
@@ -237,16 +216,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.57,
-      "model_prob": 0.6607,
+      "model_prob": 0.6583,
       "implied_prob": 0.578,
-      "edge": 0.0827,
+      "edge": 0.0803,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.91,
-        "away_xg": 1.5
+        "home_xg": 1.9,
+        "away_xg": 1.49
       }
     },
     {
@@ -257,16 +236,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.6974,
+      "model_prob": 0.6953,
       "implied_prob": 0.6361,
-      "edge": 0.0613,
+      "edge": 0.0592,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.01,
-        "away_xg": 1.64
+        "home_xg": 2.0,
+        "away_xg": 1.63
       }
     }
   ]
