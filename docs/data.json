@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-10-31T05:31:18.157879+00:00",
+  "generated_at": "2026-10-31T11:13:57.462067+00:00",
   "bets": [
+    {
+      "home": "IK Sirius",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-03T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.7299,
+      "implied_prob": 0.545,
+      "edge": 0.1849,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.46,
+        "away_xg": 1.16,
+        "line": 3.5
+      }
+    },
     {
       "home": "IF Elfsborg",
       "away": "Örgryte IS",
@@ -8,17 +29,17 @@
       "start_date": "2026-11-01T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.7392,
-      "implied_prob": 0.5676,
-      "edge": 0.1716,
+      "odd": 1.57,
+      "model_prob": 0.7516,
+      "implied_prob": 0.578,
+      "edge": 0.1736,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.64,
-        "away_xg": 0.94,
+        "home_xg": 1.61,
+        "away_xg": 0.91,
         "line": 3.5
       }
     },
@@ -63,6 +84,27 @@
       }
     },
     {
+      "home": "Djurgårdens IF",
+      "away": "Degerfors IF",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-01T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7332,
+      "implied_prob": 0.5867,
+      "edge": 0.1465,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.53,
+        "away_xg": 1.08,
+        "line": 3.5
+      }
+    },
+    {
       "home": "KFUM Oslo",
       "away": "Hamarkameratene",
       "league": "Eliteserien",
@@ -84,48 +126,6 @@
       }
     },
     {
-      "home": "Djurgårdens IF",
-      "away": "Degerfors IF",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-01T13:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.55,
-      "model_prob": 0.7199,
-      "implied_prob": 0.5867,
-      "edge": 0.1332,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.56,
-        "away_xg": 1.11,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Boca Juniors",
-      "away": "River Plate",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-01T18:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7348,
-      "implied_prob": 0.6104,
-      "edge": 0.1244,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.36,
-        "away_xg": 1.26,
-        "line": 1.5
-      }
-    },
-    {
       "home": "BK Häcken",
       "away": "IFK Göteborg",
       "league": "Allsvenskan",
@@ -133,16 +133,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.684,
+      "model_prob": 0.6968,
       "implied_prob": 0.5676,
-      "edge": 0.1165,
+      "edge": 0.1293,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.44,
-        "away_xg": 1.39,
+        "home_xg": 1.41,
+        "away_xg": 1.36,
         "line": 3.5
       }
     },
