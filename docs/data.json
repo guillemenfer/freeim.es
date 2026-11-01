@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T18:33:56.670931+00:00",
+  "generated_at": "2026-11-01T22:24:29.788782+00:00",
   "bets": [
     {
       "home": "VPS",
@@ -30,16 +30,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.7,
-      "model_prob": 0.7102,
+      "model_prob": 0.712,
       "implied_prob": 0.5342,
-      "edge": 0.176,
+      "edge": 0.1777,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.32,
-        "away_xg": 1.55
+        "home_xg": 2.33,
+        "away_xg": 1.56
       }
     },
     {
@@ -69,17 +69,17 @@
       "start_date": "2026-11-07T17:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.62,
-      "model_prob": 0.7067,
-      "implied_prob": 0.5586,
-      "edge": 0.1481,
+      "odd": 1.67,
+      "model_prob": 0.7089,
+      "implied_prob": 0.545,
+      "edge": 0.164,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.39,
-        "away_xg": 1.5
+        "home_xg": 2.4,
+        "away_xg": 1.51
       }
     },
     {
@@ -124,45 +124,23 @@
       }
     },
     {
-      "home": "Defensa y Justicia",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-02T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.6,
-      "model_prob": 0.6883,
-      "implied_prob": 0.5676,
-      "edge": 0.1207,
+      "home": "Tromsø",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-11-08T13:30:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.53,
+      "model_prob": 0.653,
+      "implied_prob": 0.5952,
+      "edge": 0.0577,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.05,
-        "away_xg": 0.9,
-        "line": 2.5
-      }
-    },
-    {
-      "home": "Platense",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-02T22:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 2.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.6612,
-      "implied_prob": 0.5586,
-      "edge": 0.1026,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.05,
-        "away_xg": 1.0,
-        "line": 2.5
+        "home_xg": 1.62,
+        "away_xg": 1.68
       }
     }
   ]
