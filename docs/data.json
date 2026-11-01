@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T23:43:30.210692+00:00",
+  "generated_at": "2026-11-01T05:58:09.671231+00:00",
   "bets": [
     {
       "home": "IK Sirius",
@@ -105,6 +105,46 @@
       }
     },
     {
+      "home": "Atlético Tucumán",
+      "away": "Argentinos Juniors",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-03T00:15:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.75,
+      "model_prob": 0.6558,
+      "implied_prob": 0.5179,
+      "edge": 0.1379,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.9,
+        "line": 8.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "start_date": "2026-11-01T13:30:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.72,
+      "model_prob": 0.6577,
+      "implied_prob": 0.5249,
+      "edge": 0.1328,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.34,
+        "line": 11.5
+      }
+    },
+    {
       "home": "BK Häcken",
       "away": "IFK Göteborg",
       "league": "Allsvenskan",
@@ -123,27 +163,6 @@
         "home_xg": 1.41,
         "away_xg": 1.36,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Estudiantes de La Plata",
-      "away": "Instituto de Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-01T00:30:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7394,
-      "implied_prob": 0.6104,
-      "edge": 0.129,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.31,
-        "away_xg": 1.33,
-        "line": 1.5
       }
     },
     {
@@ -168,44 +187,24 @@
       }
     },
     {
-      "home": "Belgrano",
-      "away": "Barracas Central",
+      "home": "Defensa y Justicia",
+      "away": "Independiente",
       "league": "Liga Profesional",
-      "start_date": "2026-11-01T21:30:00+00:00",
+      "start_date": "2026-11-02T22:00:00+00:00",
       "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7063,
-      "implied_prob": 0.6104,
-      "edge": 0.0959,
+      "selection_label": "Menos de 2.5 goles",
+      "odd": 1.6,
+      "model_prob": 0.6539,
+      "implied_prob": 0.5676,
+      "edge": 0.0863,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.32,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Sarpsborg 08",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-11-01T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
-      "model_prob": 0.6823,
-      "implied_prob": 0.5952,
-      "edge": 0.087,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.9,
-        "away_xg": 1.62
+        "home_xg": 1.12,
+        "away_xg": 0.97,
+        "line": 2.5
       }
     },
     {
@@ -246,6 +245,26 @@
       "context": {
         "home_xg": 2.0,
         "away_xg": 1.63
+      }
+    },
+    {
+      "home": "Sarpsborg 08",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-01T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.6823,
+      "implied_prob": 0.6234,
+      "edge": 0.0589,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.9,
+        "away_xg": 1.62
       }
     }
   ]
