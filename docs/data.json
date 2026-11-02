@@ -1,27 +1,6 @@
 {
-  "generated_at": "2026-11-01T22:24:29.788782+00:00",
+  "generated_at": "2026-11-02T01:48:46.673503+00:00",
   "bets": [
-    {
-      "home": "VPS",
-      "away": "HJK Helsinki",
-      "league": "Veikkausliiga",
-      "start_date": "2026-11-02T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7528,
-      "implied_prob": 0.5586,
-      "edge": 0.1942,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.18,
-        "away_xg": 1.34,
-        "line": 3.5
-      }
-    },
     {
       "home": "Viking FK",
       "away": "KFUM Oslo",
@@ -69,10 +48,10 @@
       "start_date": "2026-11-07T17:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
+      "odd": 1.7,
       "model_prob": 0.7089,
-      "implied_prob": 0.545,
-      "edge": 0.164,
+      "implied_prob": 0.5342,
+      "edge": 0.1747,
       "tags": [
         "value",
         "likely"
