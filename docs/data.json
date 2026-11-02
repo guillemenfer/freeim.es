@@ -1,24 +1,46 @@
 {
-  "generated_at": "2026-11-02T01:48:46.673503+00:00",
+  "generated_at": "2026-11-02T09:24:45.484373+00:00",
   "bets": [
     {
-      "home": "Viking FK",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-11-08T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.7,
-      "model_prob": 0.712,
-      "implied_prob": 0.5342,
-      "edge": 0.1777,
+      "home": "VPS",
+      "away": "HJK Helsinki",
+      "league": "Veikkausliiga",
+      "start_date": "2026-11-02T16:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.7528,
+      "implied_prob": 0.5586,
+      "edge": 0.1942,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.33,
-        "away_xg": 1.56
+        "home_xg": 1.18,
+        "away_xg": 1.34,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "IK Sirius",
+      "away": "Halmstads BK",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-03T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.67,
+      "model_prob": 0.7384,
+      "implied_prob": 0.545,
+      "edge": 0.1934,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.44,
+        "away_xg": 1.14,
+        "line": 3.5
       }
     },
     {
@@ -62,6 +84,26 @@
       }
     },
     {
+      "home": "Viking FK",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-11-08T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.712,
+      "implied_prob": 0.545,
+      "edge": 0.167,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.33,
+        "away_xg": 1.56
+      }
+    },
+    {
       "home": "Atlético Tucumán",
       "away": "Argentinos Juniors",
       "league": "Liga Profesional",
@@ -89,16 +131,37 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.5,
-      "model_prob": 0.7375,
+      "model_prob": 0.7227,
       "implied_prob": 0.6053,
-      "edge": 0.1323,
+      "edge": 0.1175,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.38,
-        "away_xg": 1.21,
+        "home_xg": 1.41,
+        "away_xg": 1.25,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "AIK",
+      "away": "BK Häcken",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-08T15:30:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.62,
+      "model_prob": 0.6689,
+      "implied_prob": 0.5586,
+      "edge": 0.1104,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.21,
+        "away_xg": 1.69,
         "line": 3.5
       }
     },
@@ -109,10 +172,10 @@
       "start_date": "2026-11-08T13:30:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.53,
+      "odd": 1.57,
       "model_prob": 0.653,
-      "implied_prob": 0.5952,
-      "edge": 0.0577,
+      "implied_prob": 0.578,
+      "edge": 0.075,
       "tags": [
         "value",
         "likely"
