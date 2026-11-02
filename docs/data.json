@@ -1,88 +1,6 @@
 {
-  "generated_at": "2026-11-02T09:24:45.484373+00:00",
+  "generated_at": "2026-11-02T19:46:39.153510+00:00",
   "bets": [
-    {
-      "home": "VPS",
-      "away": "HJK Helsinki",
-      "league": "Veikkausliiga",
-      "start_date": "2026-11-02T16:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
-      "model_prob": 0.7528,
-      "implied_prob": 0.5586,
-      "edge": 0.1942,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.18,
-        "away_xg": 1.34,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "IK Sirius",
-      "away": "Halmstads BK",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-03T18:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.67,
-      "model_prob": 0.7384,
-      "implied_prob": 0.545,
-      "edge": 0.1934,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.44,
-        "away_xg": 1.14,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Platense",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-02T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.9,
-      "model_prob": 0.65,
-      "implied_prob": 0.4751,
-      "edge": 0.1749,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Rosenborg BK",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-11-07T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.7,
-      "model_prob": 0.7089,
-      "implied_prob": 0.5342,
-      "edge": 0.1747,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.4,
-        "away_xg": 1.51
-      }
-    },
     {
       "home": "Viking FK",
       "away": "KFUM Oslo",
@@ -104,16 +22,56 @@
       }
     },
     {
+      "home": "Rosenborg BK",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-11-07T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.7089,
+      "implied_prob": 0.545,
+      "edge": 0.164,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.4,
+        "away_xg": 1.51
+      }
+    },
+    {
+      "home": "Platense",
+      "away": "Central Córdoba",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-02T22:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.8,
+      "model_prob": 0.65,
+      "implied_prob": 0.5068,
+      "edge": 0.1432,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
+      }
+    },
+    {
       "home": "Atlético Tucumán",
       "away": "Argentinos Juniors",
       "league": "Liga Profesional",
       "start_date": "2026-11-03T00:15:00+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.75,
+      "odd": 1.72,
       "model_prob": 0.6558,
-      "implied_prob": 0.5179,
-      "edge": 0.1379,
+      "implied_prob": 0.5249,
+      "edge": 0.1309,
       "tags": [
         "value",
         "likely"
@@ -151,10 +109,10 @@
       "start_date": "2026-11-08T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.62,
+      "odd": 1.6,
       "model_prob": 0.6689,
-      "implied_prob": 0.5586,
-      "edge": 0.1104,
+      "implied_prob": 0.5676,
+      "edge": 0.1014,
       "tags": [
         "value",
         "likely"
@@ -183,6 +141,27 @@
       "context": {
         "home_xg": 1.62,
         "away_xg": 1.68
+      }
+    },
+    {
+      "home": "San Lorenzo",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-08T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6551,
+      "implied_prob": 0.5952,
+      "edge": 0.0598,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.15,
+        "away_xg": 1.09,
+        "line": 1.5
       }
     }
   ]
