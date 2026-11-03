@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T19:46:39.153510+00:00",
+  "generated_at": "2026-11-03T02:14:32.837357+00:00",
   "bets": [
     {
       "home": "Viking FK",
@@ -42,63 +42,23 @@
       }
     },
     {
-      "home": "Platense",
-      "away": "Central Córdoba",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-02T22:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.8,
-      "model_prob": 0.65,
-      "implied_prob": 0.5068,
-      "edge": 0.1432,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Atlético Tucumán",
-      "away": "Argentinos Juniors",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-03T00:15:00+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.72,
-      "model_prob": 0.6558,
-      "implied_prob": 0.5249,
-      "edge": 0.1309,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.9,
-        "line": 8.5
-      }
-    },
-    {
       "home": "Hammarby IF",
       "away": "IF Elfsborg",
       "league": "Allsvenskan",
       "start_date": "2026-11-06T18:00:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7227,
-      "implied_prob": 0.6053,
-      "edge": 0.1175,
+      "odd": 1.53,
+      "model_prob": 0.7277,
+      "implied_prob": 0.5952,
+      "edge": 0.1324,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.41,
-        "away_xg": 1.25,
+        "home_xg": 1.4,
+        "away_xg": 1.24,
         "line": 3.5
       }
     },
@@ -110,17 +70,38 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6689,
+      "model_prob": 0.6735,
       "implied_prob": 0.5676,
-      "edge": 0.1014,
+      "edge": 0.1059,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.69,
+        "home_xg": 1.2,
+        "away_xg": 1.68,
         "line": 3.5
+      }
+    },
+    {
+      "home": "San Lorenzo",
+      "away": "Platense",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-08T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6792,
+      "implied_prob": 0.5952,
+      "edge": 0.084,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.17,
+        "away_xg": 1.17,
+        "line": 1.5
       }
     },
     {
@@ -141,27 +122,6 @@
       "context": {
         "home_xg": 1.62,
         "away_xg": 1.68
-      }
-    },
-    {
-      "home": "San Lorenzo",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-08T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6551,
-      "implied_prob": 0.5952,
-      "edge": 0.0598,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.15,
-        "away_xg": 1.09,
-        "line": 1.5
       }
     }
   ]
