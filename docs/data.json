@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:13:42.405484+00:00",
+  "generated_at": "2026-11-04T11:32:48.158937+00:00",
   "bets": [
     {
       "home": "Rosenborg BK",
@@ -108,7 +108,7 @@
       "home": "San Lorenzo",
       "away": "Platense",
       "league": "Liga Profesional",
-      "start_date": "2026-11-06T22:15:00+00:00",
+      "start_date": "2026-11-06T22:15:00.100000+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
