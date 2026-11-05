@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:50:04.975276+00:00",
+  "generated_at": "2026-11-05T22:00:34.173223+00:00",
   "bets": [
     {
       "home": "Rosenborg BK",
@@ -84,6 +84,26 @@
       }
     },
     {
+      "home": "Talleres de Córdoba",
+      "away": "Estudiantes de La Plata",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-07T18:00:00.110000+00:00",
+      "market": "corners",
+      "selection_label": "Más de 8.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.65,
+      "implied_prob": 0.545,
+      "edge": 0.1051,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.85,
+        "line": 8.5
+      }
+    },
+    {
       "home": "AIK",
       "away": "BK Häcken",
       "league": "Allsvenskan",
@@ -112,16 +132,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.6792,
+      "model_prob": 0.6754,
       "implied_prob": 0.5952,
-      "edge": 0.084,
+      "edge": 0.0802,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.17,
-        "away_xg": 1.17,
+        "home_xg": 1.16,
+        "away_xg": 1.16,
         "line": 1.5
       }
     },
