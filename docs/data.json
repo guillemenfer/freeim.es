@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:29:51.522275+00:00",
+  "generated_at": "2026-11-06T22:23:44.085737+00:00",
   "bets": [
     {
       "home": "Rosenborg BK",
@@ -63,27 +63,6 @@
       }
     },
     {
-      "home": "Hammarby IF",
-      "away": "IF Elfsborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-06T18:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.7252,
-      "implied_prob": 0.6053,
-      "edge": 0.1199,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.41,
-        "away_xg": 1.24,
-        "line": 3.5
-      }
-    },
-    {
       "home": "AIK",
       "away": "BK Häcken",
       "league": "Allsvenskan",
@@ -91,16 +70,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6712,
+      "model_prob": 0.6826,
       "implied_prob": 0.5676,
-      "edge": 0.1037,
+      "edge": 0.1151,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.21,
-        "away_xg": 1.69,
+        "home_xg": 1.18,
+        "away_xg": 1.66,
         "line": 3.5
       }
     },
@@ -142,27 +121,6 @@
       "context": {
         "home_xg": 1.62,
         "away_xg": 1.68
-      }
-    },
-    {
-      "home": "San Lorenzo",
-      "away": "Platense",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-06T22:15:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6725,
-      "implied_prob": 0.6053,
-      "edge": 0.0672,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.16,
-        "away_xg": 1.16,
-        "line": 1.5
       }
     }
   ]
