@@ -1,46 +1,6 @@
 {
-  "generated_at": "2026-11-07T15:56:13.634484+00:00",
+  "generated_at": "2026-11-07T20:12:38.653578+00:00",
   "bets": [
-    {
-      "home": "Rosenborg BK",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-11-07T17:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.75,
-      "model_prob": 0.7089,
-      "implied_prob": 0.5179,
-      "edge": 0.191,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.4,
-        "away_xg": 1.51
-      }
-    },
-    {
-      "home": "Viking FK",
-      "away": "KFUM Oslo",
-      "league": "Eliteserien",
-      "start_date": "2026-11-08T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.67,
-      "model_prob": 0.712,
-      "implied_prob": 0.545,
-      "edge": 0.167,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.33,
-        "away_xg": 1.56
-      }
-    },
     {
       "home": "IF Gnistan",
       "away": "VPS",
@@ -60,6 +20,26 @@
         "home_xg": 1.16,
         "away_xg": 1.35,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Viking FK",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-11-08T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.67,
+      "model_prob": 0.7062,
+      "implied_prob": 0.545,
+      "edge": 0.1613,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.31,
+        "away_xg": 1.53
       }
     },
     {
@@ -90,57 +70,17 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.6,
-      "model_prob": 0.6826,
+      "model_prob": 0.6626,
       "implied_prob": 0.5676,
-      "edge": 0.1151,
+      "edge": 0.0951,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.18,
-        "away_xg": 1.66,
+        "home_xg": 1.22,
+        "away_xg": 1.71,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Talleres de Córdoba",
-      "away": "Estudiantes de La Plata",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-07T18:00:00.110000+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.65,
-      "model_prob": 0.65,
-      "implied_prob": 0.5479,
-      "edge": 0.1021,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 9.85,
-        "line": 8.5
-      }
-    },
-    {
-      "home": "Tromsø",
-      "away": "Bodø/Glimt",
-      "league": "Eliteserien",
-      "start_date": "2026-11-08T13:30:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.57,
-      "model_prob": 0.653,
-      "implied_prob": 0.578,
-      "edge": 0.075,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.62,
-        "away_xg": 1.68
       }
     }
   ]
