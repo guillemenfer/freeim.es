@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:29:11.936363+00:00",
+  "generated_at": "2026-11-08T22:27:26.661782+00:00",
   "bets": [
     {
       "home": "Central Córdoba",
@@ -8,10 +8,10 @@
       "start_date": "2026-11-08T22:30:00.150000+00:00",
       "market": "corners",
       "selection_label": "Más de 8.5 córners",
-      "odd": 1.7,
+      "odd": 1.67,
       "model_prob": 0.6892,
-      "implied_prob": 0.5342,
-      "edge": 0.155,
+      "implied_prob": 0.545,
+      "edge": 0.1443,
       "tags": [
         "value",
         "likely"
