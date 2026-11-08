@@ -1,6 +1,26 @@
 {
-  "generated_at": "2026-11-07T23:56:22.179254+00:00",
+  "generated_at": "2026-11-08T05:55:52.970594+00:00",
   "bets": [
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Molde",
+      "league": "Eliteserien",
+      "start_date": "2026-11-08T16:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.7248,
+      "implied_prob": 0.545,
+      "edge": 0.1799,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 9.75,
+        "line": 11.5
+      }
+    },
     {
       "home": "IF Gnistan",
       "away": "VPS",
@@ -63,16 +83,36 @@
       }
     },
     {
+      "home": "Viking FK",
+      "away": "KFUM Oslo",
+      "league": "Eliteserien",
+      "start_date": "2026-11-08T16:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.67,
+      "model_prob": 0.6759,
+      "implied_prob": 0.545,
+      "edge": 0.131,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.18,
+        "line": 11.5
+      }
+    },
+    {
       "home": "AIK",
       "away": "BK Häcken",
       "league": "Allsvenskan",
       "start_date": "2026-11-08T15:30:00+00:00",
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
-      "odd": 1.6,
+      "odd": 1.7,
       "model_prob": 0.6626,
-      "implied_prob": 0.5676,
-      "edge": 0.0951,
+      "implied_prob": 0.5342,
+      "edge": 0.1284,
       "tags": [
         "value",
         "likely"
