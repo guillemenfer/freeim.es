@@ -1,25 +1,4 @@
 {
-  "generated_at": "2026-11-08T22:27:26.661782+00:00",
-  "bets": [
-    {
-      "home": "Central Córdoba",
-      "away": "Lanús",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-08T22:30:00.150000+00:00",
-      "market": "corners",
-      "selection_label": "Más de 8.5 córners",
-      "odd": 1.67,
-      "model_prob": 0.6892,
-      "implied_prob": 0.545,
-      "edge": 0.1443,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.2,
-        "line": 8.5
-      }
-    }
-  ]
+  "generated_at": "2026-11-09T01:56:42.331211+00:00",
+  "bets": []
 }
