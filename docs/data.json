@@ -1,4 +1,26 @@
 {
-  "generated_at": "2026-11-09T09:40:26.362265+00:00",
-  "bets": []
+  "generated_at": "2026-11-09T20:40:40.095704+00:00",
+  "bets": [
+    {
+      "home": "BK Häcken",
+      "away": "IF Elfsborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-22T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.6857,
+      "implied_prob": 0.5952,
+      "edge": 0.0905,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.66,
+        "away_xg": 1.16,
+        "line": 3.5
+      }
+    }
+  ]
 }
