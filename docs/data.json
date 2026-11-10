@@ -1,25 +1,85 @@
 {
-  "generated_at": "2026-11-10T03:29:14.697548+00:00",
+  "generated_at": "2026-11-10T11:43:54.738490+00:00",
   "bets": [
     {
-      "home": "BK Häcken",
-      "away": "IF Elfsborg",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-22T13:00:00+00:00",
+      "home": "Hamarkameratene",
+      "away": "Fredrikstad",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T15:00:00+00:00",
       "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.6857,
-      "implied_prob": 0.5952,
-      "edge": 0.0905,
+      "selection_label": "Más de 2.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.7351,
+      "implied_prob": 0.5867,
+      "edge": 0.1484,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.66,
-        "away_xg": 1.16,
-        "line": 3.5
+        "home_xg": 1.9,
+        "away_xg": 1.92,
+        "line": 2.5
+      }
+    },
+    {
+      "home": "Hamarkameratene",
+      "away": "Fredrikstad",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T15:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.7266,
+      "implied_prob": 0.6234,
+      "edge": 0.1032,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.9,
+        "away_xg": 1.92
+      }
+    },
+    {
+      "home": "Vålerenga",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.6878,
+      "implied_prob": 0.6361,
+      "edge": 0.0517,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.4,
+        "away_xg": 1.41
+      }
+    },
+    {
+      "home": "Tromsø",
+      "away": "Viking FK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T13:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.6866,
+      "implied_prob": 0.6361,
+      "edge": 0.0504,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.71,
+        "away_xg": 1.82
       }
     }
   ]
