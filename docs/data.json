@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T22:16:30.564034+00:00",
+  "generated_at": "2026-11-12T03:20:02.330964+00:00",
   "bets": [
     {
       "home": "Hamarkameratene",
@@ -40,6 +40,26 @@
       "context": {
         "home_xg": 1.9,
         "away_xg": 1.92
+      }
+    },
+    {
+      "home": "Vålerenga",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T17:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.6878,
+      "implied_prob": 0.6361,
+      "edge": 0.0517,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.4,
+        "away_xg": 1.41
       }
     },
     {
