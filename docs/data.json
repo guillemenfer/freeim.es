@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T01:14:03.232413+00:00",
+  "generated_at": "2026-11-20T09:08:55.652971+00:00",
   "bets": [
     {
       "home": "Hamarkameratene",
@@ -23,6 +23,27 @@
       }
     },
     {
+      "home": "Molde",
+      "away": "Bodø/Glimt",
+      "league": "Eliteserien",
+      "start_date": "2026-11-20T18:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 4.5 goles",
+      "odd": 1.57,
+      "model_prob": 0.6917,
+      "implied_prob": 0.578,
+      "edge": 0.1138,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.99,
+        "away_xg": 1.69,
+        "line": 4.5
+      }
+    },
+    {
       "home": "Hamarkameratene",
       "away": "Fredrikstad",
       "league": "Eliteserien",
@@ -40,6 +61,27 @@
       "context": {
         "home_xg": 1.9,
         "away_xg": 1.92
+      }
+    },
+    {
+      "home": "Argentinos Juniors",
+      "away": "Independiente",
+      "league": "Liga Profesional",
+      "start_date": "2026-11-21T20:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Más de 1.5 goles",
+      "odd": 1.5,
+      "model_prob": 0.6996,
+      "implied_prob": 0.6104,
+      "edge": 0.0892,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.19,
+        "away_xg": 1.24,
+        "line": 1.5
       }
     },
     {
