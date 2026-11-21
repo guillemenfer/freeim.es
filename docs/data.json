@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T23:57:51.813047+00:00",
+  "generated_at": "2026-11-21T06:59:13.770041+00:00",
   "bets": [
     {
       "home": "Instituto de Córdoba",
@@ -8,10 +8,10 @@
       "start_date": "2026-11-23T01:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
+      "odd": 1.53,
       "model_prob": 0.766,
-      "implied_prob": 0.6104,
-      "edge": 0.1556,
+      "implied_prob": 0.5952,
+      "edge": 0.1707,
       "tags": [
         "value",
         "likely"
@@ -44,16 +44,36 @@
       }
     },
     {
+      "home": "Vålerenga",
+      "away": "Start",
+      "league": "Eliteserien",
+      "start_date": "2026-11-21T17:00:00+00:00",
+      "market": "corners",
+      "selection_label": "Menos de 11.5 córners",
+      "odd": 1.7,
+      "model_prob": 0.6725,
+      "implied_prob": 0.5342,
+      "edge": 0.1383,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "total_corners_xg": 10.21,
+        "line": 11.5
+      }
+    },
+    {
       "home": "Hamarkameratene",
       "away": "Fredrikstad",
       "league": "Eliteserien",
       "start_date": "2026-11-21T15:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.45,
+      "odd": 1.53,
       "model_prob": 0.7066,
-      "implied_prob": 0.6234,
-      "edge": 0.0832,
+      "implied_prob": 0.5952,
+      "edge": 0.1114,
       "tags": [
         "value",
         "likely"
