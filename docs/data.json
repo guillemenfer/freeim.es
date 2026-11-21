@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T15:18:01.547085+00:00",
+  "generated_at": "2026-11-21T21:06:02.388310+00:00",
   "bets": [
     {
       "home": "Hammarby IF",
@@ -9,16 +9,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.67,
-      "model_prob": 0.7333,
+      "model_prob": 0.7382,
       "implied_prob": 0.545,
-      "edge": 0.1883,
+      "edge": 0.1932,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.46,
-        "away_xg": 1.16,
+        "home_xg": 1.44,
+        "away_xg": 1.15,
         "line": 3.5
       }
     },
@@ -30,57 +30,16 @@
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
       "odd": 1.53,
-      "model_prob": 0.766,
+      "model_prob": 0.7753,
       "implied_prob": 0.5952,
-      "edge": 0.1707,
+      "edge": 0.1801,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.51,
-        "away_xg": 1.28,
-        "line": 1.5
-      }
-    },
-    {
-      "home": "Vålerenga",
-      "away": "Start",
-      "league": "Eliteserien",
-      "start_date": "2026-11-21T17:00:00+00:00",
-      "market": "corners",
-      "selection_label": "Menos de 11.5 córners",
-      "odd": 1.7,
-      "model_prob": 0.6725,
-      "implied_prob": 0.5342,
-      "edge": 0.1383,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "total_corners_xg": 10.21,
-        "line": 11.5
-      }
-    },
-    {
-      "home": "Argentinos Juniors",
-      "away": "Independiente",
-      "league": "Liga Profesional",
-      "start_date": "2026-11-21T20:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Más de 1.5 goles",
-      "odd": 1.5,
-      "model_prob": 0.6985,
-      "implied_prob": 0.6104,
-      "edge": 0.0881,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.19,
-        "away_xg": 1.24,
+        "home_xg": 1.53,
+        "away_xg": 1.3,
         "line": 1.5
       }
     }
