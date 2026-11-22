@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T21:06:02.388310+00:00",
+  "generated_at": "2026-11-22T01:15:48.798101+00:00",
   "bets": [
     {
       "home": "Hammarby IF",
@@ -41,6 +41,46 @@
         "home_xg": 1.53,
         "away_xg": 1.3,
         "line": 1.5
+      }
+    },
+    {
+      "home": "KFUM Oslo",
+      "away": "Brann",
+      "league": "Eliteserien",
+      "start_date": "2026-11-22T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7274,
+      "implied_prob": 0.6634,
+      "edge": 0.064,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.12,
+        "away_xg": 1.75
+      }
+    },
+    {
+      "home": "Aalesunds FK",
+      "away": "Rosenborg BK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-22T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.33,
+      "model_prob": 0.741,
+      "implied_prob": 0.6818,
+      "edge": 0.0592,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.72,
+        "away_xg": 2.33
       }
     }
   ]
