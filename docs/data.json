@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T01:15:48.798101+00:00",
+  "generated_at": "2026-11-22T08:49:01.415263+00:00",
   "bets": [
     {
       "home": "Hammarby IF",
@@ -29,10 +29,10 @@
       "start_date": "2026-11-23T01:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 1.5 goles",
-      "odd": 1.53,
+      "odd": 1.5,
       "model_prob": 0.7753,
-      "implied_prob": 0.5952,
-      "edge": 0.1801,
+      "implied_prob": 0.6104,
+      "edge": 0.1649,
       "tags": [
         "value",
         "likely"
@@ -41,6 +41,27 @@
         "home_xg": 1.53,
         "away_xg": 1.3,
         "line": 1.5
+      }
+    },
+    {
+      "home": "BK Häcken",
+      "away": "IF Elfsborg",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-22T13:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.55,
+      "model_prob": 0.6719,
+      "implied_prob": 0.5867,
+      "edge": 0.0853,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.69,
+        "away_xg": 1.19,
+        "line": 3.5
       }
     },
     {
@@ -61,6 +82,26 @@
       "context": {
         "home_xg": 2.12,
         "away_xg": 1.75
+      }
+    },
+    {
+      "home": "Kristiansund BK",
+      "away": "Sandefjord Fotball",
+      "league": "Eliteserien",
+      "start_date": "2026-11-22T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7228,
+      "implied_prob": 0.6634,
+      "edge": 0.0594,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 1.88,
+        "away_xg": 1.92
       }
     },
     {
