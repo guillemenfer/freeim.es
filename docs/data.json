@@ -1,24 +1,45 @@
 {
-  "generated_at": "2026-11-23T12:23:33.939816+00:00",
+  "generated_at": "2026-11-24T00:19:48.680605+00:00",
   "bets": [
     {
-      "home": "Sandefjord Fotball",
-      "away": "Tromsø",
-      "league": "Eliteserien",
-      "start_date": "2026-11-29T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.45,
-      "model_prob": 0.7722,
-      "implied_prob": 0.6234,
-      "edge": 0.1488,
+      "home": "Kalmar FF",
+      "away": "AIK",
+      "league": "Allsvenskan",
+      "start_date": "2026-11-29T14:00:00+00:00",
+      "market": "goals",
+      "selection_label": "Menos de 3.5 goles",
+      "odd": 1.53,
+      "model_prob": 0.7375,
+      "implied_prob": 0.5952,
+      "edge": 0.1423,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.37,
-        "away_xg": 1.91
+        "home_xg": 1.12,
+        "away_xg": 1.47,
+        "line": 3.5
+      }
+    },
+    {
+      "home": "Lillestrom SK",
+      "away": "Hamarkameratene",
+      "league": "Eliteserien",
+      "start_date": "2026-11-30T18:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.45,
+      "model_prob": 0.7615,
+      "implied_prob": 0.6234,
+      "edge": 0.1381,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.14,
+        "away_xg": 1.99
       }
     },
     {
@@ -29,16 +50,36 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7751,
+      "model_prob": 0.7694,
       "implied_prob": 0.6361,
-      "edge": 0.139,
+      "edge": 0.1332,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.31,
+        "away_xg": 1.92
+      }
+    },
+    {
+      "home": "Sandefjord Fotball",
+      "away": "Tromsø",
+      "league": "Eliteserien",
+      "start_date": "2026-11-29T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.7667,
+      "implied_prob": 0.6361,
+      "edge": 0.1305,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 2.34,
-        "away_xg": 1.95
+        "away_xg": 1.89
       }
     },
     {
@@ -49,9 +90,9 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.55,
-      "model_prob": 0.7166,
+      "model_prob": 0.7144,
       "implied_prob": 0.5867,
-      "edge": 0.1299,
+      "edge": 0.1277,
       "tags": [
         "value",
         "likely"
@@ -70,16 +111,16 @@
       "market": "goals",
       "selection_label": "Menos de 3.5 goles",
       "odd": 1.57,
-      "model_prob": 0.6969,
+      "model_prob": 0.6946,
       "implied_prob": 0.578,
-      "edge": 0.119,
+      "edge": 0.1166,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
         "home_xg": 1.28,
-        "away_xg": 1.5,
+        "away_xg": 1.51,
         "line": 3.5
       }
     },
@@ -91,16 +132,16 @@
       "market": "goals",
       "selection_label": "Más de 3.5 goles",
       "odd": 1.62,
-      "model_prob": 0.6775,
+      "model_prob": 0.6693,
       "implied_prob": 0.5586,
-      "edge": 0.1189,
+      "edge": 0.1107,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.38,
-        "away_xg": 2.25,
+        "home_xg": 2.35,
+        "away_xg": 2.22,
         "line": 3.5
       }
     },
@@ -112,16 +153,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.43,
-      "model_prob": 0.7107,
+      "model_prob": 0.7046,
       "implied_prob": 0.6361,
-      "edge": 0.0746,
+      "edge": 0.0684,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 1.76,
-        "away_xg": 1.96
+        "home_xg": 1.74,
+        "away_xg": 1.93
       }
     },
     {
@@ -132,16 +173,16 @@
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
       "odd": 1.22,
-      "model_prob": 0.8116,
+      "model_prob": 0.807,
       "implied_prob": 0.7415,
-      "edge": 0.0701,
+      "edge": 0.0655,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.38,
-        "away_xg": 2.25
+        "home_xg": 2.35,
+        "away_xg": 2.22
       }
     }
   ]
