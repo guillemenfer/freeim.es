@@ -1,45 +1,24 @@
 {
-  "generated_at": "2026-11-24T10:23:57.896966+00:00",
+  "generated_at": "2026-11-24T20:51:57.020682+00:00",
   "bets": [
     {
-      "home": "Kalmar FF",
-      "away": "AIK",
-      "league": "Allsvenskan",
-      "start_date": "2026-11-29T14:00:00+00:00",
-      "market": "goals",
-      "selection_label": "Menos de 3.5 goles",
-      "odd": 1.53,
-      "model_prob": 0.7375,
-      "implied_prob": 0.5952,
-      "edge": 0.1423,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 1.12,
-        "away_xg": 1.47,
-        "line": 3.5
-      }
-    },
-    {
-      "home": "Lillestrom SK",
-      "away": "Hamarkameratene",
+      "home": "Brann",
+      "away": "Kristiansund BK",
       "league": "Eliteserien",
-      "start_date": "2026-11-30T18:00:00+00:00",
+      "start_date": "2026-11-29T16:00:00+00:00",
       "market": "btts",
       "selection_label": "Ambos marcan: Sí",
-      "odd": 1.45,
-      "model_prob": 0.7615,
-      "implied_prob": 0.6234,
-      "edge": 0.1381,
+      "odd": 1.43,
+      "model_prob": 0.7694,
+      "implied_prob": 0.6361,
+      "edge": 0.1332,
       "tags": [
         "value",
         "likely"
       ],
       "context": {
-        "home_xg": 2.14,
-        "away_xg": 1.99
+        "home_xg": 2.31,
+        "away_xg": 1.92
       }
     },
     {
@@ -84,6 +63,26 @@
       }
     },
     {
+      "home": "Lillestrom SK",
+      "away": "Hamarkameratene",
+      "league": "Eliteserien",
+      "start_date": "2026-11-30T18:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.43,
+      "model_prob": 0.7615,
+      "implied_prob": 0.6361,
+      "edge": 0.1253,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.14,
+        "away_xg": 1.99
+      }
+    },
+    {
       "home": "Malmö FF",
       "away": "IF Brommapojkarna",
       "league": "Allsvenskan",
@@ -111,10 +110,10 @@
       "start_date": "2026-11-28T17:00:00+00:00",
       "market": "goals",
       "selection_label": "Más de 3.5 goles",
-      "odd": 1.62,
+      "odd": 1.57,
       "model_prob": 0.6693,
-      "implied_prob": 0.5586,
-      "edge": 0.1107,
+      "implied_prob": 0.578,
+      "edge": 0.0913,
       "tags": [
         "value",
         "likely"
@@ -123,26 +122,6 @@
         "home_xg": 2.35,
         "away_xg": 2.22,
         "line": 3.5
-      }
-    },
-    {
-      "home": "Brann",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-11-29T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.37,
-      "model_prob": 0.7694,
-      "implied_prob": 0.6634,
-      "edge": 0.106,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.31,
-        "away_xg": 1.92
       }
     },
     {
