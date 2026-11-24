@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T00:19:48.680605+00:00",
+  "generated_at": "2026-11-24T10:23:57.896966+00:00",
   "bets": [
     {
       "home": "Kalmar FF",
@@ -40,26 +40,6 @@
       "context": {
         "home_xg": 2.14,
         "away_xg": 1.99
-      }
-    },
-    {
-      "home": "Brann",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-11-29T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.7694,
-      "implied_prob": 0.6361,
-      "edge": 0.1332,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.31,
-        "away_xg": 1.92
       }
     },
     {
@@ -143,6 +123,26 @@
         "home_xg": 2.35,
         "away_xg": 2.22,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-29T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7694,
+      "implied_prob": 0.6634,
+      "edge": 0.106,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.31,
+        "away_xg": 1.92
       }
     },
     {
