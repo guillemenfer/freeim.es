@@ -1,26 +1,6 @@
 {
-  "generated_at": "2026-11-25T14:19:52.318550+00:00",
+  "generated_at": "2026-11-25T23:17:28.709783+00:00",
   "bets": [
-    {
-      "home": "Brann",
-      "away": "Kristiansund BK",
-      "league": "Eliteserien",
-      "start_date": "2026-11-29T16:00:00+00:00",
-      "market": "btts",
-      "selection_label": "Ambos marcan: Sí",
-      "odd": 1.43,
-      "model_prob": 0.7694,
-      "implied_prob": 0.6361,
-      "edge": 0.1332,
-      "tags": [
-        "value",
-        "likely"
-      ],
-      "context": {
-        "home_xg": 2.31,
-        "away_xg": 1.92
-      }
-    },
     {
       "home": "Sandefjord Fotball",
       "away": "Tromsø",
@@ -101,6 +81,26 @@
         "home_xg": 1.28,
         "away_xg": 1.51,
         "line": 3.5
+      }
+    },
+    {
+      "home": "Brann",
+      "away": "Kristiansund BK",
+      "league": "Eliteserien",
+      "start_date": "2026-11-29T16:00:00+00:00",
+      "market": "btts",
+      "selection_label": "Ambos marcan: Sí",
+      "odd": 1.37,
+      "model_prob": 0.7694,
+      "implied_prob": 0.6634,
+      "edge": 0.106,
+      "tags": [
+        "value",
+        "likely"
+      ],
+      "context": {
+        "home_xg": 2.31,
+        "away_xg": 1.92
       }
     },
     {
